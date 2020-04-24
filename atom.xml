@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>让路的Blogs</title>
-  
+  <icon>https://www.gravatar.com/avatar/33a1601609e771c25730337f79e01020</icon>
   
   <link href="/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>让路</name>
-    
+    <email>i@wghuui.top</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
