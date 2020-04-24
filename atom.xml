@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>让路的Blogs</title>
+  <icon>https://www.gravatar.com/avatar/33a1601609e771c25730337f79e01020</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wghuui.top/"/>
+  <updated>2020-04-24T14:01:08.586Z</updated>
+  <id>http://wghuui.top/</id>
+  
+  <author>
+    <name>让路</name>
+    <email>i@wghuui.top</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>借疫情污名化中国，于法不容</title>
+    <link href="http://wghuui.top/2020/04/24/1/"/>
+    <id>http://wghuui.top/2020/04/24/1/</id>
+    <published>2020-04-24T12:50:40.000Z</published>
+    <updated>2020-04-24T14:01:08.586Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​        
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
