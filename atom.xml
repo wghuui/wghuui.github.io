@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>让路的Blogs</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wghuui.top/"/>
+  <updated>2020-04-24T09:39:45.508Z</updated>
+  <id>http://wghuui.top/</id>
+  
+  <author>
+    <name>让路</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>弘扬“西迁精神” 做听党指挥的西迁新传人</title>
+    <link href="http://wghuui.top/2020/04/24/1/"/>
+    <id>http://wghuui.top/2020/04/24/1/</id>
+    <published>2020-04-24T09:38:23.000Z</published>
+    <updated>2020-04-24T09:39:45.508Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;4月22日下午，习近平总书记来到西安交通大学，走进学校西迁博物馆，参观交大西迁的创业历程和辉煌成就展，亲切会见了14位西迁老教授。习近平总书记说，从黄浦江畔搬到渭水之滨，你们打起背包就出发，舍小家顾大家。交大西迁对整个国家和民族来讲、对西部发展战略布局来讲，意义都十分重大。
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://wghuui.top/2020/04/24/hello-world/"/>
+    <id>http://wghuui.top/2020/04/24/hello-world/</id>
+    <published>2020-04-24T09:33:34.362Z</published>
+    <updated>2020-04-24T09:33:34.362Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
