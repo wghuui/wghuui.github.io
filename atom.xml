@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>让路的Blogs</title>
   <icon>https://www.gravatar.com/avatar/33a1601609e771c25730337f79e01020</icon>
-  
+  <subtitle>故事的主角是人,人的主角是思想.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wghuui.top/"/>
-  <updated>2020-04-24T14:11:33.036Z</updated>
+  <updated>2020-04-25T03:54:19.996Z</updated>
   <id>http://wghuui.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://wghuui.top/2020/04/24/2/"/>
     <id>http://wghuui.top/2020/04/24/2/</id>
     <published>2020-04-24T14:09:48.000Z</published>
-    <updated>2020-04-24T14:11:33.036Z</updated>
+    <updated>2020-04-25T03:54:19.996Z</updated>
     
     <summary type="html">
     
@@ -37,6 +37,10 @@
     </summary>
     
     
+      <category term="新闻" scheme="http://wghuui.top/categories/%E6%96%B0%E9%97%BB/"/>
+    
+    
+      <category term="外交部例行记者会" scheme="http://wghuui.top/tags/%E5%A4%96%E4%BA%A4%E9%83%A8%E4%BE%8B%E8%A1%8C%E8%AE%B0%E8%80%85%E4%BC%9A/"/>
     
   </entry>
   
@@ -45,7 +49,7 @@
     <link href="http://wghuui.top/2020/04/24/1/"/>
     <id>http://wghuui.top/2020/04/24/1/</id>
     <published>2020-04-24T12:50:40.000Z</published>
-    <updated>2020-04-24T14:01:08.586Z</updated>
+    <updated>2020-04-25T03:54:31.286Z</updated>
     
     <summary type="html">
     
@@ -60,6 +64,10 @@
     </summary>
     
     
+      <category term="新闻" scheme="http://wghuui.top/categories/%E6%96%B0%E9%97%BB/"/>
+    
+    
+      <category term="新冠肺炎" scheme="http://wghuui.top/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E/"/>
     
   </entry>
   

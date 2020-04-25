@@ -162,11 +162,19 @@
   <ul class="nav nav-main">
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
+      <a class="nav-item-link" href="/">首页</a>
     </li>
     
     <li class="nav-item">
       <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
     </li>
     
     <li class="nav-item">
@@ -232,6 +240,21 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Subtitle -->
+
+<script>
+  try {
+    var typed = new Typed("#subtitle", {
+      strings: ['故事的主角是人,人的主角是思想.', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
+      startDelay: 0,
+      typeSpeed: 200,
+      loop: true,
+      backSpeed: 100,
+      showCursor: true
+    });
+  } catch (err) {
+    console.log(err)
+  }
+</script>
 
 <!-- Tocbot -->
 
