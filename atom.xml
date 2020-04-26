@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wghuui.top/"/>
-  <updated>2020-04-24T14:09:48.000Z</updated>
+  <updated>2020-04-26T07:05:21.000Z</updated>
   <id>http://wghuui.top/</id>
   
   <author>
@@ -15,6 +15,114 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件</title>
+    <link href="http://wghuui.top/2020/04/26/%E8%BD%AF%E4%BB%B6/"/>
+    <id>http://wghuui.top/2020/04/26/%E8%BD%AF%E4%BB%B6/</id>
+    <published>2020-04-26T07:05:21.000Z</published>
+    <updated>2020-04-26T07:05:21.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;博客中的文件都是绿色软件，不用担心软件安装问题。博主电脑为win10 64位操作，所以博文中软件都是基于这个环境中。所有软件均可使用，安装过程有任何问题都可以联系博主（&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="分享" scheme="http://wghuui.top/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="软件下载" scheme="http://wghuui.top/tags/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google使用教程</title>
+    <link href="http://wghuui.top/2020/04/26/google/"/>
+    <id>http://wghuui.top/2020/04/26/google/</id>
+    <published>2020-04-26T06:53:07.000Z</published>
+    <updated>2020-04-26T06:53:07.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;   Google Chrome  是一款由&lt;a href=&quot;https://baike.baidu.com/item/Google&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Google&lt;/a&gt;公司开发的网页浏览器，该浏览器基于其他&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="科学上网" scheme="http://wghuui.top/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>clash的使用</title>
+    <link href="http://wghuui.top/2020/04/26/clash/"/>
+    <id>http://wghuui.top/2020/04/26/clash/</id>
+    <published>2020-04-26T06:52:56.000Z</published>
+    <updated>2020-04-26T06:52:56.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;Clash&lt;/code&gt;是一款用&lt;code&gt;Go&lt;/code&gt;开发的支持&lt;code&gt;Linux&lt;/code&gt;/&lt;code&gt;MacOS&lt;/code&gt;/&lt;code&gt;Windows&lt;/code&gt;等多平台的代理工具，支持&lt;code&gt;ss&lt;/code&gt;/&lt;code&gt;v2r
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="科学上网" scheme="http://wghuui.top/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>科学上网基本知识</title>
+    <link href="http://wghuui.top/2020/04/26/jibenzhishi/"/>
+    <id>http://wghuui.top/2020/04/26/jibenzhishi/</id>
+    <published>2020-04-26T06:52:44.000Z</published>
+    <updated>2020-04-26T06:52:44.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/%E5%B0%81%E9%9D%A2.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="科学上网" scheme="http://wghuui.top/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
   
   <entry>
     <title>外交部:中方向世卫组织增加现汇捐款3000万美元</title>
