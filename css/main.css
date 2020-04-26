@@ -1850,6 +1850,10 @@ pre .javascript .function {
 .rtl.post-title {
   font-family: UKIJ Ekran;
 }
+.post-body a {
+  color: #428bca;
+  font-weight: bold;
+}
 .sidebar {
   position: fixed;
   right: 0;
@@ -2014,7 +2018,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #98d746;
+  background: #732dfb;
 }
 .links-of-blogroll {
   font-size: 13px;
