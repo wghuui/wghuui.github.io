@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wghuui.top/"/>
-  <updated>2020-04-26T07:05:21.000Z</updated>
+  <updated>2020-04-27T04:28:11.000Z</updated>
   <id>http://wghuui.top/</id>
   
   <author>
@@ -15,6 +15,87 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>latex使用教程(2)</title>
+    <link href="http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(2)/"/>
+    <id>http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(2)/</id>
+    <published>2020-04-27T04:28:11.000Z</published>
+    <updated>2020-04-27T04:28:11.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;优雅的-LaTeX&quot;&gt;&lt;a href=&quot;#优雅的-LaTeX&quot; class=&quot;headerlink&quot; title=&quot;优雅的 LaTeX&quot;&gt;&lt;/a&gt;优雅的 LaTeX&lt;/h2&gt;&lt;p&gt;有很多 Geeks 或者 LaTeX’s Fanatical Fans
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="latex" scheme="http://wghuui.top/tags/latex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tex Live下载及安装说明</title>
+    <link href="http://wghuui.top/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/"/>
+    <id>http://wghuui.top/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</id>
+    <published>2020-04-27T03:57:52.000Z</published>
+    <updated>2020-04-27T03:57:52.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;关于-CTeX&quot;&gt;&lt;a href=&quot;#关于-CTeX&quot; class=&quot;headerlink&quot; title=&quot;关于 CTeX&quot;&gt;&lt;/a&gt;关于 CTeX&lt;/h2&gt;&lt;h3 id=&quot;CTeX-套装&quot;&gt;&lt;a href=&quot;#CTeX-套装&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="latex" scheme="http://wghuui.top/tags/latex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>latex使用教程(1)</title>
+    <link href="http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(1)/"/>
+    <id>http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(1)/</id>
+    <published>2020-04-27T03:28:11.000Z</published>
+    <updated>2020-04-27T03:28:11.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://links.jianshu.com/go?to=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2FLaTeX&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="latex" scheme="http://wghuui.top/tags/latex/"/>
+    
+  </entry>
   
   <entry>
     <title>软件分享</title>
