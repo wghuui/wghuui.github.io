@@ -44,6 +44,33 @@
   </entry>
   
   <entry>
+    <title>在 VSCode 的 LaTeXworkshop 插件中使用 LaTeXmk</title>
+    <link href="http://wghuui.top/2020/04/27/LaTeXmk/"/>
+    <id>http://wghuui.top/2020/04/27/LaTeXmk/</id>
+    <published>2020-04-27T04:00:11.000Z</published>
+    <updated>2020-04-27T04:00:11.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;之前，东升介绍了&lt;a href=&quot;http://ddswhu.me/posts/2018-04/vs-code-for-latex/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;如何将 VSCode 配置为 LaTeX 编辑器&lt;/a&gt;，我介绍了&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="latex" scheme="http://wghuui.top/tags/latex/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Tex Live下载及安装说明</title>
     <link href="http://wghuui.top/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/"/>
     <id>http://wghuui.top/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</id>
