@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wghuui.top/"/>
-  <updated>2020-04-27T04:28:11.000Z</updated>
+  <updated>2020-04-27T15:13:38.000Z</updated>
   <id>http://wghuui.top/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MATLAB的基本使用</title>
+    <link href="http://wghuui.top/2020/04/27/MATLAB%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+    <id>http://wghuui.top/2020/04/27/MATLAB%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-04-27T15:13:38.000Z</published>
+    <updated>2020-04-27T15:13:38.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;思想部分&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;为什么我们要用MATLAB作图，而不是用python作图？这个是工具选择问题，人与人之间各有偏好。那么作图的目的是什么？是为了清晰地表达数据结果。在数学建模竞赛这方面，数据结果表达与论文排版的好坏对论文得分的影响往往
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="MATLAB" scheme="http://wghuui.top/tags/MATLAB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于hexo搭建博客教程</title>
+    <link href="http://wghuui.top/2020/04/27/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    <id>http://wghuui.top/2020/04/27/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</id>
+    <published>2020-04-27T14:26:18.000Z</published>
+    <updated>2020-04-27T14:26:18.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Hexo" scheme="http://wghuui.top/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>latex使用教程(2)</title>
