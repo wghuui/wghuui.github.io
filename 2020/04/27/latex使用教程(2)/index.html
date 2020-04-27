@@ -1,115 +1,26 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html lang="zh-Hans">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
+<link rel="stylesheet" href="/css/main.css">
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"wghuui.top","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
 
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="latex," />
-
-
-
-
-  
-
-
-  <link rel="alternate" href="/atom.xml" title="让路的Blogs" type="application/atom+xml" />
-
-
-
-
-
-
-<meta name="description" content="优雅的 LaTeX有很多 Geeks 或者 LaTeX’s Fanatical Fans 过分地强调了 LaTeX 的一些并非重点的特性，以至于很多初学者会觉得 LaTeX 很神秘很复杂，从而引发了初学者的畏难情绪甚至是负面情绪。尽管这些 Fans 说得并没有错，我是说在事实上，但是他们的表达方式和内心态度却间接阻碍了 LaTeX 的发展，我想这也是和他们的初衷相悖的。 我曾经也受到过这些言论的影">
+  <meta name="description" content="优雅的 LaTeX有很多 Geeks 或者 LaTeX’s Fanatical Fans 过分地强调了 LaTeX 的一些并非重点的特性，以至于很多初学者会觉得 LaTeX 很神秘很复杂，从而引发了初学者的畏难情绪甚至是负面情绪。尽管这些 Fans 说得并没有错，我是说在事实上，但是他们的表达方式和内心态度却间接阻碍了 LaTeX 的发展，我想这也是和他们的初衷相悖的。 我曾经也受到过这些言论的影">
 <meta property="og:type" content="article">
 <meta property="og:title" content="latex使用教程(2)">
 <meta property="og:url" content="http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(2)/index.html">
@@ -136,39 +47,18 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://liam.page/uploads/teaching/LaTeX/figures/818901c1jw1e44dgufrnpj20iy0kimxz.jpg">
 
+<link rel="canonical" href="http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(2)/">
 
 
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Pisces',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-Hans'
   };
 </script>
-
-
-
-  <link rel="canonical" href="http://wghuui.top/2020/04/27/latex使用教程(2)/"/>
-
-
-
-
 
   <title>latex使用教程(2) | 让路的Blogs</title>
   
@@ -178,272 +68,144 @@
 
 
 
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
 
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<link rel="alternate" href="/atom.xml" title="让路的Blogs" type="application/atom+xml">
+</head>
 
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left page-post-detail">
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
     <div class="headband"></div>
 
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">让路的Blogs</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="تشغيل شريط التصفح">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
     </div>
-      
-        <p class="site-subtitle">故事的主角是人,人的主角是思想.</p>
-      
   </div>
 
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">让路的Blogs</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">故事的主角是人,人的主角是思想.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
   </div>
 </div>
+
+
+
 
 <nav class="site-nav">
-  
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
 
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-主页">
-          <a href="/" rel="section">
-            
-            主页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-归档">
-          <a href="/archives" rel="section">
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-标签">
-          <a href="/tags" rel="section">
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-分类">
-          <a href="/categories" rel="section">
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-关于">
-          <a href="/about" rel="section">
-            
-            关于
-          </a>
-        </li>
-      
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-            搜索
-          </a>
-        </li>
-      
-    </ul>
-  
+  </li>
+        <li class="menu-item menu-item-archives">
 
-  
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>الأرشيفات</a>
 
-
-
-    </div>
-  
+  </li>
+  </ul>
 </nav>
 
 
 
- </div>
+
+</div>
     </header>
 
-    <main id="main" class="main">
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          <div id="content" class="content">
+          
+
+          <div class="content post posts-expand">
             
 
-  <div id="posts" class="posts-expand">
     
-
-  
-
   
   
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(2)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="让路">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/wghuui.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="让路的Blogs">
     </span>
-
-    
       <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">latex使用教程(2)</h1>
-        
+        <h1 class="post-title" itemprop="name headline">
+          latex使用教程(2)
+        </h1>
 
         <div class="post-meta">
-          <span class="post-time">
-            
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
+                <i class="far fa-calendar"></i>
               </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-27T12:28:11+08:00">
-                2020-04-27
-              </time>
-            
+              <span class="post-meta-item-text">نُشر في</span>
 
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
+              <time title="أُنشأ: 2020-04-27 12:28:11" itemprop="dateCreated datePublished" datetime="2020-04-27T12:28:11+08:00">2020-04-27</time>
+            </span>
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
+                <i class="far fa-folder"></i>
               </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
+              <span class="post-meta-item-text">في</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">教程</span>
-                  </a>
+                  <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">教程</span></a>
                 </span>
-
-                
-                
-              
             </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-            <span class="post-meta-divider">|</span>
-            <span class="page-pv"><i class="fa fa-file-o"></i>
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
-            </span>
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  10k 字
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  37 分钟
-                </span>
-              
-            </div>
-          
 
           
 
         </div>
       </header>
-    
 
     
     
@@ -451,38 +213,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-      
-
-      
         <h2 id="优雅的-LaTeX"><a href="#优雅的-LaTeX" class="headerlink" title="优雅的 LaTeX"></a>优雅的 LaTeX</h2><p>有很多 Geeks 或者 LaTeX’s Fanatical Fans 过分地强调了 LaTeX 的一些并非重点的特性，以至于很多初学者会觉得 LaTeX 很神秘很复杂，从而引发了初学者的畏难情绪甚至是负面情绪。尽管这些 Fans 说得并没有错，我是说在事实上，但是他们的表达方式和内心态度却间接阻碍了 LaTeX 的发展，我想这也是和他们的初衷相悖的。</p>
 <p>我曾经也受到过这些言论的影响，但幸运的事，至今为止我已经越过了这些障碍，并更加坚信了他们所言（LaTeX 的优点）的正确性。因此我想以我自己的方式，向更多的人介绍 LaTeX —— <strong>这个优雅，但有着自己高傲，却绝不复杂甚至神秘的东西</strong>。</p>
-<blockquote>
-<p>欢迎从校内转移过来的同学们，因为校内的技术原因，文章无法在校内继续更新。尽管非我之故，但还是给各位同学说声抱歉。同时，欢迎各位来到我的博客。<code>: )</code></p>
-</blockquote>
-<h2 id="你将从这里看到"><a href="#你将从这里看到" class="headerlink" title="你将从这里看到"></a>你将从这里看到</h2><ol>
-<li>（几乎是）最简洁的 (La)TeX 编辑器——TeXworks——的基本使用方法；</li>
-<li>如何使用 (Xe)LaTeX 进行简单的<strong>中英混排</strong>；</li>
-<li>简单的文章组织结构；</li>
-<li>如何用 (Xe)LaTeX 进行数学公式的排版；</li>
-<li>如何在 (Xe)LaTeX 的文档中插入图片/表格；</li>
-<li>如何进行简单的版面设置；</li>
-<li>几个最常见的带有 TeX 的单词的含义；</li>
-<li>出现问题应当如何处理/怎样聪明地提出你的问题——怎样从这里毕业。</li>
-</ol>
-<h2 id="你应当如何阅读本文"><a href="#你应当如何阅读本文" class="headerlink" title="你应当如何阅读本文"></a>你应当如何阅读本文</h2><p>事实上本文在行文过程中，会有相当多的提示帮助你以正确的方式阅读。因此有必要在此先介绍一下最常用的一些标记。</p>
-<ol>
-<li><p>斜体：使用<em>斜体</em> 意味着如果忽略掉这些文字，你可能在<em>逻辑</em> 上很难理解后面某处的知识；</p>
-</li>
-<li><p>粗体：使用<strong>粗体</strong>意味如果忽略掉这些文字，你可能在<strong>TeX 的概念</strong>上很难理解后面某处的知识；</p>
-</li>
-<li><p>粗斜体：使用<strong><em>粗斜体\</em></strong> 基本是最重要的部分，是上述两种情况的合并；</p>
-</li>
-<li><p>引用：使用引用，</p>
-<blockquote>
-<p>表明这些文字在你第一次阅读本文的时候<em>不需要</em> 了解，其中的内容可能过于深奥，或者过于琐碎。对于第一次接触 TeX 的你（如果你是 TeX 资深使用者当然不在此列），如果了解到这些内容可能会使你困惑，并且不会从实际上增加你对 TeX 的领悟以及对 TeX 的好感。</p>
-</blockquote>
-</li>
-</ol>
 <h2 id="关于编辑器的简单介绍"><a href="#关于编辑器的简单介绍" class="headerlink" title="关于编辑器的简单介绍"></a>关于编辑器的简单介绍</h2><p>TeX 的源代码是后缀为 <code>.tex</code> 的纯文本文件。使用任意纯文本编辑器，都可以修改 <code>.tex</code> 文件：包括 Windows 自带的记事本程序，也包括专为 TeX 设计的编辑器（TeXworks, TeXmaker, TeXstudio, WinEdt 等），还包括一些通用的文本编辑器（Sublime Text, Atom, Visual Studio Code 等）。你可以在这些能够编辑纯文本文件的编辑器中任选其一作为你的 TeX 编辑器，也可以使用 TeX 发行自带的编辑器。最流行的两个 TeX 发行（TeX Live 和 MiKTeX）都带有 TeXworks 编辑器。</p>
 <blockquote>
 <p>所谓 TeX 发行，也叫 TeX 发行版、TeX 系统或者 TeX 套装，指的是包括 TeX 系统的各种可执行程序，以及他们执行时需要的一些辅助程序和宏包文档的集合。</p>
@@ -507,7 +239,7 @@
 <p>Windows，Unix 等操作系统对待「换行符」是有不同的。索性 TeXworks 为我们做了足够的提示，方面我们的选择（点击一下那个按钮就知道了）。一般而言，保持默认即可。</p>
 <p>字符（包括英文字符和中文字符）在计算机中，经过编码以二进制的形式存储在计算机中。如果编辑器编码和计算机内部编码不一致，则会导致所谓「乱码」的现象。TeXworks 默认使用 UTF8 编码，在我们的文档中不需要进行任何更改，而对于一些其他的文档可能需要按照要求更改编码。</p>
 </blockquote>
-<h3 id="排版工具"><a href="#排版工具" class="headerlink" title="排版工具"></a>排版工具</h3><p>TeXworks 为我们预设了若干排版工具（pdfTeX, pdfLaTeX, XeTeX, XeLaTeX 等），本文主要用到其中的 <strong><em>XeLaTeX\</em></strong>。关于这些排版工具的细节，讲解起来会有些复杂。因此此处按下不表，若有兴趣，可以参看<a href="https://liam.page/2014/09/08/latex-introduction/#TeX-家族" target="_blank" rel="noopener">后文</a>。当你对 TeX 系统相当熟悉之后，也可以不使用 TeXworks 预设的工具，自己配置排版工具。</p>
+<h3 id="排版工具"><a href="#排版工具" class="headerlink" title="排版工具"></a>排版工具</h3><p>TeXworks 为我们预设了若干排版工具（pdfTeX, pdfLaTeX, XeTeX, XeLaTeX 等），本文主要用到其中的 <strong><em>XeLaTeX\</em></strong>。关于这些排版工具的细节，讲解起来会有些复杂。当你对 TeX 系统相当熟悉之后，也可以不使用 TeXworks 预设的工具，自己配置排版工具。</p>
 <p>TeXworks 默认的排版工具是 pdfLaTeX。如果你希望更改这个默认值，可以在<em>编辑 - 首选项 - 排版 - 处理工具 - 默认</em> 中修改。</p>
 <h2 id="第一篇文档"><a href="#第一篇文档" class="headerlink" title="第一篇文档"></a>第一篇文档</h2><h3 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello, world!"></a>Hello, world!</h3><p>在编辑框中，输入如下内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">helloworld.tex</span><br><span class="line">\documentclass&#123;article&#125;</span><br><span class="line">% 这里是导言区</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">Hello, world!</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
@@ -564,14 +296,13 @@
 <p>除了 “document” 环境中同时出现了中文和英文，和最原始的 Hello, world! 不同点在于，导言区中多出了两条控制序列。他们的作用我已经用注释标出了。</p>
 <p><code>\setCJKmainfont{·}</code>是定义在 “xeCJK” 宏包中的控制序列，它可以用来设置 CJK 主字体。</p>
 <p>如果你的 TeX 系统提示找不到字体，请按以下提示操作。</p>
-<p>Mac OS X 用户请参照<a href="https://liam.page/2014/11/02/latex-mactex-chinese-support/" target="_blank" rel="noopener">这篇博客</a>中的方法，使用系统自带的字体册程序来查看系统字体。</p>
 <p>非 Mac OS X 用户请按照如下步骤打开系统命令行（*nix系统请打开终端）：</p>
 <ul>
 <li>按下<code>+ R</code>；</li>
 <li>键入<code>cmd</code>, 回车。</li>
 </ul>
 <p>在系统命令行中输入如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fc-list :lang&#x3D;zh-cn &gt; C:\font_zh-cn.txt</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;fc-list :lang&#x3D;zh-cn &gt; C:\font_zh-cn.txt</span><br></pre></td></tr></table></figure>
 
 <p>（相信使用 *nix 的你，一定知道如何修改上述命令达到你想要的效果）</p>
 <p>打开 C 盘根目录下的 <code>C:\font_zh-cn.txt</code> 纯文本文档，里面的内容就是你当前系统可用的全部中文字体，形如：</p>
@@ -579,10 +310,10 @@
 <p>每一个小黑框之间的内容，就对应着一个可用的字体。这些小黑框实际上是换行符，但是由于 Windows 系统的原因，他们没有被正常显示。如果看着不爽，你可以尝试用 TeXworks 打开这个文件查看（放心，能够打开的）。以下是我用 gVim 打开的效果：</p>
 <p><img src="https://liam.page/uploads/teaching/LaTeX/figures/818901c1jw1e44gpsi9fpj20km0f478v.jpg" alt="img"></p>
 <p>其中的每一行，都代表着一个可用的字体。其形式如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;字体文件路径&gt;: &lt;字体标示名1&gt;, &lt;字体表示名2&gt;:Style&#x3D;&lt;字体类型&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;&lt;字体文件路径&gt;: &lt;字体标示名1&gt;, &lt;字体表示名2&gt;:Style&#x3D;&lt;字体类型&gt;</span><br></pre></td></tr></table></figure>
 
 <p>我们可以看到图中的倒数第四行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:&#x2F;WINDOWS&#x2F;fonts&#x2F;simsun.ttc: 宋体,SimSun:style&#x3D;Regular</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;C:&#x2F;WINDOWS&#x2F;fonts&#x2F;simsun.ttc: 宋体,SimSun:style&#x3D;Regular</span><br></pre></td></tr></table></figure>
 
 <p>出现了之前文档里调用的字体<code>SimSun</code>，此处表明该字体有两个表示名：<code>宋体</code>和<code>SimSun</code>，我们在<code>\setCJKmainfont{·}</code>中填入任意一个都有同样的效果。</p>
 <p>因此，如果之前的文档无法编译通过，请在你的操作系统字体中，选取一个自己喜欢的，将它的字体表示名填入到<code>\setCJKmainfont{·}</code>中去。</p>
@@ -658,7 +389,7 @@
 <h3 id="定界符（括号等）"><a href="#定界符（括号等）" class="headerlink" title="定界符（括号等）"></a>定界符（括号等）</h3><p>各种括号用 <code>()</code>, <code>[]</code>, <code>\{\}</code>, <code>\langle\rangle</code> 等命令表示；注意花括号通常用来输入命令和环境的参数，所以在数学公式中它们前面要加 <code>\</code>。因为 LaTeX 中 <code>|</code> 和 <code>\|</code> 的应用过于随意，amsmath 宏包推荐用 <code>\lvert\rvert</code> 和 <code>\lVert\rVert</code> 取而代之。</p>
 <p>为了调整这些定界符的大小，amsmath 宏包推荐使用 <code>\big</code>, <code>\Big</code>, <code>\bigg</code>, <code>\Bigg</code> 等一系列命令放在上述括号前面调整大小。</p>
 <blockquote>
-<p>有时你可能会觉得 amsmath 宏包提供的定界符放大命令不太够用。通常这意味着你的公式太过复杂。此时你应当首先考虑将公式中的部分提出去，以字母符号代替以简化公式。如果你真的想要排版如此复杂的公式，你可以参考我<a href="https://liam.page/2018/11/09/the-bigger-than-bigger-delimiter-in-LaTeX/" target="_blank" rel="noopener">这篇博文</a>。</p>
+<p>有时你可能会觉得 amsmath 宏包提供的定界符放大命令不太够用。通常这意味着你的公式太过复杂。此时你应当首先考虑将公式中的部分提出去，以字母符号代替以简化公式。</p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">\[ \Biggl(\biggl(\Bigl(\bigl((x)\bigr)\Bigr)\biggr)\Biggr) \]</span><br><span class="line">\[ \Biggl[\biggl[\Bigl[\bigl[[x]\bigr]\Bigr]\biggr]\Biggr] \]</span><br><span class="line">\[ \Biggl \&#123;\biggl \&#123;\Bigl \&#123;\bigl \&#123;\&#123;x\&#125;\bigr \&#125;\Bigr \&#125;\biggr \&#125;\Biggr\&#125; \]</span><br><span class="line">\[ \Biggl\langle\biggl\langle\Bigl\langle\bigl\langle\langle x</span><br><span class="line">\rangle\bigr\rangle\Bigr\rangle\biggr\rangle\Biggr\rangle \]</span><br><span class="line">\[ \Biggl\lvert\biggl\lvert\Bigl\lvert\bigl\lvert\lvert x</span><br><span class="line">\rvert\bigr\rvert\Bigr\rvert\biggr\rvert\Biggr\rvert \]</span><br><span class="line">\[ \Biggl\lVert\biggl\lVert\Bigl\lVert\bigl\lVert\lVert x</span><br><span class="line">\rVert\bigr\rVert\Bigr\rVert\biggr\rVert\Biggr\rVert \]</span><br></pre></td></tr></table></figure>
 
@@ -736,8 +467,7 @@
 <p><code>htbp</code> 选项用来指定插图的理想位置，这几个字母分别代表 here, top, bottom, float page，也就是就这里、页顶、页尾、浮动页（专门放浮动体的单独页面或分栏）。<code>\centering</code> 用来使插图居中；<code>\caption</code> 命令设置插图标题，LaTeX 会自动给浮动体的标题加上编号。注意 <code>\label</code> 应该放在标题命令之后。</p>
 <blockquote>
 <p>图片和表格的各种特殊效果，限于篇幅此处无法详叙。请查看最后一章推荐的文档。</p>
-<p>如果你想了解 LaTeX 的浮动体策略算法细节，你可以参考我博客中<a href="https://liam.page/series/#LaTeX-中的浮动体" target="_blank" rel="noopener">关于浮动体的系列文章</a></p>
-<p>如果你困惑于「为什么图表会乱跑」或者「怎样让图表不乱跑」，请看<a href="https://www.zhihu.com/question/25082703/answer/30038248" target="_blank" rel="noopener">我的回答</a>。</p>
+<p>如果你困惑于「为什么图表会乱跑」或者「怎样让图表不乱跑」，请看<a href="https://www.zhihu.com/question/25082703/answer/30038248" target="_blank" rel="noopener">回答</a>。</p>
 </blockquote>
 <h2 id="版面设置"><a href="#版面设置" class="headerlink" title="版面设置"></a>版面设置</h2><h3 id="页边距"><a href="#页边距" class="headerlink" title="页边距"></a>页边距</h3><p>设置页边距，推荐使用 <code>geometry</code> 宏包。可以在<a href="http://texdoc.net/texmf-dist/doc/latex/geometry/geometry.pdf" target="_blank" rel="noopener">这里</a>查看它的说明文档。</p>
 <p>比如我希望，将纸张的长度设置为 20cm、宽度设置为 15cm、左边距 1cm、右边距 2cm、上边距 3cm、下边距 4cm，可以在导言区加上这样几行：</p>
@@ -823,370 +553,173 @@
 </ol>
 <p>参考：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md" target="_blank" rel="noopener">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md</a></p>
 
-      
     </div>
+
     
     
     
 
-    
-
-    
-      <div>
-        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div></div>
-  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>打赏</span>
-  </button>
-  <div id="QR" style="display: none;">
-
-    
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechat.jpg" alt="让路 微信"/>
-        <p>微信</p>
-      </div>
-    
-
-    
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.jpg" alt="让路 支付宝"/>
-        <p>支付宝</p>
-      </div>
-    
-
-    
-
-  </div>
-</div>
-
-      </div>
-    
-
-    
-      <div>
-        <ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者：</strong>
-    让路
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(2)/" title="latex使用教程(2)">http://wghuui.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(2)/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>
-    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-
-      </div>
-    
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/latex/" rel="tag"># latex</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2020/04/27/LaTeXmk/" rel="next" title="在 VSCode 的 LaTeXworkshop 插件中使用 LaTeXmk">
-                <i class="fa fa-chevron-left"></i> 在 VSCode 的 LaTeXworkshop 插件中使用 LaTeXmk
-              </a>
-            
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/latex/" rel="tag"># latex</a>
           </div>
 
-          <span class="post-nav-divider"></span>
+        
 
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
-      
 
-      
-      
-    </footer>
-  </div>
-  
-  
-  
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/" rel="prev" title="Tex Live下载及安装说明">
+      <i class="fa fa-chevron-left"></i> Tex Live下载及安装说明
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
   </article>
+  
+  
+  
 
-
-
-    <div class="post-spread">
-      
-    </div>
-  </div>
 
 
           </div>
           
 
-
-          
-
-  
-
-
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="/images/wghuui.jpg"
-                alt="让路" />
-            
-              <p class="site-author-name" itemprop="name">让路</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives">
-              
-                  <span class="site-state-item-count">7</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-categories">
-                <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">分类</span>
-                </a>
-              </div>
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
-          
-            <div class="feed-link motion-element">
-              <a href="/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
-            </div>
-          
-
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/wghuui" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i></a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="mailto:i@wghuui.top" target="_blank" title="E-Mail">
-                      
-                        <i class="fa fa-fw fa-envelope"></i></a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://www.weibo.com/wghuui" target="_blank" title="微博">
-                      
-                        <i class="fa fa-fw fa-weibo"></i></a>
-                  </span>
-                
-            </div>
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#优雅的-LaTeX"><span class="nav-number">1.</span> <span class="nav-text">优雅的 LaTeX</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#你将从这里看到"><span class="nav-number">2.</span> <span class="nav-text">你将从这里看到</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#你应当如何阅读本文"><span class="nav-number">3.</span> <span class="nav-text">你应当如何阅读本文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于编辑器的简单介绍"><span class="nav-number">4.</span> <span class="nav-text">关于编辑器的简单介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#启动-TeXworks"><span class="nav-number">4.1.</span> <span class="nav-text">启动 TeXworks</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#排版工具"><span class="nav-number">4.2.</span> <span class="nav-text">排版工具</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一篇文档"><span class="nav-number">5.</span> <span class="nav-text">第一篇文档</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hello-world"><span class="nav-number">5.1.</span> <span class="nav-text">Hello, world!</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现中英文混排"><span class="nav-number">5.2.</span> <span class="nav-text">实现中英文混排</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组织你的文章"><span class="nav-number">6.</span> <span class="nav-text">组织你的文章</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#作者、标题、日期"><span class="nav-number">6.1.</span> <span class="nav-text">作者、标题、日期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#章节和段落"><span class="nav-number">6.2.</span> <span class="nav-text">章节和段落</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#插入目录"><span class="nav-number">6.3.</span> <span class="nav-text">插入目录</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入数学公式"><span class="nav-number">7.</span> <span class="nav-text">插入数学公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#数学模式"><span class="nav-number">7.1.</span> <span class="nav-text">数学模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#上下标"><span class="nav-number">7.2.</span> <span class="nav-text">上下标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#根式与分式"><span class="nav-number">7.3.</span> <span class="nav-text">根式与分式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运算符"><span class="nav-number">7.4.</span> <span class="nav-text">运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#定界符（括号等）"><span class="nav-number">7.5.</span> <span class="nav-text">定界符（括号等）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#省略号"><span class="nav-number">7.6.</span> <span class="nav-text">省略号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#矩阵"><span class="nav-number">7.7.</span> <span class="nav-text">矩阵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多行公式"><span class="nav-number">7.8.</span> <span class="nav-text">多行公式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#长公式"><span class="nav-number">7.8.1.</span> <span class="nav-text">长公式</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#不对齐"><span class="nav-number">7.8.1.1.</span> <span class="nav-text">不对齐</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#对齐"><span class="nav-number">7.8.1.2.</span> <span class="nav-text">对齐</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#公式组"><span class="nav-number">7.8.2.</span> <span class="nav-text">公式组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分段函数"><span class="nav-number">7.8.3.</span> <span class="nav-text">分段函数</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#辅助工具"><span class="nav-number">7.9.</span> <span class="nav-text">辅助工具</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入图片和表格"><span class="nav-number">8.</span> <span class="nav-text">插入图片和表格</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#图片"><span class="nav-number">8.1.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#表格"><span class="nav-number">8.2.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浮动体"><span class="nav-number">8.3.</span> <span class="nav-text">浮动体</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版面设置"><span class="nav-number">9.</span> <span class="nav-text">版面设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#页边距"><span class="nav-number">9.1.</span> <span class="nav-text">页边距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#页眉页脚"><span class="nav-number">9.2.</span> <span class="nav-text">页眉页脚</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#首行缩进"><span class="nav-number">9.3.</span> <span class="nav-text">首行缩进</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#行间距"><span class="nav-number">9.4.</span> <span class="nav-text">行间距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#段间距"><span class="nav-number">9.5.</span> <span class="nav-text">段间距</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TeX-家族"><span class="nav-number">10.</span> <span class="nav-text">TeX 家族</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#TeX-LaTeX"><span class="nav-number">10.1.</span> <span class="nav-text">TeX - LaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pdfTeX-pdfLaTeX"><span class="nav-number">10.2.</span> <span class="nav-text">pdfTeX - pdfLaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#XeTeX-XeLaTeX"><span class="nav-number">10.3.</span> <span class="nav-text">XeTeX - XeLaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#LuaTeX"><span class="nav-number">10.4.</span> <span class="nav-text">LuaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CTeX-MiKTeX-TeX-Live"><span class="nav-number">10.5.</span> <span class="nav-text">CTeX - MiKTeX - TeX Live</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">10.6.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#出现问题应当如何处理-怎样聪明地提出你的问题——怎样从这里毕业"><span class="nav-number">11.</span> <span class="nav-text">出现问题应当如何处理&#x2F;怎样聪明地提出你的问题——怎样从这里毕业</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#去读文档"><span class="nav-number">11.1.</span> <span class="nav-text">去读文档</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遇到问题怎么办"><span class="nav-number">11.2.</span> <span class="nav-text">遇到问题怎么办</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-        <div class="footer-inner">
-    <div class="copyright">&copy; 
-
-<span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">让路</span>
-
-
-
-
-
-</div>
-
-
-
-
-
-<div class="BbeiAn-info">
-   	 
-    <a target="_blank" href="http://www.beian.miit.gov.cn/" style="color:#000000"  rel="nofollow">豫公网安备</a> <!--a标签中增加nofollow属性，避免爬虫出站。-->| 
-	<a target="_blank" href="http://www.beian.gov.cn" style="color:#000000;text-decoration:none;padding-left:30px;background:url(https://s1.ax1x.com/2018/09/29/ilmwIH.png) no-repeat left center" rel="nofollow">豫ICP备1901979号</a>	  <!--这里将图标作为了背景，以使得能和后面的文字在同一行-->
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-    
-<div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="site-uv">
-      <i class="fa fa-user"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
-      
-    </span>
-  
-
-  
-    <span class="site-pv">
-      <i class="fa fa-eye"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-      
-    </span>
-  
-</div>
-
-
-
-
-
-
-
-
-        <div class="footer-custom">
-            
-          
-          
-        </div>
-    
-  </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
   }
 </script>
 
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          المحتويات
+        </li>
+        <li class="sidebar-nav-overview">
+          عام
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#优雅的-LaTeX"><span class="nav-number">1.</span> <span class="nav-text">优雅的 LaTeX</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于编辑器的简单介绍"><span class="nav-number">2.</span> <span class="nav-text">关于编辑器的简单介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#启动-TeXworks"><span class="nav-number">2.1.</span> <span class="nav-text">启动 TeXworks</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#排版工具"><span class="nav-number">2.2.</span> <span class="nav-text">排版工具</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一篇文档"><span class="nav-number">3.</span> <span class="nav-text">第一篇文档</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hello-world"><span class="nav-number">3.1.</span> <span class="nav-text">Hello, world!</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现中英文混排"><span class="nav-number">3.2.</span> <span class="nav-text">实现中英文混排</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组织你的文章"><span class="nav-number">4.</span> <span class="nav-text">组织你的文章</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#作者、标题、日期"><span class="nav-number">4.1.</span> <span class="nav-text">作者、标题、日期</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#章节和段落"><span class="nav-number">4.2.</span> <span class="nav-text">章节和段落</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#插入目录"><span class="nav-number">4.3.</span> <span class="nav-text">插入目录</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入数学公式"><span class="nav-number">5.</span> <span class="nav-text">插入数学公式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#数学模式"><span class="nav-number">5.1.</span> <span class="nav-text">数学模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#上下标"><span class="nav-number">5.2.</span> <span class="nav-text">上下标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#根式与分式"><span class="nav-number">5.3.</span> <span class="nav-text">根式与分式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运算符"><span class="nav-number">5.4.</span> <span class="nav-text">运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#定界符（括号等）"><span class="nav-number">5.5.</span> <span class="nav-text">定界符（括号等）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#省略号"><span class="nav-number">5.6.</span> <span class="nav-text">省略号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#矩阵"><span class="nav-number">5.7.</span> <span class="nav-text">矩阵</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多行公式"><span class="nav-number">5.8.</span> <span class="nav-text">多行公式</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#长公式"><span class="nav-number">5.8.1.</span> <span class="nav-text">长公式</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#不对齐"><span class="nav-number">5.8.1.1.</span> <span class="nav-text">不对齐</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#对齐"><span class="nav-number">5.8.1.2.</span> <span class="nav-text">对齐</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#公式组"><span class="nav-number">5.8.2.</span> <span class="nav-text">公式组</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分段函数"><span class="nav-number">5.8.3.</span> <span class="nav-text">分段函数</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#辅助工具"><span class="nav-number">5.9.</span> <span class="nav-text">辅助工具</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入图片和表格"><span class="nav-number">6.</span> <span class="nav-text">插入图片和表格</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#图片"><span class="nav-number">6.1.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#表格"><span class="nav-number">6.2.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浮动体"><span class="nav-number">6.3.</span> <span class="nav-text">浮动体</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#版面设置"><span class="nav-number">7.</span> <span class="nav-text">版面设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#页边距"><span class="nav-number">7.1.</span> <span class="nav-text">页边距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#页眉页脚"><span class="nav-number">7.2.</span> <span class="nav-text">页眉页脚</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#首行缩进"><span class="nav-number">7.3.</span> <span class="nav-text">首行缩进</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#行间距"><span class="nav-number">7.4.</span> <span class="nav-text">行间距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#段间距"><span class="nav-number">7.5.</span> <span class="nav-text">段间距</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TeX-家族"><span class="nav-number">8.</span> <span class="nav-text">TeX 家族</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#TeX-LaTeX"><span class="nav-number">8.1.</span> <span class="nav-text">TeX - LaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pdfTeX-pdfLaTeX"><span class="nav-number">8.2.</span> <span class="nav-text">pdfTeX - pdfLaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#XeTeX-XeLaTeX"><span class="nav-number">8.3.</span> <span class="nav-text">XeTeX - XeLaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#LuaTeX"><span class="nav-number">8.4.</span> <span class="nav-text">LuaTeX</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CTeX-MiKTeX-TeX-Live"><span class="nav-number">8.5.</span> <span class="nav-text">CTeX - MiKTeX - TeX Live</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#总结"><span class="nav-number">8.6.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#出现问题应当如何处理-怎样聪明地提出你的问题——怎样从这里毕业"><span class="nav-number">9.</span> <span class="nav-text">出现问题应当如何处理&#x2F;怎样聪明地提出你的问题——怎样从这里毕业</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#去读文档"><span class="nav-number">9.1.</span> <span class="nav-text">去读文档</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#遇到问题怎么办"><span class="nav-number">9.2.</span> <span class="nav-text">遇到问题怎么办</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">让路</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">المقالات</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">التصنيفات</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">الوسوم</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">让路</span>
+</div>
+  <div class="powered-by">تطبيق الموقع <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
 
 
 
 
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
 
 
 
@@ -1194,7 +727,6 @@
   
 
 
-  
 
 
 
@@ -1206,440 +738,7 @@
 
 
 
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
 
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
-
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
-
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
-
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
-
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url);
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
-
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
-
-                // show search results
-
-                if (isMatch) {
-                  // sort index by position of keyword
-
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
-
-                  // merge hits into slices
-
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
-
-                      // move to next position of hit
-
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
 
   
 
@@ -1647,4 +746,3 @@
 
 </body>
 </html>
-
