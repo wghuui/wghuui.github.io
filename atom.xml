@@ -56,7 +56,10 @@
       
         
         
-          &lt;p&gt;之前，东升介绍了&lt;a href=&quot;http://ddswhu.me/posts/2018-04/vs-code-for-latex/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;如何将 VSCode 配置为 LaTeX 编辑器&lt;/a&gt;，我介绍了&lt;a
+          &lt;p&gt;LaTeXmk 是为了解决这些问题而设计的。阅读其文档之后，针对以下几条编译路径，我写好了 LaTeXworkshop 的配置，供后来人参考。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;XeLaTeX - BibTeX&lt;/li&gt;
+&lt;li&gt;pdfLaTeX -
         
       
     

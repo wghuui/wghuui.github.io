@@ -109,12 +109,12 @@
 
 
 
-<meta name="description" content="之前，东升介绍了如何将 VSCode 配置为 LaTeX 编辑器，我介绍了如何在 macOS 上配置 VSCode 与 Skim 的 LaTeX 正反跳转。按东升的配置，为解决交叉引用，我们需要在 recipes 当中多次调用编译工具，一则稍显麻烦，二则对于源文件无变动的情况会进行不必要的编译。 LaTeXmk 是为了解决这些问题而设计的。阅读其文档之后，针对以下几条编译路径，我写好了 LaTeX">
+<meta name="description" content="LaTeXmk 是为了解决这些问题而设计的。阅读其文档之后，针对以下几条编译路径，我写好了 LaTeXworkshop 的配置，供后来人参考。  XeLaTeX - BibTeX pdfLaTeX - BibTeX LuaLaTeX - BibTeX LaTeX - DVIPDFMx - BibTeX upLaTeX - DVIPDFMx - BibTeX  1234567891011121314">
 <meta property="og:type" content="article">
 <meta property="og:title" content="在 VSCode 的 LaTeXworkshop 插件中使用 LaTeXmk">
 <meta property="og:url" content="http://wghuui.top/2020/04/27/LaTeXmk/index.html">
 <meta property="og:site_name" content="让路的Blogs">
-<meta property="og:description" content="之前，东升介绍了如何将 VSCode 配置为 LaTeX 编辑器，我介绍了如何在 macOS 上配置 VSCode 与 Skim 的 LaTeX 正反跳转。按东升的配置，为解决交叉引用，我们需要在 recipes 当中多次调用编译工具，一则稍显麻烦，二则对于源文件无变动的情况会进行不必要的编译。 LaTeXmk 是为了解决这些问题而设计的。阅读其文档之后，针对以下几条编译路径，我写好了 LaTeX">
+<meta property="og:description" content="LaTeXmk 是为了解决这些问题而设计的。阅读其文档之后，针对以下几条编译路径，我写好了 LaTeXworkshop 的配置，供后来人参考。  XeLaTeX - BibTeX pdfLaTeX - BibTeX LuaLaTeX - BibTeX LaTeX - DVIPDFMx - BibTeX upLaTeX - DVIPDFMx - BibTeX  1234567891011121314">
 <meta property="article:published_time" content="2020-04-27T04:00:11.000Z">
 <meta property="article:modified_time" content="2020-04-27T04:00:11.000Z">
 <meta property="article:author" content="让路">
@@ -402,7 +402,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  638 字
+                  543 字
                 </span>
               
 
@@ -418,7 +418,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3 分钟
+                  2 分钟
                 </span>
               
             </div>
@@ -439,8 +439,7 @@
       
 
       
-        <p>之前，东升介绍了<a href="http://ddswhu.me/posts/2018-04/vs-code-for-latex/" target="_blank" rel="noopener">如何将 VSCode 配置为 LaTeX 编辑器</a>，我介绍了<a href="https://liam.page/2018/04/24/Working-with-VSCode-on-macOS-configuration-LaTeX-workshop-and-Skim/" target="_blank" rel="noopener">如何在 macOS 上配置 VSCode 与 Skim 的 LaTeX 正反跳转</a>。按东升的配置，为解决交叉引用，我们需要在 <code>recipes</code> 当中多次调用编译工具，一则稍显麻烦，二则对于源文件无变动的情况会进行不必要的编译。</p>
-<p>LaTeXmk 是为了解决这些问题而设计的。阅读其文档之后，针对以下几条编译路径，我写好了 LaTeXworkshop 的配置，供后来人参考。</p>
+        <p>LaTeXmk 是为了解决这些问题而设计的。阅读其文档之后，针对以下几条编译路径，我写好了 LaTeXworkshop 的配置，供后来人参考。</p>
 <ul>
 <li>XeLaTeX - BibTeX</li>
 <li>pdfLaTeX - BibTeX</li>
