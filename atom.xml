@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wghuui.top/"/>
-  <updated>2020-04-27T15:13:38.000Z</updated>
+  <updated>2020-04-28T09:48:30.000Z</updated>
   <id>http://wghuui.top/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>MATLAB的基本使用</title>
-    <link href="http://wghuui.top/2020/04/27/MATLAB%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
-    <id>http://wghuui.top/2020/04/27/MATLAB%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
-    <published>2020-04-27T15:13:38.000Z</published>
-    <updated>2020-04-27T15:13:38.000Z</updated>
+    <title>Python安装教程</title>
+    <link href="http://wghuui.top/2020/04/28/Python%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    <id>http://wghuui.top/2020/04/28/Python%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</id>
+    <published>2020-04-28T09:48:30.000Z</published>
+    <updated>2020-04-28T09:48:30.000Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,9 @@
       
         
         
-          &lt;p&gt;&lt;strong&gt;思想部分&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;为什么我们要用MATLAB作图，而不是用python作图？这个是工具选择问题，人与人之间各有偏好。那么作图的目的是什么？是为了清晰地表达数据结果。在数学建模竞赛这方面，数据结果表达与论文排版的好坏对论文得分的影响往往
+          &lt;p&gt;一、安装&lt;code&gt;python&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这一文主要为了给更多想开始学&lt;code&gt;python&lt;/code&gt;同学一个开端，八一为了更好地展示其下载与安装流程，我是将之前装好的&lt;code&gt;anaconda&lt;/code&gt;给卸载.&lt;/
         
       
     
@@ -40,7 +41,36 @@
       <category term="教程" scheme="http://wghuui.top/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="MATLAB" scheme="http://wghuui.top/tags/MATLAB/"/>
+      <category term="python" scheme="http://wghuui.top/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第十届数学竞赛试题完整版</title>
+    <link href="http://wghuui.top/2020/04/27/%E7%AC%AC%E5%8D%81%E5%B1%8A%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E8%AF%95%E9%A2%98%E5%AE%8C%E6%95%B4%E7%89%88/"/>
+    <id>http://wghuui.top/2020/04/27/%E7%AC%AC%E5%8D%81%E5%B1%8A%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E8%AF%95%E9%A2%98%E5%AE%8C%E6%95%B4%E7%89%88/</id>
+    <published>2020-04-27T15:13:38.000Z</published>
+    <updated>2020-04-27T15:13:38.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;文档pdf: &lt;a href=&quot;/download/CMC.tex&quot;&gt;cmc文档&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文档tex: &lt;a href=&quot;/download/CMC.pdf&quot;&gt;cmc源码&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+      <category term="文件分享" scheme="http://wghuui.top/categories/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="latex 数学竞赛" scheme="http://wghuui.top/tags/latex-%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B/"/>
     
   </entry>
   
