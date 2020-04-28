@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Tex Live下载及安装说明</title>
-    <url>/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<h2 id="关于-CTeX"><a href="#关于-CTeX" class="headerlink" title="关于 CTeX"></a>关于 CTeX</h2><h3 id="CTeX-套装"><a href="#CTeX-套装" class="headerlink" title="CTeX 套装"></a>CTeX 套装</h3><p>CTeX 套装是科学院吴凌云研究员的个人作品。在 CTeX 套装刚刚问世之时，因其解决了繁琐的中文字体安装工作，所以广受欢迎。但是，一方面 CTeX 套装已经很久不更新，内里的宏包、工具陈旧；另一方面，随着 XeLaTeX 的发展，以及 xeCJK 等技术的成熟，上述这些繁琐的工作已经没有必要而失去意义；因此，现在不推荐使用 CTeX 套装。</p>
-<blockquote>
-<p>不要安装和使用 CTeX 套装！</p>
-</blockquote>
-<h3 id="CTeX-宏集"><a href="#CTeX-宏集" class="headerlink" title="CTeX 宏集"></a>CTeX 宏集</h3><p>虽然它的名字也是「CTeX」，但是 CTeX 宏集和 CTeX 套装是两个不同的东西。CTeX 宏集是集成了中文支持、操作系统判定、字体选择、版式预设为一体的一组宏包和文档类的合集。我们推荐在任何情况下，优先使用 CTeX 宏集处理中文。</p>
-<blockquote>
-<p>请在任何情况下优先使用 CTeX 宏集在 LaTeX 中处理中文！</p>
-</blockquote>
-<h2 id="关于-TeX-Live"><a href="#关于-TeX-Live" class="headerlink" title="关于 TeX Live"></a>关于 TeX Live</h2><p>TeX Live 是 TUG (TeX User Group) 维护和发布的 TeX 系统，可说是「官方」的 TeX 系统。我们推荐任何阶段的 TeX 用户，都尽可能使用 TeX Live，以保持在跨操作系统平台、跨用户的一致性。TeX Live 的官方站点是 <a href="https://tug.org/texlive/。" target="_blank" rel="noopener">https://tug.org/texlive/。</a></p>
-<h3 id="Mac-用户"><a href="#Mac-用户" class="headerlink" title="Mac 用户"></a>Mac 用户</h3><p>TeX Live 在 macOS/OS X 上的名字是 MacTeX，它的官方站点是 <a href="https://tug.org/mactex。你可以在这里下载" target="_blank" rel="noopener">https://tug.org/mactex。你可以在这里下载</a> MacTeX 的安装器，而后安装 MacTeX。</p>
-<ul>
-<li><a href="http://tug.org/cgi-bin/mactex-download/MacTeX.pkg" target="_blank" rel="noopener">http://tug.org/cgi-bin/mactex-download/MacTeX.pkg</a></li>
-</ul>
-<p>如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
-<ul>
-<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-</ul>
-<h3 id="Windows-和-nix-用户"><a href="#Windows-和-nix-用户" class="headerlink" title="Windows 和 *nix 用户"></a>Windows 和 *nix 用户</h3><p>TeX Live 的当前版本是 2020，你可以从官方站点下载它们的安装包。点击下列链接，将会「自动选择」距离你最近的镜像下载。</p>
-<ul>
-<li><a href="http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso</a></li>
-</ul>
-<p>——当然，这个自动选择可能不太靠谱。如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
-<ul>
-<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
-<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
-<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-</ul>
-<p>你需要使用<a href="http://wincdemu.sysprogs.org/download/" target="_blank" rel="noopener">虚拟光驱软件</a>（对于 Windows 8 及更高版本的微软用户，可以直接加载），加载下载得到的光盘镜像。而后，执行安装脚本，将 TeX Live 安装在你的系统中。</p>
-<ul>
-<li>Windows 用户右键单击 <code>install-tl-advanced.bat</code>，以管理员权限执行；</li>
-<li>*nix 用户执行 <code>install-tl</code>。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>外交部:中方向世卫组织增加现汇捐款3000万美元</title>
     <url>/2020/04/24/2/</url>
     <content><![CDATA[<p><img src="http://world.people.com.cn/NMediaFile/2020/0423/MAIN202004232124000002174182244.jpg" alt=""></p>
@@ -146,18 +95,224 @@
       </tags>
   </entry>
   <entry>
-    <title>第十届数学竞赛试题完整版</title>
-    <url>/2020/04/27/%E7%AC%AC%E5%8D%81%E5%B1%8A%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E8%AF%95%E9%A2%98%E5%AE%8C%E6%95%B4%E7%89%88/</url>
-    <content><![CDATA[<p>文档pdf: <a href="/download/CMC.tex">cmc文档</a></p>
-<p>文档tex: <a href="/download/CMC.pdf">cmc源码</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">\documentclass[11pt,twoside]&#123;ctexart&#125;</span><br><span class="line">\usepackage&#123;CJKnumb&#125;</span><br><span class="line">\usepackage&#123;amsmath,amssymb&#125;</span><br><span class="line">\usepackage&#123;calc&#125;</span><br><span class="line">\usepackage&#123;intcalc&#125;</span><br><span class="line">\usepackage&#123;ifthen&#125;</span><br><span class="line">\usepackage&#123;zref-user&#125;</span><br><span class="line">\usepackage&#123;zref-lastpage&#125;</span><br><span class="line">\usepackage&#123;makecell&#125;</span><br><span class="line">\usepackage&#123;interfaces-makecell&#125;</span><br><span class="line">\usepackage&#123;dashrule&#125;</span><br><span class="line">\usepackage&#123;parskip&#125;</span><br><span class="line">\usepackage[paperwidth&#x3D;195mm,paperheight&#x3D;270mm,left&#x3D;30mm,right&#x3D;25mm,top&#x3D;20mm,bottom&#x3D;20mm,includefoot]&#123;geometry&#125;</span><br><span class="line">\usepackage&#123;enumerate&#125;</span><br><span class="line">\usepackage&#123;fancyhdr&#125;</span><br><span class="line">\usepackage&#123;tcolorbox&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125;</span><br><span class="line">\pagestyle&#123;fancy&#125;</span><br><span class="line"></span><br><span class="line">%用到的长度变量</span><br><span class="line">\newlength&#123;\wot&#125;</span><br><span class="line">\newlength&#123;\wol&#125;</span><br><span class="line">\newlength&#123;\gmw&#125;</span><br><span class="line">\newlength&#123;\dl&#125;</span><br><span class="line"></span><br><span class="line">%长度变量的初始值</span><br><span class="line">\settowidth&#123;\wot&#125;&#123;复核人&#125;</span><br><span class="line">\setlength&#123;\wol&#125;&#123;0.3pt&#125;</span><br><span class="line">\setlength&#123;\gmw&#125;&#123;6em&#125;</span><br><span class="line">\setlength&#123;\dl&#125;&#123;10em&#125;</span><br><span class="line"></span><br><span class="line">%页眉设置开始</span><br><span class="line">\renewcommand&#123;\headrulewidth&#125;&#123;0pt&#125;</span><br><span class="line"></span><br><span class="line">%装订线开始</span><br><span class="line">\fancyheadoffset[OL,ER]&#123;\gmw&#125;</span><br><span class="line">\fancyhead[OL]&#123;</span><br><span class="line">\ifnum\intcalcMod&#123;\value&#123;page&#125;&#125;&#123;4&#125;&#x3D;1</span><br><span class="line">\rotatebox&#123;90&#125;</span><br><span class="line">&#123;\begin&#123;minipage&#125;&#123;1.1\textheight&#125;</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">省市：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125; 学校：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125;  姓名：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125; 准考证号：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125;\\</span><br><span class="line">\tiny \hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;\\[\smallskipamount]</span><br><span class="line">\makebox[0.6\textheight][s]&#123;装订线内不要答题&#125;\\[-3\smallskipamount]</span><br><span class="line">\hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line">\end&#123;minipage&#125; &#125;</span><br><span class="line">\fi</span><br><span class="line">&#125;</span><br><span class="line">\fancyhead[ER]&#123;</span><br><span class="line">\ifnum\intcalcMod&#123;\value&#123;page&#125;&#125;&#123;4&#125;&#x3D;0</span><br><span class="line">\rotatebox&#123;-90&#125;</span><br><span class="line">&#123;\begin&#123;minipage&#125;&#123;1.1\textheight&#125;</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">\tiny \hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;\\[\smallskipamount]</span><br><span class="line">\makebox[0.6\textheight][s]&#123;装订线内不要答题&#125;\\[-3\smallskipamount]</span><br><span class="line">\hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line">\end&#123;minipage&#125; &#125;</span><br><span class="line">\fi</span><br><span class="line">&#125;</span><br><span class="line">%装订线结束</span><br><span class="line">%页眉设置结束</span><br><span class="line"></span><br><span class="line">%页脚设置开始</span><br><span class="line">\renewcommand&#123;\footrulewidth&#125;&#123;\wol&#125;</span><br><span class="line">\fancyfoot[C]&#123;\large&#123;&#123;\xingkai 微信公众号之数学的情怀&#125;\qquad 共\zpageref&#123;LastPage&#125;页\quad 第\thepage 页&#125;&#125;</span><br><span class="line">\newcounter&#123;ns&#125;</span><br><span class="line">\newcounter&#123;ts&#125;</span><br><span class="line">\newcounter&#123;nq&#125;</span><br><span class="line">\newcommand&#123;\wns&#125;&#123;\stepcounter&#123;ns&#125;\CJKnumber&#123;\thens&#125;、&#125;</span><br><span class="line">\newcommand&#123;\wq&#125;&#123;\stepcounter&#123;nq&#125;\thenq.&#125;</span><br><span class="line"></span><br><span class="line">%大题前计分表格</span><br><span class="line">\newcommand&#123;\tbs&#125;&#123;\begin&#123;tabular&#125;&#123;|c|c|c|&#125;\hline \makebox[\wot]&#123;得分&#125;&amp;\makebox[\wot]&#123;评卷人&#125;&amp;\makebox[\wot]&#123;复核人&#125;\\ \hline</span><br><span class="line"> &amp; &amp;\\ \hline\end&#123;tabular&#125;&#125;</span><br><span class="line"></span><br><span class="line">%排版大题前计分表格,序号,题型,大题说明</span><br><span class="line">\newcommand&#123;\ws&#125;[2]&#123;\raisebox&#123;-1ex&#125;&#123;\begin&#123;minipage&#125;[b]&#123;4.6\wot&#125;\tbs\end&#123;minipage&#125;&#125;</span><br><span class="line">\begin&#123;minipage&#125;[t]&#123;\textwidth-6\wot&#125; &#123;\heiti \wns #1 &#125; #2 \end&#123;minipage&#125; &#125;</span><br><span class="line">\makeatletter</span><br><span class="line">\zref@newprop&#123;totalsections&#125;[3]&#123;\arabic&#123;ns&#125;&#125;</span><br><span class="line">\zref@addprop&#123;LastPage&#125;&#123;totalsections&#125;</span><br><span class="line">\AtBeginDocument&#123;</span><br><span class="line">\setcounter&#123;ts&#125;&#123;\zref@extractdefault&#123;LastPage&#125;&#123;totalsections&#125;&#123;3&#125;&#125; &#125;</span><br><span class="line">\makeatother</span><br><span class="line">\linespread&#123;1.618&#125;</span><br><span class="line">\newcommand&#123;\D&#125;&#123;\,\mathrm&#123;d&#125;&#125;</span><br><span class="line">\newcommand&#123;\E&#125;&#123;\mathrm&#123;e&#125;&#125;</span><br><span class="line">\newcommand&#123;\dlim&#125;&#123;\displaystyle \lim &#125;</span><br><span class="line">\newcommand&#123;\dint&#125;&#123;\displaystyle \int &#125;</span><br><span class="line">\newcommand&#123;\sets&#125;[1]&#123;\&#123; #1 \&#125;&#125;</span><br><span class="line"></span><br><span class="line">\setCJKfamilyfont&#123;huawenxingkai&#125;&#123;华文行楷&#125; \newcommand*&#123;\xingkai&#125;&#123;\CJKfamily&#123;huawenxingkai&#125;&#125;%华文行楷</span><br><span class="line">\newcommand&#123;\dis&#125;&#123;\displaystyle&#125;</span><br><span class="line">\newcommand&#123;\Rank&#125;&#123;\mathrm&#123;Rank&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\Sign&#125;&#123;\mathrm&#123;Sign&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\rd&#125;&#123;\mspace&#123;1mu&#125;\mathrm&#123;d&#125;&#125;</span><br><span class="line">\newcommand&#123;\diag&#125;&#123;\mathrm&#123;diag&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\tr&#125;&#123;\mathrm&#123;tr&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\var&#125;&#123;\mathrm&#123;var&#125;&#125;</span><br><span class="line">\renewcommand&#123;\Re&#125;&#123;\operatorname&#123;Re&#125;&#125;</span><br><span class="line">\renewcommand&#123;\Im&#125;&#123;\operatorname&#123;Im&#125;&#125;</span><br><span class="line">\def\sgn&#123;\mathop&#123;\rm sgn&#125;&#125;</span><br><span class="line"></span><br><span class="line">%试卷头开始</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">%试卷标题开始</span><br><span class="line">\begin&#123;center&#125;\vspace&#123;3mm&#125;</span><br><span class="line">      &#123;\xingkai \Large 第十届全国大学生数学竞赛试题&#125;\\[0.8mm]</span><br><span class="line">      &#123; $\left(\text&#123;非数学类, 2018年10月27日&#125;\right)$&#125;\\</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line"></span><br><span class="line">%试卷标题结束</span><br><span class="line"></span><br><span class="line">%输出&quot;绝密&quot;字样</span><br><span class="line">&#123;\vspace&#123;-1.3mm&#125;\heiti 绝密$\bigstar$启用前&#125;\\[-4\bigskipamount]\\[-12mm]</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">\vspace*&#123;2mm&#125;</span><br><span class="line">(16数学$-$胡八一)\\[3mm]</span><br><span class="line"> &#123;考试形式：\underline&#123;~闭卷~&#125;~\hspace&#123;2mm&#125;考试时间：\underline&#123;~~150~~&#125;分钟~\hspace&#123;2mm&#125;满分：~\underline&#123;~~100~~&#125;~分&#125;\\</span><br><span class="line"></span><br><span class="line">%根据大题数目自动生成计分总表</span><br><span class="line">\newcounter&#123;tc&#125;</span><br><span class="line">\newcounter&#123;tcsr&#125;</span><br><span class="line">\setcounter&#123;tc&#125;&#123;\value&#123;ts&#125;+3&#125;</span><br><span class="line">\setcounter&#123;tcsr&#125;&#123;\value&#123;tc&#125;-1&#125;</span><br><span class="line">\arrayrulewidth&#x3D;2\wol </span><br><span class="line"></span><br><span class="line">\vspace*&#123;3.5mm&#125;</span><br><span class="line">\begin&#123;tabular&#125;&#123;|m&#123;3em&#125;&lt;&#123;\centering&#125;|*&#123;11&#125;&#123;m&#123;3.5em&#125;&lt;&#123;\centering&#125;|&#125;&#125;\hline</span><br><span class="line">         题~号 &amp; 一 &amp; 二 &amp; 三  &amp; 四 &amp; 五 &amp;六 &amp;七  &amp;总~~分 \\\hline</span><br><span class="line">         满~分 &amp; 24 &amp; 8 &amp; 14  &amp; 12 &amp; 14  &amp;14 &amp;14 &amp;100    \\\hline</span><br><span class="line">          得~分 &amp;    &amp;   &amp;     &amp;    &amp;     &amp;   &amp;  &amp;\rule&#123;0pt&#125;&#123;8mm&#125; \\\hline</span><br><span class="line">    \end&#123;tabular&#125;</span><br><span class="line">    \\\vspace*&#123;-1.5mm&#125;</span><br><span class="line">    \begin&#123;equation*&#125;</span><br><span class="line">    \begin&#123;aligned&#125;</span><br><span class="line">    \mbox&#123;注意：&#125;</span><br><span class="line">    &amp;1.\,\mbox&#123;所有答题都须写在试卷密封线右边,写在其他纸上一律无效&#125;.\hspace&#123;12.0cm&#125;\\</span><br><span class="line">    &amp;2.\,\mbox&#123;密封线左边请勿答题,密封线外不得有姓名及相关标记&#125;.\\</span><br><span class="line">    &amp;3.\,\mbox&#123;如答题空白不够,可写在当页背面,并标明题号&#125;.\\[-2mm]</span><br><span class="line">    \end&#123;aligned&#125;</span><br><span class="line">    \end&#123;equation*&#125;    </span><br><span class="line">\end&#123;center&#125;</span><br><span class="line"></span><br><span class="line">%试卷头结束</span><br><span class="line"></span><br><span class="line">\addvspace&#123;1\bigskipamount&#125;</span><br><span class="line"></span><br><span class="line">\ws&#123;\xingkai 填空题&#125;&#123;(\xingkai 本题满分24分，每题6分)\\&#125;\\\\</span><br><span class="line">\wq 设 $\alpha\in\left(0,1\right),\textrm&#123;则&#125;\displaystyle \lim_&#123;n\rightarrow +\infty&#125;\left(\left(n+1\right)^&#123;\alpha&#125;-n^&#123;\alpha&#125;\right)&#x3D;$\underline&#123;0&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\textrm&#123;若曲线&#125;y&#x3D;f\left(x\right)\textrm&#123;是由&#125;\left\&#123;\begin&#123;array&#125;&#123;l&#125;</span><br><span class="line">x&#x3D;t+\cos t\\</span><br><span class="line">e^y+ty+\sin t&#x3D;1\\</span><br><span class="line">\end&#123;array&#125;\right.\textrm&#123;确定，则此曲线在&#125;t&#x3D;0$ 对应点处的\\</span><br><span class="line">切线方程为\underline&#123;$y&#x3D;1-x$&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\displaystyle \int&#123;\displaystyle\frac&#123;\ln\left(1+\sqrt&#123;1+x^2&#125;\right)&#125;&#123;\left(1+x^2\right)^&#123;\frac&#123;3&#125;&#123;2&#125;&#125;&#125;&#125;dx&#x3D;$\underline&#123;$\displaystyle \frac&#123;x&#125;&#123;\sqrt&#123;1+x^2&#125;&#125;\ln\left(x+\sqrt&#123;1+x^2&#125;\right)-\displaystyle \frac&#123;1&#125;&#123;2&#125;\ln\left(1+x^2\right)+C</span><br><span class="line">    $&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\displaystyle\lim_&#123;x\rightarrow 0&#125;\displaystyle\frac&#123;1-\cos x\sqrt&#123;\cos 2x&#125;\sqrt[3]&#123;\cos 3x&#125;&#125;&#123;x^2&#125;&#x3D;$\underline&#123;3&#125;.\\</span><br><span class="line">\newpage</span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分8分)\\&#125;\\\\</span><br><span class="line">设函数$f(t)$在$t\ne 0$时一阶连续可导，且$f(1)&#x3D;0$，求函数$f(x^2-y^2)$，使得曲线积分$\displaystyle \int_L&#123;y\left(2-f\left(x^2-y^2\right)\right)&#125;dx+xf\left(x^2-y^2\right)dy$</span><br><span class="line">与路径无关，其中$L$为任一不与直线$y&#x3D;\pm x$相交的分段光滑闭曲线.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">设$f(x)$在区间$[0,1]$上连续，且$1\leqslant f\left(x\right)\leqslant 3$.证明：</span><br><span class="line">$$0\leqslant\int_0^1&#123;f\left(x\right)dx\int_0^1&#123;\frac&#123;1&#125;&#123;f\left(x\right)&#125;dx\leqslant\frac&#123;4&#125;&#123;3&#125;&#125;&#125;$$</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分12分)\\&#125;\\\\</span><br><span class="line">计算三重积分$\displaystyle\iiint\limits_&#123;\left(V\right)&#125;&#123;\left(x^2+y^2\right)&#125;dV$，其中$(V)$是由$x^2+y^2+\left(z-2\right)^2\geqslant 4$，$x^2+y^2+\left(z-1\right)^2\leqslant9$及$z\geqslant 0$所围成的空间图形.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">设$f(x,y)$在区域D内可微，且$\sqrt&#123;\left(\displaystyle\frac&#123;\partial f&#125;&#123;\partial x&#125;\right)^2+\left(\displaystyle\frac&#123;\partial f&#125;&#123;\partial y&#125;\right)^2&#125;\leqslant M$，$A\left(x_1,y_1\right),B\left(x_2,y_2\right)$是D内两点，线段AB包含在D内，证明：$f(x_1,y_1)-f(x_2,y_2)|\leqslant M|AB|$</span><br><span class="line"></span><br><span class="line">其中$|AB|$表示线段$AB$的长度.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">证明：对于连续函数$f(x)&gt;0$，有$\ln\int_0^1&#123;f\left(x\right)dx\geqslant\int_0^1&#123;\ln f\left(x\right)dx&#125;&#125;$</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">已知$&#123;a_k&#125;$，$&#123;b_k&#125;$是正数数列，且$b_&#123;k+1&#125;-b_k\geqslant\delta &gt;0,k&#x3D;1,2,\cdots $，$\delta$为一切常数，证明：若级数$\displaystyle\sum_&#123;k&#x3D;1&#125;^&#123;+\infty&#125;&#123;a_k&#125;$收敛，则级数$\displaystyle\sum_&#123;k&#x3D;1&#125;^&#123;+\infty&#125;&#123;\displaystyle\frac&#123;k\sqrt[k]&#123;\left(a_1a_2\cdots a_k\right)\left(b_1b_2\cdots b_k\right)&#125;&#125;&#123;b_&#123;k+1&#125;b_k&#125;&#125;$收敛.</span><br><span class="line"></span><br><span class="line">\mbox&#123;&#125;</span><br><span class="line">%试卷正文结束</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+    <title>Python安装教程</title>
+    <url>/2020/04/28/Python%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>一、安装<code>python</code></p>
+<blockquote>
+<p>这一文主要为了给更多想开始学<code>python</code>同学一个开端，八一为了更好地展示其下载与安装流程，我是将之前装好的<code>anaconda</code>给卸载.</p>
+<ul>
+<li>这里我推荐的下载软件为<code>迅雷</code>，速度惊人；</li>
+<li>另一个便是卸载软件<code>Revo Uninstaller Pro</code>，几乎可以做到任何软件的完全卸载，尤其当你遇到流氓软件，它便是你的最佳选择。</li>
+</ul>
+</blockquote>
+<ol>
+<li><strong>下载</strong>：先进入官网 <code>https://www.python.org</code>，这两处均可以下载，首页菜单的<code>Dowmloads</code>是有历史版本下载资源，你可以自我选择，就以2020年2月25日<code>python官方</code>发布的最新版本<code>3.8.2</code>为例，而且会以2个月发布一个版本的频次来维护<code>python3.8系列</code>，所以<code>3.8.3</code>将在4月份发布。如果是<code>32</code>位的操作系统，可看图示.</li>
+</ol>
+<p><img src="https://imgkr.cn-bj.ufileos.com/dfec5537-c649-4e75-b774-c74a71a523d5.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/36063637-e0cc-49f4-9e0e-fc3d87c2d762.png" alt="img"></p>
+<p>由于我的笔记本是<code>64</code>位系统，所以采取第一张图下方的<code>Download</code>，点击Latest: <code>Python 3.8.2</code>，可看到如下图正确下载，便可得下载的文件名是<code>python-3.8.2-amd64.exe</code>.</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/71d56964-c22b-4840-9fe8-7d86dc1734b1.png" alt="img"></p>
+<p>鼠标右击<code>python-3.8.2-amd64.exe</code>以管理员身份运行，后勾选<code>Add Python 3.8 to PATH</code>并点击<code>Customize installation</code>（自定义安装），我选择的安装路径是在<code>D</code>盘，并建立<code>python38</code>文件夹.</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/8b2e6144-6f5e-4785-ad87-dc051bce5c97.png" alt="添加环境变量并勾选自定义安装"></p>
+<p><strong>添加环境变量并勾选自定义安装</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/b8af164f-5288-471a-b1f4-25a0500094fa.png" alt="点击`Next`"></p>
+<p><strong>点击<code>Next</code></strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/54473026-1094-467c-8810-3c95622eaf5f.png" alt="为所有用户安装且自定义安装路径"></p>
+<p><strong>为所有用户安装且自定义安装路径</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/db06bdb2-6fb4-49f8-8b68-d49e6f025807.png" alt="安装中"></p>
+<p><strong>安装中</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/89bc1740-eaa6-477d-9025-dc988734d762.png" alt="安装成功并点击close关闭窗口"></p>
+<p><strong>安装成功并点击close关闭窗口</strong></p>
+<ol>
+<li><strong>查看<code>python</code>环境变量</strong>： 右击计算机属性，找到<code>高级系统设置</code>，点开环境变量，然后从系统变量中找到<code>path</code>，会出现如图示</li>
+</ol>
+<p><img src="https://imgkr.cn-bj.ufileos.com/74e18809-c341-4891-a663-667d87fd961b.png" alt="高级系统设置"></p>
+<p><strong>高级系统设置</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/c99d3d9f-7a79-48fa-95db-47e7bb95dd0c.png" alt="环境变量"></p>
+<p><strong>环境变量</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/c449cd42-88dd-4789-906a-a72524bfbc02.png" alt="img"></p>
+<p>在之前的流程中，我已经勾选<code>Add Python 3.8 to PATH</code>，它也就已经在我们安装<code>python</code>时自动给你好了配置环境变量，包括<code>D:\Python38\Scripts\</code>和<code>D:\Python38\</code>，如果你当初没有勾选添加环境变量，自己手动编辑添加进去.</p>
+<ol>
+<li>检查<code>python</code>:这个我们快捷键<code>win+R</code>调用<code>cmd</code>，输入<code>python</code>回车，这时会出现<code>python</code>的版本信息如下图</li>
+</ol>
+<p><img src="https://imgkr.cn-bj.ufileos.com/0bbcfacb-08f9-4fb9-8278-196d70cded53.png" alt="image"></p>
+<p><strong>image</strong></p>
+<p>然后点击左下角搜索程序与文件，找到<code>IDLE (Python 3.8 64-bit)</code>，并双击打开运行，命令行输入<code>print (&quot;欢迎来到八一考研数学竞赛/机器学习与大数据建模&quot;)</code></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/d9439732-baf6-414f-82ce-214797fa4ab2.png" alt="IDLE (Python 3.8 64-bit)"></p>
+<p><strong>IDLE (Python 3.8 64-bit)</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/265fe3c0-a997-4678-8f37-97a85334b32d.png" alt="使用界面"></p>
+<p><strong>使用界面</strong></p>
+<h1 id="二、安装anaconda"><a href="#二、安装anaconda" class="headerlink" title="二、安装anaconda"></a>二、安装anaconda</h1><ol>
+<li><strong>下载</strong> ：首先我们<code>google</code>搜索<code>anaconda</code>，第一个便是其官方网址：</li>
+</ol>
+<p><img src="https://imgkr.cn-bj.ufileos.com/3a3e7668-e938-472f-911f-e58008cba17b.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/92239bef-9eb5-46c3-8996-2d7e01b4d4ea.png" alt="image"></p>
+<p><strong>image</strong></p>
+<p>但我一般不推荐去官网下载，速度慢，毕竟是外网，国内用户下载肯定慢，找到对应的版本，我是建议同学们去<code>清华大学开源软件镜像站</code>下载，地址贴下：</p>
+<p><a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/</a></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/aa9a0d3d-e567-4011-ad5c-feefe13f72ad.png" alt="版本、更新时间与系统"></p>
+<p><strong>版本、更新时间与系统</strong></p>
+<p>如果你的网络没问题的话<code>466.3 M</code>的文件下载不要几分钟，我把地址复制到<code>迅雷</code>一分钟就给我下载好了.</p>
+<ol>
+<li><strong>安装：</strong> 以管理员身份运行，右击<code>Anaconda3-5.3.1-Windows-x86_64.exe</code>，即出出现如下界面，按图示箭头所操作，这里安装路径我更改为<code>D</code>盘，并建立<code>Anaconda3</code>的文件夹，</li>
+</ol>
+<p><img src="https://imgkr.cn-bj.ufileos.com/3a41e643-7098-4c50-9d7d-d13f7db51420.png" alt="Next"></p>
+<p><strong>Next</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/2247bb57-9ac2-4ff5-aa54-a21c522c703f.png" alt="欢迎界面，点I Agree"></p>
+<p><strong>欢迎界面，点I Agree</strong></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/8ec9f374-358a-43eb-a89f-4de6cf88d460.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/d49429eb-2304-4b5c-9f56-c453984e07cd.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/90491fd9-4666-41d8-bc8d-ca9b140f3e3b.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/f1616492-ec3d-4ce2-8cb5-81a3f036a126.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/0c9425e5-b16c-4558-ad79-83ca218381a3.png" alt="img"></p>
+<ol>
+<li>配置环境变量</li>
+</ol>
+<p>   ：需要在系统变量添加</p>
+<p>   java</p>
+   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">D:\Anaconda3\Library\bin</span><br><span class="line">D:\Anaconda3\Scripts\</span><br><span class="line">D:\Anaconda3\</span><br></pre></td></tr></table></figure>
 
+<p>   而</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python37</span><br></pre></td></tr></table></figure>
+
+<p>   和</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
+
+<p>   都是</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
+
+<p>   环境，</p>
+<p>   在系统环境变量中找到对应之前安装<code>Python38</code>以及上面的<code>python38</code>的路径并删除</p>
+<p>   ，改为</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
+
+<p>   的环境变量，然后再检查下</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
+
+<p>   ，输入</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
+
+<p>   ，并输入</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
+
+<p>   显现出了</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
+
+<p>   自带的</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
+
+<p>   解释器的版本</p>
+   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3.7.0</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://imgkr.cn-bj.ufileos.com/31ab5fa9-de1c-4a62-af4d-4b519e50265e.png" alt="img"></p>
+<p>这样可以确认其安装成功了，接下来将原来的<code>python3.8.2</code>加进<code>anaconda</code>中.</p>
+<blockquote>
+<p>注意：<code>anaconda</code>要在完成环境变量的配置后才能使用<code>conda命令</code></p>
+</blockquote>
+<p>使用<code>conda env list</code>查看<code>conda</code>的环境变量，可以看到只有一个<code>base</code>默认环境</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/c51b678d-46e2-41e6-a1cb-5fc0a6df2d1c.png" alt="image"></p>
+<p><strong>image</strong></p>
+<p>所以尝试激活，输入<code>activate base</code>，这里你可以略写<code>activate</code>，是因为<code>base</code>为默认环境，关闭环境使用<code>deactivate</code>，然后我们尝试激活<code>base</code>环境的情况下使用<code>python</code>命令，运行<code>python3.7.0</code>，如图</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/e2265dc8-661f-442f-9f93-d626a605dc85.png" alt="img"></p>
+<p>这样我们可以看到<code>python3.7.0</code>解释器是在<code>base</code>环境中.</p>
+<p>3.<strong>利用<code>conda</code>配置虚拟环境</strong>：先创建环境</p>
+<p>java</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">conda create -n test python=<span class="number">3.8</span></span><br></pre></td></tr></table></figure>
+
+<p>其中<code>test</code>为环境名称，<code>3.8</code>为<code>python</code>版本，这个可以自己设置.</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/b8721f17-8f0d-4d03-8da5-a386e46bb60c.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/11c0bd65-d41a-47d5-8575-fed76869e4dc.png" alt="img"></p>
+<p>然后开始激活环境<code>activate test</code>，再退出<code>deactivate</code>，再看<code>anaconda</code>里的环境，此时在<code>envs</code>中多出个<code>test</code>环境名，</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/8c4ea0bb-78a9-4739-a2c7-fc8b82b253f1.png" alt="img"></p>
+<p>接下来我们可以通过语句<code>activate test</code>来激活<code>test</code>这个环境，然后运行<code>python</code>来查看<code>test</code>里的解释器信息</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/314f38d6-3c19-4792-ba8d-6bcfac4976c9.png" alt="img"></p>
+<p>最后我们删除这个<code>test</code>环境，使用命令行</p>
+<p>java</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">conda remove -n test --all</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://imgkr.cn-bj.ufileos.com/4e27b8d9-84f3-4784-83d2-77e2a6a6bf95.png" alt="img"></p>
+<p>这些只是为了给我们自己的<code>python3.8.2</code>先在<code>anaconda</code>里搭好一个适合<code>python38</code>，然后将我们之前安装好的<code>python38</code>复制粘贴到<code>anaconda</code>的<code>envs</code>文件夹</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/a9dda805-d0e4-4d29-a934-9da8b33de5c7.png" alt="img"></p>
+<p>这样就把我们的<code>python3.8.2</code>（2020年2月25号版本）加进<code>anaconda</code>里了，然后输入命令<code>activate python38</code>激活<code>python38</code>环境，再输入<code>python</code>查看并进入<code>python</code>解释器.</p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/eaa1ffd3-d73f-450e-8a5a-adf0a5d8b6f9.png" alt="img"></p>
+<hr>
+<p>要想将我们原来安装的<code>python3.7.0</code>装到<code>anaconda</code>中，先是创建一个环境，建立一个名称为<code>python37</code>的虚拟环境并指定<code>python</code>版本，然后激活该环境并查看<code>anaconda</code>里的环境.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">conda create -n python37 python&#x3D;3.7</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://imgkr.cn-bj.ufileos.com/95068dc1-8d45-481d-af5a-276f63bd68e8.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/1c647108-2ff0-497e-97a9-89daa65f9cae.png" alt="img"></p>
+<p><img src="https://imgkr.cn-bj.ufileos.com/746b0ecc-e05f-4bdf-89dd-4639b572696d.png" alt="img"></p>
+<blockquote>
+<p>这里我将很早下载好的<code>python37</code>复制到粘贴到<code>anaconda</code>的<code>envs</code>文件夹</p>
+</blockquote>
+<p><img src="https://imgkr.cn-bj.ufileos.com/329748e0-6b83-4fce-b584-51b084e8bd23.png" alt="img"></p>
+<p>然后输入命令<code>activate python37</code>激活<code>python37</code>环境，在输入<code>python</code>查看并进入<code>python</code>解释器.</p>
+<blockquote>
+<p>在<code>Anoconda</code>中用户以后安装的<code>python</code>会存放在<code>envs</code>中，如果在<code>cmd</code>中输入<code>conda info -e</code> 或<code>conda info --envs</code> 就可以得到你安装的<code>python</code>信息</p>
+</blockquote>
 ]]></content>
       <categories>
-        <category>文件分享</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>latex 数学竞赛</tag>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tex Live下载及安装说明</title>
+    <url>/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<h2 id="关于-CTeX"><a href="#关于-CTeX" class="headerlink" title="关于 CTeX"></a>关于 CTeX</h2><h3 id="CTeX-套装"><a href="#CTeX-套装" class="headerlink" title="CTeX 套装"></a>CTeX 套装</h3><p>CTeX 套装是科学院吴凌云研究员的个人作品。在 CTeX 套装刚刚问世之时，因其解决了繁琐的中文字体安装工作，所以广受欢迎。但是，一方面 CTeX 套装已经很久不更新，内里的宏包、工具陈旧；另一方面，随着 XeLaTeX 的发展，以及 xeCJK 等技术的成熟，上述这些繁琐的工作已经没有必要而失去意义；因此，现在不推荐使用 CTeX 套装。</p>
+<blockquote>
+<p>不要安装和使用 CTeX 套装！</p>
+</blockquote>
+<h3 id="CTeX-宏集"><a href="#CTeX-宏集" class="headerlink" title="CTeX 宏集"></a>CTeX 宏集</h3><p>虽然它的名字也是「CTeX」，但是 CTeX 宏集和 CTeX 套装是两个不同的东西。CTeX 宏集是集成了中文支持、操作系统判定、字体选择、版式预设为一体的一组宏包和文档类的合集。我们推荐在任何情况下，优先使用 CTeX 宏集处理中文。</p>
+<blockquote>
+<p>请在任何情况下优先使用 CTeX 宏集在 LaTeX 中处理中文！</p>
+</blockquote>
+<h2 id="关于-TeX-Live"><a href="#关于-TeX-Live" class="headerlink" title="关于 TeX Live"></a>关于 TeX Live</h2><p>TeX Live 是 TUG (TeX User Group) 维护和发布的 TeX 系统，可说是「官方」的 TeX 系统。我们推荐任何阶段的 TeX 用户，都尽可能使用 TeX Live，以保持在跨操作系统平台、跨用户的一致性。TeX Live 的官方站点是 <a href="https://tug.org/texlive/。" target="_blank" rel="noopener">https://tug.org/texlive/。</a></p>
+<h3 id="Mac-用户"><a href="#Mac-用户" class="headerlink" title="Mac 用户"></a>Mac 用户</h3><p>TeX Live 在 macOS/OS X 上的名字是 MacTeX，它的官方站点是 <a href="https://tug.org/mactex。你可以在这里下载" target="_blank" rel="noopener">https://tug.org/mactex。你可以在这里下载</a> MacTeX 的安装器，而后安装 MacTeX。</p>
+<ul>
+<li><a href="http://tug.org/cgi-bin/mactex-download/MacTeX.pkg" target="_blank" rel="noopener">http://tug.org/cgi-bin/mactex-download/MacTeX.pkg</a></li>
+</ul>
+<p>如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
+<ul>
+<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+</ul>
+<h3 id="Windows-和-nix-用户"><a href="#Windows-和-nix-用户" class="headerlink" title="Windows 和 *nix 用户"></a>Windows 和 *nix 用户</h3><p>TeX Live 的当前版本是 2020，你可以从官方站点下载它们的安装包。点击下列链接，将会「自动选择」距离你最近的镜像下载。</p>
+<ul>
+<li><a href="http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso</a></li>
+</ul>
+<p>——当然，这个自动选择可能不太靠谱。如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
+<ul>
+<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
+<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
+<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+</ul>
+<p>你需要使用<a href="http://wincdemu.sysprogs.org/download/" target="_blank" rel="noopener">虚拟光驱软件</a>（对于 Windows 8 及更高版本的微软用户，可以直接加载），加载下载得到的光盘镜像。而后，执行安装脚本，将 TeX Live 安装在你的系统中。</p>
+<ul>
+<li>Windows 用户右键单击 <code>install-tl-advanced.bat</code>，以管理员权限执行；</li>
+<li>*nix 用户执行 <code>install-tl</code>。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>latex</tag>
       </tags>
   </entry>
   <entry>
@@ -511,298 +666,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Python安装教程</title>
-    <url>/2020/04/28/Python%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>一、安装<code>python</code></p>
-<blockquote>
-<p>这一文主要为了给更多想开始学<code>python</code>同学一个开端，八一为了更好地展示其下载与安装流程，我是将之前装好的<code>anaconda</code>给卸载.</p>
-<ul>
-<li>这里我推荐的下载软件为<code>迅雷</code>，速度惊人；</li>
-<li>另一个便是卸载软件<code>Revo Uninstaller Pro</code>，几乎可以做到任何软件的完全卸载，尤其当你遇到流氓软件，它便是你的最佳选择。</li>
-</ul>
-</blockquote>
-<ol>
-<li><strong>下载</strong>：先进入官网 <code>https://www.python.org</code>，这两处均可以下载，首页菜单的<code>Dowmloads</code>是有历史版本下载资源，你可以自我选择，就以2020年2月25日<code>python官方</code>发布的最新版本<code>3.8.2</code>为例，而且会以2个月发布一个版本的频次来维护<code>python3.8系列</code>，所以<code>3.8.3</code>将在4月份发布。如果是<code>32</code>位的操作系统，可看图示.</li>
-</ol>
-<p><img src="https://imgkr.cn-bj.ufileos.com/dfec5537-c649-4e75-b774-c74a71a523d5.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/36063637-e0cc-49f4-9e0e-fc3d87c2d762.png" alt="img"></p>
-<p>由于我的笔记本是<code>64</code>位系统，所以采取第一张图下方的<code>Download</code>，点击Latest: <code>Python 3.8.2</code>，可看到如下图正确下载，便可得下载的文件名是<code>python-3.8.2-amd64.exe</code>.</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/71d56964-c22b-4840-9fe8-7d86dc1734b1.png" alt="img"></p>
-<p>鼠标右击<code>python-3.8.2-amd64.exe</code>以管理员身份运行，后勾选<code>Add Python 3.8 to PATH</code>并点击<code>Customize installation</code>（自定义安装），我选择的安装路径是在<code>D</code>盘，并建立<code>python38</code>文件夹.</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/8b2e6144-6f5e-4785-ad87-dc051bce5c97.png" alt="添加环境变量并勾选自定义安装"></p>
-<p><strong>添加环境变量并勾选自定义安装</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/b8af164f-5288-471a-b1f4-25a0500094fa.png" alt="点击`Next`"></p>
-<p><strong>点击<code>Next</code></strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/54473026-1094-467c-8810-3c95622eaf5f.png" alt="为所有用户安装且自定义安装路径"></p>
-<p><strong>为所有用户安装且自定义安装路径</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/db06bdb2-6fb4-49f8-8b68-d49e6f025807.png" alt="安装中"></p>
-<p><strong>安装中</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/89bc1740-eaa6-477d-9025-dc988734d762.png" alt="安装成功并点击close关闭窗口"></p>
-<p><strong>安装成功并点击close关闭窗口</strong></p>
-<ol>
-<li><strong>查看<code>python</code>环境变量</strong>： 右击计算机属性，找到<code>高级系统设置</code>，点开环境变量，然后从系统变量中找到<code>path</code>，会出现如图示</li>
-</ol>
-<p><img src="https://imgkr.cn-bj.ufileos.com/74e18809-c341-4891-a663-667d87fd961b.png" alt="高级系统设置"></p>
-<p><strong>高级系统设置</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/c99d3d9f-7a79-48fa-95db-47e7bb95dd0c.png" alt="环境变量"></p>
-<p><strong>环境变量</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/c449cd42-88dd-4789-906a-a72524bfbc02.png" alt="img"></p>
-<p>在之前的流程中，我已经勾选<code>Add Python 3.8 to PATH</code>，它也就已经在我们安装<code>python</code>时自动给你好了配置环境变量，包括<code>D:\Python38\Scripts\</code>和<code>D:\Python38\</code>，如果你当初没有勾选添加环境变量，自己手动编辑添加进去.</p>
-<ol>
-<li>检查<code>python</code>:这个我们快捷键<code>win+R</code>调用<code>cmd</code>，输入<code>python</code>回车，这时会出现<code>python</code>的版本信息如下图</li>
-</ol>
-<p><img src="https://imgkr.cn-bj.ufileos.com/0bbcfacb-08f9-4fb9-8278-196d70cded53.png" alt="image"></p>
-<p><strong>image</strong></p>
-<p>然后点击左下角搜索程序与文件，找到<code>IDLE (Python 3.8 64-bit)</code>，并双击打开运行，命令行输入<code>print (&quot;欢迎来到八一考研数学竞赛/机器学习与大数据建模&quot;)</code></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/d9439732-baf6-414f-82ce-214797fa4ab2.png" alt="IDLE (Python 3.8 64-bit)"></p>
-<p><strong>IDLE (Python 3.8 64-bit)</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/265fe3c0-a997-4678-8f37-97a85334b32d.png" alt="使用界面"></p>
-<p><strong>使用界面</strong></p>
-<h1 id="二、安装anaconda"><a href="#二、安装anaconda" class="headerlink" title="二、安装anaconda"></a>二、安装anaconda</h1><ol>
-<li><strong>下载</strong> ：首先我们<code>google</code>搜索<code>anaconda</code>，第一个便是其官方网址：</li>
-</ol>
-<p><img src="https://imgkr.cn-bj.ufileos.com/3a3e7668-e938-472f-911f-e58008cba17b.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/92239bef-9eb5-46c3-8996-2d7e01b4d4ea.png" alt="image"></p>
-<p><strong>image</strong></p>
-<p>但我一般不推荐去官网下载，速度慢，毕竟是外网，国内用户下载肯定慢，找到对应的版本，我是建议同学们去<code>清华大学开源软件镜像站</code>下载，地址贴下：</p>
-<p><a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/</a></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/aa9a0d3d-e567-4011-ad5c-feefe13f72ad.png" alt="版本、更新时间与系统"></p>
-<p><strong>版本、更新时间与系统</strong></p>
-<p>如果你的网络没问题的话<code>466.3 M</code>的文件下载不要几分钟，我把地址复制到<code>迅雷</code>一分钟就给我下载好了.</p>
-<ol>
-<li><strong>安装：</strong> 以管理员身份运行，右击<code>Anaconda3-5.3.1-Windows-x86_64.exe</code>，即出出现如下界面，按图示箭头所操作，这里安装路径我更改为<code>D</code>盘，并建立<code>Anaconda3</code>的文件夹，</li>
-</ol>
-<p><img src="https://imgkr.cn-bj.ufileos.com/3a41e643-7098-4c50-9d7d-d13f7db51420.png" alt="Next"></p>
-<p><strong>Next</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/2247bb57-9ac2-4ff5-aa54-a21c522c703f.png" alt="欢迎界面，点I Agree"></p>
-<p><strong>欢迎界面，点I Agree</strong></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/8ec9f374-358a-43eb-a89f-4de6cf88d460.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/d49429eb-2304-4b5c-9f56-c453984e07cd.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/90491fd9-4666-41d8-bc8d-ca9b140f3e3b.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/f1616492-ec3d-4ce2-8cb5-81a3f036a126.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/0c9425e5-b16c-4558-ad79-83ca218381a3.png" alt="img"></p>
-<ol>
-<li>配置环境变量</li>
-</ol>
-<p>   ：需要在系统变量添加</p>
-<p>   java</p>
-   <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">D:\Anaconda3\Library\bin</span><br><span class="line">D:\Anaconda3\Scripts\</span><br><span class="line">D:\Anaconda3\</span><br></pre></td></tr></table></figure>
-
-<p>   而</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python37</span><br></pre></td></tr></table></figure>
-
-<p>   和</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   都是</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
-
-<p>   环境，</p>
-<p>   在系统环境变量中找到对应之前安装<code>Python38</code>以及上面的<code>python38</code>的路径并删除</p>
-<p>   ，改为</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   的环境变量，然后再检查下</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   ，输入</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
-
-<p>   ，并输入</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
-
-<p>   显现出了</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   自带的</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
-
-<p>   解释器的版本</p>
-   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3.7.0</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://imgkr.cn-bj.ufileos.com/31ab5fa9-de1c-4a62-af4d-4b519e50265e.png" alt="img"></p>
-<p>这样可以确认其安装成功了，接下来将原来的<code>python3.8.2</code>加进<code>anaconda</code>中.</p>
-<blockquote>
-<p>注意：<code>anaconda</code>要在完成环境变量的配置后才能使用<code>conda命令</code></p>
-</blockquote>
-<p>使用<code>conda env list</code>查看<code>conda</code>的环境变量，可以看到只有一个<code>base</code>默认环境</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/c51b678d-46e2-41e6-a1cb-5fc0a6df2d1c.png" alt="image"></p>
-<p><strong>image</strong></p>
-<p>所以尝试激活，输入<code>activate base</code>，这里你可以略写<code>activate</code>，是因为<code>base</code>为默认环境，关闭环境使用<code>deactivate</code>，然后我们尝试激活<code>base</code>环境的情况下使用<code>python</code>命令，运行<code>python3.7.0</code>，如图</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/e2265dc8-661f-442f-9f93-d626a605dc85.png" alt="img"></p>
-<p>这样我们可以看到<code>python3.7.0</code>解释器是在<code>base</code>环境中.</p>
-<p>3.<strong>利用<code>conda</code>配置虚拟环境</strong>：先创建环境</p>
-<p>java</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">conda create -n test python=<span class="number">3.8</span></span><br></pre></td></tr></table></figure>
-
-<p>其中<code>test</code>为环境名称，<code>3.8</code>为<code>python</code>版本，这个可以自己设置.</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/b8721f17-8f0d-4d03-8da5-a386e46bb60c.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/11c0bd65-d41a-47d5-8575-fed76869e4dc.png" alt="img"></p>
-<p>然后开始激活环境<code>activate test</code>，再退出<code>deactivate</code>，再看<code>anaconda</code>里的环境，此时在<code>envs</code>中多出个<code>test</code>环境名，</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/8c4ea0bb-78a9-4739-a2c7-fc8b82b253f1.png" alt="img"></p>
-<p>接下来我们可以通过语句<code>activate test</code>来激活<code>test</code>这个环境，然后运行<code>python</code>来查看<code>test</code>里的解释器信息</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/314f38d6-3c19-4792-ba8d-6bcfac4976c9.png" alt="img"></p>
-<p>最后我们删除这个<code>test</code>环境，使用命令行</p>
-<p>java</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">conda remove -n test --all</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://imgkr.cn-bj.ufileos.com/4e27b8d9-84f3-4784-83d2-77e2a6a6bf95.png" alt="img"></p>
-<p>这些只是为了给我们自己的<code>python3.8.2</code>先在<code>anaconda</code>里搭好一个适合<code>python38</code>，然后将我们之前安装好的<code>python38</code>复制粘贴到<code>anaconda</code>的<code>envs</code>文件夹</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/a9dda805-d0e4-4d29-a934-9da8b33de5c7.png" alt="img"></p>
-<p>这样就把我们的<code>python3.8.2</code>（2020年2月25号版本）加进<code>anaconda</code>里了，然后输入命令<code>activate python38</code>激活<code>python38</code>环境，再输入<code>python</code>查看并进入<code>python</code>解释器.</p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/eaa1ffd3-d73f-450e-8a5a-adf0a5d8b6f9.png" alt="img"></p>
-<hr>
-<p>要想将我们原来安装的<code>python3.7.0</code>装到<code>anaconda</code>中，先是创建一个环境，建立一个名称为<code>python37</code>的虚拟环境并指定<code>python</code>版本，然后激活该环境并查看<code>anaconda</code>里的环境.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">conda create -n python37 python&#x3D;3.7</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://imgkr.cn-bj.ufileos.com/95068dc1-8d45-481d-af5a-276f63bd68e8.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/1c647108-2ff0-497e-97a9-89daa65f9cae.png" alt="img"></p>
-<p><img src="https://imgkr.cn-bj.ufileos.com/746b0ecc-e05f-4bdf-89dd-4639b572696d.png" alt="img"></p>
-<blockquote>
-<p>这里我将很早下载好的<code>python37</code>复制到粘贴到<code>anaconda</code>的<code>envs</code>文件夹</p>
-</blockquote>
-<p><img src="https://imgkr.cn-bj.ufileos.com/329748e0-6b83-4fce-b584-51b084e8bd23.png" alt="img"></p>
-<p>然后输入命令<code>activate python37</code>激活<code>python37</code>环境，在输入<code>python</code>查看并进入<code>python</code>解释器.</p>
-<blockquote>
-<p>在<code>Anoconda</code>中用户以后安装的<code>python</code>会存放在<code>envs</code>中，如果在<code>cmd</code>中输入<code>conda info -e</code> 或<code>conda info --envs</code> 就可以得到你安装的<code>python</code>信息</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搜索引擎的正确打开方式</title>
-    <url>/2020/04/28/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</url>
-    <content><![CDATA[<p>前几天，一篇题为《搜索引擎就是我的大学》一文在我的朋友圈流转，小婉姑娘讲述了自己初中肄业从一个月薪三百的乡郊饭店服务员，通过搜索引擎自我学习，一步一步步入城市，拿下人力资源管理，项目经理，营销策划，文案策划等多个有挑战职位的逆袭事迹。</p>
-<p><strong>这无意给了很多“有电脑的人”一种天下我有的莫名冲动。虽然搜索引擎可以搜索到几乎任何你想学的知识，但终究扔停留在可能性阶段。真正高效地驾驭搜索引擎还是需要做些功课。</strong></p>
-<p>作为一名野路子网络营销钻研狗，打算开个帖子给大家做个科普，同时奉上一系列压箱底的“秘技”，希望于各位看客老爷有所裨益。</p>
-<blockquote>
-<p>本帖分科普篇；实用技巧篇；资源篇三部分，略长但越往后越精彩。</p>
-</blockquote>
-<h2 id="科普篇"><a href="#科普篇" class="headerlink" title="科普篇"></a>科普篇</h2><h3 id="一、搜索引擎是个什么东西？"><a href="#一、搜索引擎是个什么东西？" class="headerlink" title="一、搜索引擎是个什么东西？"></a>一、搜索引擎是个什么东西？</h3><p>搜索引擎（Search Engine）是指根据一定的策略、运用特定的计算机程序从互联网上搜集信息，在对信息进行组织和处理后，为用户提供检索服务，将用户检索相关的信息展示给用户的系统。搜索引擎包括全文索引、目录索引、元搜索引擎、垂直搜索引擎、集合式搜索引擎、门户搜索引擎与免费链接列表等。</p>
-<p><strong>这里的用户指的是有信息获取需求的普通用户，其实信息生产提交方（站长等）严格意义来讲也是“用户”，普通用户只需要掌握搜索引擎使用技巧，而站长们更多的是琢磨SEO（搜索引擎优化）。这个帖子这双边都会有所涉及。</strong></p>
-<h3 id="二、搜索引擎工作原理"><a href="#二、搜索引擎工作原理" class="headerlink" title="二、搜索引擎工作原理"></a>二、搜索引擎工作原理</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-3.jpg" alt="640.webp (3)"></p>
-<p>爬行抓取：搜索引擎蜘蛛跟踪链接，抓取页面html代码存入数据库，低权重复制内容过滤;</p>
-<p>预处理：文字和相关标签抓取，中文分词，去掉无意义内容提炼页面主要关键词(对于蜘蛛没有意义：如：的、啊、从而等，广告、申明等)，去重(同一内容不同网站或同一网站不同网址);倒排索引：关键词到内容，链接投票，文件处理(目前只能根据标签和相关描述文字识别)，质量判断：搜索引擎算法;</p>
-<p>排名：中文分词(排除无实际意义的词后对搜索词的拆分重组，百度快照可查询分词结果)，相关性计算：越常用的词对搜索词的意义贡献越小，词频，关键词位置形式距离(标题、H1、黑体等)，链接分析(锚文本、周边文字、原站本身主题)，排名过滤调整(百度第11位)。</p>
-<p><strong>搜索引擎的工作原理使命就是确保用户发出搜索指令后展现在他们面前的是其所需要的优质内容。</strong></p>
-<h3 id="三、目前主流的搜索引擎"><a href="#三、目前主流的搜索引擎" class="headerlink" title="三、目前主流的搜索引擎"></a>三、目前主流的搜索引擎</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155519.png" alt="QQ截图20160220155519"></p>
-<p>搜索引擎简史：1994年Yahoo!诞生，1998年Google诞生，2000年百度诞生，2012年360搜索(好搜)推出。</p>
-<p><strong>百度</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-4.jpg" alt="640.webp (4)"></p>
-<p>不管是PC端还是移动端百度市场份额都是绝对的国内第一，跟国内目前其他搜索引擎相比，不说矮子里面挑高个的难听话，也不提竞价广告的乱象丛生，但从信息获取效率以及用户体验来比，百度也是当之无愧的。</p>
-<p>作为学习工具，百度搜索有这两个地方不错，<strong>一是百度网盘，二是百度文库。</strong></p>
-<p><strong>搜狗</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140425.png" alt="QQ截图20160220140425"></p>
-<p>搜狗在近年来发展迅速，最具特色的点是可以搜索微信内容和知乎内容。这都仰赖于腾讯的买买买内容战略。</p>
-<p><strong>360</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140722-1024x773.png" alt="QQ截图20160220140722"></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140735-1024x628.png" alt="QQ截图20160220140735"></p>
-<p>对于360，实话实说，广告不比百度少，搜索结果质量也不敢恭维。来个对比。更多例子各位自行捣鼓。</p>
-<p><strong>必须掌握Google！</strong></p>
-<p>Google上面才是互联网，其他国内的搜索引擎的触角都受限，只能叫局域网。除了信息全面，用户体验也是谁用谁知道。</p>
-<h3 id="四、世界范围内各搜索引擎市场份额"><a href="#四、世界范围内各搜索引擎市场份额" class="headerlink" title="四、世界范围内各搜索引擎市场份额"></a>四、世界范围内各搜索引擎市场份额</h3><p>以2015年第三季度为例</p>
-<p>谷歌以67.49%的份额雄居第一，Yahoo第二，Bing凭借10.67%占据第三，百度第四，份额8.13%。</p>
-<h2 id="搜索引擎以及相关实用技巧"><a href="#搜索引擎以及相关实用技巧" class="headerlink" title="搜索引擎以及相关实用技巧"></a>搜索引擎以及相关实用技巧</h2><h3 id="一、高级搜索指令（了解多用几遍即可）"><a href="#一、高级搜索指令（了解多用几遍即可）" class="headerlink" title="一、高级搜索指令（了解多用几遍即可）"></a>一、高级搜索指令（了解多用几遍即可）</h3><p>这么理解：一般人不知道的，能够提高搜索效率以及精度的一些特殊指令。</p>
-<p>普通用户常用的包括：</p>
-<p><strong>双引号（搜索：“关键词”）</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/258-1024x595.png" alt="2"></p>
-<p>把搜索词汇放在双引号中，代表完全匹配搜索，也就是说搜索出来的结果页面都是保护双引号中所出现的所有词汇，连顺序也是完全匹配的。百度和Google都是支持这个指令的。</p>
-<p>使用双引号搜索可以更准确的找到特定关键词，更容易找到自己想要的资源。</p>
-<p><strong>减号（搜索：关键词  -不需要的关键词）</strong></p>
-<p>减号代表搜索引擎显示不包括减号后面词汇的页面。使用这个指令时减号前面必须是空格，减号后面没有空格，要紧跟着需要排除的词。Google和百度都支持这个指令。</p>
-<p>使用减号高级指令可以更加准确的找到需要的文件，尤其是某些词语有多重意义的时候。</p>
-<p><strong>星号 （搜索：搜索*擎）</strong></p>
-<p>星号是常用的通配符，也可以使用在搜索引擎中。百度不支持*号指令。</p>
-<p>比如在Google中搜索“ 搜索<em>擎”，其中</em>代表任何文字、出现的结果就不仅仅是包含“搜索引擎”的页面了。</p>
-<p><strong>inurl：（搜索：inurl：任意字符串）</strong></p>
-<p>inurl：指令用于搜索查询词出现在URL中的页面，可以按英文字面意思理解。百度和Google都是支持inurl：指令的。inurl：指令不仅支持英文，还支持中文。</p>
-<p>高级搜索指令inurl的语法格式为：inurl：xxx（xxx可以为任意字符串）。此命令是查找url中包含xxx的网页。</p>
-<p>如果你是做SEO的，那么inurl：指令对你会很有用，因为你可以快速的找到竞争对手（因为关键词出现在URL中对排名有一定的影响）。</p>
-<p><strong>intitle：返回的是页面title中包含关键词的页面</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-5.jpg" alt="640.webp (5)"></p>
-<p>百度和谷歌都支持intitle。 title是目前页面优化最重要的因素。无论是什么网站，基本都会把关键词放入title中。</p>
-<blockquote>
-<p>详细用法：<a href="http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html</a></p>
-</blockquote>
-<p><strong>filetype：搜索特定文件格式的时候使用。</strong></p>
-<p>例如：filetype:pdf 视频教程，显示的是包含“视频教程”的所有PDF文件。filetype指令可以用来搜索特定的资源，比如PDF电子书、Word文件等。Google和百度都是支持filetype：指令的。</p>
-<blockquote>
-<p>详细用法：<a href="http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html</a></p>
-</blockquote>
-<p><strong>site：这个高级搜索指令用来搜索某个域名下面的所有文件。</strong></p>
-<p>比如搜索“site：<a href="http://www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。">www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。</a></p>
-<p>之前有人用“site:yun.baidu.com ”资源关键词这个搜网盘里面的资源，现在貌似不大顶用了，等下给出替代方案。</p>
-<p>高级搜索指令大全诸位可自行百度，补充一点是，这些指令很多都可以互相搭配使用影响最后的结果。可以有很复杂的组合结果，好消息是有人帮我们封装好做写成了特殊的搜索引擎供我们使用。</p>
-<h3 id="二、特殊搜索引擎"><a href="#二、特殊搜索引擎" class="headerlink" title="二、特殊搜索引擎"></a>二、特殊搜索引擎</h3><blockquote>
-<p>这有个知乎特殊搜索引擎汇总贴：<a href="https://www.zhihu.com/question/20251786" target="_blank" rel="noopener">https://www.zhihu.com/question/20251786</a></p>
-</blockquote>
-<p>大而全的东西意味着杂乱，外行很容易陷入选择困难症一脸茫然。我给大家重点勾勒几个点。</p>
-<p>先顺逻辑：<strong>从学习的角度，我们搜索一个东西最浅显的需求就是了解知道，要想深入消化吸收往往意味着有必要触发资料收集下载这一动作。</strong></p>
-<p>嗯，我就是要教大家怎么下载。<strong>一般的付费教程以及电子书资源，百度网盘的资源丰富度远远超过你想象，不过百度官方并不提供资源检索功能。借助工具就好了，用网盘搜索引擎即可。我公众号的菜单栏内置了一个，大家可以体验一下。</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/webwxgetmsgimg-2-1024x560.png" alt="webwxgetmsgimg (2)"></p>
-<p><strong>理论上，只要挂在网上，就算是付费的视频，文档也能抠下来。某宝上面固然有售，稍稍懂点搜索引擎的功能其实都能省去不少精力，虽然大伙儿都不差钱，哈哈。</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162723-1024x307.png" alt="QQ截图20160220162723"></p>
-<p>百度文库，豆丁等下载：<strong>冰点下载器</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163011-1024x522.png" alt="QQ截图20160220163011"></p>
-<p>YouTube视频下载：<strong>en.savefrom.net</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163153-1024x331.png" alt="QQ截图20160220163153"></p>
-<p>国内视频网站内容下载：<strong>硕鼠</strong></p>
-<p>虎牙直播，斗鱼直播等在线直播视频下载：<strong>屏幕录制软件（CamtasiaStudio），我手上是自己写的软件。</strong></p>
-<p>视频资源：用各种种子搜索引擎就好了。如：<strong>电驴，海盗，死去的btspread，以及不能说的其他站点。等下各位在评论区补充。</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162854.png" alt="QQ截图20160220162854"></p>
-<p>浏览国外资讯什么的，起码要会翻墙吧，建议用付费的vpn，速度有保障，最重要的是下东西飞快。俺用的一款之前叫greenvpn，现在叫绿豆加速器。红杏已挂。</p>
-<p>省略一万种资源获取方式……</p>
-<p>最后放个大招：自行百度<strong>吾爱破解，精易论坛</strong>，对绝大多数人来讲，那将是另外一片天堂。</p>
-<p>各色工具资源站点我收藏夹都躺了几百个，一次抖不完。唠叨一个省事的终极思路——<strong>互联网的基础设施是IT们搭建起来的，其中有五颜六色的暗门，摸熟搜索引擎，就是拥有了打开这些暗门的钥匙。</strong></p>
-<p>至于暗网什么的高级黑，下次八卦，写写我掌握的一些细节。</p>
-<h3 id="三、关键词使用"><a href="#三、关键词使用" class="headerlink" title="三、关键词使用"></a>三、关键词使用</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163514.png" alt="QQ截图20160220163514"></p>
-<p><strong>使用搜索引擎的搜索功能最重要的是知道输入哪个关键词。</strong></p>
-<p>搜索引擎就像一个搬运工，你想让他给你搬运啥东西，你起码得知道自己想要什么。例如你想学英语，你可能就会搜怎么学英语，英语培训教程。这种起码的素养，一般人初次接触搜索引擎就具备。这一阶段一般使用的往往是<strong>泛关键词</strong>。</p>
-<p>学习是个循序渐进的过程，意味着你有深入挖掘细分领域的需求。这就引申出另外一个概念叫<strong>精准关键词（或长尾关键词）</strong>，不过多展开，需要强调的是，大家在使用搜索引擎的时候要有意识地去提炼自己的关键词，从不同的维度去获取你想要的信息。</p>
-<p><strong>举个粗暴栗子，黄片又叫爱情动作片，此外番号，番号封面，女优这些关键词也指向你想要获取的资源，是不是很有趣。</strong></p>
-<p><strong>互联网再繁杂，只要多记对象名词，熟悉事物关键节点，借助搜索引擎就能提纲挈领，手到擒来。到这个当口，才有天下为我所用的掌握感。</strong></p>
-<h3 id="四、搭建网站门类的记忆宫殿"><a href="#四、搭建网站门类的记忆宫殿" class="headerlink" title="四、搭建网站门类的记忆宫殿"></a>四、搭建网站门类的记忆宫殿</h3><p>浸淫互联网许久，俺在说个有意思的点。<strong>导航网站相信大家都很熟悉，像hao123，金山毒霸导航，360导航。</strong></p>
-<p><strong>我想给大伙说的是，这些导航网站的布局一般都别有用心（用来做淘宝客导购，软件注册推广，广告等），而且聚合的站点也很平庸，满足普罗大众日常的消遣尚可，但是想让搜索引擎成为你的大学，就远远不够了。</strong></p>
-<p>你需要搭建属于自己的“网站导航”，在日常接触到的优秀网站，记得在浏览器点一下收藏，分门别类。经年累月的积累，这将是你电脑上最重要的一笔财富。我换电脑或装系统几乎东西不担心丢失，同步下收藏夹就好了。</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/%E6%94%B6%E8%97%8F%E5%A4%B9.png" alt="收藏夹"></p>
-<p>分门别类的收藏夹是你搭建脑海记忆宫殿的基础，最终要达到有搜索需求的时，资源获取手到擒来。</p>
-<blockquote>
-<p>至于怎么管理你的收藏夹，适合你自己的姿势才是最好的，一些管理原则，放个帖子：<a href="https://www.zhihu.com/question/21537488" target="_blank" rel="noopener">https://www.zhihu.com/question/21537488</a></p>
-</blockquote>
-<h3 id="五、网感"><a href="#五、网感" class="headerlink" title="五、网感"></a>五、网感</h3><p>多泡网，见识各色各样的网站样式，在建立起自己的站点记忆宫殿之后，培养自己的网感，懂得各色资源的搭配调取应用。网感是个很大的命题，看似有些务虚，实则用处极大。此处提出这一概念，鉴于篇幅下次阐述。</p>
-<h2 id="资源篇"><a href="#资源篇" class="headerlink" title="资源篇"></a>资源篇</h2><p>从学习获取资源的角度，看上面的东西就够用了。你要对搜索引擎真感兴趣，俺接着给大家推荐几本类似行业圣经的读物。</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155555.png" alt="QQ截图20160220155555"></p>
-<p><strong>SEO艺术</strong></p>
-<p>国外译著，享有盛誉</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155840.png" alt="QQ截图20160220155840"></p>
-<p>《这就是搜索引擎:核心技术详解》</p>
-<p>关于一些技术细节</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155728.png" alt="QQ截图20160220155728"></p>
-<p><strong>《搜》</strong></p>
-<p>搜索引擎的由来，了解历史，偏文化经济层次</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155810.png" alt="QQ截图20160220155810"></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220164806.png" alt="QQ截图20160220164806"></p>
-<p>《SEO深度解析》和《SEO实战密码:60天网站流量提高20倍(第3版)》都是站长SEO操作指南。</p>
-]]></content>
-      <categories>
-        <category>分享</category>
-      </categories>
-      <tags>
-        <tag>搜索引擎</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>latex使用教程(1)</title>
     <url>/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(1)/</url>
     <content><![CDATA[<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2FLaTeX" target="_blank" rel="noopener">LaTeX</a>将文章的排版以代码的形式呈现，这种方式很符合程序员以及科学工作者的审美和工作习惯，但如果强调太多LaTeX不常用的特性，会导致很多初学者望而却步，早早弃坑回归难用的word。同时，网上关于LaTeX的文档极多，还有大量多年未更新的博客，内容早已过时无法兼容现在的版本，很容易造成误导增加学习成本。</p>
@@ -983,6 +846,143 @@
       </categories>
       <tags>
         <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搜索引擎的正确打开方式</title>
+    <url>/2020/04/28/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</url>
+    <content><![CDATA[<p>前几天，一篇题为《搜索引擎就是我的大学》一文在我的朋友圈流转，小婉姑娘讲述了自己初中肄业从一个月薪三百的乡郊饭店服务员，通过搜索引擎自我学习，一步一步步入城市，拿下人力资源管理，项目经理，营销策划，文案策划等多个有挑战职位的逆袭事迹。</p>
+<p><strong>这无意给了很多“有电脑的人”一种天下我有的莫名冲动。虽然搜索引擎可以搜索到几乎任何你想学的知识，但终究扔停留在可能性阶段。真正高效地驾驭搜索引擎还是需要做些功课。</strong></p>
+<p>作为一名野路子网络营销钻研狗，打算开个帖子给大家做个科普，同时奉上一系列压箱底的“秘技”，希望于各位看客老爷有所裨益。</p>
+<blockquote>
+<p>本帖分科普篇；实用技巧篇；资源篇三部分，略长但越往后越精彩。</p>
+</blockquote>
+<h2 id="科普篇"><a href="#科普篇" class="headerlink" title="科普篇"></a>科普篇</h2><h3 id="一、搜索引擎是个什么东西？"><a href="#一、搜索引擎是个什么东西？" class="headerlink" title="一、搜索引擎是个什么东西？"></a>一、搜索引擎是个什么东西？</h3><p>搜索引擎（Search Engine）是指根据一定的策略、运用特定的计算机程序从互联网上搜集信息，在对信息进行组织和处理后，为用户提供检索服务，将用户检索相关的信息展示给用户的系统。搜索引擎包括全文索引、目录索引、元搜索引擎、垂直搜索引擎、集合式搜索引擎、门户搜索引擎与免费链接列表等。</p>
+<p><strong>这里的用户指的是有信息获取需求的普通用户，其实信息生产提交方（站长等）严格意义来讲也是“用户”，普通用户只需要掌握搜索引擎使用技巧，而站长们更多的是琢磨SEO（搜索引擎优化）。这个帖子这双边都会有所涉及。</strong></p>
+<h3 id="二、搜索引擎工作原理"><a href="#二、搜索引擎工作原理" class="headerlink" title="二、搜索引擎工作原理"></a>二、搜索引擎工作原理</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-3.jpg" alt="640.webp (3)"></p>
+<p>爬行抓取：搜索引擎蜘蛛跟踪链接，抓取页面html代码存入数据库，低权重复制内容过滤;</p>
+<p>预处理：文字和相关标签抓取，中文分词，去掉无意义内容提炼页面主要关键词(对于蜘蛛没有意义：如：的、啊、从而等，广告、申明等)，去重(同一内容不同网站或同一网站不同网址);倒排索引：关键词到内容，链接投票，文件处理(目前只能根据标签和相关描述文字识别)，质量判断：搜索引擎算法;</p>
+<p>排名：中文分词(排除无实际意义的词后对搜索词的拆分重组，百度快照可查询分词结果)，相关性计算：越常用的词对搜索词的意义贡献越小，词频，关键词位置形式距离(标题、H1、黑体等)，链接分析(锚文本、周边文字、原站本身主题)，排名过滤调整(百度第11位)。</p>
+<p><strong>搜索引擎的工作原理使命就是确保用户发出搜索指令后展现在他们面前的是其所需要的优质内容。</strong></p>
+<h3 id="三、目前主流的搜索引擎"><a href="#三、目前主流的搜索引擎" class="headerlink" title="三、目前主流的搜索引擎"></a>三、目前主流的搜索引擎</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155519.png" alt="QQ截图20160220155519"></p>
+<p>搜索引擎简史：1994年Yahoo!诞生，1998年Google诞生，2000年百度诞生，2012年360搜索(好搜)推出。</p>
+<p><strong>百度</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-4.jpg" alt="640.webp (4)"></p>
+<p>不管是PC端还是移动端百度市场份额都是绝对的国内第一，跟国内目前其他搜索引擎相比，不说矮子里面挑高个的难听话，也不提竞价广告的乱象丛生，但从信息获取效率以及用户体验来比，百度也是当之无愧的。</p>
+<p>作为学习工具，百度搜索有这两个地方不错，<strong>一是百度网盘，二是百度文库。</strong></p>
+<p><strong>搜狗</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140425.png" alt="QQ截图20160220140425"></p>
+<p>搜狗在近年来发展迅速，最具特色的点是可以搜索微信内容和知乎内容。这都仰赖于腾讯的买买买内容战略。</p>
+<p><strong>360</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140722-1024x773.png" alt="QQ截图20160220140722"></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140735-1024x628.png" alt="QQ截图20160220140735"></p>
+<p>对于360，实话实说，广告不比百度少，搜索结果质量也不敢恭维。来个对比。更多例子各位自行捣鼓。</p>
+<p><strong>必须掌握Google！</strong></p>
+<p>Google上面才是互联网，其他国内的搜索引擎的触角都受限，只能叫局域网。除了信息全面，用户体验也是谁用谁知道。</p>
+<h3 id="四、世界范围内各搜索引擎市场份额"><a href="#四、世界范围内各搜索引擎市场份额" class="headerlink" title="四、世界范围内各搜索引擎市场份额"></a>四、世界范围内各搜索引擎市场份额</h3><p>以2015年第三季度为例</p>
+<p>谷歌以67.49%的份额雄居第一，Yahoo第二，Bing凭借10.67%占据第三，百度第四，份额8.13%。</p>
+<h2 id="搜索引擎以及相关实用技巧"><a href="#搜索引擎以及相关实用技巧" class="headerlink" title="搜索引擎以及相关实用技巧"></a>搜索引擎以及相关实用技巧</h2><h3 id="一、高级搜索指令（了解多用几遍即可）"><a href="#一、高级搜索指令（了解多用几遍即可）" class="headerlink" title="一、高级搜索指令（了解多用几遍即可）"></a>一、高级搜索指令（了解多用几遍即可）</h3><p>这么理解：一般人不知道的，能够提高搜索效率以及精度的一些特殊指令。</p>
+<p>普通用户常用的包括：</p>
+<p><strong>双引号（搜索：“关键词”）</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/258-1024x595.png" alt="2"></p>
+<p>把搜索词汇放在双引号中，代表完全匹配搜索，也就是说搜索出来的结果页面都是保护双引号中所出现的所有词汇，连顺序也是完全匹配的。百度和Google都是支持这个指令的。</p>
+<p>使用双引号搜索可以更准确的找到特定关键词，更容易找到自己想要的资源。</p>
+<p><strong>减号（搜索：关键词  -不需要的关键词）</strong></p>
+<p>减号代表搜索引擎显示不包括减号后面词汇的页面。使用这个指令时减号前面必须是空格，减号后面没有空格，要紧跟着需要排除的词。Google和百度都支持这个指令。</p>
+<p>使用减号高级指令可以更加准确的找到需要的文件，尤其是某些词语有多重意义的时候。</p>
+<p><strong>星号 （搜索：搜索*擎）</strong></p>
+<p>星号是常用的通配符，也可以使用在搜索引擎中。百度不支持*号指令。</p>
+<p>比如在Google中搜索“ 搜索<em>擎”，其中</em>代表任何文字、出现的结果就不仅仅是包含“搜索引擎”的页面了。</p>
+<p><strong>inurl：（搜索：inurl：任意字符串）</strong></p>
+<p>inurl：指令用于搜索查询词出现在URL中的页面，可以按英文字面意思理解。百度和Google都是支持inurl：指令的。inurl：指令不仅支持英文，还支持中文。</p>
+<p>高级搜索指令inurl的语法格式为：inurl：xxx（xxx可以为任意字符串）。此命令是查找url中包含xxx的网页。</p>
+<p>如果你是做SEO的，那么inurl：指令对你会很有用，因为你可以快速的找到竞争对手（因为关键词出现在URL中对排名有一定的影响）。</p>
+<p><strong>intitle：返回的是页面title中包含关键词的页面</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-5.jpg" alt="640.webp (5)"></p>
+<p>百度和谷歌都支持intitle。 title是目前页面优化最重要的因素。无论是什么网站，基本都会把关键词放入title中。</p>
+<blockquote>
+<p>详细用法：<a href="http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html</a></p>
+</blockquote>
+<p><strong>filetype：搜索特定文件格式的时候使用。</strong></p>
+<p>例如：filetype:pdf 视频教程，显示的是包含“视频教程”的所有PDF文件。filetype指令可以用来搜索特定的资源，比如PDF电子书、Word文件等。Google和百度都是支持filetype：指令的。</p>
+<blockquote>
+<p>详细用法：<a href="http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html</a></p>
+</blockquote>
+<p><strong>site：这个高级搜索指令用来搜索某个域名下面的所有文件。</strong></p>
+<p>比如搜索“site：<a href="http://www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。">www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。</a></p>
+<p>之前有人用“site:yun.baidu.com ”资源关键词这个搜网盘里面的资源，现在貌似不大顶用了，等下给出替代方案。</p>
+<p>高级搜索指令大全诸位可自行百度，补充一点是，这些指令很多都可以互相搭配使用影响最后的结果。可以有很复杂的组合结果，好消息是有人帮我们封装好做写成了特殊的搜索引擎供我们使用。</p>
+<h3 id="二、特殊搜索引擎"><a href="#二、特殊搜索引擎" class="headerlink" title="二、特殊搜索引擎"></a>二、特殊搜索引擎</h3><blockquote>
+<p>这有个知乎特殊搜索引擎汇总贴：<a href="https://www.zhihu.com/question/20251786" target="_blank" rel="noopener">https://www.zhihu.com/question/20251786</a></p>
+</blockquote>
+<p>大而全的东西意味着杂乱，外行很容易陷入选择困难症一脸茫然。我给大家重点勾勒几个点。</p>
+<p>先顺逻辑：<strong>从学习的角度，我们搜索一个东西最浅显的需求就是了解知道，要想深入消化吸收往往意味着有必要触发资料收集下载这一动作。</strong></p>
+<p>嗯，我就是要教大家怎么下载。<strong>一般的付费教程以及电子书资源，百度网盘的资源丰富度远远超过你想象，不过百度官方并不提供资源检索功能。借助工具就好了，用网盘搜索引擎即可。我公众号的菜单栏内置了一个，大家可以体验一下。</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/webwxgetmsgimg-2-1024x560.png" alt="webwxgetmsgimg (2)"></p>
+<p><strong>理论上，只要挂在网上，就算是付费的视频，文档也能抠下来。某宝上面固然有售，稍稍懂点搜索引擎的功能其实都能省去不少精力，虽然大伙儿都不差钱，哈哈。</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162723-1024x307.png" alt="QQ截图20160220162723"></p>
+<p>百度文库，豆丁等下载：<strong>冰点下载器</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163011-1024x522.png" alt="QQ截图20160220163011"></p>
+<p>YouTube视频下载：<strong>en.savefrom.net</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163153-1024x331.png" alt="QQ截图20160220163153"></p>
+<p>国内视频网站内容下载：<strong>硕鼠</strong></p>
+<p>虎牙直播，斗鱼直播等在线直播视频下载：<strong>屏幕录制软件（CamtasiaStudio），我手上是自己写的软件。</strong></p>
+<p>视频资源：用各种种子搜索引擎就好了。如：<strong>电驴，海盗，死去的btspread，以及不能说的其他站点。等下各位在评论区补充。</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162854.png" alt="QQ截图20160220162854"></p>
+<p>浏览国外资讯什么的，起码要会翻墙吧，建议用付费的vpn，速度有保障，最重要的是下东西飞快。俺用的一款之前叫greenvpn，现在叫绿豆加速器。红杏已挂。</p>
+<p>省略一万种资源获取方式……</p>
+<p>最后放个大招：自行百度<strong>吾爱破解，精易论坛</strong>，对绝大多数人来讲，那将是另外一片天堂。</p>
+<p>各色工具资源站点我收藏夹都躺了几百个，一次抖不完。唠叨一个省事的终极思路——<strong>互联网的基础设施是IT们搭建起来的，其中有五颜六色的暗门，摸熟搜索引擎，就是拥有了打开这些暗门的钥匙。</strong></p>
+<p>至于暗网什么的高级黑，下次八卦，写写我掌握的一些细节。</p>
+<h3 id="三、关键词使用"><a href="#三、关键词使用" class="headerlink" title="三、关键词使用"></a>三、关键词使用</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163514.png" alt="QQ截图20160220163514"></p>
+<p><strong>使用搜索引擎的搜索功能最重要的是知道输入哪个关键词。</strong></p>
+<p>搜索引擎就像一个搬运工，你想让他给你搬运啥东西，你起码得知道自己想要什么。例如你想学英语，你可能就会搜怎么学英语，英语培训教程。这种起码的素养，一般人初次接触搜索引擎就具备。这一阶段一般使用的往往是<strong>泛关键词</strong>。</p>
+<p>学习是个循序渐进的过程，意味着你有深入挖掘细分领域的需求。这就引申出另外一个概念叫<strong>精准关键词（或长尾关键词）</strong>，不过多展开，需要强调的是，大家在使用搜索引擎的时候要有意识地去提炼自己的关键词，从不同的维度去获取你想要的信息。</p>
+<p><strong>举个粗暴栗子，黄片又叫爱情动作片，此外番号，番号封面，女优这些关键词也指向你想要获取的资源，是不是很有趣。</strong></p>
+<p><strong>互联网再繁杂，只要多记对象名词，熟悉事物关键节点，借助搜索引擎就能提纲挈领，手到擒来。到这个当口，才有天下为我所用的掌握感。</strong></p>
+<h3 id="四、搭建网站门类的记忆宫殿"><a href="#四、搭建网站门类的记忆宫殿" class="headerlink" title="四、搭建网站门类的记忆宫殿"></a>四、搭建网站门类的记忆宫殿</h3><p>浸淫互联网许久，俺在说个有意思的点。<strong>导航网站相信大家都很熟悉，像hao123，金山毒霸导航，360导航。</strong></p>
+<p><strong>我想给大伙说的是，这些导航网站的布局一般都别有用心（用来做淘宝客导购，软件注册推广，广告等），而且聚合的站点也很平庸，满足普罗大众日常的消遣尚可，但是想让搜索引擎成为你的大学，就远远不够了。</strong></p>
+<p>你需要搭建属于自己的“网站导航”，在日常接触到的优秀网站，记得在浏览器点一下收藏，分门别类。经年累月的积累，这将是你电脑上最重要的一笔财富。我换电脑或装系统几乎东西不担心丢失，同步下收藏夹就好了。</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/%E6%94%B6%E8%97%8F%E5%A4%B9.png" alt="收藏夹"></p>
+<p>分门别类的收藏夹是你搭建脑海记忆宫殿的基础，最终要达到有搜索需求的时，资源获取手到擒来。</p>
+<blockquote>
+<p>至于怎么管理你的收藏夹，适合你自己的姿势才是最好的，一些管理原则，放个帖子：<a href="https://www.zhihu.com/question/21537488" target="_blank" rel="noopener">https://www.zhihu.com/question/21537488</a></p>
+</blockquote>
+<h3 id="五、网感"><a href="#五、网感" class="headerlink" title="五、网感"></a>五、网感</h3><p>多泡网，见识各色各样的网站样式，在建立起自己的站点记忆宫殿之后，培养自己的网感，懂得各色资源的搭配调取应用。网感是个很大的命题，看似有些务虚，实则用处极大。此处提出这一概念，鉴于篇幅下次阐述。</p>
+<h2 id="资源篇"><a href="#资源篇" class="headerlink" title="资源篇"></a>资源篇</h2><p>从学习获取资源的角度，看上面的东西就够用了。你要对搜索引擎真感兴趣，俺接着给大家推荐几本类似行业圣经的读物。</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155555.png" alt="QQ截图20160220155555"></p>
+<p><strong>SEO艺术</strong></p>
+<p>国外译著，享有盛誉</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155840.png" alt="QQ截图20160220155840"></p>
+<p>《这就是搜索引擎:核心技术详解》</p>
+<p>关于一些技术细节</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155728.png" alt="QQ截图20160220155728"></p>
+<p><strong>《搜》</strong></p>
+<p>搜索引擎的由来，了解历史，偏文化经济层次</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155810.png" alt="QQ截图20160220155810"></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220164806.png" alt="QQ截图20160220164806"></p>
+<p>《SEO深度解析》和《SEO实战密码:60天网站流量提高20倍(第3版)》都是站长SEO操作指南。</p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>搜索引擎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第十届数学竞赛试题完整版</title>
+    <url>/2020/04/27/%E7%AC%AC%E5%8D%81%E5%B1%8A%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B%E8%AF%95%E9%A2%98%E5%AE%8C%E6%95%B4%E7%89%88/</url>
+    <content><![CDATA[<p>文档pdf: <a href="/download/CMC.tex">cmc文档</a></p>
+<p>文档tex: <a href="/download/CMC.pdf">cmc源码</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">\documentclass[11pt,twoside]&#123;ctexart&#125;</span><br><span class="line">\usepackage&#123;CJKnumb&#125;</span><br><span class="line">\usepackage&#123;amsmath,amssymb&#125;</span><br><span class="line">\usepackage&#123;calc&#125;</span><br><span class="line">\usepackage&#123;intcalc&#125;</span><br><span class="line">\usepackage&#123;ifthen&#125;</span><br><span class="line">\usepackage&#123;zref-user&#125;</span><br><span class="line">\usepackage&#123;zref-lastpage&#125;</span><br><span class="line">\usepackage&#123;makecell&#125;</span><br><span class="line">\usepackage&#123;interfaces-makecell&#125;</span><br><span class="line">\usepackage&#123;dashrule&#125;</span><br><span class="line">\usepackage&#123;parskip&#125;</span><br><span class="line">\usepackage[paperwidth&#x3D;195mm,paperheight&#x3D;270mm,left&#x3D;30mm,right&#x3D;25mm,top&#x3D;20mm,bottom&#x3D;20mm,includefoot]&#123;geometry&#125;</span><br><span class="line">\usepackage&#123;enumerate&#125;</span><br><span class="line">\usepackage&#123;fancyhdr&#125;</span><br><span class="line">\usepackage&#123;tcolorbox&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125;</span><br><span class="line">\pagestyle&#123;fancy&#125;</span><br><span class="line"></span><br><span class="line">%用到的长度变量</span><br><span class="line">\newlength&#123;\wot&#125;</span><br><span class="line">\newlength&#123;\wol&#125;</span><br><span class="line">\newlength&#123;\gmw&#125;</span><br><span class="line">\newlength&#123;\dl&#125;</span><br><span class="line"></span><br><span class="line">%长度变量的初始值</span><br><span class="line">\settowidth&#123;\wot&#125;&#123;复核人&#125;</span><br><span class="line">\setlength&#123;\wol&#125;&#123;0.3pt&#125;</span><br><span class="line">\setlength&#123;\gmw&#125;&#123;6em&#125;</span><br><span class="line">\setlength&#123;\dl&#125;&#123;10em&#125;</span><br><span class="line"></span><br><span class="line">%页眉设置开始</span><br><span class="line">\renewcommand&#123;\headrulewidth&#125;&#123;0pt&#125;</span><br><span class="line"></span><br><span class="line">%装订线开始</span><br><span class="line">\fancyheadoffset[OL,ER]&#123;\gmw&#125;</span><br><span class="line">\fancyhead[OL]&#123;</span><br><span class="line">\ifnum\intcalcMod&#123;\value&#123;page&#125;&#125;&#123;4&#125;&#x3D;1</span><br><span class="line">\rotatebox&#123;90&#125;</span><br><span class="line">&#123;\begin&#123;minipage&#125;&#123;1.1\textheight&#125;</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">省市：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125; 学校：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125;  姓名：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125; 准考证号：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125;\\</span><br><span class="line">\tiny \hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;\\[\smallskipamount]</span><br><span class="line">\makebox[0.6\textheight][s]&#123;装订线内不要答题&#125;\\[-3\smallskipamount]</span><br><span class="line">\hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line">\end&#123;minipage&#125; &#125;</span><br><span class="line">\fi</span><br><span class="line">&#125;</span><br><span class="line">\fancyhead[ER]&#123;</span><br><span class="line">\ifnum\intcalcMod&#123;\value&#123;page&#125;&#125;&#123;4&#125;&#x3D;0</span><br><span class="line">\rotatebox&#123;-90&#125;</span><br><span class="line">&#123;\begin&#123;minipage&#125;&#123;1.1\textheight&#125;</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">\tiny \hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;\\[\smallskipamount]</span><br><span class="line">\makebox[0.6\textheight][s]&#123;装订线内不要答题&#125;\\[-3\smallskipamount]</span><br><span class="line">\hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line">\end&#123;minipage&#125; &#125;</span><br><span class="line">\fi</span><br><span class="line">&#125;</span><br><span class="line">%装订线结束</span><br><span class="line">%页眉设置结束</span><br><span class="line"></span><br><span class="line">%页脚设置开始</span><br><span class="line">\renewcommand&#123;\footrulewidth&#125;&#123;\wol&#125;</span><br><span class="line">\fancyfoot[C]&#123;\large&#123;&#123;\xingkai 微信公众号之数学的情怀&#125;\qquad 共\zpageref&#123;LastPage&#125;页\quad 第\thepage 页&#125;&#125;</span><br><span class="line">\newcounter&#123;ns&#125;</span><br><span class="line">\newcounter&#123;ts&#125;</span><br><span class="line">\newcounter&#123;nq&#125;</span><br><span class="line">\newcommand&#123;\wns&#125;&#123;\stepcounter&#123;ns&#125;\CJKnumber&#123;\thens&#125;、&#125;</span><br><span class="line">\newcommand&#123;\wq&#125;&#123;\stepcounter&#123;nq&#125;\thenq.&#125;</span><br><span class="line"></span><br><span class="line">%大题前计分表格</span><br><span class="line">\newcommand&#123;\tbs&#125;&#123;\begin&#123;tabular&#125;&#123;|c|c|c|&#125;\hline \makebox[\wot]&#123;得分&#125;&amp;\makebox[\wot]&#123;评卷人&#125;&amp;\makebox[\wot]&#123;复核人&#125;\\ \hline</span><br><span class="line"> &amp; &amp;\\ \hline\end&#123;tabular&#125;&#125;</span><br><span class="line"></span><br><span class="line">%排版大题前计分表格,序号,题型,大题说明</span><br><span class="line">\newcommand&#123;\ws&#125;[2]&#123;\raisebox&#123;-1ex&#125;&#123;\begin&#123;minipage&#125;[b]&#123;4.6\wot&#125;\tbs\end&#123;minipage&#125;&#125;</span><br><span class="line">\begin&#123;minipage&#125;[t]&#123;\textwidth-6\wot&#125; &#123;\heiti \wns #1 &#125; #2 \end&#123;minipage&#125; &#125;</span><br><span class="line">\makeatletter</span><br><span class="line">\zref@newprop&#123;totalsections&#125;[3]&#123;\arabic&#123;ns&#125;&#125;</span><br><span class="line">\zref@addprop&#123;LastPage&#125;&#123;totalsections&#125;</span><br><span class="line">\AtBeginDocument&#123;</span><br><span class="line">\setcounter&#123;ts&#125;&#123;\zref@extractdefault&#123;LastPage&#125;&#123;totalsections&#125;&#123;3&#125;&#125; &#125;</span><br><span class="line">\makeatother</span><br><span class="line">\linespread&#123;1.618&#125;</span><br><span class="line">\newcommand&#123;\D&#125;&#123;\,\mathrm&#123;d&#125;&#125;</span><br><span class="line">\newcommand&#123;\E&#125;&#123;\mathrm&#123;e&#125;&#125;</span><br><span class="line">\newcommand&#123;\dlim&#125;&#123;\displaystyle \lim &#125;</span><br><span class="line">\newcommand&#123;\dint&#125;&#123;\displaystyle \int &#125;</span><br><span class="line">\newcommand&#123;\sets&#125;[1]&#123;\&#123; #1 \&#125;&#125;</span><br><span class="line"></span><br><span class="line">\setCJKfamilyfont&#123;huawenxingkai&#125;&#123;华文行楷&#125; \newcommand*&#123;\xingkai&#125;&#123;\CJKfamily&#123;huawenxingkai&#125;&#125;%华文行楷</span><br><span class="line">\newcommand&#123;\dis&#125;&#123;\displaystyle&#125;</span><br><span class="line">\newcommand&#123;\Rank&#125;&#123;\mathrm&#123;Rank&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\Sign&#125;&#123;\mathrm&#123;Sign&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\rd&#125;&#123;\mspace&#123;1mu&#125;\mathrm&#123;d&#125;&#125;</span><br><span class="line">\newcommand&#123;\diag&#125;&#123;\mathrm&#123;diag&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\tr&#125;&#123;\mathrm&#123;tr&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\var&#125;&#123;\mathrm&#123;var&#125;&#125;</span><br><span class="line">\renewcommand&#123;\Re&#125;&#123;\operatorname&#123;Re&#125;&#125;</span><br><span class="line">\renewcommand&#123;\Im&#125;&#123;\operatorname&#123;Im&#125;&#125;</span><br><span class="line">\def\sgn&#123;\mathop&#123;\rm sgn&#125;&#125;</span><br><span class="line"></span><br><span class="line">%试卷头开始</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">%试卷标题开始</span><br><span class="line">\begin&#123;center&#125;\vspace&#123;3mm&#125;</span><br><span class="line">      &#123;\xingkai \Large 第十届全国大学生数学竞赛试题&#125;\\[0.8mm]</span><br><span class="line">      &#123; $\left(\text&#123;非数学类, 2018年10月27日&#125;\right)$&#125;\\</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line"></span><br><span class="line">%试卷标题结束</span><br><span class="line"></span><br><span class="line">%输出&quot;绝密&quot;字样</span><br><span class="line">&#123;\vspace&#123;-1.3mm&#125;\heiti 绝密$\bigstar$启用前&#125;\\[-4\bigskipamount]\\[-12mm]</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">\vspace*&#123;2mm&#125;</span><br><span class="line">(16数学$-$胡八一)\\[3mm]</span><br><span class="line"> &#123;考试形式：\underline&#123;~闭卷~&#125;~\hspace&#123;2mm&#125;考试时间：\underline&#123;~~150~~&#125;分钟~\hspace&#123;2mm&#125;满分：~\underline&#123;~~100~~&#125;~分&#125;\\</span><br><span class="line"></span><br><span class="line">%根据大题数目自动生成计分总表</span><br><span class="line">\newcounter&#123;tc&#125;</span><br><span class="line">\newcounter&#123;tcsr&#125;</span><br><span class="line">\setcounter&#123;tc&#125;&#123;\value&#123;ts&#125;+3&#125;</span><br><span class="line">\setcounter&#123;tcsr&#125;&#123;\value&#123;tc&#125;-1&#125;</span><br><span class="line">\arrayrulewidth&#x3D;2\wol </span><br><span class="line"></span><br><span class="line">\vspace*&#123;3.5mm&#125;</span><br><span class="line">\begin&#123;tabular&#125;&#123;|m&#123;3em&#125;&lt;&#123;\centering&#125;|*&#123;11&#125;&#123;m&#123;3.5em&#125;&lt;&#123;\centering&#125;|&#125;&#125;\hline</span><br><span class="line">         题~号 &amp; 一 &amp; 二 &amp; 三  &amp; 四 &amp; 五 &amp;六 &amp;七  &amp;总~~分 \\\hline</span><br><span class="line">         满~分 &amp; 24 &amp; 8 &amp; 14  &amp; 12 &amp; 14  &amp;14 &amp;14 &amp;100    \\\hline</span><br><span class="line">          得~分 &amp;    &amp;   &amp;     &amp;    &amp;     &amp;   &amp;  &amp;\rule&#123;0pt&#125;&#123;8mm&#125; \\\hline</span><br><span class="line">    \end&#123;tabular&#125;</span><br><span class="line">    \\\vspace*&#123;-1.5mm&#125;</span><br><span class="line">    \begin&#123;equation*&#125;</span><br><span class="line">    \begin&#123;aligned&#125;</span><br><span class="line">    \mbox&#123;注意：&#125;</span><br><span class="line">    &amp;1.\,\mbox&#123;所有答题都须写在试卷密封线右边,写在其他纸上一律无效&#125;.\hspace&#123;12.0cm&#125;\\</span><br><span class="line">    &amp;2.\,\mbox&#123;密封线左边请勿答题,密封线外不得有姓名及相关标记&#125;.\\</span><br><span class="line">    &amp;3.\,\mbox&#123;如答题空白不够,可写在当页背面,并标明题号&#125;.\\[-2mm]</span><br><span class="line">    \end&#123;aligned&#125;</span><br><span class="line">    \end&#123;equation*&#125;    </span><br><span class="line">\end&#123;center&#125;</span><br><span class="line"></span><br><span class="line">%试卷头结束</span><br><span class="line"></span><br><span class="line">\addvspace&#123;1\bigskipamount&#125;</span><br><span class="line"></span><br><span class="line">\ws&#123;\xingkai 填空题&#125;&#123;(\xingkai 本题满分24分，每题6分)\\&#125;\\\\</span><br><span class="line">\wq 设 $\alpha\in\left(0,1\right),\textrm&#123;则&#125;\displaystyle \lim_&#123;n\rightarrow +\infty&#125;\left(\left(n+1\right)^&#123;\alpha&#125;-n^&#123;\alpha&#125;\right)&#x3D;$\underline&#123;0&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\textrm&#123;若曲线&#125;y&#x3D;f\left(x\right)\textrm&#123;是由&#125;\left\&#123;\begin&#123;array&#125;&#123;l&#125;</span><br><span class="line">x&#x3D;t+\cos t\\</span><br><span class="line">e^y+ty+\sin t&#x3D;1\\</span><br><span class="line">\end&#123;array&#125;\right.\textrm&#123;确定，则此曲线在&#125;t&#x3D;0$ 对应点处的\\</span><br><span class="line">切线方程为\underline&#123;$y&#x3D;1-x$&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\displaystyle \int&#123;\displaystyle\frac&#123;\ln\left(1+\sqrt&#123;1+x^2&#125;\right)&#125;&#123;\left(1+x^2\right)^&#123;\frac&#123;3&#125;&#123;2&#125;&#125;&#125;&#125;dx&#x3D;$\underline&#123;$\displaystyle \frac&#123;x&#125;&#123;\sqrt&#123;1+x^2&#125;&#125;\ln\left(x+\sqrt&#123;1+x^2&#125;\right)-\displaystyle \frac&#123;1&#125;&#123;2&#125;\ln\left(1+x^2\right)+C</span><br><span class="line">    $&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\displaystyle\lim_&#123;x\rightarrow 0&#125;\displaystyle\frac&#123;1-\cos x\sqrt&#123;\cos 2x&#125;\sqrt[3]&#123;\cos 3x&#125;&#125;&#123;x^2&#125;&#x3D;$\underline&#123;3&#125;.\\</span><br><span class="line">\newpage</span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分8分)\\&#125;\\\\</span><br><span class="line">设函数$f(t)$在$t\ne 0$时一阶连续可导，且$f(1)&#x3D;0$，求函数$f(x^2-y^2)$，使得曲线积分$\displaystyle \int_L&#123;y\left(2-f\left(x^2-y^2\right)\right)&#125;dx+xf\left(x^2-y^2\right)dy$</span><br><span class="line">与路径无关，其中$L$为任一不与直线$y&#x3D;\pm x$相交的分段光滑闭曲线.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">设$f(x)$在区间$[0,1]$上连续，且$1\leqslant f\left(x\right)\leqslant 3$.证明：</span><br><span class="line">$$0\leqslant\int_0^1&#123;f\left(x\right)dx\int_0^1&#123;\frac&#123;1&#125;&#123;f\left(x\right)&#125;dx\leqslant\frac&#123;4&#125;&#123;3&#125;&#125;&#125;$$</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分12分)\\&#125;\\\\</span><br><span class="line">计算三重积分$\displaystyle\iiint\limits_&#123;\left(V\right)&#125;&#123;\left(x^2+y^2\right)&#125;dV$，其中$(V)$是由$x^2+y^2+\left(z-2\right)^2\geqslant 4$，$x^2+y^2+\left(z-1\right)^2\leqslant9$及$z\geqslant 0$所围成的空间图形.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">设$f(x,y)$在区域D内可微，且$\sqrt&#123;\left(\displaystyle\frac&#123;\partial f&#125;&#123;\partial x&#125;\right)^2+\left(\displaystyle\frac&#123;\partial f&#125;&#123;\partial y&#125;\right)^2&#125;\leqslant M$，$A\left(x_1,y_1\right),B\left(x_2,y_2\right)$是D内两点，线段AB包含在D内，证明：$f(x_1,y_1)-f(x_2,y_2)|\leqslant M|AB|$</span><br><span class="line"></span><br><span class="line">其中$|AB|$表示线段$AB$的长度.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">证明：对于连续函数$f(x)&gt;0$，有$\ln\int_0^1&#123;f\left(x\right)dx\geqslant\int_0^1&#123;\ln f\left(x\right)dx&#125;&#125;$</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">已知$&#123;a_k&#125;$，$&#123;b_k&#125;$是正数数列，且$b_&#123;k+1&#125;-b_k\geqslant\delta &gt;0,k&#x3D;1,2,\cdots $，$\delta$为一切常数，证明：若级数$\displaystyle\sum_&#123;k&#x3D;1&#125;^&#123;+\infty&#125;&#123;a_k&#125;$收敛，则级数$\displaystyle\sum_&#123;k&#x3D;1&#125;^&#123;+\infty&#125;&#123;\displaystyle\frac&#123;k\sqrt[k]&#123;\left(a_1a_2\cdots a_k\right)\left(b_1b_2\cdots b_k\right)&#125;&#125;&#123;b_&#123;k+1&#125;b_k&#125;&#125;$收敛.</span><br><span class="line"></span><br><span class="line">\mbox&#123;&#125;</span><br><span class="line">%试卷正文结束</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>文件分享</category>
+      </categories>
+      <tags>
+        <tag>latex 数学竞赛</tag>
       </tags>
   </entry>
   <entry>
