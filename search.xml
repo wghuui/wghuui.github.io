@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Tex Live下载及安装说明</title>
+    <url>/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</url>
+    <content><![CDATA[<h2 id="关于-CTeX"><a href="#关于-CTeX" class="headerlink" title="关于 CTeX"></a>关于 CTeX</h2><h3 id="CTeX-套装"><a href="#CTeX-套装" class="headerlink" title="CTeX 套装"></a>CTeX 套装</h3><p>CTeX 套装是科学院吴凌云研究员的个人作品。在 CTeX 套装刚刚问世之时，因其解决了繁琐的中文字体安装工作，所以广受欢迎。但是，一方面 CTeX 套装已经很久不更新，内里的宏包、工具陈旧；另一方面，随着 XeLaTeX 的发展，以及 xeCJK 等技术的成熟，上述这些繁琐的工作已经没有必要而失去意义；因此，现在不推荐使用 CTeX 套装。</p>
+<blockquote>
+<p>不要安装和使用 CTeX 套装！</p>
+</blockquote>
+<h3 id="CTeX-宏集"><a href="#CTeX-宏集" class="headerlink" title="CTeX 宏集"></a>CTeX 宏集</h3><p>虽然它的名字也是「CTeX」，但是 CTeX 宏集和 CTeX 套装是两个不同的东西。CTeX 宏集是集成了中文支持、操作系统判定、字体选择、版式预设为一体的一组宏包和文档类的合集。我们推荐在任何情况下，优先使用 CTeX 宏集处理中文。</p>
+<blockquote>
+<p>请在任何情况下优先使用 CTeX 宏集在 LaTeX 中处理中文！</p>
+</blockquote>
+<h2 id="关于-TeX-Live"><a href="#关于-TeX-Live" class="headerlink" title="关于 TeX Live"></a>关于 TeX Live</h2><p>TeX Live 是 TUG (TeX User Group) 维护和发布的 TeX 系统，可说是「官方」的 TeX 系统。我们推荐任何阶段的 TeX 用户，都尽可能使用 TeX Live，以保持在跨操作系统平台、跨用户的一致性。TeX Live 的官方站点是 <a href="https://tug.org/texlive/。" target="_blank" rel="noopener">https://tug.org/texlive/。</a></p>
+<h3 id="Mac-用户"><a href="#Mac-用户" class="headerlink" title="Mac 用户"></a>Mac 用户</h3><p>TeX Live 在 macOS/OS X 上的名字是 MacTeX，它的官方站点是 <a href="https://tug.org/mactex。你可以在这里下载" target="_blank" rel="noopener">https://tug.org/mactex。你可以在这里下载</a> MacTeX 的安装器，而后安装 MacTeX。</p>
+<ul>
+<li><a href="http://tug.org/cgi-bin/mactex-download/MacTeX.pkg" target="_blank" rel="noopener">http://tug.org/cgi-bin/mactex-download/MacTeX.pkg</a></li>
+</ul>
+<p>如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
+<ul>
+<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+</ul>
+<h3 id="Windows-和-nix-用户"><a href="#Windows-和-nix-用户" class="headerlink" title="Windows 和 *nix 用户"></a>Windows 和 *nix 用户</h3><p>TeX Live 的当前版本是 2020，你可以从官方站点下载它们的安装包。点击下列链接，将会「自动选择」距离你最近的镜像下载。</p>
+<ul>
+<li><a href="http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso</a></li>
+</ul>
+<p>——当然，这个自动选择可能不太靠谱。如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
+<ul>
+<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
+<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
+<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
+</ul>
+<p>你需要使用<a href="http://wincdemu.sysprogs.org/download/" target="_blank" rel="noopener">虚拟光驱软件</a>（对于 Windows 8 及更高版本的微软用户，可以直接加载），加载下载得到的光盘镜像。而后，执行安装脚本，将 TeX Live 安装在你的系统中。</p>
+<ul>
+<li>Windows 用户右键单击 <code>install-tl-advanced.bat</code>，以管理员权限执行；</li>
+<li>*nix 用户执行 <code>install-tl</code>。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>外交部:中方向世卫组织增加现汇捐款3000万美元</title>
+    <url>/2020/04/24/2/</url>
+    <content><![CDATA[<p><img src="http://world.people.com.cn/NMediaFile/2020/0423/MAIN202004232124000002174182244.jpg" alt=""></p>
+<p>人民网北京4月23日电 据外交部网站消息，外交部发言人耿爽主持今日例行记者会。记者会实录如下：</p>
+<p>耿爽：中方决定在前期向世卫组织捐款2000万美元现汇基础上，增加3000万美元现汇捐款，用于新冠肺炎疫情防控、支持发展中国家卫生体系建设等工作。</p>
+<p>新冠肺炎疫情发生以来，世卫组织在谭德塞总干事领导下，积极履行自身职责，秉持客观、公正、科学的立场，为协助各国应对疫情、推动国际抗疫合作发挥了重要作用。</p>
+<p>在全球抗击疫情的关键时刻，支持世卫组织就是捍卫多边主义的理念和原则，维护联合国的地位和权威。病毒是人类的共同敌人，国际社会只有团结协作，才能战而胜之。</p>
+<p>中方向世卫组织捐款体现了中国政府和人民对世卫组织的支持和信任，也为世界公共卫生事业和全球抗击疫情作出自己的贡献。中方愿同各方一道，同舟共济，守望相助，为抗击新冠肺炎疫情、维护地区和国际公共卫生安全、构建人类命运共同体贡献力量。</p>
+<p><strong>中央电视台记者：4月22日，俄罗斯总统新闻秘书佩斯科夫表示，中俄两国在抗击疫情方面密切协作，两国领导人在通电话时确认了加强双方抗疫合作的政治意愿。国际社会上所有关于病毒人工起源的说法都毫无根据。在没有足够科学依据的前提下，对任何国家进行指责都是不可接受的。中方对此有何评论？</strong></p>
+<p>耿爽：我们已经注意到俄方表态。</p>
+<p>中俄互为最大邻国和新时代全面战略协作伙伴。两国本着高度互信、守望相助的精神，在抗击疫情过程中相互给予坚定支持。习近平主席和普京总统一个月内两次通话，为双方抗疫合作注入强劲动力。双方将按照两国元首达成的共识，加大相互支持，保持密切合作，携手应对疫情。</p>
+<p>俄方在病毒源头问题上秉持客观公正、科学理性的立场。我们对此表示赞赏。病毒源头问题是一个科学问题，应当交由科学家和医学专家去研究。这是国际社会的普遍共识。任何政治化病毒源头、企图“甩锅”别国的行为都不可接受。国际社会应当基于人类命运共同体的理念，和衷共济，精诚合作，共同维护世界的公共卫生安全。</p>
+<p><strong>凤凰卫视记者：美国国务卿蓬佩奥日前在记者会上称，中国正利用全世界关注疫情大流行的时机，继续推进挑衅行为，包括侵蚀香港自治权、对台湾施加军事压力并胁迫南海邻国。中方对此有何评论？</strong></p>
+<p>耿爽：我要强调的是，无论何时何地，中方都将坚定地捍卫自身主权、安全、发展利益。</p>
+<p>台湾、香港事务纯属中国内政，不容任何外部势力干涉。中方对南海诸岛及其附近海域拥有主权具有充分的历史和法理依据，同时我们也坚持通过对话协商同有关直接当事方解决分歧。</p>
+<p>美方个别人在这些问题上颠倒黑白、挑拨离间，这种图谋不会得逞。</p>
+<p><strong>法新社记者：据报道，美国国务卿蓬佩奥向中方施压，要求对中方敏感实验室进行调查。请问中方对此有何评论？</strong></p>
+<p>耿爽：近来我们已经多次回答过类似问题。明眼人都看得很清楚，美国一些政客一再散布诋毁抹黑中方防控工作的不实言论，目的就是要把水搅浑，推卸自身防控不力的责任。事实胜于雄辩，中方的防控工作始终是公开、透明、负责任的，中方的行动是迅速、及时、高效的。</p>
+<p>美国政客把精力用在到处“甩锅”、推卸责任上，这无助于缓解美国国内疫情，也无助于抗疫国际合作。</p>
+<p><strong>《北京青年报》记者：《华盛顿邮报》等媒体近日发表多篇报道称，自今年1月以来，美疾控中心多位官员和卫生专家一直向美国政府实时传输新冠肺炎疫情消息，但美国政府忽视了警告，现在又说美方不了解真实情况，企图逃避责任。中方对此有何评论？</strong></p>
+<p>耿爽：我也看到了有关报道。对于美国政府内部的事情我不作评论。但中国有一句名言：群众的眼睛是雪亮的。</p>
+<p><strong>《北京日报》记者：据报道，美国密西西比州检察长22日表示，该州将对中国政府提起诉讼，要求中方为新冠肺炎疫情影响承担责任、赔偿损失。你如何看待美方这种“甩锅”行为？</strong></p>
+<p>耿爽：中方已就有关滥诉行为表明立场。</p>
+<p>这里我想重申，向中国“甩锅”、推责解决不了美国自身存在的问题，对中国搞滥诉也不可能得逞。</p>
+<p><strong>深圳卫视记者：据美国《洛杉矶时报》等媒体报道，美加利福尼亚州圣克拉拉县当地卫生官员21日公布的尸检报告显示，美最早一例新冠肺炎死亡病例于今年2月6日出现，比美疾控中心此前确认的首例死亡病例时间提早了近1个月。美医学专家认为，该病例没有国际旅行史，表明新冠病毒很可能早在1月中旬即在美社区传播。媒体批评美政府早期对病毒检测设置了许多限制条件，检测能力不足，导致一些疑似病例未得到有效检测，仅被当作流感或普通肺炎看待。中方对此有何评论？</strong></p>
+<p>耿爽：我注意到有关报道。这一新的医学发现再次证明，新冠病毒的来源确实是个复杂的科学问题，应交给科学家和医学专家去研究。</p>
+<p><strong>香港中评社记者：美国国务卿蓬佩奥22日发表纪念地球日50周年讲话，提及“野生动物湿货市场”易造成疾病滋生和传播，可能是导致新冠肺炎疫情传播的重要因素，呼吁中国等国家永久关闭“野生动物湿货市场”，以减少对人类健康的威胁。中方对此有何评论？</strong></p>
+<p>耿爽：首先我要指出，在中国根本不存在所谓的“野生动物湿货市场”。</p>
+<p>事实上，在中国没有“湿货市场”这个概念，人们常说的是农贸市场和活禽海鲜市场。这类市场销售新鲜的鱼、肉、蔬菜、海鲜等农副产品，也有少数市场销售活禽。这类市场不仅中国有，在许多东南亚国家和广大的发展中国家也都普遍存在，与当地百姓的生活息息相关。国际法并未对开设和运营此类市场有过限制。</p>
+<p>中国已经立法全面禁止非法野生动物的猎捕、交易、运输和食用。中国的农贸市场和活禽海鲜市场并不是野生动物交易市场。在中国农贸市场和活禽海鲜市场销售野生动物是违法的，一旦发现将被取缔并受到法律惩处。</p>
+<p>中国政府始终将人民的生命安全和身体健康放在第一位。新冠肺炎疫情发生后，中国有关部门和地方政府进一步加强对农贸市场和活禽海鲜市场的管理，实施一系列严格的检疫检测，确保各项动物疫病防控措施落实到位。</p>
+<p><strong>澎湃新闻记者：据报道，近日澳大利亚总理称支持就新冠肺炎疫情早期应对情况开展独立调查，并游说法国、德国、新西兰等国家领导人支持相关调查。22日，澳外长佩恩发表署名文章称澳将在国际调查中发挥领导作用。中方对此有何评论？</strong></p>
+<p>耿爽：我看到了有关报道，如果报道属实，那只能说澳大利亚方面提议的所谓“独立调查”实际上是在搞政治操弄，干扰国际疫情防控合作，不得人心。</p>
+<p>当前，疫情在全球扩散蔓延，当务之急是聚焦各国人民的生命健康、共同抗击疫情。在这样的紧要关头，出于政治目的无端质疑、横加指责极其不负责任。</p>
+<p>我们奉劝澳大利亚方面放下意识形态偏见和政治操弄，真正聚焦澳大利亚人民的福祉和世界各国人民的公共卫生安全，顺应国际社会的合作意愿，为抗击疫情国际合作多作建设性贡献，而不是相反。</p>
+<p><strong>印度报业托拉斯记者：你刚才宣布中方向世卫组织增加3000万美元现汇捐款，如果我没记错，中方此前向世卫组织提供了2000万美元现汇捐款，用以应对疫情。增加的这3000万美元也是用于应对疫情吗？还是作会费用途？中方2019年向世卫组织缴纳的会费是多少？</strong></p>
+<p>耿爽：刚才我宣布的中方向世卫组织新增加的3000万美元现汇捐款，目的是用于新冠肺炎疫情防控、支持发展中国家卫生体系建设。这与中方缴纳的会费是两码事。</p>
+<p>至于2019年中方向世卫组织缴纳的会费，我现在不掌握具体数字，可以会后帮你查一下。</p>
+<p><strong>今日俄罗斯记者：据报道，22日，俄罗斯总统新闻秘书佩斯科夫称，联合国安理会五常峰会可能将以视频形式在未来几天举行。消息人士称，峰会日期可能是明天。中方能否证实？将于此次峰会上提及什么议题？</strong></p>
+<p>耿爽：当前新冠肺炎疫情正在全球扩散蔓延，只有加强国际团结与合作，才能战而胜之。中方对所有有利于国际合作抗击疫情的倡议都持积极态度。我们认为要举行五常峰会，就应当发出团结一致，支持全球抗疫合作的明确信号。我们愿就此同有关各方保持沟通。</p>
+<p><strong>新华社记者：据了解，22日，澳大利亚新南威尔士州瓦加瓦加市议会通过决议，决定撤销此前终止该市与中国云南省昆明市的友好城市关系的决定，瓦加瓦加市长将向昆明市长致道歉信。中方对此有何评论？</strong></p>
+<p>耿爽：中方对澳大利亚新南威尔士州瓦加瓦加市作出正确决定表示欢迎和赞赏。</p>
+<p>昆明市和瓦加瓦加市自1988年建立友城关系以来，双方开展友好交流和务实合作，取得丰硕成果，两地友好深入人心。</p>
+<p>中国人民珍视同澳大利亚人民的友谊。事实再次证明，澳大利亚国内少数人试图攻击抹黑中国、破坏中澳友好的行径不得人心，也绝不会得逞。</p>
+<p><strong>《澳大利亚人报》记者：包括澳大利亚公民在内的、持有中国居留许可的外国公民，比如我的妻子，她现在在堪培拉，什么时候可以回到中国？何时会解除对他们回到中国的旅行限制？</strong></p>
+<p>耿爽：目前，疫情正在全球扩散蔓延，包括中国在内的很多国家都对旅行和出入境采取了一些限制措施。这些措施会根据疫情的发展进行调整，所以我现在没法给你一个准确的答复。事实上，疫情暴发以来，包括中国在内很多国家的限制措施一直处于变化之中，这取决于疫情防控的进展。</p>
+<p>当务之急还是应该团结合作，共同战胜疫情，推动中国以及世界各地的生产生活早日恢复正常。</p>
+<p><strong>印度报业托拉斯记者：你刚才说，包括中国在内的很多国家都对旅行和出入境采取了一些限制措施。这些措施会根据疫情的发展进行调整。那么中国是否会视不同国家的情况，在解除对持有中国居留许可的外国公民旅行限制的问题上而作出不同安排？</strong></p>
+<p>耿爽：关于这个问题，我现在没法给你一个明确的回答，因为每个国家的情况都不一样。但我可以肯定告诉你的是，正如我刚才回答澳大利亚记者的一样，我们的有关措施会根据疫情的发展作出调整。</p>
+<p>当务之急是世界各国团结协作，共同战胜疫情。</p>
+<p><strong>《澳大利亚人报》记者：中国如考虑解除对持有中国居留许可的外国公民旅行限制，是取决于外国比如澳大利亚应对疫情的情况，还是中国同澳大利亚或者其他国家的双边关系?</strong></p>
+<p>耿爽：疫情暴发以来，中方出台的政策或采取的措施，出发点都是维护中国公民以及其他国家公民的生命安全和身体健康。这是我们唯一的目的。 </p>
+]]></content>
+      <categories>
+        <category>新闻</category>
+      </categories>
+      <tags>
+        <tag>外交部例行记者会</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>借疫情污名化中国，于法不容</title>
     <url>/2020/04/24/1/</url>
     <content><![CDATA[<p>​         当下，新冠肺炎疫情正在全球大流行。面对百年不遇之世界公共卫生危机，各国本应守望相助，合作应对，但美国一些反华政客接连抛出针对中国的荒谬论调，企图将新冠肺炎疫情政治化、污名化。近来，其他一些国家个别政客和媒体也随美起舞，推波助澜，更有甚者，有人开始炮制针对中国的“索赔诉讼”，还有非政府组织向联合国人权理事会提出所谓的“病毒战”申诉，这场由美国蓄意挑起的针对中国的舆论战、外交战，大有向法律领域蔓延之势。笔者作为长期从事国际法研究的专业人士，觉得有必要从法律角度大声疾呼：借新冠肺炎疫情污名化中国，于法不容。</p>
@@ -31,6 +143,26 @@
       </categories>
       <tags>
         <tag>新冠肺炎</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Google使用教程</title>
+    <url>/2020/04/26/google/</url>
+    <content><![CDATA[<p>   Google Chrome  是一款由<a href="https://baike.baidu.com/item/Google" target="_blank" rel="noopener">Google</a>公司开发的网页浏览器，该浏览器基于其他<a href="https://baike.baidu.com/item/开源软件/8105369" target="_blank" rel="noopener">开源软件</a>撰写，包括<a href="https://baike.baidu.com/item/WebKit" target="_blank" rel="noopener">WebKit</a>，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面。Google搜索引擎做的很好，谷歌学术更是科研工作者的必备工具。但是由于个别原因，这些服务在大陆地区无法使用，下面介绍一下使用方法。</p>
+<h2 id="谷歌访问助手使用教程"><a href="#谷歌访问助手使用教程" class="headerlink" title="谷歌访问助手使用教程"></a>谷歌访问助手使用教程</h2><ol>
+<li>首先先下载一个Google浏览器，这是<a href="https://www.google.com/intl/zh-CN/chrome/" target="_blank" rel="noopener">下载地址</a>，当然了<a href="https://www.centbrowser.cn/" target="_blank" rel="noopener">百分浏览器</a>也很好用，百分浏览器也是基于最新的Chromium开源内核进行优化开发，充分继承其高速安全的特性。谷歌浏览器是全世界使用人数最多的浏览器，其可玩性较高，界面也较为简洁。</li>
+<li>下载<a href="http://googlehelper.net/" target="_blank" rel="noopener">谷歌上网助手Ghelper</a>，这是谷歌的一个插件，下载解压。</li>
+<li>点击浏览器右上方三个点 <img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/0.png" style="zoom:50%;" />，点击更多工具-扩展程序<img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/1.png" style="zoom:50%;" /></li>
+<li>打开开发者模式，加载已解压的扩展程序，找到刚刚解压的插件，点击确定即可，关闭开发者模式。</li>
+<li>在浏览器右上方有个谷歌上网助手的标识 <img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/2.png" alt="">，右键单击，选项。</li>
+<li>注册邮箱，然后即可使用，（注：这是透明代理，ip地址为所使用的国内运营商地址。）</li>
+</ol>
+<h2 id="附件：下载地址谷歌上网助手Ghelper"><a href="#附件：下载地址谷歌上网助手Ghelper" class="headerlink" title="附件：下载地址谷歌上网助手Ghelper"></a>附件：下载地址<a href="http://googlehelper.net/" target="_blank" rel="noopener">谷歌上网助手Ghelper</a></h2>]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>科学上网</tag>
       </tags>
   </entry>
   <entry>
@@ -175,332 +307,109 @@
       </tags>
   </entry>
   <entry>
-    <title>外交部:中方向世卫组织增加现汇捐款3000万美元</title>
-    <url>/2020/04/24/2/</url>
-    <content><![CDATA[<p><img src="http://world.people.com.cn/NMediaFile/2020/0423/MAIN202004232124000002174182244.jpg" alt=""></p>
-<p>人民网北京4月23日电 据外交部网站消息，外交部发言人耿爽主持今日例行记者会。记者会实录如下：</p>
-<p>耿爽：中方决定在前期向世卫组织捐款2000万美元现汇基础上，增加3000万美元现汇捐款，用于新冠肺炎疫情防控、支持发展中国家卫生体系建设等工作。</p>
-<p>新冠肺炎疫情发生以来，世卫组织在谭德塞总干事领导下，积极履行自身职责，秉持客观、公正、科学的立场，为协助各国应对疫情、推动国际抗疫合作发挥了重要作用。</p>
-<p>在全球抗击疫情的关键时刻，支持世卫组织就是捍卫多边主义的理念和原则，维护联合国的地位和权威。病毒是人类的共同敌人，国际社会只有团结协作，才能战而胜之。</p>
-<p>中方向世卫组织捐款体现了中国政府和人民对世卫组织的支持和信任，也为世界公共卫生事业和全球抗击疫情作出自己的贡献。中方愿同各方一道，同舟共济，守望相助，为抗击新冠肺炎疫情、维护地区和国际公共卫生安全、构建人类命运共同体贡献力量。</p>
-<p><strong>中央电视台记者：4月22日，俄罗斯总统新闻秘书佩斯科夫表示，中俄两国在抗击疫情方面密切协作，两国领导人在通电话时确认了加强双方抗疫合作的政治意愿。国际社会上所有关于病毒人工起源的说法都毫无根据。在没有足够科学依据的前提下，对任何国家进行指责都是不可接受的。中方对此有何评论？</strong></p>
-<p>耿爽：我们已经注意到俄方表态。</p>
-<p>中俄互为最大邻国和新时代全面战略协作伙伴。两国本着高度互信、守望相助的精神，在抗击疫情过程中相互给予坚定支持。习近平主席和普京总统一个月内两次通话，为双方抗疫合作注入强劲动力。双方将按照两国元首达成的共识，加大相互支持，保持密切合作，携手应对疫情。</p>
-<p>俄方在病毒源头问题上秉持客观公正、科学理性的立场。我们对此表示赞赏。病毒源头问题是一个科学问题，应当交由科学家和医学专家去研究。这是国际社会的普遍共识。任何政治化病毒源头、企图“甩锅”别国的行为都不可接受。国际社会应当基于人类命运共同体的理念，和衷共济，精诚合作，共同维护世界的公共卫生安全。</p>
-<p><strong>凤凰卫视记者：美国国务卿蓬佩奥日前在记者会上称，中国正利用全世界关注疫情大流行的时机，继续推进挑衅行为，包括侵蚀香港自治权、对台湾施加军事压力并胁迫南海邻国。中方对此有何评论？</strong></p>
-<p>耿爽：我要强调的是，无论何时何地，中方都将坚定地捍卫自身主权、安全、发展利益。</p>
-<p>台湾、香港事务纯属中国内政，不容任何外部势力干涉。中方对南海诸岛及其附近海域拥有主权具有充分的历史和法理依据，同时我们也坚持通过对话协商同有关直接当事方解决分歧。</p>
-<p>美方个别人在这些问题上颠倒黑白、挑拨离间，这种图谋不会得逞。</p>
-<p><strong>法新社记者：据报道，美国国务卿蓬佩奥向中方施压，要求对中方敏感实验室进行调查。请问中方对此有何评论？</strong></p>
-<p>耿爽：近来我们已经多次回答过类似问题。明眼人都看得很清楚，美国一些政客一再散布诋毁抹黑中方防控工作的不实言论，目的就是要把水搅浑，推卸自身防控不力的责任。事实胜于雄辩，中方的防控工作始终是公开、透明、负责任的，中方的行动是迅速、及时、高效的。</p>
-<p>美国政客把精力用在到处“甩锅”、推卸责任上，这无助于缓解美国国内疫情，也无助于抗疫国际合作。</p>
-<p><strong>《北京青年报》记者：《华盛顿邮报》等媒体近日发表多篇报道称，自今年1月以来，美疾控中心多位官员和卫生专家一直向美国政府实时传输新冠肺炎疫情消息，但美国政府忽视了警告，现在又说美方不了解真实情况，企图逃避责任。中方对此有何评论？</strong></p>
-<p>耿爽：我也看到了有关报道。对于美国政府内部的事情我不作评论。但中国有一句名言：群众的眼睛是雪亮的。</p>
-<p><strong>《北京日报》记者：据报道，美国密西西比州检察长22日表示，该州将对中国政府提起诉讼，要求中方为新冠肺炎疫情影响承担责任、赔偿损失。你如何看待美方这种“甩锅”行为？</strong></p>
-<p>耿爽：中方已就有关滥诉行为表明立场。</p>
-<p>这里我想重申，向中国“甩锅”、推责解决不了美国自身存在的问题，对中国搞滥诉也不可能得逞。</p>
-<p><strong>深圳卫视记者：据美国《洛杉矶时报》等媒体报道，美加利福尼亚州圣克拉拉县当地卫生官员21日公布的尸检报告显示，美最早一例新冠肺炎死亡病例于今年2月6日出现，比美疾控中心此前确认的首例死亡病例时间提早了近1个月。美医学专家认为，该病例没有国际旅行史，表明新冠病毒很可能早在1月中旬即在美社区传播。媒体批评美政府早期对病毒检测设置了许多限制条件，检测能力不足，导致一些疑似病例未得到有效检测，仅被当作流感或普通肺炎看待。中方对此有何评论？</strong></p>
-<p>耿爽：我注意到有关报道。这一新的医学发现再次证明，新冠病毒的来源确实是个复杂的科学问题，应交给科学家和医学专家去研究。</p>
-<p><strong>香港中评社记者：美国国务卿蓬佩奥22日发表纪念地球日50周年讲话，提及“野生动物湿货市场”易造成疾病滋生和传播，可能是导致新冠肺炎疫情传播的重要因素，呼吁中国等国家永久关闭“野生动物湿货市场”，以减少对人类健康的威胁。中方对此有何评论？</strong></p>
-<p>耿爽：首先我要指出，在中国根本不存在所谓的“野生动物湿货市场”。</p>
-<p>事实上，在中国没有“湿货市场”这个概念，人们常说的是农贸市场和活禽海鲜市场。这类市场销售新鲜的鱼、肉、蔬菜、海鲜等农副产品，也有少数市场销售活禽。这类市场不仅中国有，在许多东南亚国家和广大的发展中国家也都普遍存在，与当地百姓的生活息息相关。国际法并未对开设和运营此类市场有过限制。</p>
-<p>中国已经立法全面禁止非法野生动物的猎捕、交易、运输和食用。中国的农贸市场和活禽海鲜市场并不是野生动物交易市场。在中国农贸市场和活禽海鲜市场销售野生动物是违法的，一旦发现将被取缔并受到法律惩处。</p>
-<p>中国政府始终将人民的生命安全和身体健康放在第一位。新冠肺炎疫情发生后，中国有关部门和地方政府进一步加强对农贸市场和活禽海鲜市场的管理，实施一系列严格的检疫检测，确保各项动物疫病防控措施落实到位。</p>
-<p><strong>澎湃新闻记者：据报道，近日澳大利亚总理称支持就新冠肺炎疫情早期应对情况开展独立调查，并游说法国、德国、新西兰等国家领导人支持相关调查。22日，澳外长佩恩发表署名文章称澳将在国际调查中发挥领导作用。中方对此有何评论？</strong></p>
-<p>耿爽：我看到了有关报道，如果报道属实，那只能说澳大利亚方面提议的所谓“独立调查”实际上是在搞政治操弄，干扰国际疫情防控合作，不得人心。</p>
-<p>当前，疫情在全球扩散蔓延，当务之急是聚焦各国人民的生命健康、共同抗击疫情。在这样的紧要关头，出于政治目的无端质疑、横加指责极其不负责任。</p>
-<p>我们奉劝澳大利亚方面放下意识形态偏见和政治操弄，真正聚焦澳大利亚人民的福祉和世界各国人民的公共卫生安全，顺应国际社会的合作意愿，为抗击疫情国际合作多作建设性贡献，而不是相反。</p>
-<p><strong>印度报业托拉斯记者：你刚才宣布中方向世卫组织增加3000万美元现汇捐款，如果我没记错，中方此前向世卫组织提供了2000万美元现汇捐款，用以应对疫情。增加的这3000万美元也是用于应对疫情吗？还是作会费用途？中方2019年向世卫组织缴纳的会费是多少？</strong></p>
-<p>耿爽：刚才我宣布的中方向世卫组织新增加的3000万美元现汇捐款，目的是用于新冠肺炎疫情防控、支持发展中国家卫生体系建设。这与中方缴纳的会费是两码事。</p>
-<p>至于2019年中方向世卫组织缴纳的会费，我现在不掌握具体数字，可以会后帮你查一下。</p>
-<p><strong>今日俄罗斯记者：据报道，22日，俄罗斯总统新闻秘书佩斯科夫称，联合国安理会五常峰会可能将以视频形式在未来几天举行。消息人士称，峰会日期可能是明天。中方能否证实？将于此次峰会上提及什么议题？</strong></p>
-<p>耿爽：当前新冠肺炎疫情正在全球扩散蔓延，只有加强国际团结与合作，才能战而胜之。中方对所有有利于国际合作抗击疫情的倡议都持积极态度。我们认为要举行五常峰会，就应当发出团结一致，支持全球抗疫合作的明确信号。我们愿就此同有关各方保持沟通。</p>
-<p><strong>新华社记者：据了解，22日，澳大利亚新南威尔士州瓦加瓦加市议会通过决议，决定撤销此前终止该市与中国云南省昆明市的友好城市关系的决定，瓦加瓦加市长将向昆明市长致道歉信。中方对此有何评论？</strong></p>
-<p>耿爽：中方对澳大利亚新南威尔士州瓦加瓦加市作出正确决定表示欢迎和赞赏。</p>
-<p>昆明市和瓦加瓦加市自1988年建立友城关系以来，双方开展友好交流和务实合作，取得丰硕成果，两地友好深入人心。</p>
-<p>中国人民珍视同澳大利亚人民的友谊。事实再次证明，澳大利亚国内少数人试图攻击抹黑中国、破坏中澳友好的行径不得人心，也绝不会得逞。</p>
-<p><strong>《澳大利亚人报》记者：包括澳大利亚公民在内的、持有中国居留许可的外国公民，比如我的妻子，她现在在堪培拉，什么时候可以回到中国？何时会解除对他们回到中国的旅行限制？</strong></p>
-<p>耿爽：目前，疫情正在全球扩散蔓延，包括中国在内的很多国家都对旅行和出入境采取了一些限制措施。这些措施会根据疫情的发展进行调整，所以我现在没法给你一个准确的答复。事实上，疫情暴发以来，包括中国在内很多国家的限制措施一直处于变化之中，这取决于疫情防控的进展。</p>
-<p>当务之急还是应该团结合作，共同战胜疫情，推动中国以及世界各地的生产生活早日恢复正常。</p>
-<p><strong>印度报业托拉斯记者：你刚才说，包括中国在内的很多国家都对旅行和出入境采取了一些限制措施。这些措施会根据疫情的发展进行调整。那么中国是否会视不同国家的情况，在解除对持有中国居留许可的外国公民旅行限制的问题上而作出不同安排？</strong></p>
-<p>耿爽：关于这个问题，我现在没法给你一个明确的回答，因为每个国家的情况都不一样。但我可以肯定告诉你的是，正如我刚才回答澳大利亚记者的一样，我们的有关措施会根据疫情的发展作出调整。</p>
-<p>当务之急是世界各国团结协作，共同战胜疫情。</p>
-<p><strong>《澳大利亚人报》记者：中国如考虑解除对持有中国居留许可的外国公民旅行限制，是取决于外国比如澳大利亚应对疫情的情况，还是中国同澳大利亚或者其他国家的双边关系?</strong></p>
-<p>耿爽：疫情暴发以来，中方出台的政策或采取的措施，出发点都是维护中国公民以及其他国家公民的生命安全和身体健康。这是我们唯一的目的。 </p>
-]]></content>
-      <categories>
-        <category>新闻</category>
-      </categories>
-      <tags>
-        <tag>外交部例行记者会</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Tex Live下载及安装说明</title>
-    <url>/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</url>
-    <content><![CDATA[<h2 id="关于-CTeX"><a href="#关于-CTeX" class="headerlink" title="关于 CTeX"></a>关于 CTeX</h2><h3 id="CTeX-套装"><a href="#CTeX-套装" class="headerlink" title="CTeX 套装"></a>CTeX 套装</h3><p>CTeX 套装是科学院吴凌云研究员的个人作品。在 CTeX 套装刚刚问世之时，因其解决了繁琐的中文字体安装工作，所以广受欢迎。但是，一方面 CTeX 套装已经很久不更新，内里的宏包、工具陈旧；另一方面，随着 XeLaTeX 的发展，以及 xeCJK 等技术的成熟，上述这些繁琐的工作已经没有必要而失去意义；因此，现在不推荐使用 CTeX 套装。</p>
-<blockquote>
-<p>不要安装和使用 CTeX 套装！</p>
+    <title>clash的使用</title>
+    <url>/2020/04/26/clash/</url>
+    <content><![CDATA[<p><code>Clash</code>是一款用<code>Go</code>开发的支持<code>Linux</code>/<code>MacOS</code>/<code>Windows</code>等多平台的代理工具，支持<code>ss</code>/<code>v2ray</code>/<code>snell</code>（不支持<code>ssr</code>），支持规则分流（类似于 Surge 的配置）。</p>
+<p>项目地址：</p>
+<ul>
+<li>原项目：<a href="https://github.com/Dreamacro/clash" target="_blank" rel="noopener">Clash</a></li>
+<li>Clash for macOS：<a href="https://github.com/yichengchen/clashX/" target="_blank" rel="noopener">ClashX</a></li>
+<li>Clash for Windows：<a href="https://github.com/Fndroid/clash_for_windows_pkg/" target="_blank" rel="noopener">Clash for Windows</a>（以下内容基于正式版，测试版内容不作介绍）</li>
+</ul>
+<p>本文主要介绍<code>Clash for Windows</code>（下文中可能会简称为 CFW）的使用方法，之前 Windows 上的<code>Clash</code>只有命令行界面，感谢 <a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a> 开发的图形界面，让我们的使用变得更加简单有效率。</p>
+<p><strong>提示</strong>：若之前没有接触过策略分流的软件（如 Surge、圈），学习使用 CFW 之前也可以自己熟悉了解下策略组、规则等等（特别是没有托管需要自己编辑配置文件的用户），多看看规则文件（例如 <a href="https://github.com/ConnersHua/Profiles/blob/master/Clash/Pro.yaml" target="_blank" rel="noopener">神机规则</a> ），同时推荐看下 Fndroid 大佬的<a href="https://github.com/Fndroid/jsbox_script/wiki/关于策略组的理解" target="_blank" rel="noopener">关于策略组的理解</a>，掌握了策略分流的概念后，Clash、Quantumult、Surge、Surfboard 等工具的使用也能更清晰明白了。</p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
+<li>安装版：下载 <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases" target="_blank" rel="noopener">Clash.for.Windows.Setup.exe</a> (<a href="https://asset.10101.io/externalLinksController/chain/Clash.for.Windows.Setup.0.9.6.exe?ckey=Dxe26%2FsH0lZSo%2FTjpTsxKLGZ5FXojBmlrNXtO67FK1yRDH7JCbxviet2ckfK3wun" target="_blank" rel="noopener">备用地址</a>), 安装并打开。<br><strong>注意</strong>：首次开启后不用急着操作，CFW 会自己下载必要的文件，左下角显示<code>Connected to Clash</code>后即可进行接下来的操作。</li>
+<li>免安装版：下载<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases" target="_blank" rel="noopener">Clash.for.Windows.7z</a>，解压后运行<code>Clash.for.Windows.exe</code>。<br><strong>注意</strong>：如果想要使用便携模式（如将<code>.7z</code>解压至移动硬盘、U盘等），需将<code>config.yml</code>和<a href="https://asset.10101.io/externalLinksController/chain/Country.mmdb?ckey=8hY08nReECvarf4iCbIHXFlx80mL43thUQmjf6KnKh512UdFMDeEn%2BH5I%2BkJOnl%2F" target="_blank" rel="noopener">Country.mmdb</a>放置在软件目录下<code>resources/static/files</code>文件夹中。</li>
+</ul>
+<h2 id="Clash-for-Windows-界面简介"><a href="#Clash-for-Windows-界面简介" class="headerlink" title="Clash for Windows 界面简介"></a>Clash for Windows 界面简介</h2><p><a href="https://10101.io/usr/uploads/2019/11/3984872114.png" target="_blank" rel="noopener"><img src="https://10101.io/usr/uploads/2019/11/3984872114.png" alt="clash-ui.png"></a></p>
+<p><a href="https://10101.io/usr/uploads/2019/11/3984872114.png" target="_blank" rel="noopener">clash-ui.png</a></p>
+<ul>
+<li><code>General（常规）</code>：<ul>
+<li><code>Port</code>、<code>Socks Port</code>；分别为 HTTP、SOCKS 代理端口，点击终端图案可以打开一个配置了代理的命令行窗口，点击端口数字可以复制该命令；</li>
+<li><code>Allow LAN</code>：启用局域网共享代理功能，此开关仅为短暂开启，如需启用请在修改配置文件中进行修改；‘</li>
+<li><code>Log Level</code>：日志等级；</li>
+<li><code>Home Directory</code>：点击下方路径直达<code>C:\Users\用户名\.config\clash</code>文件夹；</li>
+<li><code>GeoIP Database</code>：点击下方日期可更新 GeoIP 数据库；</li>
+<li><code>UWP Loopback</code> ：可以用来使 UWP 应用解除回环代理限制；</li>
+<li><code>Tap Device</code> ：安装 cfw-tap 网卡，可用于处理不遵循系统代理的软件（实际启动 tap 模式需要更改配置文件）；</li>
+<li><code>Text Mode Edit</code>：编辑<code>config.yml</code>文件，可用于配置部分 <strong>General</strong> 页面内容；</li>
+<li><code>Dark Theme</code>：控制暗色模式；</li>
+<li><code>System Proxy</code>：启用系统代理；</li>
+<li><code>Start with Windows</code>：设置开机自启；</li>
+</ul>
+</li>
+<li><code>Proxies（代理）</code>：选择代理方式（Global-全局、Rule-规则、Direct-直连）及策略组节点选择；</li>
+<li><code>Profiles（配置管理）</code>：<ul>
+<li>用来下载远端配置文件和创建本地副本，且可在多个配置文件间切换；</li>
+<li>对配置进行节点、策略组和规则的管理（添加节点、策略组和规则在各自编辑界面选择<code>Add</code>, 调整策略组顺序、节点顺序及策略组节点使用拖拽的方式）；</li>
+</ul>
+</li>
+<li><code>Logs（日志）</code>：显示当前请求命中规则类型和策略；</li>
+<li><code>Connections (连接)</code>: 显示当前的 TCP 连接，可对某个具体连接执行关闭操作；</li>
+<li><code>Feedback（反馈）</code>：显示软件、作者相关信息，内含捐赠码，欢迎打赏<a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a>大佬以感谢和支持开发。</li>
+</ul>
+<p><strong>注意</strong>：更多更详细介绍可以查看<a href="https://docs.cfw.lbyczf.com/" target="_blank" rel="noopener">官方文档</a>。</p>
+<h2 id="添加配置文件"><a href="#添加配置文件" class="headerlink" title="添加配置文件"></a>添加配置文件</h2><h3 id="有托管-订阅情况"><a href="#有托管-订阅情况" class="headerlink" title="有托管 / 订阅情况"></a>有托管 / 订阅情况</h3><ul>
+<li>如果机场直接提供 Clash 托管配置，复制好托管链接，直接看<a href="https://10101.io/2018/10/27/how-to-use-clash-for-windows#具体步骤" target="_blank" rel="noopener">具体步骤</a>；</li>
+<li>如果拥有 Surge 托管，可以使用 <a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a> 大佬提供的接口转换 Surge 配置为 Clash 可用配置。<br><strong>接口使用方法</strong>：<code>https://tgbot.lbyczf.com/surge2clash?url=Surge托管地址</code>；例：托管地址为<code>http://example.com</code>, 那么使用接口后的远端配置地址为<code>https://tgbot.lbyczf.com/surge2clash?url=http://example.com</code>。</li>
+<li>如果拥有 v2ray/ss 订阅链接或者 Surge 托管，均可以使用我利用 subconverter 搭建的接口，转换为 Clash 配置（策略组将替换为我设定的策略，规则使用神机规则）<br><strong>接口使用方法</strong>：<code>https://api.10101.io/sub?target=clash&amp;url=URLEncode后的托管或者订阅链接</code>；例如，v2ray 订阅链接为 <code>http://example.com</code>，那么使用接口后的 clash 配置地址为 <code>https://api.10101.io/sub?target=clash&amp;url=http%3a%2f%2fexample.com</code>。</li>
+</ul>
+<h4 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h4><ol>
+<li>打开<code>clash for windows</code>，选择<code>Profiles</code>；</li>
+<li>在<code>Download from a URL</code>中填写<code>Clash托管链接</code>或<code>使用接口后的Surge托管地址</code>，然后点击<code>Download</code>, 成功更新并启动后左下角应显示为<code>Connected to Clash core</code>，见下图①②③；<br><a href="https://10101.io/usr/uploads/2020/02/1572823557.png" target="_blank" rel="noopener"><img src="https://10101.io/usr/uploads/2020/02/1572823557.png" alt="remote_configuration">remote_configuration</a></li>
+<li>点击<code>Proxies</code>，选择<code>Rule</code>，为自己的策略组挑选节点；</li>
+<li>点击<code>General</code>, 勾选<code>System Proxy（系统代理）</code>。（可选，不懂建议勾选）</li>
+</ol>
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><p>初次启动时，CFW 自带了一个简单的配置文件，里面有一个名为<code>Shadowsocks</code>的<code>socks5</code>类型<code>1080</code>端口的本地代理，如果接口或者 Clash 托管链接被墙可以用别的软件开启代理作为 CFW 的前置代理，端口为<code>1080</code>。</p>
+<h3 id="无托管-订阅情况"><a href="#无托管-订阅情况" class="headerlink" title="无托管 / 订阅情况"></a>无托管 / 订阅情况</h3><p>如果没有 Clash/Surge 托管或者 V2Ray/ss 订阅链接的话，解决方法有以下三种（方法一推荐作为小幅度修改使用，编写大量配置时方法二更为方便）：</p>
+<h4 id="方法一：利用-UI-配置"><a href="#方法一：利用-UI-配置" class="headerlink" title="方法一：利用 UI 配置"></a>方法一：利用 UI 配置</h4><ol>
+<li>当<code>Profiles</code>中为空时，会自动生成一个<code>config.yml</code>文件的配置副本，可以直接对它进行编辑；</li>
+<li>点击对应图案分别进入节点（组）或者规则的编辑模式；<br><a href="https://10101.io/usr/uploads/2020/02/2056420523.png" target="_blank" rel="noopener"><img src="https://10101.io/usr/uploads/2020/02/2056420523.png" alt="local_configuration">local_configuration</a></li>
+<li>例如，点击”飞机”图案进入节点和策略组编辑界面（添加规则同理），完成后点击<code>Save</code>保存，如下图：<br><a href="https://i.loli.net/2018/12/12/5c10a59f3c5da.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2018/12/12/5c10a59f3c5da.png" alt="clash-add-proxy.png">clash-add-proxy.png</a></li>
+<li>在<code>Proxies</code>中为各个策略组选择节点使用；</li>
+<li>点击<code>General</code>, 勾选<code>System Proxy（系统代理）</code>。（可选，建议勾选）</li>
+</ol>
+<p><strong>注意</strong>：第4、5步为通用步骤，下面将不再说明。</p>
+<h4 id="方法二：直接修改配置文件"><a href="#方法二：直接修改配置文件" class="headerlink" title="方法二：直接修改配置文件"></a>方法二：直接修改配置文件</h4><p>有以下两种方式，推荐使用第二种方式，编辑器推荐使用 <a href="https://notepad-plus-plus.org/download/v7.5.9.html" target="_blank" rel="noopener">Notepad++</a> ，配置格式请参考 <a href="https://github.com/ConnersHua/Profiles/blob/master/Clash/Pro.yaml" target="_blank" rel="noopener">神机规则</a>（<del>编写策略组时注意<strong>被引用的策略组要放在引用它的策略组之前</strong></del>）：</p>
+<ol>
+<li>编辑<code>C:\Users\用户名\.config\clash</code>文件夹下的<code>config.yml</code>文件，然后删除<code>profiles</code>文件夹，重启 CFW，则会在<code>Profiles</code>中看到生成的<code>config.yml</code>副本；</li>
+<li>由于<code>Profiles</code>功能的加入，更推荐对<code>C:\Users\用户名\.config\clash\profiles</code>文件夹下的配置文件（若为 Local 文件直接在软件<code>Profiles</code>页面点击“铅笔状”图标即可打开）进行修改。</li>
+</ol>
+<p><strong>注意</strong>：</p>
+<ul>
+<li>General 部分信息由<code>config.yml</code>中对应部分决定，与<code>Profiles</code>中的配置文件无关；</li>
+<li>可以直接拖拽<code>yml</code>格式的配置文件到<code>Profiles</code>面板中快速导入，详见操作示例（来自 Fndroid 大佬的 <a href="https://github.com/Fndroid/clash_for_windows_pkg" target="_blank" rel="noopener">GitHub</a>）：<br><a href="https://pic3.superbed.cn/item/5cab58103a213b0417e3a652.gif" target="_blank" rel="noopener"><img src="https://pic3.superbed.cn/item/5cab58103a213b0417e3a652.gif" alt="img"></a></li>
+</ul>
+<h4 id="方法三：利用-JSBox-脚本"><a href="#方法三：利用-JSBox-脚本" class="headerlink" title="方法三：利用 JSBox 脚本"></a>方法三：利用 JSBox 脚本</h4><p>iOS 用户可以利用 <a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a> 大佬的 <a href="https://itunes.apple.com/us/app/jsbox-learn-to-code/id1312014438?mt=8" target="_blank" rel="noopener">JSBox</a> 脚本—— <a href="https://xteko.com/install?id=77&lang=zh-Hans" target="_blank" rel="noopener">lhie1 规则生成</a>——添加节点，然后将脚本目录下的<code>data.js</code>发送给托管机器人 <a href="https://telegram.me/rules_lhie1_bot" target="_blank" rel="noopener">rules_lhie1_bot</a> 即可获取 Surge 托管链接，再按照以上<a href="https://10101.io/2018/10/27/how-to-use-clash-for-windows#有托管+%2f+订阅情况" target="_blank" rel="noopener">有托管 / 订阅链接情况</a>操作。</p>
+<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><blockquote>
+<p><code>v0.5.19</code>更新加入了开机自启支持：在<code>General</code>页面勾选<code>Start with Windows</code>。</p>
 </blockquote>
-<h3 id="CTeX-宏集"><a href="#CTeX-宏集" class="headerlink" title="CTeX 宏集"></a>CTeX 宏集</h3><p>虽然它的名字也是「CTeX」，但是 CTeX 宏集和 CTeX 套装是两个不同的东西。CTeX 宏集是集成了中文支持、操作系统判定、字体选择、版式预设为一体的一组宏包和文档类的合集。我们推荐在任何情况下，优先使用 CTeX 宏集处理中文。</p>
-<blockquote>
-<p>请在任何情况下优先使用 CTeX 宏集在 LaTeX 中处理中文！</p>
-</blockquote>
-<h2 id="关于-TeX-Live"><a href="#关于-TeX-Live" class="headerlink" title="关于 TeX Live"></a>关于 TeX Live</h2><p>TeX Live 是 TUG (TeX User Group) 维护和发布的 TeX 系统，可说是「官方」的 TeX 系统。我们推荐任何阶段的 TeX 用户，都尽可能使用 TeX Live，以保持在跨操作系统平台、跨用户的一致性。TeX Live 的官方站点是 <a href="https://tug.org/texlive/。" target="_blank" rel="noopener">https://tug.org/texlive/。</a></p>
-<h3 id="Mac-用户"><a href="#Mac-用户" class="headerlink" title="Mac 用户"></a>Mac 用户</h3><p>TeX Live 在 macOS/OS X 上的名字是 MacTeX，它的官方站点是 <a href="https://tug.org/mactex。你可以在这里下载" target="_blank" rel="noopener">https://tug.org/mactex。你可以在这里下载</a> MacTeX 的安装器，而后安装 MacTeX。</p>
-<ul>
-<li><a href="http://tug.org/cgi-bin/mactex-download/MacTeX.pkg" target="_blank" rel="noopener">http://tug.org/cgi-bin/mactex-download/MacTeX.pkg</a></li>
+<p><del>软件内没有开机自启选项</del>，如果需要开机自启，可以自己在系统启动中加上，以 win10 为例，具体步骤如下：</p>
+<ol>
+<li><code>win+R</code>打开运行框，然后输入<code>shell:startup</code>，点确定；或者自己打开以下文件夹<code>C:\Users\用户名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</code>;<br><a href="https://i.loli.net/2018/10/29/5bd6f16873b83.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2018/10/29/5bd6f16873b83.png" alt="shell-startup.png">shell-startup.png</a></li>
+<li>将<code>clash for windows</code>的快捷方式复制一份放在该文件夹下。<br><a href="https://i.loli.net/2018/10/29/5bd6f16811872.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2018/10/29/5bd6f16811872.png" alt="启动.png">启动.png</a></li>
+</ol>
+<h2 id="其他小提示"><a href="#其他小提示" class="headerlink" title="其他小提示"></a>其他小提示</h2><ul>
+<li>可点击<code>General</code>页面的<code>Clash for Windows</code>字样重启客户端，点击旁边的版本号可以检查更新，点击小猫咪可以开启暗黑模式；</li>
+<li><code>General</code>页面的信息只能通过修改<code>C:\Users\用户名\.config\clash\config.yml</code>来更改，即<code>profiles</code>中的配置文件内包含的 General 信息不会生效；</li>
+<li>若不想启用系统代理的话，需要自己配置 http 或 socks5 代理，具体端口信息可以在<code>General</code>页面找到；</li>
+<li>当 Surge 托管链接的<code>URL参数</code>在两个及以上(由<code>&amp;</code>连接)的话，请先对托管连接进行 <a href="http://tool.chinaz.com/tools/urlencode.aspx" target="_blank" rel="noopener">URL 编码</a>；</li>
+<li>图标状态显示：蓝色——默认；红色——核心启动失败；黄色——系统代理开启；</li>
+<li><code>v0.4.5</code>版本后可以自定义系统代理需要绕过的域名或 IP ，用于解决部分应用检测代理后拒绝响应的问题（如 UWP 版网易云音乐）。具体编写方法见<a href="https://docs.cfw.lbyczf.com/rao-guo-xi-tong-dai-li" target="_blank" rel="noopener">官方文档——绕过系统代理</a>；（建议在<code>C:\Users\用户名\.config\clash\config.yml</code>中修改，这样可以在不同的配置文件中都起到作用）</li>
+<li>如果需要 UWP 应用走系统代理的话，可以点击打开<code>General</code>页面的<code>EnableLoopback.exe</code>，然后勾选需要代理的应用后保存；对于少数不遵守系统代理的 UWP 应用，可以使用 Tap 模式（详见 <a href="https://github.com/Fndroid/clash_for_windows_pkg/wiki/启动TAP" target="_blank" rel="noopener">启动 TAP</a>）。</li>
 </ul>
-<p>如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
+<h2 id="常见错误及解决办法"><a href="#常见错误及解决办法" class="headerlink" title="常见错误及解决办法"></a>常见错误及解决办法</h2><p>若一切弄好之后还是显示<code>Disconnected to Clash</code>，可打开<code>C:\Users\用户名\.config\clash\logs</code>文件夹（点击左下角核心状态显示可直达 log 文件夹），打开最新的日志文件查看错误。（实在无法解决可加入作者 telegram 群 <a href="https://t.me/fndroid_group" target="_blank" rel="noopener">Fndroid 脚本/API 讨论</a>寻求帮助）</p>
 <ul>
-<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-</ul>
-<h3 id="Windows-和-nix-用户"><a href="#Windows-和-nix-用户" class="headerlink" title="Windows 和 *nix 用户"></a>Windows 和 *nix 用户</h3><p>TeX Live 的当前版本是 2020，你可以从官方站点下载它们的安装包。点击下列链接，将会「自动选择」距离你最近的镜像下载。</p>
-<ul>
-<li><a href="http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso</a></li>
-</ul>
-<p>——当然，这个自动选择可能不太靠谱。如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
-<ul>
-<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
-<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
-<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-</ul>
-<p>你需要使用<a href="http://wincdemu.sysprogs.org/download/" target="_blank" rel="noopener">虚拟光驱软件</a>（对于 Windows 8 及更高版本的微软用户，可以直接加载），加载下载得到的光盘镜像。而后，执行安装脚本，将 TeX Live 安装在你的系统中。</p>
-<ul>
-<li>Windows 用户右键单击 <code>install-tl-advanced.bat</code>，以管理员权限执行；</li>
-<li>*nix 用户执行 <code>install-tl</code>。</li>
+<li><code>Can&#39;t load mmdb: error opening database: invalid MaxMind DB file</code>错误。<br><strong>解决办法</strong>：自行下载 <a href="https://asset.10101.io/externalLinksController/chain/Country.mmdb?ckey=8hY08nReECvarf4iCbIHXFlx80mL43thUQmjf6KnKh512UdFMDeEn%2BH5I%2BkJOnl%2F" target="_blank" rel="noopener">Country.mmdb</a> 文件覆盖。</li>
+<li>拨号连接用户IE代理正常，其他浏览器系统代理无法使用。<br><strong>解决办法</strong>：重命名拨号连接，将中文名更改为英文名字，然后重启。</li>
 </ul>
 ]]></content>
       <categories>
         <category>教程</category>
       </categories>
       <tags>
-        <tag>latex</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>latex使用教程(1)</title>
-    <url>/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(1)/</url>
-    <content><![CDATA[<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2FLaTeX" target="_blank" rel="noopener">LaTeX</a>将文章的排版以代码的形式呈现，这种方式很符合程序员以及科学工作者的审美和工作习惯，但如果强调太多LaTeX不常用的特性，会导致很多初学者望而却步，早早弃坑回归难用的word。同时，网上关于LaTeX的文档极多，还有大量多年未更新的博客，内容早已过时无法兼容现在的版本，很容易造成误导增加学习成本。</p>
-<p>因此，本文将场景设定为需要按照规定期刊或报告规定的格式撰写文章，省去不必要的说明，带你快速上手LaTeX（文中也会将LaTeX其他一些进阶用法作为拓展资料整理，供日后查阅）。</p>
-<h2 id="一、环境的配置——TeXlive-TeXstuido"><a href="#一、环境的配置——TeXlive-TeXstuido" class="headerlink" title="一、环境的配置——TeXlive+TeXstuido"></a>一、环境的配置——TeXlive+TeXstuido</h2><h3 id="1-关于-TeX-Live"><a href="#1-关于-TeX-Live" class="headerlink" title="1. 关于 TeX Live"></a>1. 关于 TeX Live</h3><p>TeX Live 是 TUG (TeX User Group) 维护和发布的 TeX 系统，可说是「官方」的 TeX 系统。其相比其他的系统优势在于能够保证更新，兼容性强，也能保持在跨操作系统平台、跨用户的一致性。参见<a href="https://links.jianshu.com/go?to=https%3A%2F%2Ftug.org%2Ftexlive%2F" target="_blank" rel="noopener">TeX Live 的官方站点</a>。</p>
-<h4 id="1-1-Mac-用户"><a href="#1-1-Mac-用户" class="headerlink" title="1.1 Mac 用户"></a>1.1 Mac 用户</h4><p>TeX Live 在 macOS/OS X 上的名字是 MacTeX，它的<a href="https://links.jianshu.com/go?to=https%3A%2F%2Ftug.org%2Fmactex" target="_blank" rel="noopener">官方站点</a>。可以在这里<a href="https://links.jianshu.com/go?to=http%3A%2F%2Ftug.org%2Fcgi-bin%2Fmactex-download%2FMacTeX.pkg" target="_blank" rel="noopener">下载 MacTeX 的安装器</a>，而后安装 MacTeX。</p>
-<p>如果你身处中国大陆，发现下载速度很慢，可以尝试<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.tuna.tsinghua.edu.cn%2FCTAN%2Fsystems%2Fmac%2Fmactex%2FMacTeX.pkg" target="_blank" rel="noopener">清华大学</a>和<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.ustc.edu.cn%2FCTAN%2Fsystems%2Fmac%2Fmactex%2FMacTeX.pkg" target="_blank" rel="noopener">中国科技大学</a>的镜像站。</p>
-<h4 id="1-2-Windows用户"><a href="#1-2-Windows用户" class="headerlink" title="1.2 Windows用户"></a>1.2 Windows用户</h4><p>TeX Live 的当前版本是 2018，你可以从官方站点下载它们的安装包。点击<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fmirror.ctan.org%2Fsystems%2Ftexlive%2FImages%2Ftexlive2018.iso" target="_blank" rel="noopener">链接</a>，将会「自动选择」距离你最近的镜像下载。同样也可以尝试<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.tuna.tsinghua.edu.cn%2FCTAN%2Fsystems%2Ftexlive%2FImages%2Ftexlive2018.iso" target="_blank" rel="noopener">清华大学</a>和<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.ustc.edu.cn%2FCTAN%2Fsystems%2Ftexlive%2FImages%2Ftexlive2018.iso" target="_blank" rel="noopener">中国科技大学</a>的镜像站。</p>
-<p>安装需要使用虚拟光驱软件，推荐一个绿色工具即<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.ultraiso.com%2F" target="_blank" rel="noopener">UltraISOv9.6.2.3059</a>，打开界面如下，加载到虚拟光驱：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-7507481243fea808.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/868/format/webp" alt="img"></p>
-<p> 打开虚拟光驱：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-757599b590dddc80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/887/format/webp" alt="img"></p>
-<p>右键单击 <code>install-tl-advanced.bat</code>，以管理员权限执行；</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-1993a9175d9df82b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>里面基本上可以选默认的，但最后两个例外（TeXworks比较陈旧，后者是更新可能比较慢）：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-02291145965116dd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/719/format/webp" alt="img"></p>
-<p>然后点击“安装 TeX Live”，可以看到这样的界面：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-6defd40cb70626cf.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/599/format/webp" alt="img"></p>
-<p>安装完成的画面：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-06b09e3694f6f84c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/719/format/webp" alt="img"></p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-9b37f0c87b6e84df.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/597/format/webp" alt="img"></p>
-<p>同时注意<strong>完成后要把cmd关掉！</strong></p>
-<p>安装好TeXlive之后若想happy latexing，还需要有一个编辑器，可供选择的有很多，如LyX、TeXworks、TexStudio、WinEdt、Emacs、Sublime Text、Atom、Visual Studio Code等，有兴趣可以参考<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F19954023" target="_blank" rel="noopener">知乎——有哪些好的编辑器</a>。本文选用的是TeXstudio，也推荐新手使用这个编辑器。</p>
-<h3 id="2、安装TeXstudio"><a href="#2、安装TeXstudio" class="headerlink" title="2、安装TeXstudio"></a>2、安装TeXstudio</h3><p>首先从<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fsourceforge.net%2Fprojects%2Ftexstudio%2F" target="_blank" rel="noopener">官网下载TeXstudio安装文件</a>:</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-326e8d098cd3afee.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>选择安装路径 &gt; install</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-67e93a62d888f27d.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/639/format/webp" alt="img"></p>
-<p>安装好后需要更改一些设置：</p>
-<blockquote>
-<p>Options &gt; Configure TeXstudio</p>
-<p>&gt; General &gt; Language改成zh_CN（中文化）</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-c2257778e2254d6c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-</blockquote>
-<blockquote>
-<p>&gt; Build<br> &gt; Default Bibliography Tool设置成BibTeX（此处是管理参考文献的相关设置，下文有说明）</p>
-<p>&gt; Default Compiler设置成XeLaTeX（为了实现对中文的支持）</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-3e95b098b0e47d05.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-</blockquote>
-<p>至此我们的写作环境就配置好了！</p>
-<h2 id="二、写个简单的文档试试"><a href="#二、写个简单的文档试试" class="headerlink" title="二、写个简单的文档试试"></a>二、写个简单的文档试试</h2><p>启动TeXstudio，界面如下</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-8bc12ce0be93b3ca.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>在编辑框中，输入如下内容：</p>
-<pre class=" language-dart"><code class="language-dart">\documentclass<span class="token punctuation">{</span>article<span class="token punctuation">}</span>
-<span class="token operator">%</span> 这里是导言区
-\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
-Hello<span class="token punctuation">,</span> world<span class="token operator">!</span>
-\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
-<p>将文档保存在你希望的位置后，按下绿色的编译按钮。</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-65f6143945297d0c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/39/format/webp" alt="img"></p>
-<p>一会儿，如果没有意外，屏幕的右边就会出现编译之后结果。如下图：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-6c68b9a082134a77.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>同时会自动生成PDF文件在<code>.tex</code>文件所保存的目录下。</p>
-<p>此处的第一行<code>\documentclass{article}</code>中包含了一个<strong>控制序列</strong>（或称命令 / 标记）。所谓<strong>控制序列</strong>，是以反斜杠<code>\</code>开头，以第一个<em>空格或非字母</em> 的字符结束的一串文字，他们并不被输出，但是他们会影响输出文档的效果。这里的控制序列是<code>documentclass</code>，它后面紧跟着的<code>{article}</code>代表这个控制序列有一个必要的参数，该参数的值为<code>article</code>. 这个控制序列的作用，是调用名为 “article” 的<strong>文档类</strong>。</p>
-<p>其后出现了控制序列<code>begin</code>，这个控制序列总是与<code>end</code>成对出现。这两个控制序列以及他们中间的内容被称为<strong>“环境”</strong>；他们之后的第一个必要参数总是一致的，被称为环境名。</p>
-<p>只有在 “document” 环境中的内容，才会被正常输出到文档中去或是作为控制序列对文档产生影响。因此，在<code>\end{document}</code>之后插入任何内容都是无效的。</p>
-<p><code>\begin{document}</code>与<code>\documentclass{article}</code>之间的部分被称为<strong>导言区</strong>。导言区中的控制序列，通常会影响到整个输出文档。</p>
-<h3 id="1-中英混排"><a href="#1-中英混排" class="headerlink" title="1. 中英混排"></a>1. 中英混排</h3><p>TeX 系统是高教授开发的，当初并没有考虑到亚洲文字的问题。因此早期的 TeX 系统并不能直接支持中文，必须要用其他工具先处理一下（或者是一些宏包之类的）。旧方法不在本教程中赘述，如遇到旧文档的兼容性问题，可参考<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latexstudio.net%2Farchives%2F2323.html" target="_blank" rel="noopener">《一份其实很短的LaTeX入门文档》</a>。</p>
-<p>但是现在，XeTeX 原生支持 Unicode，并且可以方便地调用系统字体。可以说解决了困扰中国 TeX 使用者多年的大问题。</p>
-<p>此外，除去中文支持，中文的版式处理和标点禁则也是不小的挑战。好在由吴凌云和江疆牵头，现在主要由刘海洋和李清维护的 <code>ctex宏包 / 文档类</code>一次性解决了这些问题。<code>ctex宏包和文档类</code>的优势在于，它适用于多种编译方式；在内部处理好了中文和中文版式的支持，隐藏了这些细节；并且，提供了不少中文用户需要的功能接口。</p>
-<p>在 TeXworks 编辑框中输入以下内容，保存，使用 XeLaTeX 编译：</p>
-<pre class=" language-dart"><code class="language-dart">\documentclass<span class="token punctuation">[</span>UTF8<span class="token punctuation">]</span><span class="token punctuation">{</span>ctexart<span class="token punctuation">}</span>
-\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
-你好，world<span class="token operator">!</span>
-\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
-<p>如果没有意外，你将会看到类似下图的输出结果：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-ebcac073d64bdaae.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>相较于之前的例子，这份代码只有细微的差异：</p>
-<blockquote>
-<p>1.文档类从 <code>article</code> 变为 <code>ctexart</code></p>
-<p>2.增加了文档类选项 <code>UTF8</code></p>
-</blockquote>
-<h3 id="2-组织文章"><a href="#2-组织文章" class="headerlink" title="2. 组织文章"></a>2. 组织文章</h3><p>保存并用 XeLaTeX 编译如下文档，查看效果：</p>
-<pre class=" language-swift"><code class="language-swift">\documentclass<span class="token punctuation">[</span><span class="token builtin">UTF8</span><span class="token punctuation">]</span><span class="token punctuation">{</span>ctexart<span class="token punctuation">}</span>
-\title<span class="token punctuation">{</span>你好，world<span class="token operator">!</span><span class="token punctuation">}</span>
-\author<span class="token punctuation">{</span><span class="token builtin">Liam</span><span class="token punctuation">}</span>
-\date<span class="token punctuation">{</span>\today<span class="token punctuation">}</span>
-\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
-\maketitle
-\section<span class="token punctuation">{</span>你好中国<span class="token punctuation">}</span>
-中国在 <span class="token builtin">East</span> <span class="token builtin">Asia</span><span class="token punctuation">.</span>
-\subsection<span class="token punctuation">{</span><span class="token builtin">Hello</span> <span class="token builtin">Beijing</span><span class="token punctuation">}</span>
-北京是 capital of <span class="token builtin">China</span><span class="token punctuation">.</span>
-\subsubsection<span class="token punctuation">{</span><span class="token builtin">Hello</span> <span class="token builtin">Dongcheng</span> <span class="token builtin">District</span><span class="token punctuation">}</span>
-\paragraph<span class="token punctuation">{</span><span class="token builtin">Tian'anmen</span> <span class="token builtin">Square</span><span class="token punctuation">}</span>
-<span class="token keyword">is</span> <span class="token keyword">in</span> the center of <span class="token builtin">Beijing</span>
-\subparagraph<span class="token punctuation">{</span><span class="token builtin">Chairman</span> <span class="token builtin">Mao</span><span class="token punctuation">}</span>
-<span class="token keyword">is</span> <span class="token keyword">in</span> the center of 天安门广场。
-\subsection<span class="token punctuation">{</span><span class="token builtin">Hello</span> 北京<span class="token punctuation">}</span>
-\paragraph<span class="token punctuation">{</span>北京<span class="token punctuation">}</span> <span class="token keyword">is</span> an international city。
-\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
-<p>在文档类</p>
-<p><code>article</code>/<code>ctexart</code> 中，定义了五个控制序列来调整行文组织结构。他们分别是</p>
-<blockquote>
-<pre><code>\section{·}
-\subsection{·}
-\subsubsection{·}
-\paragraph{·}
-\subparagraph{·}</code></pre></blockquote>
-<h3 id="3-如何查看当前操作系统的字体"><a href="#3-如何查看当前操作系统的字体" class="headerlink" title="3. 如何查看当前操作系统的字体"></a>3. 如何查看当前操作系统的字体</h3><p>按照如下步骤打开系统命令行：</p>
-<blockquote>
-<p>在搜索栏输入cmd</p>
-<p>命令提示符右键 &gt; 以管理员身份运行</p>
-<p>[图片上传失败…(image-7358e8-1532508080085)]</p>
-</blockquote>
-<p>在系统命令行中输入如下命令：</p>
-<pre class=" language-ruby"><code class="language-ruby">fc<span class="token operator">-</span>list <span class="token symbol">:lang</span><span class="token operator">=</span>zh<span class="token operator">-</span>cn <span class="token operator">></span> <span class="token constant">C</span><span class="token punctuation">:</span>\font_zh<span class="token operator">-</span>cn<span class="token punctuation">.</span>txt</code></pre>
-<p>打开 C 盘根目录下的 <code>C:\font_zh-cn.txt</code> 纯文本文档，里面的内容就是你当前系统可用的全部中文字体， 为了方便观看，我用的Visual Studio code打开，效果如下：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-04d452229ea35a3c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>其中的每一行，都代表着一个可用的字体 。我们可以看到图中的倒数第五行</p>
-<pre class=" language-ruby"><code class="language-ruby"><span class="token constant">C</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token constant">WINDOWS</span><span class="token operator">/</span>fonts<span class="token operator">/</span>simsun<span class="token punctuation">.</span>ttc<span class="token punctuation">:</span> <span class="token constant">SimSun</span><span class="token punctuation">,</span>宋体<span class="token symbol">:style</span><span class="token operator">=</span><span class="token constant">Regular</span><span class="token punctuation">,</span>常规</code></pre>
-<p>出现了之前文档里调用的字体</p>
-<pre><code>SimSun`，此处表明该字体有两个表示名：`宋体`和`SimSun</code></pre><p>恭喜你，至此已经掌握了TeXlive+TeXstudio的基本用法，可以编辑自己的文档了，同时，也可以继续向下看，有了上面的知识能帮助你更好的理解模板的结构。</p>
-<h2 id="三、使用模板写作"><a href="#三、使用模板写作" class="headerlink" title="三、使用模板写作"></a>三、使用模板写作</h2><p>使用模板写作，适用于需要按照规定期刊或报告规定的格式撰写文章的工作者，同时也很适合新接触LaTeX写作的新手感受这种写作方式的乐趣，毕竟手动编辑一套复杂的论文需要花费大量时间，这脱离了LaTeX之类排版语言想让写作者关注内容本身的初衷。下面将介绍初学者在使用模板写作时需要用到的技巧。</p>
-<h3 id="1-模板的获取"><a href="#1-模板的获取" class="headerlink" title="1. 模板的获取"></a>1. 模板的获取</h3><p>建议在使用中自己整理几个自己常用的模板，从网上下载的模板只能提供一个大体的方向，有时也存在版本不同造成的兼容性问题，细节需要自己完善。</p>
-<ul>
-<li><p><a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latextemplates.com%2F" target="_blank" rel="noopener">LaTeXtemplates.com</a> 网站是非常不错的模板分享网站，收集了包括书信，报告，论文，演示文稿，简历等等模板，整体收集模板质量很不错，非常推荐，该网站逐步退出了排版和模板开发的服务，有兴趣可以多多了解。</p>
-</li>
-<li><p>在 <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FMartinThoma%2FLaTeX-examples" target="_blank" rel="noopener">https://github.com/MartinThoma/LaTeX-examples</a> 有作者收集的非常好的模板收集，也收集了大量的tikz等等例子，可下载，选择自己喜欢的模板使用。</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-09b122c36ed39d94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600/format/webp" alt="img"></p>
-</li>
-</ul>
-<ul>
-<li><p>在 <a href="https://links.jianshu.com/go?to=http%3A%2F%2Fuk.tug.org%2Ftraining%2Fthesis%2F" target="_blank" rel="noopener">http://uk.tug.org/training/thesis/</a> 有不少收集好的国外高校论文模板。</p>
-</li>
-<li><p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.overleaf.com%2F" target="_blank" rel="noopener">https://www.overleaf.com/</a>也可以找到很多期刊的模板代码，还支持在线编辑，所见即所得，效果如下：</p>
-</li>
-</ul>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-1ab2f5d564a8cc1e.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-c0ef9ba3d4803585.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<ul>
-<li><a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latexstudio.net%2Farchives%2Fcategory%2Flatex-templates%2Fthesis-template" target="_blank" rel="noopener">LaTeX开源小屋</a>里也有很多论文模板资源。</li>
-</ul>
-<h3 id="2-模板的使用"><a href="#2-模板的使用" class="headerlink" title="2. 模板的使用"></a>2. 模板的使用</h3><p>这里以北京航空航天大学学报提供的模板为例，把模板下载到电脑中后，选择<code>.tex</code>类型的文件：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-26a1274135598715.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>构建并查看：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-f700e74faf97b5b8.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<p>可以在左侧<code>结构</code>栏跳转到相应区域修改内容，也可以在右侧PDF阅览区<code>右键 &gt; 跳转到源</code>直接跟踪到相应代码区，进行修改即可。</p>
-<p>下面将分别介绍一些常用的编排技巧。</p>
-<h4 id="2-1文献引用"><a href="#2-1文献引用" class="headerlink" title="2.1文献引用"></a>2.1文献引用</h4><pre class=" language-latex"><code class="language-latex"><span class="token function selector">\documentclass</span><span class="token punctuation">{</span><span class="token keyword">ctexart</span><span class="token punctuation">}</span>
-
-<span class="token function selector">\bibliographystyle</span><span class="token punctuation">{</span>plain<span class="token punctuation">}</span>   <span class="token comment" spellcheck="true">%引用的样式%</span>
-<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span>
-    这是一个参考文献引用：<span class="token function selector">\cite</span><span class="token punctuation">{</span><span class="token keyword">name1</span><span class="token punctuation">}</span> <span class="token comment" spellcheck="true">%大括号内为相应文献的引用标签</span>
-    <span class="token function selector">\bibliography</span><span class="token punctuation">{</span>text<span class="token punctuation">}</span>     <span class="token comment" spellcheck="true">%导入参考文献库文件%</span>
-<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span></code></pre>
-<p>输入上述代码后进行构建，完成后点击左侧<code>结构</code>栏的<code>参考文献 &gt; text</code></p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-3a5dee2a575f5173.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/282/format/webp" alt="img"></p>
-<p>会提示是否创建<code>.bib</code>文件，选择是</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-e76118126d5aa0a7.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/324/format/webp" alt="img"></p>
-<p>这便是你的文献库，如何添加参考文献信息呢？有两种方式，第一种当然是自己手动整理，第二种则非常方便，打开谷歌学术：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-bcab842f2bdfa947.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1055/format/webp" alt="img"></p>
-<p>输入文献名之后，在搜索结果中点引用：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-73c26d49ee7a74e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1134/format/webp" alt="img"></p>
-<p>选择以<code>BibTeX</code>格式引用：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-eb740a5b23152b1c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/783/format/webp" alt="img"></p>
-<p>将内容复制到之前生成的文件库<code>text.bib</code>文件中</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-c6f785f5b5bdd539.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<pre class=" language-latex"><code class="language-latex">@article<span class="token punctuation">{</span>ferrari2006raman,  <span class="token comment" spellcheck="true">%此处为引用标签</span>
-  title=<span class="token punctuation">{</span>Raman spectrum of graphene and graphene layers<span class="token punctuation">}</span>,
-  author=<span class="token punctuation">{</span>Ferrari, Andrea C and Meyer, JC and Scardaci, V and Casiraghi, C and Lazzeri, Michele and Mauri, Francesco and Piscanec, S and Jiang, Da and Novoselov, KS and Roth, S and others<span class="token punctuation">}</span>,
-  journal=<span class="token punctuation">{</span>Physical review letters<span class="token punctuation">}</span>,
-  volume=<span class="token punctuation">{</span>97<span class="token punctuation">}</span>,
-  number=<span class="token punctuation">{</span>18<span class="token punctuation">}</span>,
-  pages=<span class="token punctuation">{</span>187401<span class="token punctuation">}</span>,
-  year=<span class="token punctuation">{</span>2006<span class="token punctuation">}</span>,
-  publisher=<span class="token punctuation">{</span>APS<span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre>
-<p>将文献的引用标签与原文对应好：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-9fe9aa10d870d3e3.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/703/format/webp" alt="img"></p>
-<p>构建完成后，效果如下：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-e31e09bd9957ce46.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<h4 id="2-2公式怎么办"><a href="#2-2公式怎么办" class="headerlink" title="2.2公式怎么办"></a>2.2公式怎么办</h4><p>为了使用 AMS-LaTeX 提供的数学功能，我们需要在导言区加载<code>amsmath</code>宏包：</p>
-<pre class=" language-undefined"><code class="language-undefined">\usepackage{amsmath}</code></pre>
-<ul>
-<li><p>数学模式</p>
-<p>LaTeX 的数学模式有两种：行内模式 (inline) 和行间模式 (display)。前者在正文的行文中，插入数学公式；后者独立排列单独成行。</p>
-<p>在行文中，使用<code>$ ... $</code>可以插入行内公式，使用<code>\[ ... \]</code>可以插入行间公式，如果需要对行间公式进行编号，可以使用<code>equation</code>环境： \begin{equaion} … \end{equation}</p>
-<blockquote>
-<p>行内公式也可以使用<code>\(...\)</code>来插入，略显麻烦。无编号的行间公式也可以使用<code>$$ ... $$</code>来插入，但是这样做会改变行文的默认行间距，不推荐。</p>
-</blockquote>
-</li>
-</ul>
-<p>LaTeX的公式编辑可以说是其最为犀利的部分之一了，但其公式语法非常繁琐，不过令人高兴的是，这里有一个<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.codecogs.com%2Flatex%2Feqneditor.php" target="_blank" rel="noopener">在线LaTeX公式编辑器</a>，非常方便直观：</p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-60de36943f0fddba.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<h4 id="2-3表格怎么办"><a href="#2-3表格怎么办" class="headerlink" title="2.3表格怎么办"></a>2.3表格怎么办</h4><p>巧了，表格也有类似的工具：<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.tablesgenerator.com%2F" target="_blank" rel="noopener">Creat LaTeX tables online</a></p>
-<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-182fe844a87229de.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
-<h4 id="2-4图片呢"><a href="#2-4图片呢" class="headerlink" title="2.4图片呢"></a>2.4图片呢</h4><p>在 LaTeX 中插入图片，有很多种方式。最好用的应当属利用<code>graphicx</code>宏包提供的<code>\includegraphics</code>命令。比如你在你的 TeX 源文件同目录下，有名为 a.jpg 的图片，你可以用这样的方式将它插入到输出文档中：</p>
-<pre class=" language-dart"><code class="language-dart">\documentclass<span class="token punctuation">{</span>article<span class="token punctuation">}</span>
-\usepackage<span class="token punctuation">{</span>graphicx<span class="token punctuation">}</span>
-\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
-\includegraphics<span class="token punctuation">{</span>a<span class="token punctuation">.</span>jpg<span class="token punctuation">}</span>
-\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
-<p>图片可能很大，超过了输出文件的纸张大小，或者干脆就是你自己觉得输出的效果不爽。这时候你可以用</p>
-<p><code>\includegraphics</code>控制序列的可选参数来控制。比如</p>
-<pre class=" language-undefined"><code class="language-undefined">\includegraphics[width = .8\textwidth]{a.jpg}</code></pre>
-<p>这样图片的宽度会被缩放至页面宽度的百分之八十，图片的总高度会按比例缩放。</p>
-<blockquote>
-<p><code>\includegraphics</code>控制序列还有若干其他的可选参数可供使用，一般并用不到。感兴趣的话，可以去查看<a href="https://links.jianshu.com/go?to=http%3A%2F%2Ftexdoc.net%2Ftexmf-dist%2Fdoc%2Flatex%2Fgraphics%2Fgraphicx.pdf" target="_blank" rel="noopener">该宏包的文档</a>。</p>
-</blockquote>
-<h4 id="2-5-制作幻灯片"><a href="#2-5-制作幻灯片" class="headerlink" title="2.5 制作幻灯片"></a>2.5 制作幻灯片</h4><p>没错，LaTeX的确还可以制作精美的幻灯片pdf，不过具体使用方法与论文写作大同小异，网上也有很多漂亮的模板，有兴趣可以去继续了解。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>之前一直用<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzh.wikipedia.org%2Fzh-hans%2FMarkdown" target="_blank" rel="noopener">Markdown</a>写文章，对比两者，感觉Markdown就像傻瓜版LaTeX，适合写博客之类对不追求复杂格式的场景，在此推荐一款Markdown编辑器<a href="https://links.jianshu.com/go?to=https%3A%2F%2Ftypora.io%2F" target="_blank" rel="noopener">typora</a>,主页极其漂亮的同时，软件本身也非常简洁实用，功能强大。</p>
-<p>日常写作用轻量级的Markdown，想要获得更为复杂和严谨的论文排版作品，上LaTeX，这样基本就能涵盖所有的写作场景，告别臃肿难用的word软件，让我们更专注于内容，享受其中。</p>
-<p>Happy LaTeXing！</p>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latexstudio.net%2Farchives%2F2323.html" target="_blank" rel="noopener">一份其实很短的 LaTeX 入门文档</a></p>
-<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fliam0205.me%2Ftexlive%2F" target="_blank" rel="noopener">TeXlive 下载及安装说明</a></p>
-<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F25013341" target="_blank" rel="noopener">LaTeX第七课：排版参考文献</a></p>
-<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F19954023%3Ffrom%3Dprofile_question_card" target="_blank" rel="noopener">知乎——有哪些好的 LaTeX 编辑器？</a></p>
-<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F22576629" target="_blank" rel="noopener">如何快速在线生成latex表格</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>latex</tag>
+        <tag>科学上网</tag>
       </tags>
   </entry>
   <entry>
@@ -931,125 +840,284 @@ Mac OS &amp; MacTeX &amp; TeXShop \\
       </tags>
   </entry>
   <entry>
-    <title>搜索引擎的正确打开方式</title>
-    <url>/2020/04/28/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</url>
-    <content><![CDATA[<p>前几天，一篇题为《搜索引擎就是我的大学》一文在我的朋友圈流转，小婉姑娘讲述了自己初中肄业从一个月薪三百的乡郊饭店服务员，通过搜索引擎自我学习，一步一步步入城市，拿下人力资源管理，项目经理，营销策划，文案策划等多个有挑战职位的逆袭事迹。</p>
-<p><strong>这无意给了很多“有电脑的人”一种天下我有的莫名冲动。虽然搜索引擎可以搜索到几乎任何你想学的知识，但终究扔停留在可能性阶段。真正高效地驾驭搜索引擎还是需要做些功课。</strong></p>
-<p>作为一名野路子网络营销钻研狗，打算开个帖子给大家做个科普，同时奉上一系列压箱底的“秘技”，希望于各位看客老爷有所裨益。</p>
+    <title>latex使用教程(1)</title>
+    <url>/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B(1)/</url>
+    <content><![CDATA[<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2FLaTeX" target="_blank" rel="noopener">LaTeX</a>将文章的排版以代码的形式呈现，这种方式很符合程序员以及科学工作者的审美和工作习惯，但如果强调太多LaTeX不常用的特性，会导致很多初学者望而却步，早早弃坑回归难用的word。同时，网上关于LaTeX的文档极多，还有大量多年未更新的博客，内容早已过时无法兼容现在的版本，很容易造成误导增加学习成本。</p>
+<p>因此，本文将场景设定为需要按照规定期刊或报告规定的格式撰写文章，省去不必要的说明，带你快速上手LaTeX（文中也会将LaTeX其他一些进阶用法作为拓展资料整理，供日后查阅）。</p>
+<h2 id="一、环境的配置——TeXlive-TeXstuido"><a href="#一、环境的配置——TeXlive-TeXstuido" class="headerlink" title="一、环境的配置——TeXlive+TeXstuido"></a>一、环境的配置——TeXlive+TeXstuido</h2><h3 id="1-关于-TeX-Live"><a href="#1-关于-TeX-Live" class="headerlink" title="1. 关于 TeX Live"></a>1. 关于 TeX Live</h3><p>TeX Live 是 TUG (TeX User Group) 维护和发布的 TeX 系统，可说是「官方」的 TeX 系统。其相比其他的系统优势在于能够保证更新，兼容性强，也能保持在跨操作系统平台、跨用户的一致性。参见<a href="https://links.jianshu.com/go?to=https%3A%2F%2Ftug.org%2Ftexlive%2F" target="_blank" rel="noopener">TeX Live 的官方站点</a>。</p>
+<h4 id="1-1-Mac-用户"><a href="#1-1-Mac-用户" class="headerlink" title="1.1 Mac 用户"></a>1.1 Mac 用户</h4><p>TeX Live 在 macOS/OS X 上的名字是 MacTeX，它的<a href="https://links.jianshu.com/go?to=https%3A%2F%2Ftug.org%2Fmactex" target="_blank" rel="noopener">官方站点</a>。可以在这里<a href="https://links.jianshu.com/go?to=http%3A%2F%2Ftug.org%2Fcgi-bin%2Fmactex-download%2FMacTeX.pkg" target="_blank" rel="noopener">下载 MacTeX 的安装器</a>，而后安装 MacTeX。</p>
+<p>如果你身处中国大陆，发现下载速度很慢，可以尝试<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.tuna.tsinghua.edu.cn%2FCTAN%2Fsystems%2Fmac%2Fmactex%2FMacTeX.pkg" target="_blank" rel="noopener">清华大学</a>和<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.ustc.edu.cn%2FCTAN%2Fsystems%2Fmac%2Fmactex%2FMacTeX.pkg" target="_blank" rel="noopener">中国科技大学</a>的镜像站。</p>
+<h4 id="1-2-Windows用户"><a href="#1-2-Windows用户" class="headerlink" title="1.2 Windows用户"></a>1.2 Windows用户</h4><p>TeX Live 的当前版本是 2018，你可以从官方站点下载它们的安装包。点击<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fmirror.ctan.org%2Fsystems%2Ftexlive%2FImages%2Ftexlive2018.iso" target="_blank" rel="noopener">链接</a>，将会「自动选择」距离你最近的镜像下载。同样也可以尝试<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.tuna.tsinghua.edu.cn%2FCTAN%2Fsystems%2Ftexlive%2FImages%2Ftexlive2018.iso" target="_blank" rel="noopener">清华大学</a>和<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fmirrors.ustc.edu.cn%2FCTAN%2Fsystems%2Ftexlive%2FImages%2Ftexlive2018.iso" target="_blank" rel="noopener">中国科技大学</a>的镜像站。</p>
+<p>安装需要使用虚拟光驱软件，推荐一个绿色工具即<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.ultraiso.com%2F" target="_blank" rel="noopener">UltraISOv9.6.2.3059</a>，打开界面如下，加载到虚拟光驱：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-7507481243fea808.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/868/format/webp" alt="img"></p>
+<p> 打开虚拟光驱：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-757599b590dddc80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/887/format/webp" alt="img"></p>
+<p>右键单击 <code>install-tl-advanced.bat</code>，以管理员权限执行；</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-1993a9175d9df82b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>里面基本上可以选默认的，但最后两个例外（TeXworks比较陈旧，后者是更新可能比较慢）：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-02291145965116dd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/719/format/webp" alt="img"></p>
+<p>然后点击“安装 TeX Live”，可以看到这样的界面：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-6defd40cb70626cf.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/599/format/webp" alt="img"></p>
+<p>安装完成的画面：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-06b09e3694f6f84c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/719/format/webp" alt="img"></p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-9b37f0c87b6e84df.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/597/format/webp" alt="img"></p>
+<p>同时注意<strong>完成后要把cmd关掉！</strong></p>
+<p>安装好TeXlive之后若想happy latexing，还需要有一个编辑器，可供选择的有很多，如LyX、TeXworks、TexStudio、WinEdt、Emacs、Sublime Text、Atom、Visual Studio Code等，有兴趣可以参考<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F19954023" target="_blank" rel="noopener">知乎——有哪些好的编辑器</a>。本文选用的是TeXstudio，也推荐新手使用这个编辑器。</p>
+<h3 id="2、安装TeXstudio"><a href="#2、安装TeXstudio" class="headerlink" title="2、安装TeXstudio"></a>2、安装TeXstudio</h3><p>首先从<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fsourceforge.net%2Fprojects%2Ftexstudio%2F" target="_blank" rel="noopener">官网下载TeXstudio安装文件</a>:</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-326e8d098cd3afee.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>选择安装路径 &gt; install</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-67e93a62d888f27d.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/639/format/webp" alt="img"></p>
+<p>安装好后需要更改一些设置：</p>
 <blockquote>
-<p>本帖分科普篇；实用技巧篇；资源篇三部分，略长但越往后越精彩。</p>
+<p>Options &gt; Configure TeXstudio</p>
+<p>&gt; General &gt; Language改成zh_CN（中文化）</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-c2257778e2254d6c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
 </blockquote>
-<h2 id="科普篇"><a href="#科普篇" class="headerlink" title="科普篇"></a>科普篇</h2><h3 id="一、搜索引擎是个什么东西？"><a href="#一、搜索引擎是个什么东西？" class="headerlink" title="一、搜索引擎是个什么东西？"></a>一、搜索引擎是个什么东西？</h3><p>搜索引擎（Search Engine）是指根据一定的策略、运用特定的计算机程序从互联网上搜集信息，在对信息进行组织和处理后，为用户提供检索服务，将用户检索相关的信息展示给用户的系统。搜索引擎包括全文索引、目录索引、元搜索引擎、垂直搜索引擎、集合式搜索引擎、门户搜索引擎与免费链接列表等。</p>
-<p><strong>这里的用户指的是有信息获取需求的普通用户，其实信息生产提交方（站长等）严格意义来讲也是“用户”，普通用户只需要掌握搜索引擎使用技巧，而站长们更多的是琢磨SEO（搜索引擎优化）。这个帖子这双边都会有所涉及。</strong></p>
-<h3 id="二、搜索引擎工作原理"><a href="#二、搜索引擎工作原理" class="headerlink" title="二、搜索引擎工作原理"></a>二、搜索引擎工作原理</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-3.jpg" alt="640.webp (3)"></p>
-<p>爬行抓取：搜索引擎蜘蛛跟踪链接，抓取页面html代码存入数据库，低权重复制内容过滤;</p>
-<p>预处理：文字和相关标签抓取，中文分词，去掉无意义内容提炼页面主要关键词(对于蜘蛛没有意义：如：的、啊、从而等，广告、申明等)，去重(同一内容不同网站或同一网站不同网址);倒排索引：关键词到内容，链接投票，文件处理(目前只能根据标签和相关描述文字识别)，质量判断：搜索引擎算法;</p>
-<p>排名：中文分词(排除无实际意义的词后对搜索词的拆分重组，百度快照可查询分词结果)，相关性计算：越常用的词对搜索词的意义贡献越小，词频，关键词位置形式距离(标题、H1、黑体等)，链接分析(锚文本、周边文字、原站本身主题)，排名过滤调整(百度第11位)。</p>
-<p><strong>搜索引擎的工作原理使命就是确保用户发出搜索指令后展现在他们面前的是其所需要的优质内容。</strong></p>
-<h3 id="三、目前主流的搜索引擎"><a href="#三、目前主流的搜索引擎" class="headerlink" title="三、目前主流的搜索引擎"></a>三、目前主流的搜索引擎</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155519.png" alt="QQ截图20160220155519"></p>
-<p>搜索引擎简史：1994年Yahoo!诞生，1998年Google诞生，2000年百度诞生，2012年360搜索(好搜)推出。</p>
-<p><strong>百度</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-4.jpg" alt="640.webp (4)"></p>
-<p>不管是PC端还是移动端百度市场份额都是绝对的国内第一，跟国内目前其他搜索引擎相比，不说矮子里面挑高个的难听话，也不提竞价广告的乱象丛生，但从信息获取效率以及用户体验来比，百度也是当之无愧的。</p>
-<p>作为学习工具，百度搜索有这两个地方不错，<strong>一是百度网盘，二是百度文库。</strong></p>
-<p><strong>搜狗</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140425.png" alt="QQ截图20160220140425"></p>
-<p>搜狗在近年来发展迅速，最具特色的点是可以搜索微信内容和知乎内容。这都仰赖于腾讯的买买买内容战略。</p>
-<p><strong>360</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140722-1024x773.png" alt="QQ截图20160220140722"></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140735-1024x628.png" alt="QQ截图20160220140735"></p>
-<p>对于360，实话实说，广告不比百度少，搜索结果质量也不敢恭维。来个对比。更多例子各位自行捣鼓。</p>
-<p><strong>必须掌握Google！</strong></p>
-<p>Google上面才是互联网，其他国内的搜索引擎的触角都受限，只能叫局域网。除了信息全面，用户体验也是谁用谁知道。</p>
-<h3 id="四、世界范围内各搜索引擎市场份额"><a href="#四、世界范围内各搜索引擎市场份额" class="headerlink" title="四、世界范围内各搜索引擎市场份额"></a>四、世界范围内各搜索引擎市场份额</h3><p>以2015年第三季度为例</p>
-<p>谷歌以67.49%的份额雄居第一，Yahoo第二，Bing凭借10.67%占据第三，百度第四，份额8.13%。</p>
-<h2 id="搜索引擎以及相关实用技巧"><a href="#搜索引擎以及相关实用技巧" class="headerlink" title="搜索引擎以及相关实用技巧"></a>搜索引擎以及相关实用技巧</h2><h3 id="一、高级搜索指令（了解多用几遍即可）"><a href="#一、高级搜索指令（了解多用几遍即可）" class="headerlink" title="一、高级搜索指令（了解多用几遍即可）"></a>一、高级搜索指令（了解多用几遍即可）</h3><p>这么理解：一般人不知道的，能够提高搜索效率以及精度的一些特殊指令。</p>
-<p>普通用户常用的包括：</p>
-<p><strong>双引号（搜索：“关键词”）</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/258-1024x595.png" alt="2"></p>
-<p>把搜索词汇放在双引号中，代表完全匹配搜索，也就是说搜索出来的结果页面都是保护双引号中所出现的所有词汇，连顺序也是完全匹配的。百度和Google都是支持这个指令的。</p>
-<p>使用双引号搜索可以更准确的找到特定关键词，更容易找到自己想要的资源。</p>
-<p><strong>减号（搜索：关键词  -不需要的关键词）</strong></p>
-<p>减号代表搜索引擎显示不包括减号后面词汇的页面。使用这个指令时减号前面必须是空格，减号后面没有空格，要紧跟着需要排除的词。Google和百度都支持这个指令。</p>
-<p>使用减号高级指令可以更加准确的找到需要的文件，尤其是某些词语有多重意义的时候。</p>
-<p><strong>星号 （搜索：搜索*擎）</strong></p>
-<p>星号是常用的通配符，也可以使用在搜索引擎中。百度不支持*号指令。</p>
-<p>比如在Google中搜索“ 搜索<em>擎”，其中</em>代表任何文字、出现的结果就不仅仅是包含“搜索引擎”的页面了。</p>
-<p><strong>inurl：（搜索：inurl：任意字符串）</strong></p>
-<p>inurl：指令用于搜索查询词出现在URL中的页面，可以按英文字面意思理解。百度和Google都是支持inurl：指令的。inurl：指令不仅支持英文，还支持中文。</p>
-<p>高级搜索指令inurl的语法格式为：inurl：xxx（xxx可以为任意字符串）。此命令是查找url中包含xxx的网页。</p>
-<p>如果你是做SEO的，那么inurl：指令对你会很有用，因为你可以快速的找到竞争对手（因为关键词出现在URL中对排名有一定的影响）。</p>
-<p><strong>intitle：返回的是页面title中包含关键词的页面</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-5.jpg" alt="640.webp (5)"></p>
-<p>百度和谷歌都支持intitle。 title是目前页面优化最重要的因素。无论是什么网站，基本都会把关键词放入title中。</p>
 <blockquote>
-<p>详细用法：<a href="http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html</a></p>
+<p>&gt; Build<br> &gt; Default Bibliography Tool设置成BibTeX（此处是管理参考文献的相关设置，下文有说明）</p>
+<p>&gt; Default Compiler设置成XeLaTeX（为了实现对中文的支持）</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-3e95b098b0e47d05.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
 </blockquote>
-<p><strong>filetype：搜索特定文件格式的时候使用。</strong></p>
-<p>例如：filetype:pdf 视频教程，显示的是包含“视频教程”的所有PDF文件。filetype指令可以用来搜索特定的资源，比如PDF电子书、Word文件等。Google和百度都是支持filetype：指令的。</p>
+<p>至此我们的写作环境就配置好了！</p>
+<h2 id="二、写个简单的文档试试"><a href="#二、写个简单的文档试试" class="headerlink" title="二、写个简单的文档试试"></a>二、写个简单的文档试试</h2><p>启动TeXstudio，界面如下</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-8bc12ce0be93b3ca.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>在编辑框中，输入如下内容：</p>
+<pre class=" language-dart"><code class="language-dart">\documentclass<span class="token punctuation">{</span>article<span class="token punctuation">}</span>
+<span class="token operator">%</span> 这里是导言区
+\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
+Hello<span class="token punctuation">,</span> world<span class="token operator">!</span>
+\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
+<p>将文档保存在你希望的位置后，按下绿色的编译按钮。</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-65f6143945297d0c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/39/format/webp" alt="img"></p>
+<p>一会儿，如果没有意外，屏幕的右边就会出现编译之后结果。如下图：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-6c68b9a082134a77.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>同时会自动生成PDF文件在<code>.tex</code>文件所保存的目录下。</p>
+<p>此处的第一行<code>\documentclass{article}</code>中包含了一个<strong>控制序列</strong>（或称命令 / 标记）。所谓<strong>控制序列</strong>，是以反斜杠<code>\</code>开头，以第一个<em>空格或非字母</em> 的字符结束的一串文字，他们并不被输出，但是他们会影响输出文档的效果。这里的控制序列是<code>documentclass</code>，它后面紧跟着的<code>{article}</code>代表这个控制序列有一个必要的参数，该参数的值为<code>article</code>. 这个控制序列的作用，是调用名为 “article” 的<strong>文档类</strong>。</p>
+<p>其后出现了控制序列<code>begin</code>，这个控制序列总是与<code>end</code>成对出现。这两个控制序列以及他们中间的内容被称为<strong>“环境”</strong>；他们之后的第一个必要参数总是一致的，被称为环境名。</p>
+<p>只有在 “document” 环境中的内容，才会被正常输出到文档中去或是作为控制序列对文档产生影响。因此，在<code>\end{document}</code>之后插入任何内容都是无效的。</p>
+<p><code>\begin{document}</code>与<code>\documentclass{article}</code>之间的部分被称为<strong>导言区</strong>。导言区中的控制序列，通常会影响到整个输出文档。</p>
+<h3 id="1-中英混排"><a href="#1-中英混排" class="headerlink" title="1. 中英混排"></a>1. 中英混排</h3><p>TeX 系统是高教授开发的，当初并没有考虑到亚洲文字的问题。因此早期的 TeX 系统并不能直接支持中文，必须要用其他工具先处理一下（或者是一些宏包之类的）。旧方法不在本教程中赘述，如遇到旧文档的兼容性问题，可参考<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latexstudio.net%2Farchives%2F2323.html" target="_blank" rel="noopener">《一份其实很短的LaTeX入门文档》</a>。</p>
+<p>但是现在，XeTeX 原生支持 Unicode，并且可以方便地调用系统字体。可以说解决了困扰中国 TeX 使用者多年的大问题。</p>
+<p>此外，除去中文支持，中文的版式处理和标点禁则也是不小的挑战。好在由吴凌云和江疆牵头，现在主要由刘海洋和李清维护的 <code>ctex宏包 / 文档类</code>一次性解决了这些问题。<code>ctex宏包和文档类</code>的优势在于，它适用于多种编译方式；在内部处理好了中文和中文版式的支持，隐藏了这些细节；并且，提供了不少中文用户需要的功能接口。</p>
+<p>在 TeXworks 编辑框中输入以下内容，保存，使用 XeLaTeX 编译：</p>
+<pre class=" language-dart"><code class="language-dart">\documentclass<span class="token punctuation">[</span>UTF8<span class="token punctuation">]</span><span class="token punctuation">{</span>ctexart<span class="token punctuation">}</span>
+\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
+你好，world<span class="token operator">!</span>
+\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
+<p>如果没有意外，你将会看到类似下图的输出结果：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-ebcac073d64bdaae.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>相较于之前的例子，这份代码只有细微的差异：</p>
 <blockquote>
-<p>详细用法：<a href="http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html</a></p>
+<p>1.文档类从 <code>article</code> 变为 <code>ctexart</code></p>
+<p>2.增加了文档类选项 <code>UTF8</code></p>
 </blockquote>
-<p><strong>site：这个高级搜索指令用来搜索某个域名下面的所有文件。</strong></p>
-<p>比如搜索“site：<a href="http://www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。">www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。</a></p>
-<p>之前有人用“site:yun.baidu.com ”资源关键词这个搜网盘里面的资源，现在貌似不大顶用了，等下给出替代方案。</p>
-<p>高级搜索指令大全诸位可自行百度，补充一点是，这些指令很多都可以互相搭配使用影响最后的结果。可以有很复杂的组合结果，好消息是有人帮我们封装好做写成了特殊的搜索引擎供我们使用。</p>
-<h3 id="二、特殊搜索引擎"><a href="#二、特殊搜索引擎" class="headerlink" title="二、特殊搜索引擎"></a>二、特殊搜索引擎</h3><blockquote>
-<p>这有个知乎特殊搜索引擎汇总贴：<a href="https://www.zhihu.com/question/20251786" target="_blank" rel="noopener">https://www.zhihu.com/question/20251786</a></p>
-</blockquote>
-<p>大而全的东西意味着杂乱，外行很容易陷入选择困难症一脸茫然。我给大家重点勾勒几个点。</p>
-<p>先顺逻辑：<strong>从学习的角度，我们搜索一个东西最浅显的需求就是了解知道，要想深入消化吸收往往意味着有必要触发资料收集下载这一动作。</strong></p>
-<p>嗯，我就是要教大家怎么下载。<strong>一般的付费教程以及电子书资源，百度网盘的资源丰富度远远超过你想象，不过百度官方并不提供资源检索功能。借助工具就好了，用网盘搜索引擎即可。我公众号的菜单栏内置了一个，大家可以体验一下。</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/webwxgetmsgimg-2-1024x560.png" alt="webwxgetmsgimg (2)"></p>
-<p><strong>理论上，只要挂在网上，就算是付费的视频，文档也能抠下来。某宝上面固然有售，稍稍懂点搜索引擎的功能其实都能省去不少精力，虽然大伙儿都不差钱，哈哈。</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162723-1024x307.png" alt="QQ截图20160220162723"></p>
-<p>百度文库，豆丁等下载：<strong>冰点下载器</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163011-1024x522.png" alt="QQ截图20160220163011"></p>
-<p>YouTube视频下载：<strong>en.savefrom.net</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163153-1024x331.png" alt="QQ截图20160220163153"></p>
-<p>国内视频网站内容下载：<strong>硕鼠</strong></p>
-<p>虎牙直播，斗鱼直播等在线直播视频下载：<strong>屏幕录制软件（CamtasiaStudio），我手上是自己写的软件。</strong></p>
-<p>视频资源：用各种种子搜索引擎就好了。如：<strong>电驴，海盗，死去的btspread，以及不能说的其他站点。等下各位在评论区补充。</strong></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162854.png" alt="QQ截图20160220162854"></p>
-<p>浏览国外资讯什么的，起码要会翻墙吧，建议用付费的vpn，速度有保障，最重要的是下东西飞快。俺用的一款之前叫greenvpn，现在叫绿豆加速器。红杏已挂。</p>
-<p>省略一万种资源获取方式……</p>
-<p>最后放个大招：自行百度<strong>吾爱破解，精易论坛</strong>，对绝大多数人来讲，那将是另外一片天堂。</p>
-<p>各色工具资源站点我收藏夹都躺了几百个，一次抖不完。唠叨一个省事的终极思路——<strong>互联网的基础设施是IT们搭建起来的，其中有五颜六色的暗门，摸熟搜索引擎，就是拥有了打开这些暗门的钥匙。</strong></p>
-<p>至于暗网什么的高级黑，下次八卦，写写我掌握的一些细节。</p>
-<h3 id="三、关键词使用"><a href="#三、关键词使用" class="headerlink" title="三、关键词使用"></a>三、关键词使用</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163514.png" alt="QQ截图20160220163514"></p>
-<p><strong>使用搜索引擎的搜索功能最重要的是知道输入哪个关键词。</strong></p>
-<p>搜索引擎就像一个搬运工，你想让他给你搬运啥东西，你起码得知道自己想要什么。例如你想学英语，你可能就会搜怎么学英语，英语培训教程。这种起码的素养，一般人初次接触搜索引擎就具备。这一阶段一般使用的往往是<strong>泛关键词</strong>。</p>
-<p>学习是个循序渐进的过程，意味着你有深入挖掘细分领域的需求。这就引申出另外一个概念叫<strong>精准关键词（或长尾关键词）</strong>，不过多展开，需要强调的是，大家在使用搜索引擎的时候要有意识地去提炼自己的关键词，从不同的维度去获取你想要的信息。</p>
-<p><strong>举个粗暴栗子，黄片又叫爱情动作片，此外番号，番号封面，女优这些关键词也指向你想要获取的资源，是不是很有趣。</strong></p>
-<p><strong>互联网再繁杂，只要多记对象名词，熟悉事物关键节点，借助搜索引擎就能提纲挈领，手到擒来。到这个当口，才有天下为我所用的掌握感。</strong></p>
-<h3 id="四、搭建网站门类的记忆宫殿"><a href="#四、搭建网站门类的记忆宫殿" class="headerlink" title="四、搭建网站门类的记忆宫殿"></a>四、搭建网站门类的记忆宫殿</h3><p>浸淫互联网许久，俺在说个有意思的点。<strong>导航网站相信大家都很熟悉，像hao123，金山毒霸导航，360导航。</strong></p>
-<p><strong>我想给大伙说的是，这些导航网站的布局一般都别有用心（用来做淘宝客导购，软件注册推广，广告等），而且聚合的站点也很平庸，满足普罗大众日常的消遣尚可，但是想让搜索引擎成为你的大学，就远远不够了。</strong></p>
-<p>你需要搭建属于自己的“网站导航”，在日常接触到的优秀网站，记得在浏览器点一下收藏，分门别类。经年累月的积累，这将是你电脑上最重要的一笔财富。我换电脑或装系统几乎东西不担心丢失，同步下收藏夹就好了。</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/%E6%94%B6%E8%97%8F%E5%A4%B9.png" alt="收藏夹"></p>
-<p>分门别类的收藏夹是你搭建脑海记忆宫殿的基础，最终要达到有搜索需求的时，资源获取手到擒来。</p>
+<h3 id="2-组织文章"><a href="#2-组织文章" class="headerlink" title="2. 组织文章"></a>2. 组织文章</h3><p>保存并用 XeLaTeX 编译如下文档，查看效果：</p>
+<pre class=" language-swift"><code class="language-swift">\documentclass<span class="token punctuation">[</span><span class="token builtin">UTF8</span><span class="token punctuation">]</span><span class="token punctuation">{</span>ctexart<span class="token punctuation">}</span>
+\title<span class="token punctuation">{</span>你好，world<span class="token operator">!</span><span class="token punctuation">}</span>
+\author<span class="token punctuation">{</span><span class="token builtin">Liam</span><span class="token punctuation">}</span>
+\date<span class="token punctuation">{</span>\today<span class="token punctuation">}</span>
+\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
+\maketitle
+\section<span class="token punctuation">{</span>你好中国<span class="token punctuation">}</span>
+中国在 <span class="token builtin">East</span> <span class="token builtin">Asia</span><span class="token punctuation">.</span>
+\subsection<span class="token punctuation">{</span><span class="token builtin">Hello</span> <span class="token builtin">Beijing</span><span class="token punctuation">}</span>
+北京是 capital of <span class="token builtin">China</span><span class="token punctuation">.</span>
+\subsubsection<span class="token punctuation">{</span><span class="token builtin">Hello</span> <span class="token builtin">Dongcheng</span> <span class="token builtin">District</span><span class="token punctuation">}</span>
+\paragraph<span class="token punctuation">{</span><span class="token builtin">Tian'anmen</span> <span class="token builtin">Square</span><span class="token punctuation">}</span>
+<span class="token keyword">is</span> <span class="token keyword">in</span> the center of <span class="token builtin">Beijing</span>
+\subparagraph<span class="token punctuation">{</span><span class="token builtin">Chairman</span> <span class="token builtin">Mao</span><span class="token punctuation">}</span>
+<span class="token keyword">is</span> <span class="token keyword">in</span> the center of 天安门广场。
+\subsection<span class="token punctuation">{</span><span class="token builtin">Hello</span> 北京<span class="token punctuation">}</span>
+\paragraph<span class="token punctuation">{</span>北京<span class="token punctuation">}</span> <span class="token keyword">is</span> an international city。
+\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
+<p>在文档类</p>
+<p><code>article</code>/<code>ctexart</code> 中，定义了五个控制序列来调整行文组织结构。他们分别是</p>
 <blockquote>
-<p>至于怎么管理你的收藏夹，适合你自己的姿势才是最好的，一些管理原则，放个帖子：<a href="https://www.zhihu.com/question/21537488" target="_blank" rel="noopener">https://www.zhihu.com/question/21537488</a></p>
+<pre><code>\section{·}
+\subsection{·}
+\subsubsection{·}
+\paragraph{·}
+\subparagraph{·}</code></pre></blockquote>
+<h3 id="3-如何查看当前操作系统的字体"><a href="#3-如何查看当前操作系统的字体" class="headerlink" title="3. 如何查看当前操作系统的字体"></a>3. 如何查看当前操作系统的字体</h3><p>按照如下步骤打开系统命令行：</p>
+<blockquote>
+<p>在搜索栏输入cmd</p>
+<p>命令提示符右键 &gt; 以管理员身份运行</p>
+<p>[图片上传失败…(image-7358e8-1532508080085)]</p>
 </blockquote>
-<h3 id="五、网感"><a href="#五、网感" class="headerlink" title="五、网感"></a>五、网感</h3><p>多泡网，见识各色各样的网站样式，在建立起自己的站点记忆宫殿之后，培养自己的网感，懂得各色资源的搭配调取应用。网感是个很大的命题，看似有些务虚，实则用处极大。此处提出这一概念，鉴于篇幅下次阐述。</p>
-<h2 id="资源篇"><a href="#资源篇" class="headerlink" title="资源篇"></a>资源篇</h2><p>从学习获取资源的角度，看上面的东西就够用了。你要对搜索引擎真感兴趣，俺接着给大家推荐几本类似行业圣经的读物。</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155555.png" alt="QQ截图20160220155555"></p>
-<p><strong>SEO艺术</strong></p>
-<p>国外译著，享有盛誉</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155840.png" alt="QQ截图20160220155840"></p>
-<p>《这就是搜索引擎:核心技术详解》</p>
-<p>关于一些技术细节</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155728.png" alt="QQ截图20160220155728"></p>
-<p><strong>《搜》</strong></p>
-<p>搜索引擎的由来，了解历史，偏文化经济层次</p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155810.png" alt="QQ截图20160220155810"></p>
-<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220164806.png" alt="QQ截图20160220164806"></p>
-<p>《SEO深度解析》和《SEO实战密码:60天网站流量提高20倍(第3版)》都是站长SEO操作指南。</p>
+<p>在系统命令行中输入如下命令：</p>
+<pre class=" language-ruby"><code class="language-ruby">fc<span class="token operator">-</span>list <span class="token symbol">:lang</span><span class="token operator">=</span>zh<span class="token operator">-</span>cn <span class="token operator">></span> <span class="token constant">C</span><span class="token punctuation">:</span>\font_zh<span class="token operator">-</span>cn<span class="token punctuation">.</span>txt</code></pre>
+<p>打开 C 盘根目录下的 <code>C:\font_zh-cn.txt</code> 纯文本文档，里面的内容就是你当前系统可用的全部中文字体， 为了方便观看，我用的Visual Studio code打开，效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-04d452229ea35a3c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>其中的每一行，都代表着一个可用的字体 。我们可以看到图中的倒数第五行</p>
+<pre class=" language-ruby"><code class="language-ruby"><span class="token constant">C</span><span class="token punctuation">:</span><span class="token operator">/</span><span class="token constant">WINDOWS</span><span class="token operator">/</span>fonts<span class="token operator">/</span>simsun<span class="token punctuation">.</span>ttc<span class="token punctuation">:</span> <span class="token constant">SimSun</span><span class="token punctuation">,</span>宋体<span class="token symbol">:style</span><span class="token operator">=</span><span class="token constant">Regular</span><span class="token punctuation">,</span>常规</code></pre>
+<p>出现了之前文档里调用的字体</p>
+<pre><code>SimSun`，此处表明该字体有两个表示名：`宋体`和`SimSun</code></pre><p>恭喜你，至此已经掌握了TeXlive+TeXstudio的基本用法，可以编辑自己的文档了，同时，也可以继续向下看，有了上面的知识能帮助你更好的理解模板的结构。</p>
+<h2 id="三、使用模板写作"><a href="#三、使用模板写作" class="headerlink" title="三、使用模板写作"></a>三、使用模板写作</h2><p>使用模板写作，适用于需要按照规定期刊或报告规定的格式撰写文章的工作者，同时也很适合新接触LaTeX写作的新手感受这种写作方式的乐趣，毕竟手动编辑一套复杂的论文需要花费大量时间，这脱离了LaTeX之类排版语言想让写作者关注内容本身的初衷。下面将介绍初学者在使用模板写作时需要用到的技巧。</p>
+<h3 id="1-模板的获取"><a href="#1-模板的获取" class="headerlink" title="1. 模板的获取"></a>1. 模板的获取</h3><p>建议在使用中自己整理几个自己常用的模板，从网上下载的模板只能提供一个大体的方向，有时也存在版本不同造成的兼容性问题，细节需要自己完善。</p>
+<ul>
+<li><p><a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latextemplates.com%2F" target="_blank" rel="noopener">LaTeXtemplates.com</a> 网站是非常不错的模板分享网站，收集了包括书信，报告，论文，演示文稿，简历等等模板，整体收集模板质量很不错，非常推荐，该网站逐步退出了排版和模板开发的服务，有兴趣可以多多了解。</p>
+</li>
+<li><p>在 <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FMartinThoma%2FLaTeX-examples" target="_blank" rel="noopener">https://github.com/MartinThoma/LaTeX-examples</a> 有作者收集的非常好的模板收集，也收集了大量的tikz等等例子，可下载，选择自己喜欢的模板使用。</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-09b122c36ed39d94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/600/format/webp" alt="img"></p>
+</li>
+</ul>
+<ul>
+<li><p>在 <a href="https://links.jianshu.com/go?to=http%3A%2F%2Fuk.tug.org%2Ftraining%2Fthesis%2F" target="_blank" rel="noopener">http://uk.tug.org/training/thesis/</a> 有不少收集好的国外高校论文模板。</p>
+</li>
+<li><p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.overleaf.com%2F" target="_blank" rel="noopener">https://www.overleaf.com/</a>也可以找到很多期刊的模板代码，还支持在线编辑，所见即所得，效果如下：</p>
+</li>
+</ul>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-1ab2f5d564a8cc1e.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-c0ef9ba3d4803585.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<ul>
+<li><a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latexstudio.net%2Farchives%2Fcategory%2Flatex-templates%2Fthesis-template" target="_blank" rel="noopener">LaTeX开源小屋</a>里也有很多论文模板资源。</li>
+</ul>
+<h3 id="2-模板的使用"><a href="#2-模板的使用" class="headerlink" title="2. 模板的使用"></a>2. 模板的使用</h3><p>这里以北京航空航天大学学报提供的模板为例，把模板下载到电脑中后，选择<code>.tex</code>类型的文件：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-26a1274135598715.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>构建并查看：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-f700e74faf97b5b8.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<p>可以在左侧<code>结构</code>栏跳转到相应区域修改内容，也可以在右侧PDF阅览区<code>右键 &gt; 跳转到源</code>直接跟踪到相应代码区，进行修改即可。</p>
+<p>下面将分别介绍一些常用的编排技巧。</p>
+<h4 id="2-1文献引用"><a href="#2-1文献引用" class="headerlink" title="2.1文献引用"></a>2.1文献引用</h4><pre class=" language-latex"><code class="language-latex"><span class="token function selector">\documentclass</span><span class="token punctuation">{</span><span class="token keyword">ctexart</span><span class="token punctuation">}</span>
+
+<span class="token function selector">\bibliographystyle</span><span class="token punctuation">{</span>plain<span class="token punctuation">}</span>   <span class="token comment" spellcheck="true">%引用的样式%</span>
+<span class="token function selector">\begin</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span>
+    这是一个参考文献引用：<span class="token function selector">\cite</span><span class="token punctuation">{</span><span class="token keyword">name1</span><span class="token punctuation">}</span> <span class="token comment" spellcheck="true">%大括号内为相应文献的引用标签</span>
+    <span class="token function selector">\bibliography</span><span class="token punctuation">{</span>text<span class="token punctuation">}</span>     <span class="token comment" spellcheck="true">%导入参考文献库文件%</span>
+<span class="token function selector">\end</span><span class="token punctuation">{</span><span class="token keyword">document</span><span class="token punctuation">}</span></code></pre>
+<p>输入上述代码后进行构建，完成后点击左侧<code>结构</code>栏的<code>参考文献 &gt; text</code></p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-3a5dee2a575f5173.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/282/format/webp" alt="img"></p>
+<p>会提示是否创建<code>.bib</code>文件，选择是</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-e76118126d5aa0a7.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/324/format/webp" alt="img"></p>
+<p>这便是你的文献库，如何添加参考文献信息呢？有两种方式，第一种当然是自己手动整理，第二种则非常方便，打开谷歌学术：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-bcab842f2bdfa947.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1055/format/webp" alt="img"></p>
+<p>输入文献名之后，在搜索结果中点引用：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-73c26d49ee7a74e2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1134/format/webp" alt="img"></p>
+<p>选择以<code>BibTeX</code>格式引用：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-eb740a5b23152b1c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/783/format/webp" alt="img"></p>
+<p>将内容复制到之前生成的文件库<code>text.bib</code>文件中</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-c6f785f5b5bdd539.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<pre class=" language-latex"><code class="language-latex">@article<span class="token punctuation">{</span>ferrari2006raman,  <span class="token comment" spellcheck="true">%此处为引用标签</span>
+  title=<span class="token punctuation">{</span>Raman spectrum of graphene and graphene layers<span class="token punctuation">}</span>,
+  author=<span class="token punctuation">{</span>Ferrari, Andrea C and Meyer, JC and Scardaci, V and Casiraghi, C and Lazzeri, Michele and Mauri, Francesco and Piscanec, S and Jiang, Da and Novoselov, KS and Roth, S and others<span class="token punctuation">}</span>,
+  journal=<span class="token punctuation">{</span>Physical review letters<span class="token punctuation">}</span>,
+  volume=<span class="token punctuation">{</span>97<span class="token punctuation">}</span>,
+  number=<span class="token punctuation">{</span>18<span class="token punctuation">}</span>,
+  pages=<span class="token punctuation">{</span>187401<span class="token punctuation">}</span>,
+  year=<span class="token punctuation">{</span>2006<span class="token punctuation">}</span>,
+  publisher=<span class="token punctuation">{</span>APS<span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+<p>将文献的引用标签与原文对应好：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-9fe9aa10d870d3e3.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/703/format/webp" alt="img"></p>
+<p>构建完成后，效果如下：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-e31e09bd9957ce46.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<h4 id="2-2公式怎么办"><a href="#2-2公式怎么办" class="headerlink" title="2.2公式怎么办"></a>2.2公式怎么办</h4><p>为了使用 AMS-LaTeX 提供的数学功能，我们需要在导言区加载<code>amsmath</code>宏包：</p>
+<pre class=" language-undefined"><code class="language-undefined">\usepackage{amsmath}</code></pre>
+<ul>
+<li><p>数学模式</p>
+<p>LaTeX 的数学模式有两种：行内模式 (inline) 和行间模式 (display)。前者在正文的行文中，插入数学公式；后者独立排列单独成行。</p>
+<p>在行文中，使用<code>$ ... $</code>可以插入行内公式，使用<code>\[ ... \]</code>可以插入行间公式，如果需要对行间公式进行编号，可以使用<code>equation</code>环境： \begin{equaion} … \end{equation}</p>
+<blockquote>
+<p>行内公式也可以使用<code>\(...\)</code>来插入，略显麻烦。无编号的行间公式也可以使用<code>$$ ... $$</code>来插入，但是这样做会改变行文的默认行间距，不推荐。</p>
+</blockquote>
+</li>
+</ul>
+<p>LaTeX的公式编辑可以说是其最为犀利的部分之一了，但其公式语法非常繁琐，不过令人高兴的是，这里有一个<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.codecogs.com%2Flatex%2Feqneditor.php" target="_blank" rel="noopener">在线LaTeX公式编辑器</a>，非常方便直观：</p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-60de36943f0fddba.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<h4 id="2-3表格怎么办"><a href="#2-3表格怎么办" class="headerlink" title="2.3表格怎么办"></a>2.3表格怎么办</h4><p>巧了，表格也有类似的工具：<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.tablesgenerator.com%2F" target="_blank" rel="noopener">Creat LaTeX tables online</a></p>
+<p><img src="https:////upload-images.jianshu.io/upload_images/1083955-182fe844a87229de.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1200/format/webp" alt="img"></p>
+<h4 id="2-4图片呢"><a href="#2-4图片呢" class="headerlink" title="2.4图片呢"></a>2.4图片呢</h4><p>在 LaTeX 中插入图片，有很多种方式。最好用的应当属利用<code>graphicx</code>宏包提供的<code>\includegraphics</code>命令。比如你在你的 TeX 源文件同目录下，有名为 a.jpg 的图片，你可以用这样的方式将它插入到输出文档中：</p>
+<pre class=" language-dart"><code class="language-dart">\documentclass<span class="token punctuation">{</span>article<span class="token punctuation">}</span>
+\usepackage<span class="token punctuation">{</span>graphicx<span class="token punctuation">}</span>
+\begin<span class="token punctuation">{</span>document<span class="token punctuation">}</span>
+\includegraphics<span class="token punctuation">{</span>a<span class="token punctuation">.</span>jpg<span class="token punctuation">}</span>
+\end<span class="token punctuation">{</span>document<span class="token punctuation">}</span></code></pre>
+<p>图片可能很大，超过了输出文件的纸张大小，或者干脆就是你自己觉得输出的效果不爽。这时候你可以用</p>
+<p><code>\includegraphics</code>控制序列的可选参数来控制。比如</p>
+<pre class=" language-undefined"><code class="language-undefined">\includegraphics[width = .8\textwidth]{a.jpg}</code></pre>
+<p>这样图片的宽度会被缩放至页面宽度的百分之八十，图片的总高度会按比例缩放。</p>
+<blockquote>
+<p><code>\includegraphics</code>控制序列还有若干其他的可选参数可供使用，一般并用不到。感兴趣的话，可以去查看<a href="https://links.jianshu.com/go?to=http%3A%2F%2Ftexdoc.net%2Ftexmf-dist%2Fdoc%2Flatex%2Fgraphics%2Fgraphicx.pdf" target="_blank" rel="noopener">该宏包的文档</a>。</p>
+</blockquote>
+<h4 id="2-5-制作幻灯片"><a href="#2-5-制作幻灯片" class="headerlink" title="2.5 制作幻灯片"></a>2.5 制作幻灯片</h4><p>没错，LaTeX的确还可以制作精美的幻灯片pdf，不过具体使用方法与论文写作大同小异，网上也有很多漂亮的模板，有兴趣可以去继续了解。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>之前一直用<a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzh.wikipedia.org%2Fzh-hans%2FMarkdown" target="_blank" rel="noopener">Markdown</a>写文章，对比两者，感觉Markdown就像傻瓜版LaTeX，适合写博客之类对不追求复杂格式的场景，在此推荐一款Markdown编辑器<a href="https://links.jianshu.com/go?to=https%3A%2F%2Ftypora.io%2F" target="_blank" rel="noopener">typora</a>,主页极其漂亮的同时，软件本身也非常简洁实用，功能强大。</p>
+<p>日常写作用轻量级的Markdown，想要获得更为复杂和严谨的论文排版作品，上LaTeX，这样基本就能涵盖所有的写作场景，告别臃肿难用的word软件，让我们更专注于内容，享受其中。</p>
+<p>Happy LaTeXing！</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.latexstudio.net%2Farchives%2F2323.html" target="_blank" rel="noopener">一份其实很短的 LaTeX 入门文档</a></p>
+<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fliam0205.me%2Ftexlive%2F" target="_blank" rel="noopener">TeXlive 下载及安装说明</a></p>
+<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F25013341" target="_blank" rel="noopener">LaTeX第七课：排版参考文献</a></p>
+<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F19954023%3Ffrom%3Dprofile_question_card" target="_blank" rel="noopener">知乎——有哪些好的 LaTeX 编辑器？</a></p>
+<p><a href="https://links.jianshu.com/go?to=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F22576629" target="_blank" rel="noopener">如何快速在线生成latex表格</a></p>
 ]]></content>
       <categories>
-        <category>分享</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>搜索引擎</tag>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>科学上网基本知识</title>
+    <url>/2020/04/26/jibenzhishi/</url>
+    <content><![CDATA[<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/%E5%B0%81%E9%9D%A2.png" alt=""></p>
+<p>翻墙与科学上网已经成了我们生活中不可缺少的一部分，很多国外网站都能为我们提供很多帮助。平时用的最多的可能就是使用Google查资料，如果你是在国外生活或者从事外贸相关工作，当然也离不开Twitter、Facebook、Gmail等，这些网站都不能在国外直接访问，而另一些网站则是从国内访问速度太慢，如何选择好用的科学上网工具则变得至关重要，本文介绍了关于如何翻墙的方法。<br>随着防火长城不断升高，目前翻墙难度也越来越大，前几年国内很多用户使用的是蓝灯的免费版，但目前连接已经非常困难了。有些有技术能力的朋友，则自己购买VPS搭建代理软件，目前也遇到了一些困难，由于国内用户使用的VPS服务商比较集中，最流行的比如搬瓦工、Vultr等，导致很多IP段被封或者网络过于拥堵，使用情况也不太理想。个人已经翻墙多年，用过多种翻墙工具，自己也折腾过很多方法，不过因为翻墙只是为了方便日常工作，并没有太多时间研究翻墙的具体技术细节，后面就直接用现成的VPN了，目前来说个人最喜欢的是<a href="https://www.expressvpn.com/" target="_blank" rel="noopener">ExpressVPN</a>、<a href="https://nordvpn.com/zh/special/?utm_medium=affiliate&utm_term&utm_content&utm_campaign=off15&utm_source=aff32326" target="_blank" rel="noopener">NordVPN</a>、<a href="https://www.pancerra.xyz/r/9689528" target="_blank" rel="noopener">Panda VPN</a>，具体翻墙效果如何可以参考<a href="https://qiangwaikan.com/best-vpn-china" target="_blank" rel="noopener">中国VPN推荐</a>。</p>
+<h1 id="什么是墙"><a href="#什么是墙" class="headerlink" title="什么是墙"></a>什么是墙</h1><p>墙又叫做防火长城<a href="https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E" target="_blank" rel="noopener">GFW</a>，是指国内对于国外内容进行<a href="https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E5%AE%A1%E6%9F%A5" target="_blank" rel="noopener">互联网审查</a>，然而因为工作或者学习需要，有时候我们迫切需要访问国外网站，而这时候这种行为就叫做翻墙，也称作科学上网。</p>
+<h2 id="客观看待防火长城"><a href="#客观看待防火长城" class="headerlink" title="客观看待防火长城"></a>客观看待防火长城</h2><p>防火长城让我们无法访问Google、Facebook、Twitter等这些国外流行的网站，当我们需要查询一些过国外资料的时候就会非常不方便。最开始我也对墙非常反感，认为这影响了我自由获取知识。但通过这些年的翻墙经历以及近几年发生的事，我逐渐觉得墙也并不是完全对自己不利。</p>
+<p>中国始终还是一个发展中国家，虽然近几年发展迅速，但是很多人很难分辨墙外内容的真假。我觉得国内微博或者微信朋友圈最能提现这一点，一旦某些谣言博得了大众的眼球，这些谣言就会肆意疯传。在国内尚且如此，可想而知一旦开放了互联网站之后，<a href="https://tech.sina.com.cn/i/2019-02-28/doc-ihrfqzka9673033.shtml" target="_blank" rel="noopener">很多人</a>容易被片面的内容带偏，因为网络上有太多的不道德网站。现在西方内容大多是批判中国的内容，而这仿佛也普遍成了政治正确，大多数是批判中国民众没有民主自由，民主似乎成了中国的原罪。<br>有一本书<a href="https://book.douban.com/subject/1027191/" target="_blank" rel="noopener">《历史深处的忧虑》</a>是专门写美国文化的，通过讲述很多美国总所周知的事件，来反应美国的文化。其中就讲到了关于禁枪的故事，美国经常出现枪击事件，但大多数人并不愿意禁枪。为什么呢，因为枪代表了他们的自由，枪既可以保障他们的安全，但同时也能带来危险，而他们能够接受这种后果。而面对中国的14亿人口，开放互联网也如同开放枪支管理一样，在看到这种自由便利的同时，也应该审视自由带来的后果。你是否真的能接受各种谣言、煽动带来的社会不稳定。</p>
+<h2 id="为什么要科学上网"><a href="#为什么要科学上网" class="headerlink" title="为什么要科学上网"></a>为什么要科学上网</h2><p>通过科学上网我们能干什么？首当其冲的当然是通过Google搜索引擎查询我们想要的资料，Google对网站内容的把控非常严格，劣质内容会被排在后面甚至是处罚，随便搜索一个关键字，它尽可能的会把你带到官网。而<a href="https://www.jianshu.com/p/40760b17484e" target="_blank" rel="noopener">百度与谷歌</a>比较起来显得非常心黑了，此前的医疗广告事件把百度推到了舆论的风口浪尖，虽然当时医疗广告撤了，但这几年又悄悄放出来了，毕竟搜索引擎广告是块大肥肉。而就算除了广告之外，百度对于信息的检索能力也确实不如谷歌。</p>
+<p>世界上最大的视频平台<a href="https://www.youtube.com/" target="_blank" rel="noopener">Youtube</a>想必大家已经耳熟能详了，Youtube上的视频资源非常丰富，Google和Youtube都是翻墙后必装的app，国内<a href="https://www.bilibili.com/" target="_blank" rel="noopener">B站</a>以及微博上很多视频都是从Youtube搬运过去的，比如大家在微博上经常看到的油管剪辑大神<a href="https://www.youtube.com/user/ZachKingVine" target="_blank" rel="noopener">Zach King</a>的作品，他的剪辑功力非常高超，而且非常有创意，可以关注一下他的频道。除此之外，你还可以第一时间看到<a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA" target="_blank" rel="noopener">SpaceX</a>发射火箭，和伊隆马斯克一起探索宇宙，以及更多值得关注的youtuber博主一类的视频。</p>
+<p>当然翻墙不仅仅是为了好玩的，也能通过翻墙学习知识，<a href="https://zh.coursera.org/" target="_blank" rel="noopener">Coursera</a>是全球顶尖的在线课程网站，网站的视频课程内容丰富，从艺术人文到计算机科学，几乎涵盖了人类文化的各个领域。Coursera上的视频内容质量都很高，因为他们和全球190所顶尖高校和公司都有合作关系，你可以直接接受全球顶尖的教育资源。另外<a href="https://www.ted.com/" target="_blank" rel="noopener">TED</a>的演讲视频也非常值得观看，内容都是各行业领域优秀人物的演讲，不仅可以增长减少也能引发我们的思考，不过遗憾的是没有中文字幕。所以不得不感慨学好英语的重要性，大家如果还年轻的话，多把英语抓一抓吧，想想看美剧不用中文字幕，看书能够直接看原版，看业界专业资料能直接看官网，你所获得资料都是一手干货，这不仅仅是一键非常酷的事情，也能让你眼界更加开阔。</p>
+<p>总之翻墙确实能够学到很多东西，但这取决你浏览什么内容，很多翻墙第一件事情，就是去浏览政治相关的内容，当然这也比较正常，毕竟我第一次翻墙也是这样的，毕竟平时都在道听途说，自己也想去看看。不过个人觉得这些东西看多了意义不大，大多有数都是千篇一律，就普通老百姓而言，参与政治并不能改变任何事情，本站也在翻墙必看该篇中说过不会参与政治。西方的发达不是靠体制造就的，而是许许多多的艺术科学领域的杰出人物造就的，况且西方早在几百年前就领先了，我们想要追上别人，不是靠喊口号就能改变的，只有在自己的位置上把事情干好，才能赢得别人的尊重。</p>
+<h2 id="切忌在网上发布翻墙等关键词"><a href="#切忌在网上发布翻墙等关键词" class="headerlink" title="切忌在网上发布翻墙等关键词"></a>切忌在网上发布翻墙等关键词</h2><p>国内通讯软件收集用户聊天信息也是众所周知的事了，2018微信年度数据报告中统计了不同年龄段用户的部分画像，随让这些统计数据让我们了解各个年龄段的群体的各种喜好，但背后也暴露除了微信关于用户隐私的严重问题。如果没有收集用户的聊天记录，微信如何得到的这些统计数据，又如何向我们定向推送广告呢。随让腾讯回应了关于微信储存用户信息，但这很难得到大众的信任，当然这种行为也不值微信一家，在国内收集用户信息几乎已经习以为常，所以平时上网尽量不要发布关于“翻墙”一类的关键词，避免不必要的麻烦。</p>
+<p>工业部已经明确发布清理规范互联网网络接入服务的通知，其中明确规定了未经电信主管部门批准，不得自行建立或租用专线（含虚拟专用网络VPN）等其他信道开展跨境经营活动。</p>
+<h1 id="如何翻墙上网"><a href="#如何翻墙上网" class="headerlink" title="如何翻墙上网"></a>如何翻墙上网</h1><h2 id="最简单的翻墙方法：VPN"><a href="#最简单的翻墙方法：VPN" class="headerlink" title="最简单的翻墙方法：VPN"></a>最简单的翻墙方法：VPN<img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/vvv.png" style="zoom: 50%;" /></h2><p>通过商用VPN翻墙是大多数人的首选，现在国外有很多提供VPN服务的公司，其中还有不少是专门针对国内翻墙用户提供VPN服务，而且翻墙效果都非常不错，即便是在特殊时期，也有技术人员及时解决问题，可以参考《中国VPN推荐》。而且这些VPN在全球范围内都部署着服务器，即便是某一个服务器节点被墙，用户可以快速切换到其他服务器比如香港、新加波、美国等地。另外一个好处是，用户不需要复杂的配置，个人用户的很多VPN都是一键连接的简单操作。所以如果只是想翻墙，而不是为了研究翻墙技术了的话，个人觉得使用VPN是最好的方式。即便是有技术能力搭建，也需要付出时间成本，个人在刚开始翻墙之前，也是自己动手搭建SSR，但是经常被封IP，还得花钱换IP，有时进程挂了还得自己去重启，还是挺麻烦的，而且跟商用VPN比起来，购买一个好的VPS价格算下来差不多，多数情况要比VPS更便宜，后面就转到用VPN了。</p>
+<h2 id="常用的自建翻墙方法：SSR、V2Ray"><a href="#常用的自建翻墙方法：SSR、V2Ray" class="headerlink" title="常用的自建翻墙方法：SSR、V2Ray"></a>常用的自建翻墙方法：SSR、V2Ray</h2><p>因为Shadowsocks原版项目已经无人维护，同时墙的工作人员也在不停的寻找效率批量匹配特征的方法，目前来说原版协议在大部分地区已经被匹配流量特征限速或者屏蔽了。目前来说最流行的方式是搭建ShadowsocksR（SSR）翻墙，不过由于混淆需要时间，相比于原版SS而言会延迟和损耗15%的速度，如果你想动手自己搭建的话可以<a href="https://qiangwaikan.com/ssr/" target="_blank" rel="noopener">参考SSR搭建教程</a>.</p>
+<p>V2Ray是后起之秀，严格上来说V2Ray并不单单是一个翻墙工具，而是一个网络工具箱，对于翻墙有用的是它自带的VMess协议，除此之外还可以在V2Ray中集成SSR协议，这点充分体现了V2Ray工具箱的身份，具体可以参考<a href="https://qiangwaikan.com/v2ray/" target="_blank" rel="noopener">V2Ray搭建教程</a>。自己搭建翻墙软件需要一定的技术能力，并且需要长期维护，相对于付费VPN来说，购买VPS属于硬件资源，性价比肯定比不上VPN这种软件服务。本人之前也自己也玩儿很多年付便宜小鸡，但网络速度都慢的出奇，很难找到又便宜网络速度又好的VPS，因为硬件资源更贵。<img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/shadow.png" alt=""></p>
+<h2 id="最新翻墙VPN协议："><a href="#最新翻墙VPN协议：" class="headerlink" title="最新翻墙VPN协议："></a>最新翻墙VPN协议：</h2><p>WireGuard什么是WireGuard？WireGuard属于新一代的VPN，它相比IPsec这种VPN协议而言更加简单并且更快，而它的代码相比对应的OpenVPN函数库则更加简洁高效。WireGuard的可移植性很好，最开始实在Linux内核发布，目前已经支持Windows，macOS，BSD，ios，Android等平台，WireGuard还是非常新的VPN协议规范，目前正在积极开发中，因为其简单高效并且极高的安全性，业界对其评价很高，参考WireGuard搭建教程。</p>
+<h1 id="如何翻墙最稳妥"><a href="#如何翻墙最稳妥" class="headerlink" title="如何翻墙最稳妥"></a>如何翻墙最稳妥</h1><h2 id="推荐使用VPN翻墙"><a href="#推荐使用VPN翻墙" class="headerlink" title="推荐使用VPN翻墙"></a>推荐使用VPN翻墙</h2><p>VPN有其很难替代的优势，最重要的就是操作简单，就算你不懂什么是翻墙，只需要下载VPN服务商提供的客户端软件，安装好后直接一键上网.另外就是关于“全局翻墙”，其实SSR这种代理工具并不能实现真正的“全局翻墙”，它只能用户在浏览器翻墙，而VPN则不一样，你可以在计算机的“网络共享中心“中看到它的虚拟网卡名字，这说明它可以将用户的所以请求通过网卡加密转发，这点是其他翻墙方式无法办到的.我用过很多商用VPN，也踩过不少的坑，总的来说ExpressVPN是最稳定的，这么多年来从来没有出过重大连接问题。</p>
+<h2 id="SSR用来折腾"><a href="#SSR用来折腾" class="headerlink" title="SSR用来折腾"></a>SSR用来折腾</h2><p>SSR和VPN相比，个人觉得效果差不多，SSR有它的优势，比如建立连接速度快，因为不需要像VPN一样启动点对点的连接，通常情况下启动客户端之后就能翻墙上网，而如果是VPN则需要等待一会儿，这是两者性质决定的。不过这点也导致一个问题，如果长时间翻墙的话，SSR没有VPN稳定，因为每次用户请求都需要重新与服务器连接.自己搭建的话，需要先购买VPS，然后配置linux系统，最后安装SSR等步骤，个人虽然技术出身，但也没有太多时间折腾这个，毕竟翻墙只是为了更好的工作和学习而已。</p>
+<h2 id="蓝灯"><a href="#蓝灯" class="headerlink" title="蓝灯"></a>蓝灯</h2><p><a href="https://getlantern.org/zh_CN/" target="_blank" rel="noopener">蓝灯</a>可以翻墙上网，但是毕竟是<a href="https://qiangwaikan.com/free/" target="_blank" rel="noopener">免费VPN</a>，速度确实很慢，只能打开一些文字类的网站，如果访问的网站图片太多或者需要加载视频，那么就非常乏力了。所以如果你只是偶尔翻墙，蓝灯确实能够访问google一类的网站，但如果你想访问youtube等视频网站，蓝灯可能不能满足你的要求。总的来说蓝灯作为一个辅助的翻墙软件还是不错的，可以让你翻墙过去选择更好的梯子，可以参考<a href="https://qiangwaikan.com/lantern/" target="_blank" rel="noopener">蓝灯优惠码</a>查看更多信息。</p>
+<h2 id="翻墙会遇到的问题"><a href="#翻墙会遇到的问题" class="headerlink" title="翻墙会遇到的问题"></a>翻墙会遇到的问题</h2><p>人生不会一帆风顺，翻墙也是如此。不管是通过何种方式科学上网，都不可能保证一直稳定使用。每年中国的特殊时期，都会对翻墙软件进行限制，对一些墙外网站进行限速。其中每年的六月份审查最为严格，关于这个<a href="https://www.youtube.com/watch?v=ExqqdUXXdgA&t=292s" target="_blank" rel="noopener">六四事件</a>可以看看BBC的这个纪录片，起初没有翻墙之前，在听说这个事件的时候，内心确实对政府感到非常愤怒。但在看过这个视频之后，自己有了更加客观的认识，总体来说这种示威游行的出发点是好的，大家都想改变当时的腐败现象，但是这种这种示威游行很容易失控，游行的初衷开始变质，不再是为了解决问题而是为了游行而游行，视频中的示威游行领导者，在最后接受采访的时候，也说自己无法控制这种局面，最后跑路了之。</p>
+<p>翻墙最好的方式是做好备用方案，任何一个翻墙工具在特殊时期，都会面临严峻的考验。因为平时没有什么政治事件，你科学上网影响不大，不会引起群体事件，所以防火长城都是睁一只眼闭一只眼，因为完全封锁国外网络也不太现实，比如正规的跨境电商，需要使用Gmail与客户交流，科研工作者需要翻墙查询国外资料，直接一刀切势必会影响经济发展，对社会整体来说弊大于利。但特殊时期不一样，这个时候最重要不是经济发展，而是社会稳定，不管你的翻墙工具的协议是什么，加密算法多么高级，只要是国外IP，一旦流量太大统统限速或者直接封禁。经常翻墙的话，应该深有体会，周围很多朋友都发现自己的梯子不能翻墙了。有些技术人员自己搭建的翻墙工具IP被封了，因为自建翻墙工具，需要租用境外VPS，而这些服务商的IP段通常是固定的，所以特殊时期通常是直接封IP段，导致大面积IP被封。使用付费翻墙服务的话，也会遇到节点大面积超时，这些问题都是在翻墙过程中会遇到的，不过这种情况不会一直持续，一旦过了特殊时期，审查就没有这么严格了。</p>
+<h1 id="防火长城的工作原理"><a href="#防火长城的工作原理" class="headerlink" title="防火长城的工作原理"></a>防火长城的工作原理</h1><p>防火长城GFW实现网络封锁的手段有很多，这里本文主要解释两种常见的手段：DNS劫持和IP封锁</p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/GFW.png" alt=""></p>
+<h2 id="DNS劫持"><a href="#DNS劫持" class="headerlink" title="DNS劫持"></a>DNS劫持</h2><p>IP地址是网络各个计算机或者服务器的“地址”。日常生活中我们要将信件寄给别人，首先需要知道收件人的地址，计算机也是如此，只不过这个地址变成了一串数字如192.168.0.1。我们需要访问的网站地址也是类似的，如果每个网站我们都需记住这样一串数字的话，简直太麻烦了，我们甚至需要一个”IP地址簿”？于是为了解决这个问题，我们用一个可读性更强的域名来表示这个IP地址，比如<a href="http://www.google.com来表示192.168.0.1（这里仅仅是举例，Google的IP地址不是这个，并且Google的IP库随时可能变化）。" target="_blank" rel="noopener">www.google.com来表示192.168.0.1（这里仅仅是举例，Google的IP地址不是这个，并且Google的IP库随时可能变化）。</a><br>现在我们知道了域名实际上是为了方便人们记忆，但计算机将数据发送出去的时候，最终还是需要知道对方的IP地址。那么谁来做这个域名解析的工作呢？这就是我们需要讲的DNS域名系统（Domain NameSystem），用户在请求目标网站之前，计算机首先会将域名发送给DNS服务器，询问这个域名对应的IP，在拿到这个IP地址之后，才会向目标网站发送请求。</p>
+<p>发快递需要有快递公司服务，那么发送请求也需要有网络运营商服务。快递公司检查你的寄送物品是否是违禁物品，而网络运营商用于检查违禁内容的机制就是防火长城，它所作的事情就是，当用户向DNS服务器发送域名解析请求的时候，向用户的计算机返回一个错误的IP，自然就无法访问目标网站了。不过DNS劫持是GFW很早之前使用的手段了，现在已经过时了，不过基本道理都差不多，那个时候的大家通过修改Hosts文件，将自己想要访问的网站域名映射为真实的IP，这样计算机就不会请求DNS服务器，自然就可以突破封锁了。</p>
+<h2 id="IP封锁"><a href="#IP封锁" class="headerlink" title="IP封锁"></a>IP封锁</h2><p>由于之前DNS劫持的方式，很容易被绕过，使得翻墙的成本非常低，GFW引入了新的IP封锁机制。直接锁住了访问目标网站的去路，使得改Hosts文件翻墙成为了历史，用户发往被封锁IP的任何数据都会被墙截断。那么如何解决这个问题呢？只能通过租用境外服务器，搭建翻墙的中转服务，用户首先将数据发送到这个中转服务器，然后在将请求转发到目标网站，而这个中转服务器的IP没有被封锁，从而实现翻墙。<br>防火长城采用的是黑名单机制，顾名思义就是将不合法的域名（如Google、Facebook）等网站的所有IP加入黑名单中，目前几乎所有的翻墙手段，都是基于这种方式实现的，比如我们后面要提到的VPN、shadowsocks、V2Ray等，这些方式只是技术实现细节不同。</p>
+<h1 id="翻墙相关概念"><a href="#翻墙相关概念" class="headerlink" title="翻墙相关概念"></a>翻墙相关概念</h1><p>在翻墙之前应该了解这些关键的概念，即VPN、VPS、Proxy和Shadowsocks，大家或多或少都听说过，新手对这些词的意思非常混淆，我刚开始接触翻墙的时候也是如此。虽说没必要知道这些概念的具体技术细节，但大概了解一下这些概念的意思对翻墙还是很有帮助的，避免在翻墙遇到问题的时候不知所措。</p>
+<h2 id="VPN"><a href="#VPN" class="headerlink" title="VPN"></a>VPN</h2><p> VPN是虚拟私人网络（Virtual Private Network）的简称，虚拟专用网络是一种连接方法，用于为互联网专用和公用网络增加安全性和隐私性，最初是企业最常使用虚拟专用网络来保护敏感数据。但是因为使用虚拟专用网络可以提高隐私性，使个人VPN变得越来越流行。虚拟专用网络提供商可以隐藏用户的真实IP地址，使用他们提供的IP地址来请求目标网站，用户可以从他们的VPN服务中获取任何网关城市IP的地址，比如你可能生活在上海，但却能够获取美国的IP地址。</p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.png" alt=""></p>
+<p>VPN先计算机之间通信的时候，需要遵守一致的协议。比如寄快递的时候街道、收货人的书写格式要正确，比如把收货人写成发货人这种，如果乱写的话肯定就不能送达目的地了。目前VPN协议的数量和可用的安全功能随着时间的推移而不断增长，其中最常见的协议是：</p>
+<ul>
+<li>PPTP:PPTP（点对点隧道协议）自Windows95诞生以来就一直沿用至今，PPTP的主要功能是可以在每个系统上简单地进行设置。简而言之，PPTP通过GRE协议建立点对点连接。不过近年来，PPTP协议的安全性饱受诟病，它仍然很强大，但不是最安全的协议。</li>
+<li>L2TP/IPsec：基于IPsec的L2TP（第二层隧道协议）比PPTP更安全，并提供更多功能。L2TP/<br>IPsec是一起实现两种协议的一种方法，以便获得每种协议的最佳功能。例如，L2TP协议用于创建隧道，而IPsec提供安全通道，这些措施使数据非常安全。</li>
+<li>OpenVPN:OpenVPN是一个基于SSL的虚拟专用网络，正在不断普及。OpenVPN软件是开源的，可以到Github上获取到源码进行二次开发。SSL是一种成熟的加密协议，OpenVPN可以在单个UDP或TCP端口上运行，因此非常灵活。</li>
+</ul>
+<p>从上面可以看出，VPN诞生之初并不是为翻墙而生的，它只是一种加密通讯技术，它被设计出来的目的是数据传输安全和网络匿名。开源VPN协议用于翻墙存在一些问题，比如流量特征明显，目前墙已经能识别到这些开源协议的流量特征，所以大家会经常发现自己的VPN突然不能用了。不过也有很多提供VPN服务的公司，在开源协议的基础上进行了二次开发，研发出了自己的私有协议，使得流量特征减弱，翻墙能力也得到了提升。其中业界最著名的VPN服务商是ExpressVPN，由于它的私有协议导致墙很难检测流量特征，国内用户很多人用它来翻墙，虽然现在官网已经被墙了，不过还是可以通过翻墙下载到。</p>
+<h2 id="Proxy（代理）"><a href="#Proxy（代理）" class="headerlink" title="Proxy（代理）"></a>Proxy（代理）</h2><p>Proxy（代理）有两种，分别是正向代理和反向代理，正向代理是一个位于客户端和原始服务器（origin server）之间的服务器，为了从原始服务器取得内容，客户端向代理发送一个请求并指定目标（原始服务器），然后代理向原始服务器转交请求并将获得的内容返回给客户端。客户端必须要进行一些特别的设置才能使用正向代理。反向代理（Reverse Proxy）实际运行方式是指以代理服务器来接受internet上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给internet上请求连接的客户端，此时代理服务器对外就表现为一个服务器。</p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/%E5%8E%9F%E7%90%86.png" alt=""></p>
+<h3 id="正向代理"><a href="#正向代理" class="headerlink" title="正向代理"></a>正向代理</h3><p>翻墙用到的的代理都正向代理，而正向代理的协议包括HTTP、HTTP over TLS（HTTPS）、Socks、Socks over TLS等。由于HTTP和Socks是明文协议，墙可以通过检测数据包的内容组织用户访问墙外网站，当然这是因为他们的设计初衷也并不是用于翻墙，而是实现网络请求的匿名性，所以这也不能怪协议。这些通信原理都是一样，用户先将请求转发到代理服务器，再有代理服务器请求目标网站，目标网站返回数据给代理服务器数据，最会传回到用户这样这个过程。而HTTPS由于可以用于计算机之间的加密传输数据，所以在这个传输过程中，中间人无法解密传输的数据，墙不知道用户实际请求的内容，而且HTTPS属于普通的网络请求流量，墙无法根据流量特征判别起合法性。所以HTTPS翻墙目前来说是最稳定的代理翻墙方法，比当下用的最多的翻墙协议Shadowsocks更好，唯一能与之匹敌的可能只有V2Ray的vmess over tls协议，但v2ray目前才刚刚起步，相关的资料不多，而且可能存在潜在的安全漏洞，这些都有待考证。但是HTTPS翻墙也有它致命的缺点，配置过于复杂，如果是新手的话，那么这个安装过程会令人抓狂。就算是经常翻墙的老司机，也需要自己购买域名证书，而且HTTPS代理只能转发TCP流量，不能转发UDP流量。</p>
+<h3 id="反向代理"><a href="#反向代理" class="headerlink" title="反向代理"></a>反向代理</h3><p>反向代理对于翻墙上网来说可能关系不大，它的作用是为服务器做缓存和负载均衡，使用场景是当服务器收到的请求过的时候，用于分散单个服务的压力，比如在双十一期间，某宝服务会在短时间接受大量的请求，如果不分散请求到其他服务器处理，那么服务器就会崩溃。在用户请求到达真正处理请求的业务服务器之前，架设一个代理服务器用于分发请求，用户所有的数据首先由代理服务器收到，然后代理服务器根据业务服务器的状态将数据转发给一个任务较少的服务器处理。这样不仅网站服务器可以减小压力，并且用户也只需要记住代理服务器的域名即可。 Shadowsocks也有负载均衡的概念，但与服务器的负载均衡有所不同，它是将用户请求根据一定规则，将用户请求转发到不同的翻墙服务器节点，使得用户的数据尽量平均的转发给不同的翻墙服务器，避免造成某一个翻墙服务器的负载过高而超时。</p>
+<h2 id="VPS"><a href="#VPS" class="headerlink" title="VPS"></a>VPS</h2><p>在说VPS之前，大家是否知道想过这样的问题，我们平时访问网站的时候，这些网页内容是从哪里来的呢。当然是从该网站的服务器发送回来的，其实网站服务器也如同我们的电脑一样，只不过服务器不需要关机，来保证用户任何时间请求的时候能够得到处理。VPS（Virtual private server，虚拟专用服务器），可以简单看作这样一台不会关机的服务器。而实际上VPS并不是一台真正的服务器，而是一台大型服务器将计算资源通过虚拟化技术划分出来的一小部分计算资源，这样做当然是为了节省资源。比如一个小型的网站，平时用户访问量不大，并不需要购买真正的服务器来维护，因为租用一台真正的服务器费用是非常高的，而VPS则相对廉价的多，所以通俗点来说VPS其实也可以看作“共享服务器”。</p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/vps.png" alt=""></p>
+<p>前面说到了服务器类似于不关机的电脑，那么个人电脑是否可以当作服务器呢？理论上是可以的，确实有些人将自己的网站搭建在个人电脑上，也有人选择还用树莓派、个人NAS建站。不过遗憾的是，国内ISP运营商向普通用户提供的IP是动态变化的，而且目前已经封锁了个人宽带的443和80端口，所以国内并不能实现用自己电脑当作服务器。</p>
+<h2 id="Shadowsocks"><a href="#Shadowsocks" class="headerlink" title="Shadowsocks"></a>Shadowsocks</h2><p>在<a href="https://shadowsocks.org/en/download/clients.html" target="_blank" rel="noopener">Shadowsocks</a>出现之前，大家翻墙主要还是将现成的技术直接拿来用，当时国内翻墙的方法主要是HTTPS、tor的中继网桥以及之后的meek插件等等，虽然也有自己的技术，比如一种依靠Google隐藏IP实现翻墙的技术，但是很难流行起来。</p>
+<p>在2013的时候@clowwindy开发出了Shadowsocks，这是第一款为国内用户翻墙设计的代理协议，Shadowsocks隐秘性非常不错，跟HTTP代理比起来，Shadowsocks拥有更加完善的加密解决方案，虽然比起HTTPS代理和VPN还是有些不足，但已经将成熟的工业级的加密算法投入使用。相比起HTTPS代理而言，Shadowsocks拥有更加简单的安装配置，中文社区非常活跃，相关文档教程更加完善并且是中文，这使得大家翻墙更加便利，也是让它流行起来的原因。</p>
+<p>由于Shdadowsocks是开源协议，有一定技术能力的人纷纷为这个项目提交贡献，于是出现了不同的Shdadowsocks版本，Shdadowsocks主要的版本由：</p>
+<ul>
+<li><a href="https://github.com/shadowsocks/shadowsocks" target="_blank" rel="noopener">Shadowsocks-Python版本</a>：这个版本是最早由@clowwindy使用Python编程语言开发出来的，所以@clowwindy的这个版本也被叫做Python版</li>
+<li><a href="https://github.com/shadowsocksrr/shadowsocksr" target="_blank" rel="noopener">ShadowsocksR</a>:@breakwa11在Shadowsocks基础上增加了混淆协议和插件</li>
+<li><a href="https://github.com/shadowsocks/shadowsocks-go" target="_blank" rel="noopener">Shadowsocks-Go版本</a>：@cyfdecyf开发维护的Go版本</li>
+<li><a href="https://github.com/shadowsocks/shadowsocks-libev" target="_blank" rel="noopener">Shadowsocks-libev版本</a>：@madeye开发维护的libev版本</li>
+</ul>
+<p>但好景不长，2015年的时候@clowwindy因为开发Shadowsocks被请喝茶而终止了python版本的维护。不过其他版本还在不断更新当中，其中，更新最频繁，新技术跟进最快的是由@madeye维护的libev版本。很多加密算法都是由shadowsocks-libev版本最先引进，比如SIP007确认的ADEA一种同时进行认证和加密的算法Ciphers，以及SIP003|进的tor开发的一种混淆插件simple-obfs。</p>
+<p>文章来源:<a href="https://qiangwaikan.com/gfw/" target="_blank" rel="noopener">https://qiangwaikan.com/gfw/</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>科学上网</tag>
       </tags>
   </entry>
   <entry>
@@ -1518,6 +1586,128 @@ hexo help             # 帮助</code></pre>
       </categories>
       <tags>
         <tag>软件下载</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搜索引擎的正确打开方式</title>
+    <url>/2020/04/28/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</url>
+    <content><![CDATA[<p>前几天，一篇题为《搜索引擎就是我的大学》一文在我的朋友圈流转，小婉姑娘讲述了自己初中肄业从一个月薪三百的乡郊饭店服务员，通过搜索引擎自我学习，一步一步步入城市，拿下人力资源管理，项目经理，营销策划，文案策划等多个有挑战职位的逆袭事迹。</p>
+<p><strong>这无意给了很多“有电脑的人”一种天下我有的莫名冲动。虽然搜索引擎可以搜索到几乎任何你想学的知识，但终究扔停留在可能性阶段。真正高效地驾驭搜索引擎还是需要做些功课。</strong></p>
+<p>作为一名野路子网络营销钻研狗，打算开个帖子给大家做个科普，同时奉上一系列压箱底的“秘技”，希望于各位看客老爷有所裨益。</p>
+<blockquote>
+<p>本帖分科普篇；实用技巧篇；资源篇三部分，略长但越往后越精彩。</p>
+</blockquote>
+<h2 id="科普篇"><a href="#科普篇" class="headerlink" title="科普篇"></a>科普篇</h2><h3 id="一、搜索引擎是个什么东西？"><a href="#一、搜索引擎是个什么东西？" class="headerlink" title="一、搜索引擎是个什么东西？"></a>一、搜索引擎是个什么东西？</h3><p>搜索引擎（Search Engine）是指根据一定的策略、运用特定的计算机程序从互联网上搜集信息，在对信息进行组织和处理后，为用户提供检索服务，将用户检索相关的信息展示给用户的系统。搜索引擎包括全文索引、目录索引、元搜索引擎、垂直搜索引擎、集合式搜索引擎、门户搜索引擎与免费链接列表等。</p>
+<p><strong>这里的用户指的是有信息获取需求的普通用户，其实信息生产提交方（站长等）严格意义来讲也是“用户”，普通用户只需要掌握搜索引擎使用技巧，而站长们更多的是琢磨SEO（搜索引擎优化）。这个帖子这双边都会有所涉及。</strong></p>
+<h3 id="二、搜索引擎工作原理"><a href="#二、搜索引擎工作原理" class="headerlink" title="二、搜索引擎工作原理"></a>二、搜索引擎工作原理</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-3.jpg" alt="640.webp (3)"></p>
+<p>爬行抓取：搜索引擎蜘蛛跟踪链接，抓取页面html代码存入数据库，低权重复制内容过滤;</p>
+<p>预处理：文字和相关标签抓取，中文分词，去掉无意义内容提炼页面主要关键词(对于蜘蛛没有意义：如：的、啊、从而等，广告、申明等)，去重(同一内容不同网站或同一网站不同网址);倒排索引：关键词到内容，链接投票，文件处理(目前只能根据标签和相关描述文字识别)，质量判断：搜索引擎算法;</p>
+<p>排名：中文分词(排除无实际意义的词后对搜索词的拆分重组，百度快照可查询分词结果)，相关性计算：越常用的词对搜索词的意义贡献越小，词频，关键词位置形式距离(标题、H1、黑体等)，链接分析(锚文本、周边文字、原站本身主题)，排名过滤调整(百度第11位)。</p>
+<p><strong>搜索引擎的工作原理使命就是确保用户发出搜索指令后展现在他们面前的是其所需要的优质内容。</strong></p>
+<h3 id="三、目前主流的搜索引擎"><a href="#三、目前主流的搜索引擎" class="headerlink" title="三、目前主流的搜索引擎"></a>三、目前主流的搜索引擎</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155519.png" alt="QQ截图20160220155519"></p>
+<p>搜索引擎简史：1994年Yahoo!诞生，1998年Google诞生，2000年百度诞生，2012年360搜索(好搜)推出。</p>
+<p><strong>百度</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-4.jpg" alt="640.webp (4)"></p>
+<p>不管是PC端还是移动端百度市场份额都是绝对的国内第一，跟国内目前其他搜索引擎相比，不说矮子里面挑高个的难听话，也不提竞价广告的乱象丛生，但从信息获取效率以及用户体验来比，百度也是当之无愧的。</p>
+<p>作为学习工具，百度搜索有这两个地方不错，<strong>一是百度网盘，二是百度文库。</strong></p>
+<p><strong>搜狗</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140425.png" alt="QQ截图20160220140425"></p>
+<p>搜狗在近年来发展迅速，最具特色的点是可以搜索微信内容和知乎内容。这都仰赖于腾讯的买买买内容战略。</p>
+<p><strong>360</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140722-1024x773.png" alt="QQ截图20160220140722"></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220140735-1024x628.png" alt="QQ截图20160220140735"></p>
+<p>对于360，实话实说，广告不比百度少，搜索结果质量也不敢恭维。来个对比。更多例子各位自行捣鼓。</p>
+<p><strong>必须掌握Google！</strong></p>
+<p>Google上面才是互联网，其他国内的搜索引擎的触角都受限，只能叫局域网。除了信息全面，用户体验也是谁用谁知道。</p>
+<h3 id="四、世界范围内各搜索引擎市场份额"><a href="#四、世界范围内各搜索引擎市场份额" class="headerlink" title="四、世界范围内各搜索引擎市场份额"></a>四、世界范围内各搜索引擎市场份额</h3><p>以2015年第三季度为例</p>
+<p>谷歌以67.49%的份额雄居第一，Yahoo第二，Bing凭借10.67%占据第三，百度第四，份额8.13%。</p>
+<h2 id="搜索引擎以及相关实用技巧"><a href="#搜索引擎以及相关实用技巧" class="headerlink" title="搜索引擎以及相关实用技巧"></a>搜索引擎以及相关实用技巧</h2><h3 id="一、高级搜索指令（了解多用几遍即可）"><a href="#一、高级搜索指令（了解多用几遍即可）" class="headerlink" title="一、高级搜索指令（了解多用几遍即可）"></a>一、高级搜索指令（了解多用几遍即可）</h3><p>这么理解：一般人不知道的，能够提高搜索效率以及精度的一些特殊指令。</p>
+<p>普通用户常用的包括：</p>
+<p><strong>双引号（搜索：“关键词”）</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/258-1024x595.png" alt="2"></p>
+<p>把搜索词汇放在双引号中，代表完全匹配搜索，也就是说搜索出来的结果页面都是保护双引号中所出现的所有词汇，连顺序也是完全匹配的。百度和Google都是支持这个指令的。</p>
+<p>使用双引号搜索可以更准确的找到特定关键词，更容易找到自己想要的资源。</p>
+<p><strong>减号（搜索：关键词  -不需要的关键词）</strong></p>
+<p>减号代表搜索引擎显示不包括减号后面词汇的页面。使用这个指令时减号前面必须是空格，减号后面没有空格，要紧跟着需要排除的词。Google和百度都支持这个指令。</p>
+<p>使用减号高级指令可以更加准确的找到需要的文件，尤其是某些词语有多重意义的时候。</p>
+<p><strong>星号 （搜索：搜索*擎）</strong></p>
+<p>星号是常用的通配符，也可以使用在搜索引擎中。百度不支持*号指令。</p>
+<p>比如在Google中搜索“ 搜索<em>擎”，其中</em>代表任何文字、出现的结果就不仅仅是包含“搜索引擎”的页面了。</p>
+<p><strong>inurl：（搜索：inurl：任意字符串）</strong></p>
+<p>inurl：指令用于搜索查询词出现在URL中的页面，可以按英文字面意思理解。百度和Google都是支持inurl：指令的。inurl：指令不仅支持英文，还支持中文。</p>
+<p>高级搜索指令inurl的语法格式为：inurl：xxx（xxx可以为任意字符串）。此命令是查找url中包含xxx的网页。</p>
+<p>如果你是做SEO的，那么inurl：指令对你会很有用，因为你可以快速的找到竞争对手（因为关键词出现在URL中对排名有一定的影响）。</p>
+<p><strong>intitle：返回的是页面title中包含关键词的页面</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/640.webp-5.jpg" alt="640.webp (5)"></p>
+<p>百度和谷歌都支持intitle。 title是目前页面优化最重要的因素。无论是什么网站，基本都会把关键词放入title中。</p>
+<blockquote>
+<p>详细用法：<a href="http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/3f16e003c21c162591c103a6.html</a></p>
+</blockquote>
+<p><strong>filetype：搜索特定文件格式的时候使用。</strong></p>
+<p>例如：filetype:pdf 视频教程，显示的是包含“视频教程”的所有PDF文件。filetype指令可以用来搜索特定的资源，比如PDF电子书、Word文件等。Google和百度都是支持filetype：指令的。</p>
+<blockquote>
+<p>详细用法：<a href="http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html" target="_blank" rel="noopener">http://jingyan.baidu.com/article/73c3ce28f23d8de50343d9ac.html</a></p>
+</blockquote>
+<p><strong>site：这个高级搜索指令用来搜索某个域名下面的所有文件。</strong></p>
+<p>比如搜索“site：<a href="http://www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。">www.zhihu.com”，出现的就是www.zhihu.com这个域名下面的所有页面，可以说这个高级指令是查询网站收入页面数量最直接的方法。site：指令也可以用于子域名。但site：并不准确，特别是在Google中，出现的收入页面经常有大幅度波动，只能用于参考，但不能完全相信。</a></p>
+<p>之前有人用“site:yun.baidu.com ”资源关键词这个搜网盘里面的资源，现在貌似不大顶用了，等下给出替代方案。</p>
+<p>高级搜索指令大全诸位可自行百度，补充一点是，这些指令很多都可以互相搭配使用影响最后的结果。可以有很复杂的组合结果，好消息是有人帮我们封装好做写成了特殊的搜索引擎供我们使用。</p>
+<h3 id="二、特殊搜索引擎"><a href="#二、特殊搜索引擎" class="headerlink" title="二、特殊搜索引擎"></a>二、特殊搜索引擎</h3><blockquote>
+<p>这有个知乎特殊搜索引擎汇总贴：<a href="https://www.zhihu.com/question/20251786" target="_blank" rel="noopener">https://www.zhihu.com/question/20251786</a></p>
+</blockquote>
+<p>大而全的东西意味着杂乱，外行很容易陷入选择困难症一脸茫然。我给大家重点勾勒几个点。</p>
+<p>先顺逻辑：<strong>从学习的角度，我们搜索一个东西最浅显的需求就是了解知道，要想深入消化吸收往往意味着有必要触发资料收集下载这一动作。</strong></p>
+<p>嗯，我就是要教大家怎么下载。<strong>一般的付费教程以及电子书资源，百度网盘的资源丰富度远远超过你想象，不过百度官方并不提供资源检索功能。借助工具就好了，用网盘搜索引擎即可。我公众号的菜单栏内置了一个，大家可以体验一下。</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/webwxgetmsgimg-2-1024x560.png" alt="webwxgetmsgimg (2)"></p>
+<p><strong>理论上，只要挂在网上，就算是付费的视频，文档也能抠下来。某宝上面固然有售，稍稍懂点搜索引擎的功能其实都能省去不少精力，虽然大伙儿都不差钱，哈哈。</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162723-1024x307.png" alt="QQ截图20160220162723"></p>
+<p>百度文库，豆丁等下载：<strong>冰点下载器</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163011-1024x522.png" alt="QQ截图20160220163011"></p>
+<p>YouTube视频下载：<strong>en.savefrom.net</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163153-1024x331.png" alt="QQ截图20160220163153"></p>
+<p>国内视频网站内容下载：<strong>硕鼠</strong></p>
+<p>虎牙直播，斗鱼直播等在线直播视频下载：<strong>屏幕录制软件（CamtasiaStudio），我手上是自己写的软件。</strong></p>
+<p>视频资源：用各种种子搜索引擎就好了。如：<strong>电驴，海盗，死去的btspread，以及不能说的其他站点。等下各位在评论区补充。</strong></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220162854.png" alt="QQ截图20160220162854"></p>
+<p>浏览国外资讯什么的，起码要会翻墙吧，建议用付费的vpn，速度有保障，最重要的是下东西飞快。俺用的一款之前叫greenvpn，现在叫绿豆加速器。红杏已挂。</p>
+<p>省略一万种资源获取方式……</p>
+<p>最后放个大招：自行百度<strong>吾爱破解，精易论坛</strong>，对绝大多数人来讲，那将是另外一片天堂。</p>
+<p>各色工具资源站点我收藏夹都躺了几百个，一次抖不完。唠叨一个省事的终极思路——<strong>互联网的基础设施是IT们搭建起来的，其中有五颜六色的暗门，摸熟搜索引擎，就是拥有了打开这些暗门的钥匙。</strong></p>
+<p>至于暗网什么的高级黑，下次八卦，写写我掌握的一些细节。</p>
+<h3 id="三、关键词使用"><a href="#三、关键词使用" class="headerlink" title="三、关键词使用"></a>三、关键词使用</h3><p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220163514.png" alt="QQ截图20160220163514"></p>
+<p><strong>使用搜索引擎的搜索功能最重要的是知道输入哪个关键词。</strong></p>
+<p>搜索引擎就像一个搬运工，你想让他给你搬运啥东西，你起码得知道自己想要什么。例如你想学英语，你可能就会搜怎么学英语，英语培训教程。这种起码的素养，一般人初次接触搜索引擎就具备。这一阶段一般使用的往往是<strong>泛关键词</strong>。</p>
+<p>学习是个循序渐进的过程，意味着你有深入挖掘细分领域的需求。这就引申出另外一个概念叫<strong>精准关键词（或长尾关键词）</strong>，不过多展开，需要强调的是，大家在使用搜索引擎的时候要有意识地去提炼自己的关键词，从不同的维度去获取你想要的信息。</p>
+<p><strong>举个粗暴栗子，黄片又叫爱情动作片，此外番号，番号封面，女优这些关键词也指向你想要获取的资源，是不是很有趣。</strong></p>
+<p><strong>互联网再繁杂，只要多记对象名词，熟悉事物关键节点，借助搜索引擎就能提纲挈领，手到擒来。到这个当口，才有天下为我所用的掌握感。</strong></p>
+<h3 id="四、搭建网站门类的记忆宫殿"><a href="#四、搭建网站门类的记忆宫殿" class="headerlink" title="四、搭建网站门类的记忆宫殿"></a>四、搭建网站门类的记忆宫殿</h3><p>浸淫互联网许久，俺在说个有意思的点。<strong>导航网站相信大家都很熟悉，像hao123，金山毒霸导航，360导航。</strong></p>
+<p><strong>我想给大伙说的是，这些导航网站的布局一般都别有用心（用来做淘宝客导购，软件注册推广，广告等），而且聚合的站点也很平庸，满足普罗大众日常的消遣尚可，但是想让搜索引擎成为你的大学，就远远不够了。</strong></p>
+<p>你需要搭建属于自己的“网站导航”，在日常接触到的优秀网站，记得在浏览器点一下收藏，分门别类。经年累月的积累，这将是你电脑上最重要的一笔财富。我换电脑或装系统几乎东西不担心丢失，同步下收藏夹就好了。</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/%E6%94%B6%E8%97%8F%E5%A4%B9.png" alt="收藏夹"></p>
+<p>分门别类的收藏夹是你搭建脑海记忆宫殿的基础，最终要达到有搜索需求的时，资源获取手到擒来。</p>
+<blockquote>
+<p>至于怎么管理你的收藏夹，适合你自己的姿势才是最好的，一些管理原则，放个帖子：<a href="https://www.zhihu.com/question/21537488" target="_blank" rel="noopener">https://www.zhihu.com/question/21537488</a></p>
+</blockquote>
+<h3 id="五、网感"><a href="#五、网感" class="headerlink" title="五、网感"></a>五、网感</h3><p>多泡网，见识各色各样的网站样式，在建立起自己的站点记忆宫殿之后，培养自己的网感，懂得各色资源的搭配调取应用。网感是个很大的命题，看似有些务虚，实则用处极大。此处提出这一概念，鉴于篇幅下次阐述。</p>
+<h2 id="资源篇"><a href="#资源篇" class="headerlink" title="资源篇"></a>资源篇</h2><p>从学习获取资源的角度，看上面的东西就够用了。你要对搜索引擎真感兴趣，俺接着给大家推荐几本类似行业圣经的读物。</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155555.png" alt="QQ截图20160220155555"></p>
+<p><strong>SEO艺术</strong></p>
+<p>国外译著，享有盛誉</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155840.png" alt="QQ截图20160220155840"></p>
+<p>《这就是搜索引擎:核心技术详解》</p>
+<p>关于一些技术细节</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155728.png" alt="QQ截图20160220155728"></p>
+<p><strong>《搜》</strong></p>
+<p>搜索引擎的由来，了解历史，偏文化经济层次</p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220155810.png" alt="QQ截图20160220155810"></p>
+<p><img src="http://image.woshipm.com/wp-files/2016/02/QQ%E6%88%AA%E5%9B%BE20160220164806.png" alt="QQ截图20160220164806"></p>
+<p>《SEO深度解析》和《SEO实战密码:60天网站流量提高20倍(第3版)》都是站长SEO操作指南。</p>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>搜索引擎</tag>
       </tags>
   </entry>
 </search>
