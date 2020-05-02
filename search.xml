@@ -421,7 +421,7 @@
 </ul>
 <p>适合自己的才是最好的，IDE适合开发大型项目，个人认为用不到。</p>
 <p>VS code还是开源免费的，海量插件，支持各种语言，个人感觉挺好的。</p>
-<h1 id="VS-code运行python："><a href="#VS-code运行python：" class="headerlink" title="VS code运行python："></a>VS code运行python：</h1><h1 id="VS-Code-配置-Python-开发环境"><a href="#VS-Code-配置-Python-开发环境" class="headerlink" title="VS Code 配置 Python 开发环境"></a>VS Code 配置 Python 开发环境</h1><blockquote>
+<h1 id="VS-Code-配置-Python-开发环境"><a href="#VS-Code-配置-Python-开发环境" class="headerlink" title="VS Code 配置 Python 开发环境"></a>VS Code 配置 Python 开发环境</h1><blockquote>
 <p>本文基于 VS Code 1.36.1</p>
 </blockquote>
 <p>VS Code 里是不包括 Python 的，所以你首先得安装一个 Python。</p>
