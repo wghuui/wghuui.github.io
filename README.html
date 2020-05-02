@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="基于hexo搭建博客教程, 让路的Blogs">
+    <meta name="keywords" content="让路的Blogs">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>基于hexo搭建博客教程 | 让路的Blogs</title>
+    <title>让路的Blogs</title>
     <link rel="icon" type="image/jpeg" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/wghuui.jpg">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/awesome/css/all.css">
@@ -202,12 +202,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">基于hexo搭建博客教程</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -322,25 +322,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">No tag</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                教程
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -349,28 +336,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2020-04-27
+                    2020-05-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2020-04-27
+                    2020-05-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    2.7k
+                    49
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    10 Min
+                    1 Min
                 </div>
                 
 
@@ -380,175 +367,9 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。<a id="more"></a></p>
-<p>近些年来很多用户都喜欢使用 GitHub Pages 来搭建 Hexo 静态博客网站，其最吸引人的莫过于完全免费使用，并且非常稳定。</p>
-<p>虽然搭建时比较麻烦，有点折腾，但是配置完成后，基本不需要操心维护的事，甚至放了几年都忘记了，打开来看文章依然还在。</p>
-<hr>
-<p>为了照顾小白用户（第一次使用 GitHub 和 Hexo），尽可能详细，包括常见的坑和问题都有提示说明。下面目录中<strong>第 3~5 步为最重要的步骤</strong>，其他内容如果已经会的可以选择性跳过。</p>
-<p>看起来有点繁杂，捋顺了倒也简单，认真跟教程走，完整操作一遍大概需要 30 分钟。</p>
-<p>o(￣▽￣)ｄ</p>
-<p><strong>内容目录：</strong></p>
-<ul>
-<li>简介：GitHub Pages 和 Hexo &amp; 原理</li>
-</ul>
-<ol>
-<li>准备：环境搭建<br>1.1. 注意事项<br>1.2. 环境搭建</li>
-<li>连接 Github</li>
-<li>创建 Github Pages 仓库</li>
-<li>本地安装 Hexo 博客程序<br>4.1. 安装 Hexo<br>4.2. Hexo 初始化和本地预览</li>
-<li>部署 Hexo 到 GitHub Pages</li>
-<li>绑定域名（可选）</li>
-<li>开始使用<br>7.1. 发布文章<br>7.2. 网站设置<br>7.3. 更换主题<br>7.4. 常用代码</li>
-<li>常见问题</li>
-</ol>
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h3 id="GitHub-Pages-是什么？"><a href="#GitHub-Pages-是什么？" class="headerlink" title="GitHub Pages 是什么？"></a>GitHub Pages 是什么？</h3><ul>
-<li><a href="https://link.zhihu.com/?target=https%3A//help.github.com/en/articles/what-is-github-pages">What is GitHub Pages? - GitHub Help</a></li>
-</ul>
-<p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
-<h3 id="Hexo-是什么？"><a href="#Hexo-是什么？" class="headerlink" title="# Hexo 是什么？"></a><strong># Hexo 是什么？</strong></h3><ul>
-<li>官网：<a href="https://link.zhihu.com/?target=https%3A//hexo.io/zh-cn/">hexo.io</a></li>
-</ul>
-<p>Hexo 是一个快速、简洁且高效的静态博客框架，它基于 Node.js 运行，可以将我们撰写的 Markdown 文档解析渲染成静态的 HTML 网页。</p>
-<h3 id="Hexo-GitHub-文章发布原理"><a href="#Hexo-GitHub-文章发布原理" class="headerlink" title="# Hexo + GitHub 文章发布原理"></a><strong># Hexo + GitHub 文章发布原理</strong></h3><p>在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</p>
-<p><img src="https://pic3.zhimg.com/80/v2-a193a47cf70fe6ecf156e5f3d34920ea_720w.jpg" alt="img"></p>
-<h3 id="优点和不足"><a href="#优点和不足" class="headerlink" title="# 优点和不足"></a><strong># 优点和不足</strong></h3><p><strong>优点：</strong>完全免费；静态站点，轻量快速；可按需求自由定制改造；托管在 GitHub，安全省心；迁移方便……</p>
-<p><strong>不足：</strong>发文不便，依赖于本地环境；更适合个人博客使用；GitHub 在国内访问速度有点不快。</p>
-<h2 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h2><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="# 注意事项"></a><strong># 注意事项</strong></h3><ul>
-<li>输入代码时，核对准确，最好切换成英文输入法；</li>
-<li>将文中的 “用户名” 和 “邮箱” 替换为自己的 GitHub 账户名和绑定的邮箱；</li>
-<li>统一使用 Git Bash 进行操作（支持 Win、Mac）；</li>
-<li>小白请严格按步骤进行，不要跳！</li>
-</ul>
-<h3 id="环境搭建"><a href="#环境搭建" class="headerlink" title="# 环境搭建"></a><strong># 环境搭建</strong></h3><p>Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和 git，因此先搭建本地操作环境，安装 Node.js 和 Git。</p>
-<ul>
-<li>Node.js：<a href="https://link.zhihu.com/?target=https%3A//nodejs.org/zh-cn">https://nodejs.org/zh-cn</a></li>
-<li>Git：<a href="https://link.zhihu.com/?target=https%3A//git-scm.com/downloads">https://git-scm.com/downloads</a></li>
-</ul>
-<p>下载 Node.js 和 Git 程序并安装，一路点 “下一步” 按默认配置完成安装。</p>
-<p>安装完成后，Win+R 输入 cmd 并打开，依次输入 <code>node -v</code>、<code>npm -v</code> 和 <code>git --version</code> 并回车，如下图出现程序版本号即可。</p>
-<p><img src="https://pic1.zhimg.com/80/v2-27b47b5ae479ce7987851292a67774b0_720w.jpg" alt="img"></p>
-<h2 id="2-连接-Github"><a href="#2-连接-Github" class="headerlink" title="2. 连接 Github"></a>2. 连接 Github</h2><p>使用邮箱注册 <a href="https://link.zhihu.com/?target=https%3A//github.com/">GitHub</a> 账户，选择免费账户（Free），并完成邮件验证。</p>
-<p>右键 -&gt; Git Bash Here，<strong>设置用户名和邮箱</strong>：</p>
-<pre class=" language-text"><code class="language-text">git config --global user.name "GitHub 用户名"
-git config --global user.email "GitHub 邮箱"</code></pre>
-<p><strong>创建 SSH 密匙</strong>：</p>
-<p>输入 <code>ssh-keygen -t rsa -C &quot;GitHub 邮箱&quot;</code>，然后一路回车。</p>
-<p><strong>添加密匙：</strong></p>
-<p>进入 [C:\Users\用户名.ssh] 目录（要勾选显示“隐藏的项目”），用记事本打开公钥 id_rsa.pub 文件并复制里面的内容。</p>
-<p>登陆 GitHub ，进入 Settings 页面，选择左边栏的 SSH and GPG keys，点击 New SSH key。</p>
-<p>Title 随便取个名字，粘贴复制的 id_rsa.pub 内容到 Key 中，点击 Add SSH key 完成添加。</p>
-<p><img src="https://pic1.zhimg.com/80/v2-9125065afd24332d7cd84feb6a350730_720w.jpg" alt="img"></p>
-<p><strong>验证连接：</strong></p>
-<p>打开 Git Bash，输入 <code>ssh -T git@github.com</code> 出现 “Are you sure……”，输入 yes 回车确认。</p>
-<p><img src="https://pic3.zhimg.com/80/v2-b4c7524a2451f4ab42f9c22ea3c7b6be_720w.jpg" alt="img"></p>
-<p>显示 “Hi xxx! You’ve successfully……” 即连接成功。</p>
-<h2 id="3-创建-Github-Pages-仓库"><a href="#3-创建-Github-Pages-仓库" class="headerlink" title="3. 创建 Github Pages 仓库"></a>3. 创建 Github Pages 仓库</h2><p>GitHub 主页右上角加号 -&gt; New repository：</p>
-<ul>
-<li>Repository name 中输入 <code>用户名.github.io</code></li>
-<li>勾选 “Initialize this repository with a README”</li>
-<li>Description 选填</li>
-</ul>
-<p>填好后点击 Create repository 创建。</p>
-<p><img src="https://pic2.zhimg.com/80/v2-67a8165154f4c5f4a6333e76e78ed815_720w.jpg" alt="img"></p>
-<p>创建后默认自动启用 HTTPS，博客地址为：<code>https://用户名.github.io</code></p>
-<h2 id="4-本地安装-Hexo-博客程序"><a href="#4-本地安装-Hexo-博客程序" class="headerlink" title="4. 本地安装 Hexo 博客程序"></a>4. 本地安装 Hexo 博客程序</h2><p>新建一个文件夹用来存放 Hexo 的程序文件，如 Hexo-Blog。打开该文件夹，右键 -&gt; Git Bash Here。</p>
-<h3 id="4-1-安装-Hexo"><a href="#4-1-安装-Hexo" class="headerlink" title="# 4.1 安装 Hexo"></a><strong># 4.1 安装 Hexo</strong></h3><p>使用 npm 一键安装 Hexo 博客程序：</p>
-<pre class=" language-text"><code class="language-text">npm install -g hexo-cli</code></pre>
-<p>Mac 用户需要管理员权限（sudo），运行这条命令：</p>
-<pre class=" language-text"><code class="language-text">sudo npm install -g hexo-cli</code></pre>
-<p>安装时间有点久（真的很慢！），界面也没任何反应，<strong>耐心等待</strong>，安装完成后如下图。</p>
-<p><img src="https://pic2.zhimg.com/80/v2-01e7fc8bb9280437deb437bf73a190a1_720w.jpg" alt="img"></p>
-<h3 id="4-2-Hexo-初始化和本地预览"><a href="#4-2-Hexo-初始化和本地预览" class="headerlink" title="# 4.2 Hexo 初始化和本地预览"></a><strong># 4.2 Hexo 初始化和本地预览</strong></h3><p><strong>初始化并安装所需组件：</strong></p>
-<pre class=" language-text"><code class="language-text">hexo init      # 初始化
-npm install    # 安装组件</code></pre>
-<p>完成后依次输入下面命令，<strong>启动本地服务器进行预览</strong>：</p>
-<pre class=" language-text"><code class="language-text">hexo g   # 生成页面
-hexo s   # 启动预览</code></pre>
-<p><strong>访问</strong> <code>http://localhost:4000</code><strong>，出现 Hexo 默认页面，本地博客安装成功！</strong></p>
-<p><img src="https://pic4.zhimg.com/80/v2-1c3baeecf1ef3bec5c8ef3f14639f68b_720w.jpg" alt="img"></p>
-<p><strong>Tips：</strong>如果出现页面加载不出来，可能是端口被占用了。Ctrl+C 关闭服务器，运行 <code>hexo server -p 5000</code> 更改端口号后重试。</p>
-<p>Hexo 博客文件夹目录结构如下：</p>
-<p><img src="https://pic1.zhimg.com/80/v2-264c75c0e493ae8cc5f283567c64ff2c_720w.jpg" alt="img"></p>
-<h2 id="5-部署-Hexo-到-GitHub-Pages"><a href="#5-部署-Hexo-到-GitHub-Pages" class="headerlink" title="5. 部署 Hexo 到 GitHub Pages"></a>5. 部署 Hexo 到 GitHub Pages</h2><p>本地博客测试成功后，就是上传到 GitHub 进行部署，使其能够在网络上访问。</p>
-<p>首先<strong>安装 hexo-deployer-git</strong>：</p>
-<pre class=" language-text"><code class="language-text">npm install hexo-deployer-git --save</code></pre>
-<p>然后<strong>修改 _config.yml</strong> 文件末尾的 Deployment 部分，修改成如下：</p>
-<pre class=" language-text"><code class="language-text">deploy:
-  type: git
-  repository: git@github.com:用户名/用户名.github.io.git
-  branch: master</code></pre>
-<p>完成后运行 <code>hexo d</code> 将网站上传部署到 GitHub Pages。</p>
-<p>完成！这时访问我们的 GitHub 域名 <code>https://用户名.github.io</code> 就可以看到 Hexo 网站了。</p>
-<h2 id="6-绑定域名（可选）"><a href="#6-绑定域名（可选）" class="headerlink" title="6. 绑定域名（可选）"></a>6. 绑定域名（可选）</h2><p>博客搭建完成使用的是 GitHub 的子域名（用户名.<a href="https://link.zhihu.com/?target=http%3A//github.io">http://github.io</a>），我们可以为 Hexo 博客绑定自己的域名替换 GitHub 域名，更加个性化和专业，也利于 SEO。</p>
-<p>我们使用 <a href="https://link.zhihu.com/?target=https%3A//www.namesilo.com/%3Frid%3Dd27fa32do">Namesilo</a> 进行注册，便宜好用没啥套路，使用优惠码 <code>okoff</code> 优惠一美元，com 域名大概 50 块一年。</p>
-<h3 id="6-1-域名注册和解析"><a href="#6-1-域名注册和解析" class="headerlink" title="# 6.1 域名注册和解析"></a><strong># 6.1 域名注册和解析</strong></h3><ul>
-<li>域名注册和解析教程：<a href="https://zhuanlan.zhihu.com/p/33921436" target="_blank" rel="noopener">Namesilo 域名购买及使用教程</a></li>
-</ul>
-<p>按上面教程注册并解析域名，在 DNS 设置部分，删除自带的记录，然后添加 CNAME 记录将 www 域名解析指向 <code>用户名.github.io</code>。</p>
-<p><img src="https://pic3.zhimg.com/80/v2-d5d37c8ad523d8ab5c7c200fabc9585e_720w.jpg" alt="img"></p>
-<h3 id="6-2-绑定域名到-Hexo-博客"><a href="#6-2-绑定域名到-Hexo-博客" class="headerlink" title="# 6.2 绑定域名到 Hexo 博客"></a><strong># 6.2 绑定域名到 Hexo 博客</strong></h3><p>进入本地博客文件夹的 source 目录，打开记事本，里面输入自己的域名，如 <a href="http://www.example.com，保存名称为" target="_blank" rel="noopener">http://www.example.com，保存名称为</a> “CNAME”，格式为 “所有文件”（无 .txt 后缀）。</p>
-<p>清除缓存等文件并重新发布网站：</p>
-<pre class=" language-text"><code class="language-text">hexo clean   # 清除缓存文件等
-hexo g       # 生成页面
-hexo s       # 启动预览</code></pre>
-<p>现在就可以使用自己的域名访问 Hexo 博客了。</p>
-<h3 id="6-3-开启-HTTPS"><a href="#6-3-开启-HTTPS" class="headerlink" title="# 6.3 开启 HTTPS"></a><strong># 6.3 开启 HTTPS</strong></h3><p>配置自己的域名后，需要我们手动开启 HTTPS。打开博客所在 GitHub 仓库，Settings -&gt; 下拉找到 GitHub Pages -&gt; 勾选 Enforce HTTPS。</p>
-<p><img src="https://pic4.zhimg.com/80/v2-54f8744afc9746884e6b3acecfc5f8cf_720w.jpg" alt="img"></p>
-<p>HTTPS 证书部署成功需要一定时间，等大概几分钟再访问域名，就可以看到域名前面的小绿锁了，HTTPS 配置完成！</p>
-<h2 id="7-开始使用"><a href="#7-开始使用" class="headerlink" title="7. 开始使用"></a>7. 开始使用</h2><h3 id="7-1-发布文章"><a href="#7-1-发布文章" class="headerlink" title="# 7.1 发布文章"></a><strong># 7.1 发布文章</strong></h3><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p>
-<pre class=" language-text"><code class="language-text">hexo new "My New Post"</code></pre>
-<p>然后 source 文件夹中会出现一个 My New Post.md 文件，就可以使用 Markdown 编辑器在该文件中撰写文章了。</p>
-<p>写完后运行下面代码将文章渲染并部署到 GitHub Pages 上完成发布。<strong>以后每次发布文章都是这两条命令。</strong></p>
-<pre class=" language-text"><code class="language-text">hexo g   # 生成页面
-hexo d   # 部署发布</code></pre>
-<hr>
-<p>也可以不使用命令自己创建 .md 文件，只需在文件开头手动加入如下格式 Front-matter 即可，写完后运行 <code>hexo g</code> 和 <code>hexo d</code> 发布。</p>
-<pre class=" language-text"><code class="language-text">---
-title: Hello World # 标题
-date: 2019/3/26 hh:mm:ss # 时间
-categories: # 分类
-- Diary
-tags: # 标签
-- PS3
-- Games
----
-
-摘要
-<!--more-->
-正文</code></pre>
-<h3 id="7-2-网站设置"><a href="#7-2-网站设置" class="headerlink" title="# 7.2 网站设置"></a><strong># 7.2 网站设置</strong></h3><p>包括网站名称、描述、作者、链接样式等，全部在网站目录下的 _config.yml 文件中，参考<a href="https://link.zhihu.com/?target=https%3A//hexo.io/zh-cn/docs/configuration">官方文档</a>按需要编辑。</p>
-<p>注意：冒号后要加一个空格！</p>
-<h3 id="7-3-更换主题"><a href="#7-3-更换主题" class="headerlink" title="# 7.3 更换主题"></a><strong># 7.3 更换主题</strong></h3><p>在 <a href="https://link.zhihu.com/?target=https%3A//hexo.io/themes/">Themes | Hexo</a> 选择一个喜欢的主题，比如 <a href="https://link.zhihu.com/?target=http%3A//theme-next.iissnan.com/getting-started.html">NexT</a>，进入网站目录打开 Git Bash Here 下载主题：</p>
-<pre class=" language-text"><code class="language-text">git clone https://github.com/iissnan/hexo-theme-next themes/next</code></pre>
-<p>然后修改 _config.yml 中的 theme 为新主题名称 next，发布。（有的主题需要将 _config.yml 替换为主题自带的，参考主题说明。）</p>
-<h3 id="7-4-常用命令"><a href="#7-4-常用命令" class="headerlink" title="# 7.4 常用命令"></a><strong># 7.4 常用命令</strong></h3><pre class=" language-text"><code class="language-text">hexo new "name"       # 新建文章
-hexo new page "name"  # 新建页面
-hexo g                # 生成页面
-hexo d                # 部署
-hexo g -d             # 生成页面并部署
-hexo s                # 本地预览
-hexo clean            # 清除缓存和已生成的静态文件
-hexo help             # 帮助</code></pre>
-<h2 id="8-常见问题"><a href="#8-常见问题" class="headerlink" title="8 常见问题"></a>8 常见问题</h2><p><strong>1、Hexo 设置显示文章摘要，首页不显示全文</strong></p>
-<p>Hexo 主页文章列表默认会显示文章全文，浏览时很不方便，可以在文章中插入 `` 进行分段。</p>
-<p>该代码前面的内容会作为摘要显示，而后面的内容会替换为 “Read More” 隐藏起来。</p>
-<p><img src="https://pic4.zhimg.com/80/v2-45701cf120ca77e6733ad30b40666f33_720w.jpg" alt="img"></p>
-<p><strong>2、设置网站图标</strong></p>
-<p>进入 themes/主题 文件夹，打开 _config.yml 配置文件，找到 favicon 修改，一般格式为：<code>favicon: 图标地址</code>。（不同主题可能略有差别）</p>
-<p><strong>3、修改并部署后没有效果</strong></p>
-<p>使用 <code>hexo clean</code> 清理后重新部署。</p>
-<p><strong>4、开启 HTTPS 后访问网站显示连接不安全？</strong></p>
-<p>证书还未部署生效，等待一会儿，清除浏览器缓存再试。</p>
-<p><strong>5、Mac 安装 Hexo 报错无法安装</strong></p>
-<p>Mac 用户需要管理员权限运行，使用 <code>sudo npm install -g hexo-cli</code> 命令安装。</p>
-<p><strong>6、npm 下载速度慢，甚至完全没反应</strong></p>
-<p>使用 npm 安装程序等待很久也没反应，或者下载速度很慢，可以更换 npm 源为国内 npm 镜像。</p>
-<p>临时更换方法：在 npm 安装命令后面加上：</p>
-<pre class=" language-text"><code class="language-text">--registry https://registry.npm.taobao.org </code></pre>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>Hexo 是一种纯静态的博客，我们必须要在本地完成文章的编辑再部署到 GitHub 上，依赖于本地环境。不能像 WordPress 或 Typecho 那样的动态博客一样能直接在浏览器中完成撰文和发布。</p>
-<p>可以说是一种比较极客的写博客方式，但是优势也是明显的——免费稳定省心，比较适合爱折腾研究的用户，或者没有在线发文需求的朋友。</p>
-<p>关于具体hexo博客的设置，这个博文讲的非常细，非常好。</p>
-<p>地址：Hexo+Github博客搭建完全教程 | 洪卫の博客<br><a href="https://sunhwee.com/posts/6e8839eb.html" target="_blank" rel="noopener">https://sunhwee.com/posts/6e8839eb.html</a></p>
+                <p>#1 提交hexo源码 git add . git commit -m “添加hexo源码文件作为备份”</p>
+<p>#2 远程仓库合并到本地 git pull –rebase origin master</p>
+<p>#3 更新远程仓库 git push -u origin master</p>
 
             </div>
             <hr/>
@@ -574,7 +395,7 @@ hexo help             # 帮助</code></pre>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://langlo.top/2020/04/27/built%20blog%20based%20hexo/">https://langlo.top/2020/04/27/built%20blog%20based%20hexo/</a>
+                    <a href="https://langlo.top/README.html">https://langlo.top/README.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -611,11 +432,7 @@ hexo help             # 帮助</code></pre>
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
-                                </a>
-                            
+                            <span class="chip bg-color">No tag</span>
                         </div>
                     
                 </div>
@@ -781,53 +598,41 @@ hexo help             # 帮助</code></pre>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2020/04/28/Python_install/">
+                <a href="/README.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/14.jpg" class="responsive-img" alt="Python安装教程">
+                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">Python安装教程</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            python是数据开发,科学计算,人工智能,机器学习等领域一门实用性很高的语言.
-一、安装python
-这一文主要为了给更多想开始学python同学一个开端，八一为了更好地展示其下载与安装流程，我是将之前装好的anaconda给卸载.
-
-这
+                            #1 提交hexo源码 git add . git commit -m “添加hexo源码文件作为备份”
+#2 远程仓库合并到本地 git pull –rebase origin master
+#3 更新远程仓库 git push -u o
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-28
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                    教程
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            让路
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/python/">
-                        <span class="chip bg-color">python</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -835,48 +640,39 @@ hexo help             # 帮助</code></pre>
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
+                Current&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/27/latex_shiyong/">
+                <a href="/README.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="latex使用教程">
+                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">latex使用教程</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            优雅的 LaTeX学会latex,从此跟office say byebye!有很多 Geeks 或者 LaTeX’s Fanatical Fans 过分地强调了 LaTeX 的一些并非重点的特性，以至于很多初学者会觉得 LaTeX 很神秘很
+                            #1 提交hexo源码 git add . git commit -m “添加hexo源码文件作为备份”
+#2 远程仓库合并到本地 git pull –rebase origin master
+#3 更新远程仓库 git push -u o
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
-                                    教程
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            让路
                             
                         </span>
                     </div>
                 </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/latex/">
-                        <span class="chip bg-color">latex</span>
-                    </a>
-                    
-                </div>
+
                 
             </div>
         </div>
@@ -1065,20 +861,14 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             
             
             
-            <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
-                    class="white-color"></span>&nbsp;次
-            </span>
-            
-            
-            <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
-            </span>
             
             <br>
             
             <br>
+            
+            <span id="icp"><img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="http://www.beian.miit.gov.cn/" target="_blank">豫ICP备14121561号</a>
+            </span>
             
         </div>
         <div class="col s12 m4 l4 social-link ">

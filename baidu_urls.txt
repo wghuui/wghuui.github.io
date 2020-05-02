@@ -4,8 +4,8 @@ https://langlo.top/2020/05/02/mail/
 https://langlo.top/2020/04/29/linshiyouxiang/
 https://langlo.top/2020/04/29/picturebed/
 https://langlo.top/2020/04/28/searchengine/
-https://langlo.top/2020/04/28/Python_install/
-https://langlo.top/2020/04/27/built%20blog%20based%20hexo/
-https://langlo.top/2020/04/27/latex_shiyong/
-https://langlo.top/2020/04/27/Tex%20Live_install/
+https://langlo.top/2020/04/28/python-install/
+https://langlo.top/2020/04/27/built-blog-based-hexo/
+https://langlo.top/2020/04/27/latex-shiyong/
+https://langlo.top/2020/04/27/tex-live-install/
 https://langlo.top/2020/04/26/software/
