@@ -1157,7 +1157,7 @@ imap.aliyun.com \  pop3.aliyun.com
 <li>开始使用<br>7.1. 发布文章<br>7.2. 网站设置<br>7.3. 更换主题<br>7.4. 常用代码</li>
 <li>常见问题</li>
 </ol>
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h3 id="GitHub-Pages-是什么？"><a href="#GitHub-Pages-是什么？" class="headerlink" title="# GitHub Pages 是什么？"></a><strong># GitHub Pages 是什么？</strong></h3><ul>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><h3 id="GitHub-Pages-是什么？"><a href="#GitHub-Pages-是什么？" class="headerlink" title="GitHub Pages 是什么？"></a>GitHub Pages 是什么？</h3><ul>
 <li><a href="https://link.zhihu.com/?target=https%3A//help.github.com/en/articles/what-is-github-pages">What is GitHub Pages? - GitHub Help</a></li>
 </ul>
 <p>GitHub Pages 是由 GitHub 官方提供的一种免费的静态站点托管服务，让我们可以在 GitHub 仓库里托管和发布自己的静态网站页面。</p>
@@ -1303,6 +1303,8 @@ hexo help             # 帮助</code></pre>
 <pre class=" language-text"><code class="language-text">--registry https://registry.npm.taobao.org </code></pre>
 <h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>Hexo 是一种纯静态的博客，我们必须要在本地完成文章的编辑再部署到 GitHub 上，依赖于本地环境。不能像 WordPress 或 Typecho 那样的动态博客一样能直接在浏览器中完成撰文和发布。</p>
 <p>可以说是一种比较极客的写博客方式，但是优势也是明显的——免费稳定省心，比较适合爱折腾研究的用户，或者没有在线发文需求的朋友。</p>
+<p>关于具体hexo博客的设置，这个博文讲的非常细，非常好。</p>
+<p>地址：Hexo+Github博客搭建完全教程 | 洪卫の博客<br><a href="https://sunhwee.com/posts/6e8839eb.html" target="_blank" rel="noopener">https://sunhwee.com/posts/6e8839eb.html</a></p>
 ]]></content>
       <categories>
         <category>教程</category>
