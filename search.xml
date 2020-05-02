@@ -411,6 +411,261 @@
       </tags>
   </entry>
   <entry>
+    <title>python文本编辑器</title>
+    <url>/2020/05/02/wenbenbianjiqi/</url>
+    <content><![CDATA[<p>分享一篇文章，原文链接：<a href="https://link.zhihu.com/?target=https%3A//realpython.com/blog/python/python-ides-code-editors-guide/">Python IDEs and Code Editors (Guide)。</a></p>
+<p>使用IDLE或者Python Shell来编写Python是非常适合于简单程序的，但是这些工具往往将大型的编程项目变成一个个充满绝望和沮丧的“坑”。使用一款集成开发环境甚至是一款好的专用的代码编辑器会让编程充满乐趣，但是如何选择呢？</p>
+<p>各位看官，不要畏惧，我们将在这里为您解释和揭开无数可供选择的神秘面纱。虽然我们无法决定哪一款最适合于你和你的项目，但是我们会阐明每一款的优缺点，帮助您作出最明智的决定。</p>
+<p>为了浅显易懂，我们将我们的工具清单分为两部分，一部分是专门用于Python开发的专有工具，另一部分是我们可以用于Python开发的一般工具。我们将为每一款工具列出“为什么是它”和“为什么不是它”（优缺点）。最后要说的是，他们之间并不相互排斥，所以您可以在几乎无害的情况下自行尝试。</p>
+<p>但是，首先…</p>
+<h2 id="什么是集成开发环境和代码编辑器？"><a href="#什么是集成开发环境和代码编辑器？" class="headerlink" title="什么是集成开发环境和代码编辑器？"></a><strong>什么是集成开发环境和代码编辑器？</strong></h2><p>集成开发环境（IDE，Integrated Development Environment）是专用于软件开发的程序。顾名思义，IDE集成了几款专门为软件开发而设计的工具。这些工具通常包括一个专门为了处理代码的编辑器（例如语法高亮和自动补全）；构建、执行、调试工具和某种形式的源代码控制。</p>
+<p>大部分的集成开发环境兼容多种编程语言并且包含更多功能，因此一般来说体积较大，需要时间去下载和安装并且为了正确使用需要更高深的知识。</p>
+<p>相比之下，一款特制的代码编辑器可以像带有语法高亮和代码格式化功能的文本编辑器一样简单。大多数优秀的代码编辑器都可以执行代码和控制调试器，并且也可以和源码控制系统进行最好的交互。与集成开发环境相比，出色的专用代码编辑器往往体积更小更迅捷，但同时功能更少。</p>
+<h2 id="优秀Python编程环境的要求"><a href="#优秀Python编程环境的要求" class="headerlink" title="优秀Python编程环境的要求"></a><strong>优秀Python编程环境的要求</strong></h2><p>因此在编程环境中什么是我们真正需要的呢？每个应用的功能各异，但是以下是使编程更容易的核心功能：</p>
+<ul>
+<li><strong>保存和重载代码文件</strong></li>
+</ul>
+<p>如果一款集成开发环境或者编辑器不允许你保存现有工作，并在之后重新打开时不能保持你离开时的相同状态，那么它就不是什么集成开发环境。</p>
+<ul>
+<li><strong>在环境内运行代码</strong></li>
+</ul>
+<p>类似的是，如果你必须退出编辑器来运行Python代码，那么它也就是一个普通的文本编辑器。</p>
+<ul>
+<li><strong>支持调试</strong></li>
+</ul>
+<p>在程序运行时支持逐步运行代码是所有集成开发环境和大多数优秀代码编辑器必备的核心功能。</p>
+<ul>
+<li><strong>语法高亮</strong></li>
+</ul>
+<p>支持对代码中的关键词、变量和符号快速标识可以让阅读和理解代码更为轻松。</p>
+<ul>
+<li><strong>自动补充代码格式</strong></li>
+</ul>
+<p>任何一个引人注目的编辑器或者集成开发环境都会在一个“while”或者“for”语句末端识别冒号，并且知道下一行应该缩进。</p>
+<p>当然还有许多你或许关注的别的功能，例如源码控制、扩展模型、构建和测试工具、语言帮助等等。但是以上所列4点是我认为一个出色的编辑环境所必须具备的核心功能。</p>
+<p>当我们考虑了这些功能后，让我们首先来关注一些可用于Python开发的通用工具。</p>
+<h2 id="支持Python的通用编辑器和集成开发环境"><a href="#支持Python的通用编辑器和集成开发环境" class="headerlink" title="支持Python的通用编辑器和集成开发环境"></a><strong>支持Python的通用编辑器和集成开发环境</strong></h2><h2 id="Eclipse-PyDev"><a href="#Eclipse-PyDev" class="headerlink" title="Eclipse + PyDev"></a><strong>Eclipse + PyDev</strong></h2><p><strong>类别：</strong>集成开发环境</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=http%3A//www.eclipse.org">www.eclipse.org</a></p>
+<p><strong>Python工具：</strong>PyDev, <a href="https://link.zhihu.com/?target=http%3A//www.pydev.org">www.pydev.org</a></p>
+<p>如果你足够关注开源社区，那么你一定听说过Eclipse。Eclipse实际上是一款面向Java开发的兼容Linux, Windows和OS X的集成开发环境。它拥有丰富的插件和扩展功能市场，这使得Eclipse适用于各种各样的开发项目。</p>
+<p>其中一个插件就是PyDev，它支持Python调试、代码补全和交互式Python控制台。在Eclipse中安装PyDev非常便捷，只需从Eclipse中选择“Help”点击“Eclipse Marketplace”然后搜索PyDev。点击安装，必要的时候重启Eclipse即可。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f059077cee9c7?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>如果你已经安装了Eclipse，安装PyDev是非常方便快捷的，对于资深Eclipse开发者来说，PyDev是几乎不需要另行学习的。</p>
+<p><strong>缺点：</strong>如果你只是一个Python初学者或者软件开发小白，掌握Eclipse还有很长的路要走。记得我说过集成开发环境往往体积较大并且需要更多的知识去正确使用，那么Eclipse正是如此并且就像一袋子小芯片一样需要你逐一了解。</p>
+<h2 id="Sublime-Text"><a href="#Sublime-Text" class="headerlink" title="Sublime Text"></a><strong>Sublime Text</strong></h2><p><strong>类别：</strong>代码编辑器</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=http%3A//www.sublimetext.com">www.sublimetext.com</a></p>
+<p>Sublime Text是一款非常流行的代码编辑器，其开发者是一名谷歌的工程师，其梦想是使之成为更好的文本编辑器。Sublime Text支持Python代码编辑同时兼容所有平台，并且丰富的插件（称之为“包”）扩展了语法和编辑功能。</p>
+<p>安装额外的Python扩展可能会比较棘手，Sublime Text中所有的包都是用Python写成的，并且安装社区扩展往往需要直接在Sublime Text中执行Python脚本。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f059077ae1cbf?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>Sublime Text在编程社区内很受推崇。单单从代码编辑器的角度来看，Sublime Text迅捷小巧并且具有良好的兼容性。</p>
+<p><strong>缺点：</strong>尽管你可以无限期的使用测试版本但是Sublime Text不是免费软件。在Sublime Text中安装扩展插件可能会比较棘手，另外并不支持直接在编辑器内部执行或调试代码。</p>
+<p>为了充分利用Sublime Text设置，你可以阅读我们的Python+Sublime Text设置指南，或者观看我们更深层次的视频教学，这会帮助你在Sublime Text 3中建立一个高效的Python开发环境。</p>
+<h2 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a><strong>Atom</strong></h2><p><strong>类别：</strong>代码编辑器</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=https%3A//atom.io/">atom.io/</a></p>
+<p>同样兼容所有平台的Atom被称为是“21世纪可破解的文本编辑器”。开源的Atom拥有时尚的界面、文件系统浏览器和扩展插件市场，它是使用Electron构建的，Electron使用JavaScript、HTML和CSS构建跨平台的桌面应用。Python语言由一款可在Atom运行时安装的扩展插件支持。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f059077c0d998?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>得益于Electron，Atom广泛兼容各大平台。同样Atom小巧且下载和载入都非常迅速。</p>
+<p><strong>缺点：</strong>内置并不支持构建和调试，这些功能是由社区提供支持的。同样由于Atom建立在Electron框架上，所以它始终运行在JavaScript进程中而不是作为本地应用运行。</p>
+<h2 id="GNU-Emacs"><a href="#GNU-Emacs" class="headerlink" title="GNU Emacs"></a><strong>GNU Emacs</strong></h2><p><strong>类别：</strong>代码编辑器</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=https%3A//www.gnu.org/software/emacs/">www.gnu.org/software/em…</a></p>
+<p>让我们回到iPhone和Android之战前，在Linux和Windows的战争之前甚至是在PC和Mac的战争前，有一场“编辑器之战”。而GNU Emacs就是战斗中的一员。伴随着狂热的追随，被称作“可扩展、可定制、自动记录、实时显示的编辑器”GNU Emacs几乎一直萦绕在UNIX周围。</p>
+<p>终身免费且兼容任何平台（以某种形式），GNU Emacs使用强大的Lisp编程语言进行定制，并为Python开发提供各种定制脚本。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f059077b37ed1?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>了解了 Emacs，使用过 Emacs，你便会爱上 Emacs，Lisp作为第二语言，你清楚它给你的力量可以让你为所欲为。</p>
+<p><strong>缺点：</strong>定制化意味着向多种多样的脚本文件中编写（或复制粘贴）Lisp，如果没有他人提供，那么你必须去学习Lisp并且搞懂它是如何运行的。另外，Emacs是一款非常优秀的操作系统，如果它仅仅被当作一款优秀的文本编辑器….</p>
+<p>请务必参考我们的Python + Emacs设置指南来进行设置。</p>
+<h2 id="VI-VIM"><a href="#VI-VIM" class="headerlink" title="VI/VIM"></a><strong>VI/VIM</strong></h2><p><strong>类别：</strong>代码编辑器</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=https%3A//www.vim.org/">www.vim.org/</a></p>
+<p>在文本编辑器战场另一侧是VI（又名VIM），默认安装在几乎每一个UNIX系统和Mac OS X系统中，VI有着同样的狂热追随。VI和VIM是一种模型编辑器，它将文本查看从文本编辑中分离。VIM在原始VI之上做了诸多改进，包括可扩展模型和就地代码构建。VIMScripts可用于各种Python开发任务。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f059093c16d82?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>了解了VI，使用过 VI，你也会爱上 VI。VIMScripts并不会吓退你，并且你可以按你的意愿去做。</p>
+<p><strong>缺点：</strong>就像Emacs一样，你可能并不适应为了支持Python开发环境自行查找或者撰写脚本，此外你可能并不清楚模型编辑器是如何工作的。另外，VI是一款不错的文本编辑器当且仅当它拥有一个出色的操作系统。</p>
+<p>如果您要使用这种组合，请参阅我们的Python + VIM安装指南，我们将为您提供提示和插件建议。</p>
+<h2 id="Visual-Studio"><a href="#Visual-Studio" class="headerlink" title="Visual Studio"></a><strong>Visual Studio</strong></h2><p><strong>类型：</strong>集成开发平台</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=https%3A//www.visualstudio.com/vs/">www.visualstudio.com/vs/</a></p>
+<p><strong>Python工具：</strong>Python Tools for Visual Studio, 也称PTVS</p>
+<p>与Eclipse进行多方面比较，由Microsoft建立的Visual Studio是一款全功能集成开发平台。VS仅兼容Windows和Mac OS系统，它既提供了免费版（社区版）也提供了付费版（专业版和企业版）。VS支持各种平台的开发，并且附带了自己的扩展插件市场。</p>
+<p>Python Tools for Visual Studio (又名PTVS)实现了在VS中进行Python编程并且支持Python智能感知、调试和其他工具。</p>
+<p><strong>优点：</strong>就像Eclipse一样，如果你已经因为其他开发程序安装了VS那么添加PTVS时非常便捷的。</p>
+<p><strong>缺点：</strong>和Eclipse相同如果仅仅为了Python，那么VS是一个大型下载任务。另外如果你是Linux系统，那你并不走运，因为VS并不支持Linux平台。</p>
+<h2 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a><strong>Visual Studio Code</strong></h2><p><strong>类别：</strong>代码编辑器</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=https%3A//code.visualstudio.com/">code.visualstudio.com/</a></p>
+<p><strong>Python工具：</strong><a href="https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dms-python.python">marketplace.visualstudio.com/items?itemN…</a></p>
+<p>不要与完全版的VS混淆，Visual Studio Code（也称作VS Code）是一款兼容Linux,Mac OS X和Windows 平台的全功能代码编辑器。麻雀虽小但五脏俱全，VS Code开源、可扩展并且可以对几乎所有任务进行配置。就像Atom一样，VS Code建立在Electron基础之上，因此它具有相同的优点和缺点。</p>
+<p>在VS Code中安装Python支持插件非常简单，它的市场是一个快速点击按钮。只需要搜索Python，点击安装然后必要的时候重新启动，VS Code就会自动识别你的Python安装和库。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f0590992322c1?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>同样归功于Electron，VS Code支持所有开发平台，同样令人惊喜的是小巧的体格却蕴含了丰富的功能，同时它也是开源的。</p>
+<p><strong>缺点：</strong>Electron的使用意味着VS Code不是本地应用。另外，有些人可能从原则上并不使用Microsoft资源。</p>
+<h2 id="Python专用的编辑器和集成开发环境"><a href="#Python专用的编辑器和集成开发环境" class="headerlink" title="Python专用的编辑器和集成开发环境"></a><strong>Python专用的编辑器和集成开发环境</strong></h2><h2 id="PyCharm"><a href="#PyCharm" class="headerlink" title="PyCharm"></a><strong>PyCharm</strong></h2><p><strong>类别：</strong>集成开发环境</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=https%3A//www.jetbrains.com/pycharm/">www.jetbrains.com/pycharm/</a></p>
+<p>PyCharm是最好的一个（也是唯一一个）专门面向于Python的全功能集成开发环境。同样拥有付费版（专业版）和免费开源版（社区版），PyCharm不论是在Windows, Mac OS X系统中, 还是在Linux系统中都支持快速安装和使用。</p>
+<p>开箱即用，PyCharm直接支持Python开发环境，打开一个新的文件然后就可以开始编写代码。你也可以在PyCharm中直接运行和调试Python程序，并且它支持源码管理和项目。</p>
+<p>![img](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="720" height="552"></svg>)</p>
+<p><strong>优点：</strong>这是真正的Python集成开发环境，拥有众多便利和支持社区。它的编辑、运行和调试功能统统开箱即用。</p>
+<p><strong>缺点：</strong>PyCharm存在加载较慢的问题，另外对于已有的项目，默认设置可能需要调整。</p>
+<h2 id="Spyder"><a href="#Spyder" class="headerlink" title="Spyder"></a><strong>Spyder</strong></h2><p><strong>类别：</strong>集成开发环境</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=https%3A//github.com/spyder-ide/spyder">github.com/spyder-ide/…</a></p>
+<p>Spyder是一款为了数据科学工作流做了优化的开源Python集成开发环境。它是附在Anaconda软件包管理器发行版中的，因此根据你的设置，或许你已经在机器中安装了Spyder。</p>
+<p>Spyder引人注目的一点是其目标受众是使用Python的数据科学家们。你一定会留意到这一点，举个例子来说，Spyder很好的集成了一些诸如SciPy、NumPy和Matplotlib这样的公共Python数据科学库。</p>
+<p>Spyder拥有大部分你所期待的集成开发环境该具备的功能，例如具备强大语法高亮功能的代码编辑器，Python代码补全，甚至是集成文件浏览器。</p>
+<p>我从未在其他Python编辑环境中见过的一个特殊功能是Spyder的“变量浏览器”功能，它会以表格形式出现在集成开发环境界面右侧来展示数据。就我个人来说，虽然我并不十分需要这个功能，但是它看起来的确很整洁。如果你是一位日常用Python做数据科学工作的人，那你一定会深深爱上这个独特的功能。Spyder关于IPython或者说Jupyter的集成也做得非常好。</p>
+<p>总之，我认为Spyder比其他的集成开发环境更基本，我更愿意把它看做是一款专业工具而不是我日常使用的编辑环境。关于Spyder比较优秀的一点是它兼容Windows、macOS和 Linux系统并且是一个完全开源软件。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f0590a820ba4c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>当你是使用Anaconda Python发行版的数据科学家时你会爱上它。</p>
+<p><strong>缺点：</strong>更有经验的Python开发人员可能会觉得Spyder太基本了以至于不能支持每日所需的基本工作，这样的话还不如选择一个更为完整的集成开发环境或者定制编辑器解决方案。</p>
+<h2 id="Thonny"><a href="#Thonny" class="headerlink" title="Thonny"></a><strong>Thonny</strong></h2><p><strong>类别：</strong>集成开发环境</p>
+<p><strong>网址：</strong><a href="https://link.zhihu.com/?target=http%3A//thonny.org/">thonny.org/</a></p>
+<p>作为Python集成开发环境大家庭中的新成员，Thonny被称作是针对新手的一款集成开发环境。由爱沙尼亚塔尔图大学的计算机科学学院开发并维护的Thonny适用于全部主流平台，并且在网站上附有安装指南。</p>
+<p>默认情况下，Thonny会和自带捆绑的Python版本一起安装，所以你不需要再安装什么新的东西。更有经验的老手可能需要调整这个设置以便找到和使用已安装的库。</p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/4/23/162f0590b1831cbe?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p>
+<p><strong>优点：</strong>你是一名Python新人小白，并且一切就绪需要一款集成开发环境的时候你会选择它。</p>
+<p><strong>缺点：</strong>更有经验的Python老手可能会觉得Thonny同样太基础了，并且其内置解释器只是一个工作场合，而不是一个可以与之共事的工具。此外，作为一款新兴工具，你在遇到问题时很有可能发现没有现成的解决方法。</p>
+<h2 id="哪一个是为你量身定做的？"><a href="#哪一个是为你量身定做的？" class="headerlink" title="哪一个是为你量身定做的？"></a><strong>哪一个是为你量身定做的？</strong></h2><p>只有你自己可以决定中意哪一款，但是还是有一些基本建议：</p>
+<ul>
+<li>Python开发新人应该尝试越少定制化越好的解决方案，越少阻碍，越好</li>
+<li>如果你将文本编辑器用于其他用途（如网页或文件编辑）那么查找代码编辑器方案。</li>
+<li>如果你已经在使用其他开发软件，你可能会发现将Python功能添加到现有工具集更容易。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>分享</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python制作词云</title>
+    <url>/2020/05/02/wordcloud/</url>
+    <content><![CDATA[<h1 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a>安装python</h1><p>首先你需要安装python，或者是anaconda。<a id="more"></a></p>
+<p>anaconda有很多镜像，在国内下载速度较快，比如</p>
+<pre><code>清华：https://pypi.tuna.tsinghua.edu.cn/simple
+阿里云：http://mirrors.aliyun.com/pypi/simple/
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+豆瓣：http://pypi.douban.com/simple/</code></pre><p>关于anaconda、conda、python的区别，</p>
+<ol>
+<li><p>conda是一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。举个例子：包管理与pip的使用类似，环境管理则允许用户方便地安装不同版本的python并可以快速切换。</p>
+</li>
+<li><p>Anaconda则是一个打包的集合，里面预装好了conda、某个版本的python、众多packages、科学计算工具等等，就是把很多常用的不常用的库都给你装好了。</p>
+</li>
+<li><p>Miniconda，顾名思义，它只包含最基本的内容——python与conda，以及相关的必须依赖项，对于空间要求严格的用户，Miniconda是一种选择。就只包含最基本的东西，其他的库得自己装。</p>
+</li>
+</ol>
+<p>对conda的基本掌握：</p>
+<p>1：基本操作：<br>升级全部库：  conda upgrade –all</p>
+<ul>
+<li>升级一个包  conda update packagename</li>
+<li>安装包：conda install packagename</li>
+<li>也可以安装多个包：   conda installl numpy pandas scipy</li>
+<li>安装固定版本的包：conda install numpy =1.10</li>
+<li>移除一个包：conda remove packagename </li>
+<li>查看所有包：conda list </li>
+</ul>
+<p>2：管理python环境：</p>
+<ul>
+<li>创建虚拟环境：conda create -n env_name list of packagenaem</li>
+<li>eg:  conda create -n env_name pandas </li>
+<li>指定python版本：conda create -n env_name python2 = 2.7 pandas </li>
+<li>激活环境： activate env_name</li>
+<li>退出环境 :  deactivate  env_name</li>
+<li>删除虚拟环境：conda env remove -n env_name</li>
+<li>显示所有虚拟环境：conda env list  </li>
+</ul>
+<p>安装anaconda的教程很多，比如这个 <a href="https://blog.csdn.net/u012318074/article/details/77075209" target="_blank" rel="noopener">https://blog.csdn.net/u012318074/article/details/77075209</a></p>
+<h2 id="安装Python第三方模块"><a href="#安装Python第三方模块" class="headerlink" title="安装Python第三方模块"></a>安装Python第三方模块</h2><p>打开命令行，输入下面这行命令，回车执行即可。</p>
+<pre><code>pip install numpy matplotlib pillow wordcloud imageio jieba snownlp itchat -i https://pypi.tuna.tsinghua.edu.cn/simple</code></pre><p>如果安装过程中报错，<br>如果报错：Microsoft Visual C++ 14.0 is required.</p>
+<p>解决方法：</p>
+<blockquote>
+<p>到 <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud" target="_blank" rel="noopener">http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud</a> 页面</p>
+<p>下载所需的wordcloud模块的.whl文件，再用pip安装下载的文件。</p>
+<p>比如，对于64位windows操作系统，python版本为3.6的电脑，就应该下载</p>
+<p>wordcloud-1.4.1-cp36-cp36m-win_amd64.whl这个文件</p>
+<p>下载后打开命令行，使用cd命令切换到该文件的路径，</p>
+<p>执行pip install wordcloud-1.4.1-cp36-cp36m-win_amd64.whl命令，即可安装成功。</p>
+</blockquote>
+<h1 id="实战"><a href="#实战" class="headerlink" title="实战"></a>实战</h1><h2 id="基础版"><a href="#基础版" class="headerlink" title="基础版"></a>基础版</h2><p>python程序的运行，可以使用命令行，可以使用IDE，也可以使用某些文本编辑器。</p>
+<p>在这里以windows命令行为例。在桌面新建<code>test.py</code>(python文件后缀名为py)</p>
+<p>打开，编辑<code>test.py</code>，输入下列命令。</p>
+<pre class=" language-python"><code class="language-python">
+<span class="token keyword">import</span> wordcloud <span class="token comment" spellcheck="true">#导入词云</span>
+
+<span class="token comment" spellcheck="true"># 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数</span>
+w <span class="token operator">=</span> wordcloud<span class="token punctuation">.</span>WordCloud<span class="token punctuation">(</span>width<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">,</span>height<span class="token operator">=</span><span class="token number">700</span><span class="token punctuation">,</span>background_color<span class="token operator">=</span><span class="token string">'white'</span><span class="token punctuation">,</span>font_path<span class="token operator">=</span><span class="token string">'msyh.ttc'</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true"># 调用词云对象的generate方法，将文本传入</span>
+w<span class="token punctuation">.</span>generate<span class="token punctuation">(</span><span class="token string">'本报北京5月1日电 （记者王珂）记者从文化和旅游部获悉：“五一”假期首日全国旅游市场总体运行平稳，全国A级旅游景区开放8498家，约占总数的70%；全国接待国内游客总人数2319.7万人次，实现国内旅游收入约97.7亿元。各地景区严格落实游客流量不超过最大承载量30%的要求，未发现大规模人员聚集情况，基本做到限量、错峰、安全、有序开放'</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true"># 将生成的词云保存为output2.png图片文件，保存到当前文件夹中</span>
+w<span class="token punctuation">.</span>to_file<span class="token punctuation">(</span><span class="token string">'output2.png'</span><span class="token punctuation">)</span></code></pre>
+<p>在命令行中，当前文件夹下，执行<code>python test.py</code>，即可生成一个简单的词云。</p>
+<img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/output2.png" style="zoom:50%;" />
+
+<h2 id="进阶版（生成特定图形的词云）"><a href="#进阶版（生成特定图形的词云）" class="headerlink" title="进阶版（生成特定图形的词云）"></a>进阶版（生成特定图形的词云）</h2><p>在当前目录上，有一个<a href="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/test.png" target="_blank" rel="noopener">图形</a>，和一个<a href="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/test.txt" target="_blank" rel="noopener">文本</a>。</p>
+<pre class=" language-python"><code class="language-python">
+<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+<span class="token keyword">import</span> wordcloud
+<span class="token keyword">import</span> jieba
+<span class="token keyword">from</span> wordcloud <span class="token keyword">import</span> WordCloud<span class="token punctuation">,</span>ImageColorGenerator
+
+
+<span class="token comment" spellcheck="true"># 导入imageio库中的imread函数，并用这个函数读取本地图片，作为词云形状图片</span>
+<span class="token keyword">import</span> imageio
+mk <span class="token operator">=</span> imageio<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">"test.png"</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true">#对外部文件文本进行中文分词 得到string</span>
+<span class="token comment" spellcheck="true"># string = open('hamlet.txt').read() 这样写一样的</span>
+f <span class="token operator">=</span> open<span class="token punctuation">(</span><span class="token string">'test.txt'</span><span class="token punctuation">,</span> encoding <span class="token operator">=</span> <span class="token string">'utf-8'</span><span class="token punctuation">)</span>
+txt <span class="token operator">=</span> f<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+txtlist <span class="token operator">=</span> jieba<span class="token punctuation">.</span>lcut<span class="token punctuation">(</span>txt<span class="token punctuation">)</span>
+string <span class="token operator">=</span> <span class="token string">" "</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>txtlist<span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true"># 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数 contour 图形轮廓线</span>
+w <span class="token operator">=</span> wordcloud<span class="token punctuation">.</span>WordCloud<span class="token punctuation">(</span>width<span class="token operator">=</span><span class="token number">500</span><span class="token punctuation">,</span>height<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">,</span>
+background_color<span class="token operator">=</span><span class="token string">'white'</span><span class="token punctuation">,</span>font_path<span class="token operator">=</span><span class="token string">'msyh.ttc'</span><span class="token punctuation">,</span>scale<span class="token operator">=</span><span class="token number">15</span><span class="token punctuation">,</span>
+mask<span class="token operator">=</span>mk<span class="token punctuation">,</span>stopwords<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">'这个'</span><span class="token punctuation">,</span><span class="token string">'大家'</span><span class="token punctuation">,</span><span class="token string">'手机'</span><span class="token punctuation">,</span><span class="token string">'原图'</span><span class="token punctuation">,</span><span class="token string">'微博'</span><span class="token punctuation">,</span><span class="token string">'视频'</span><span class="token punctuation">,</span><span class="token string">'组图'</span><span class="token punctuation">,</span><span class="token string">'一个'</span><span class="token punctuation">,</span><span class="token string">'今天'</span><span class="token punctuation">,</span><span class="token string">'可以'</span><span class="token punctuation">,</span><span class="token string">'钟文泽'</span><span class="token punctuation">,</span><span class="token string">'还是'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>contour_width<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span>contour_color<span class="token operator">=</span><span class="token string">'steelblue'</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true"># 调用词云对象的generate方法，将文本传入</span>
+w<span class="token punctuation">.</span>generate<span class="token punctuation">(</span>string<span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true"># 调用wordcloud库中的ImageColorGenerator()函数，提取模板图片各部分的颜色</span>
+image_colors <span class="token operator">=</span> ImageColorGenerator<span class="token punctuation">(</span>mk<span class="token punctuation">)</span>
+
+
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'figure.figsize'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">8.0</span><span class="token punctuation">,</span> <span class="token number">4.0</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 设置figure_size尺寸</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'image.interpolation'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'nearest'</span> <span class="token comment" spellcheck="true"># 设置 interpolation style</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'image.cmap'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'gray'</span> <span class="token comment" spellcheck="true"># 设置 颜色 style</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'savefig.dpi'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">300</span> <span class="token comment" spellcheck="true">#图片像素</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'figure.dpi'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">300</span> <span class="token comment" spellcheck="true">#分辨率</span>
+
+<span class="token comment" spellcheck="true"># 默认的像素：[6.0,4.0]，分辨率为100，图片尺寸为 600&amp;400</span>
+<span class="token comment" spellcheck="true"># 指定dpi=200，图片尺寸为 1200*800</span>
+<span class="token comment" spellcheck="true"># 指定dpi=300，图片尺寸为 1800*1200</span>
+<span class="token comment" spellcheck="true"># 设置figsize可以在不改变分辨率情况下改变比例</span>
+
+<span class="token comment" spellcheck="true">#plt.imshow(w)</span>
+<span class="token comment" spellcheck="true">#plt.axis("off")</span>
+<span class="token comment" spellcheck="true">#plt.show()</span>
+<span class="token comment" spellcheck="true">#生成图片，不保存，后自行设置参数。</span>
+
+<span class="token comment" spellcheck="true"># 将生成的词云保存为output2-poem.png图片文件，保存到当前文件夹中</span>
+w<span class="token punctuation">.</span>to_file<span class="token punctuation">(</span><span class="token string">'output.png'</span><span class="token punctuation">)</span>
+</code></pre>
+<p>同样的操作，输入上面的代码，同样执行<code>python test.py</code>。</p>
+<img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/Figure_1.png" style="zoom:500%;" />
+
+<p>更多，更好玩的教程请在搜索引擎上自行搜索。</p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>词云 python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>今天聊聊邮箱（自定义域名邮箱教程）</title>
     <url>/2020/05/02/mail/</url>
     <content><![CDATA[<p> 国内的邮箱众多，以网易为代表的126、163、yeah等，以QQ系为代表的国民邮箱和微信衍生的foxmail，国外有gmail、outlook、Yahoo等。 使用人数最多的是gmail，Gmail同时也是最好用的邮箱，安全性也有保证，但是由于某些原因，Gmail在国内“不能”使用，但是QQ邮箱和网易邮箱App均支持gmail登录。</p>

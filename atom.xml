@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://langlo.top/"/>
-  <updated>2020-05-02T01:54:15.000Z</updated>
+  <updated>2020-05-02T05:30:16.000Z</updated>
   <id>https://langlo.top/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python文本编辑器</title>
+    <link href="https://langlo.top/2020/05/02/wenbenbianjiqi/"/>
+    <id>https://langlo.top/2020/05/02/wenbenbianjiqi/</id>
+    <published>2020-05-02T05:30:16.000Z</published>
+    <updated>2020-05-02T05:30:16.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;分享一篇文章，原文链接：&lt;a href=&quot;https://link.zhihu.com/?target=https%3A//realpython.com/blog/python/python-ides-code-editors-guide/&quot;&gt;Python IDEs
+        
+      
+    
+    </summary>
+    
+    
+      <category term="分享" scheme="https://langlo.top/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="python" scheme="https://langlo.top/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python制作词云</title>
+    <link href="https://langlo.top/2020/05/02/wordcloud/"/>
+    <id>https://langlo.top/2020/05/02/wordcloud/</id>
+    <published>2020-05-02T04:56:38.000Z</published>
+    <updated>2020-05-02T04:56:38.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;安装python&quot;&gt;&lt;a href=&quot;#安装python&quot; class=&quot;headerlink&quot; title=&quot;安装python&quot;&gt;&lt;/a&gt;安装python&lt;/h1&gt;&lt;p&gt;首先你需要安装python，或者是anaconda。
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://langlo.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="词云 python" scheme="https://langlo.top/tags/%E8%AF%8D%E4%BA%91-python/"/>
+    
+  </entry>
   
   <entry>
     <title>今天聊聊邮箱（自定义域名邮箱教程）</title>
