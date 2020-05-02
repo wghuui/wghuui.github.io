@@ -25,15 +25,7 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;python有很多编辑器，我在用的是VS code。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Python的10大集成开发环境和代码编辑器（指南） - 后端 - 掘金&lt;br&gt;&lt;a
-        
-      
+      &lt;p&gt;python有很多编辑器，我在用的是VS code。
     
     </summary>
     
@@ -75,13 +67,7 @@
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt; 国内的邮箱众多，以网易为代表的126、163、yeah等，以QQ系为代表的国民邮箱和微信衍生的foxmail，国外有gmail、outlook、Yahoo等。
-        
-      
+      &lt;p&gt; 国内的邮箱众多，以网易为代表的126、163、yeah等，以QQ系为代表的国民邮箱和微信衍生的foxmail，国外有gmail、outlook、Yahoo等。
     
     </summary>
     
@@ -117,8 +103,8 @@
   
   <entry>
     <title>今天聊聊图床</title>
-    <link href="https://langlo.top/2020/04/29/%E4%BB%8A%E5%A4%A9%E8%81%8A%E8%81%8A%E5%9B%BE%E5%BA%8A/"/>
-    <id>https://langlo.top/2020/04/29/%E4%BB%8A%E5%A4%A9%E8%81%8A%E8%81%8A%E5%9B%BE%E5%BA%8A/</id>
+    <link href="https://langlo.top/2020/04/29/picturebed/"/>
+    <id>https://langlo.top/2020/04/29/picturebed/</id>
     <published>2020-04-29T09:17:41.000Z</published>
     <updated>2020-04-29T09:17:41.000Z</updated>
     
@@ -138,8 +124,8 @@
   
   <entry>
     <title>搜索引擎的正确打开方式</title>
-    <link href="https://langlo.top/2020/04/28/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/"/>
-    <id>https://langlo.top/2020/04/28/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</id>
+    <link href="https://langlo.top/2020/04/28/searchengine/"/>
+    <id>https://langlo.top/2020/04/28/searchengine/</id>
     <published>2020-04-28T13:17:00.000Z</published>
     <updated>2020-04-28T13:17:00.000Z</updated>
     
@@ -159,8 +145,8 @@
   
   <entry>
     <title>Python安装教程</title>
-    <link href="https://langlo.top/2020/04/28/Python%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
-    <id>https://langlo.top/2020/04/28/Python%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</id>
+    <link href="https://langlo.top/2020/04/28/Python_install/"/>
+    <id>https://langlo.top/2020/04/28/Python_install/</id>
     <published>2020-04-28T09:48:30.000Z</published>
     <updated>2020-04-28T09:48:30.000Z</updated>
     
@@ -180,8 +166,8 @@
   
   <entry>
     <title>基于hexo搭建博客教程</title>
-    <link href="https://langlo.top/2020/04/27/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
-    <id>https://langlo.top/2020/04/27/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/</id>
+    <link href="https://langlo.top/2020/04/27/built%20blog%20based%20hexo/"/>
+    <id>https://langlo.top/2020/04/27/built%20blog%20based%20hexo/</id>
     <published>2020-04-27T14:26:18.000Z</published>
     <updated>2020-04-27T14:26:18.000Z</updated>
     
@@ -201,8 +187,8 @@
   
   <entry>
     <title>latex使用教程</title>
-    <link href="https://langlo.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    <id>https://langlo.top/2020/04/27/latex%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <link href="https://langlo.top/2020/04/27/latex_shiyong/"/>
+    <id>https://langlo.top/2020/04/27/latex_shiyong/</id>
     <published>2020-04-27T04:28:11.000Z</published>
     <updated>2020-04-27T04:28:11.000Z</updated>
     
@@ -222,8 +208,8 @@
   
   <entry>
     <title>Tex Live下载及安装说明</title>
-    <link href="https://langlo.top/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/"/>
-    <id>https://langlo.top/2020/04/27/Tex%20Live%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E8%AF%B4%E6%98%8E/</id>
+    <link href="https://langlo.top/2020/04/27/Tex%20Live_install/"/>
+    <id>https://langlo.top/2020/04/27/Tex%20Live_install/</id>
     <published>2020-04-27T03:57:52.000Z</published>
     <updated>2020-04-27T03:57:52.000Z</updated>
     
@@ -243,8 +229,8 @@
   
   <entry>
     <title>软件分享</title>
-    <link href="https://langlo.top/2020/04/26/%E8%BD%AF%E4%BB%B6/"/>
-    <id>https://langlo.top/2020/04/26/%E8%BD%AF%E4%BB%B6/</id>
+    <link href="https://langlo.top/2020/04/26/software/"/>
+    <id>https://langlo.top/2020/04/26/software/</id>
     <published>2020-04-26T07:05:21.000Z</published>
     <updated>2020-04-26T07:05:21.000Z</updated>
     
@@ -259,55 +245,6 @@
     
     
       <category term="软件下载" scheme="https://langlo.top/tags/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>外交部:中方向世卫组织增加现汇捐款3000万美元</title>
-    <link href="https://langlo.top/2020/04/24/2/"/>
-    <id>https://langlo.top/2020/04/24/2/</id>
-    <published>2020-04-24T14:09:48.000Z</published>
-    <updated>2020-04-24T14:09:48.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;http://world.people.com.cn/NMediaFile/2020/0423/MAIN202004232124000002174182244.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;人民网北京4月23日电
-        
-      
-    
-    </summary>
-    
-    
-      <category term="新闻" scheme="https://langlo.top/categories/%E6%96%B0%E9%97%BB/"/>
-    
-    
-      <category term="外交部例行记者会" scheme="https://langlo.top/tags/%E5%A4%96%E4%BA%A4%E9%83%A8%E4%BE%8B%E8%A1%8C%E8%AE%B0%E8%80%85%E4%BC%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>借疫情污名化中国，于法不容</title>
-    <link href="https://langlo.top/2020/04/24/1/"/>
-    <id>https://langlo.top/2020/04/24/1/</id>
-    <published>2020-04-24T12:50:40.000Z</published>
-    <updated>2020-04-24T12:50:40.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;​         当下，新冠肺炎疫情正在全球大流行。面对百年不遇之世界公共卫生危机，各国本应守望相助，合作应对，但美国一些反华政客接连抛出针对中国的荒谬论调，企图将新冠肺炎疫情政治化、污名化。
-    
-    </summary>
-    
-    
-      <category term="新闻" scheme="https://langlo.top/categories/%E6%96%B0%E9%97%BB/"/>
-    
-    
-      <category term="新冠肺炎" scheme="https://langlo.top/tags/%E6%96%B0%E5%86%A0%E8%82%BA%E7%82%8E/"/>
     
   </entry>
   
