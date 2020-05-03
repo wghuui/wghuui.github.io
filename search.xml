@@ -411,6 +411,72 @@
       </tags>
   </entry>
   <entry>
+    <title>python的一些学习资源</title>
+    <url>/2020/05/03/pythonfuli/</url>
+    <content><![CDATA[<h1 id="几个学习python的好资源"><a href="#几个学习python的好资源" class="headerlink" title="几个学习python的好资源."></a>几个学习python的好资源.</h1><p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/pythonfuli/wiki-python.jpg" alt=""></p>
+<p>各大公众号、抖音机构号都在吹嘘python有多么神奇，简化计算，五分钟可以干完两个小时的工作，还有9.9python速成班。在这个时代，不会python，貌似都没有机会。不可否认，python在我们日常生活中确实有很重要的作用。入门门槛也不高，很容易学习，并且学习资源在网络上铺天盖地。各个行业，都或多或少与数据处理、数据计算等等有联系。计算机行业更不用说，python连续多年成为程序员使用人数最多的语言。</p>
+<p>通过下面这张图可以很容易地了解python的具体作用。</p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/pythonfuli/kandong-python-useing%20a%20picture.jpg" alt=""></p>
+<p>根据我个人的经历，给大家推荐了几个个人认为比较好的课程。</p>
+<h2 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h2><h3 id="1，极客时间官网"><a href="#1，极客时间官网" class="headerlink" title="1，极客时间官网"></a>1，<a href="https://time.geekbang.org/" target="_blank" rel="noopener">极客时间</a>官网</h3><p>推出的python教程，因为疫情影响，给认证公司的福利。可以免费领三节课。</p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/111.png" alt=""></p>
+<p>这是<a href="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/geekbangpython-master.zip" target="_blank" rel="noopener">下载链接</a>，老规矩同样放阿里云oss里面了。源码：<a href="https://github.com/wilsonyin123/geekbangpython" target="_blank" rel="noopener">地址</a></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/wilsonyin123_geekbangpython.png" alt=""></p>
+<h3 id="2，Github"><a href="#2，Github" class="headerlink" title="2，Github"></a>2，Github</h3><p>点赞数很高的python项目，这是<a href="https://github.com/jackfrued/Python-100-Days" target="_blank" rel="noopener">源码地址</a>，<a href="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/Python-100-Days-master.zip" target="_blank" rel="noopener">下载地址</a>。</p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python-100-days-to-master.jpg" alt=""></p>
+<h3 id="3，bilibili课程推荐。"><a href="#3，bilibili课程推荐。" class="headerlink" title="3，bilibili课程推荐。"></a>3，bilibili课程推荐。</h3><ul>
+<li>【中英字幕】Python for everybody-五星推荐！<br><a href="https://www.bilibili.com/video/BV16b411n7U4" target="_blank" rel="noopener">https://www.bilibili.com/video/BV16b411n7U4</a></li>
+<li>python教程2019版 6小时完全入门 能开发网站<br><a href="https://www.bilibili.com/video/BV14J411U7hj" target="_blank" rel="noopener">https://www.bilibili.com/video/BV14J411U7hj</a></li>
+<li>Python 数据分析与展示(北京理工大学 )-bilibili<br><a href="https://www.bilibili.com/video/BV1Sx411U7R9" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1Sx411U7R9</a></li>
+</ul>
+<h3 id="4、博客性质"><a href="#4、博客性质" class="headerlink" title="4、博客性质"></a>4、博客性质</h3><ul>
+<li><p><strong>Python快速教程 - Vamei - 博客园</strong><br><a href="https://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html" target="_blank" rel="noopener">https://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html</a></p>
+</li>
+<li><p>Python教程 - <strong>廖雪峰的官方网站</strong><br><a href="https://www.liaoxuefeng.com/wiki/1016959663602400" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/1016959663602400</a></p>
+</li>
+<li><p><strong>官网</strong>：不会的都可以找到答案 Welcome to Python.org<br><a href="https://www.python.org/" target="_blank" rel="noopener">https://www.python.org/</a> </p>
+</li>
+<li><p><strong>Python 社区官方出品的教程</strong>，适合新手入门，权威性有保障。<br>链接：<a href="https://docs.python.org/3/tutorial/index.html" target="_blank" rel="noopener">docs.python.org/3/tutorial/…</a><br>中文翻译：<a href="http://docspy3zh.readthedocs.io/en/latest/tutorial/index.html" target="_blank" rel="noopener">docspy3zh.readthedocs.io/en/latest/t…</a></p>
+</li>
+<li><p><strong>Dive Into Python3</strong><br>相对进阶一些的教程。<br>链接：<a href="http://www.diveintopython3.net/" target="_blank" rel="noopener">www.diveintopython3.net/</a><br>中文翻译：<a href="https://dipyzh.bitbucket.io/" target="_blank" rel="noopener">dipyzh.bitbucket.io/</a></p>
+</li>
+<li><p><strong>《Python Cookbook 第三版》</strong><br>字典书，适合遇到问题时现场查阅，或者直接放在厕所里。<br>中文版豆瓣链接：<a href="https://book.douban.com/subject/26381341/" target="_blank" rel="noopener">book.douban.com/subject/263…</a></p>
+</li>
+<li><p><strong>PyCoder’s Weekly</strong><br>每周分享 Python 相关的文章、项目、新闻，可以了解 Python 社区最新动态。<br>链接：<a href="http://pycoders.com/" target="_blank" rel="noopener">pycoders.com/</a><br>中文翻译：<a href="http://pycoders-weekly-chinese.readthedocs.io/en/latest/" target="_blank" rel="noopener">pycoders-weekly-chinese.readthedocs.io/en/latest/</a></p>
+</li>
+<li><p><strong>Django Book</strong><br>关于 Django 框架的详细教程，除了 Python 之外还能学到和 Web 开发相关的很多技能。<br>链接：<a href="http://djangobook.com/" target="_blank" rel="noopener">djangobook.com/</a><br>中文翻译：<a href="http://djangobook.py3k.cn/2.0/" target="_blank" rel="noopener">djangobook.py3k.cn/2.0/</a></p>
+</li>
+</ul>
+<h2 id="常用库推荐"><a href="#常用库推荐" class="headerlink" title="常用库推荐"></a>常用库推荐</h2><p><strong>Flask</strong><br>除了上面提到的 Django 之外，Flask 也是一个很好的选项。</p>
+<p>设计思路与 Django 完全相反，轻量级，不与数据库强耦合。</p>
+<p>官网：<a href="http://flask.pocoo.org/" target="_blank" rel="noopener">flask.pocoo.org/</a><br>中文翻译：<a href="http://www.pythondoc.com/flask/index.html" target="_blank" rel="noopener">www.pythondoc.com/flask/index…</a></p>
+<p><strong>Requests</strong><br>如果你要编写简单的爬虫，来爬去互联网上的信息，或者调用一些外部的机遇 HTTP 的接口，</p>
+<p>使用这个库再也合适不过了。<br>官网：<a href="http://cn.python-requests.org/zh_CN/latest/" target="_blank" rel="noopener">cn.python-requests.org/zh_CN/lates…</a></p>
+<h2 id="编码规范"><a href="#编码规范" class="headerlink" title="编码规范"></a>编码规范</h2><p>关于 Python 代码的编码规范，请遵守PEP8：</p>
+<p>链接：<a href="https://www.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">www.python.org/dev/peps/pe…</a><br>中文翻译：<a href="https://my.oschina.net/u/1433482/blog/464444" target="_blank" rel="noopener">my.oschina.net/u/1433482/b…</a></p>
+<h2 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h2><p>awesome-python<br>链接：<a href="https://awesome-python.com/" target="_blank" rel="noopener">awesome-python.com/</a></p>
+<p>关于python安装以及python编辑器的选择，之前的博客都有涉及。</p>
+<p>送给大家一句话：</p>
+<blockquote>
+<p>纸上谈来终觉浅，绝知此事要躬行。</p>
+</blockquote>
+<p>一定要动手敲代码</p>
+<ul>
+<li>可以锻炼你动手的能力，以及操作编辑器的能力</li>
+<li>不敲代码，你永远不知道会出现什么bug</li>
+<li>遇到不懂的地方，善用搜索引擎</li>
+<li>多犯错，多成长。</li>
+</ul>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/pythonfuli/python.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python文本编辑器+ VS Code配置python环境</title>
     <url>/2020/05/02/wenbenbianjiqi/</url>
     <content><![CDATA[<p>python有很多编辑器，我在用的是VS code。<a id="more"></a></p>
