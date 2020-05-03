@@ -52,7 +52,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;python有很多编辑器，我在用的是VS code。
+      &lt;p&gt;&lt;font size=4&gt;python有很多编辑器，我在用的是VS code。
     
     </summary>
     
@@ -73,7 +73,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;安装python&quot;&gt;&lt;a href=&quot;#安装python&quot; class=&quot;headerlink&quot; title=&quot;安装python&quot;&gt;&lt;/a&gt;安装python&lt;/h1&gt;&lt;p&gt;首先你需要安装python，或者是anaconda。
+      &lt;h1 id=&quot;安装python&quot;&gt;&lt;a href=&quot;#安装python&quot; class=&quot;headerlink&quot; title=&quot;安装python&quot;&gt;&lt;/a&gt;&lt;font size=4&gt;安装python&lt;/h1&gt;&lt;p&gt;首先你需要安装python，或者是anaconda。
     
     </summary>
     
@@ -94,7 +94,7 @@
     
     <summary type="html">
     
-      &lt;p&gt; 国内的邮箱众多，以网易为代表的126、163、yeah等，以QQ系为代表的国民邮箱和微信衍生的foxmail，国外有gmail、outlook、Yahoo等。
+      &lt;p&gt; &lt;font size=4&gt;国内的邮箱众多，以网易为代表的126、163、yeah等，以QQ系为代表的国民邮箱和微信衍生的foxmail，国外有gmail、outlook、Yahoo等。
     
     </summary>
     
@@ -115,7 +115,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;生活中由于各种需要,主要邮箱注册,但是出于安全的权衡,又不愿透露自己真实的邮箱.&lt;/p&gt;
+      &lt;p&gt;&lt;font size =4&gt;生活中由于各种需要,主要邮箱注册,但是出于安全的权衡,又不愿透露自己真实的邮箱.&lt;/p&gt;
 &lt;p&gt;在这种情况下,临时邮箱就显得尤为重要了.
     
     </summary>
@@ -137,7 +137,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;图片作为互联网服务中最基础的资源之一，随着互联网基础服务越来越专业化，图片的存储、处理、分发也发展成了一项独立的基础服务。
+      &lt;p&gt;&lt;font size=4&gt;图片作为互联网服务中最基础的资源之一，随着互联网基础服务越来越专业化，图片的存储、处理、分发也发展成了一项独立的基础服务。
     
     </summary>
     
@@ -158,7 +158,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;搜索引擎的使用是上网冲浪的基本前提.
+      &lt;p&gt;&lt;font size =4&gt;搜索引擎的使用是上网冲浪的基本前提.
     
     </summary>
     
@@ -179,7 +179,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;python是数据开发,科学计算,人工智能,机器学习等领域一门实用性很高的语言.
+      &lt;p&gt;&lt;font size=4&gt;python是数据开发,科学计算,人工智能,机器学习等领域一门实用性很高的语言.
     
     </summary>
     
@@ -200,7 +200,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。
+      &lt;p&gt;&lt;font size=4&gt;本文就详细介绍下如何使用 Hexo + GitHub 搭建免费个人博客网站的教程。
     
     </summary>
     
@@ -221,7 +221,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;优雅的-LaTeX&quot;&gt;&lt;a href=&quot;#优雅的-LaTeX&quot; class=&quot;headerlink&quot; title=&quot;优雅的 LaTeX&quot;&gt;&lt;/a&gt;优雅的 LaTeX&lt;/h2&gt;&lt;p&gt;学会latex,从此跟office say byebye!
+      &lt;h2 id=&quot;优雅的-LaTeX&quot;&gt;&lt;a href=&quot;#优雅的-LaTeX&quot; class=&quot;headerlink&quot; title=&quot;优雅的 LaTeX&quot;&gt;&lt;/a&gt;&lt;font size=4&gt;优雅的 LaTeX&lt;/h2&gt;&lt;p&gt;学会latex,从此跟office say byebye!
     
     </summary>
     
@@ -242,7 +242,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;关于Tex live的基本使用
+      &lt;p&gt;&lt;font size =4&gt;关于Tex live的基本使用
     
     </summary>
     
@@ -263,7 +263,9 @@
     
     <summary type="html">
     
-      &lt;p&gt;博客中的文件都是绿色软件，不用担心软件安装问题。
+      &lt;font size=4&gt;
+
+&lt;p&gt;博客中的文件都是绿色软件，不用担心软件安装问题。
     
     </summary>
     
