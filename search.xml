@@ -454,13 +454,14 @@
 <p>使用这个库再也合适不过了。<br>官网：<a href="http://cn.python-requests.org/zh_CN/latest/" target="_blank" rel="noopener">cn.python-requests.org/zh_CN/lates…</a></p>
 <h2 id="编码规范"><a href="#编码规范" class="headerlink" title="编码规范"></a>编码规范</h2><p>关于 Python 代码的编码规范，请遵守PEP8：</p>
 <p>链接：<a href="https://www.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">www.python.org/dev/peps/pe…</a><br>中文翻译：<a href="https://my.oschina.net/u/1433482/blog/464444" target="_blank" rel="noopener">my.oschina.net/u/1433482/b…</a></p>
-<h2 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h2><p>awesome-python<br>链接：<a href="https://awesome-python.com/" target="_blank" rel="noopener">awesome-python.com/</a></p>
-<p>关于python安装以及python编辑器的选择，之前的博客都有涉及。</p>
-<p>送给大家一句话：</p>
+<h2 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h2><p>awesome-python<br>链接：<a href="https://awesome-python.com/" target="_blank" rel="noopener">awesome-python.com/</a>    </p>
+<br>
+
+<p><strong><font size=5>关于python安装以及python编辑器的选择，之前的博客都有涉及.  </font></strong></p>
 <blockquote>
 <p>纸上谈来终觉浅，绝知此事要躬行。</p>
 </blockquote>
-<p>一定要动手敲代码</p>
+<p><strong><font size=5>一定要动手敲代码</font></strong></p>
 <ul>
 <li>可以锻炼你动手的能力，以及操作编辑器的能力</li>
 <li>不敲代码，你永远不知道会出现什么bug</li>
@@ -495,13 +496,13 @@
 <p>在 VS Code 中，在不安装任何插件的情况下，也可以运行 python 代码。</p>
 <p>新建一个 test.py 文件，输入 <code>print(&#39;Hello World!&#39;)</code>。</p>
 <p>点击 查看 -&gt; 终端（快捷键 Ctrl + <code>）打开终端，输入</code>python test.py` 即可运行，跟在 cmd 中运行 python 代码是一样的。</p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f73f1febb?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（1）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/1.jpg" alt="VS Code 配置 Python 环境（1）.png"></p>
 <h3 id="2、安装-Python-插件"><a href="#2、安装-Python-插件" class="headerlink" title="2、安装 Python 插件"></a>2、安装 Python 插件</h3><p>在不安装插件的情况下，点击 调试 -&gt; 启动调试（快捷键 F5）是没办法运行代码的。会让你选择环境，而你根本就没有环境可选。</p>
 <p>在 VS Code 的应用商店（快捷键：Ctrl + Shift + X）里搜索 Python 插件，并安装。如下图：</p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f7477dd28?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（2）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/2.jpg" alt="VS Code 配置 Python 环境（2）.png"></p>
 <p>按 Ctrl + Shift + P（或F1），在打开的输入框中输入 <code>Python: Select Interpreter</code> 搜索，选择 Python 解析器。</p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f73cd9ee0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（3）.png"></p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f746c4b8d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（4）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/3.jpg" alt="VS Code 配置 Python 环境（3）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/4.png" alt="VS Code 配置 Python 环境（4）.png"></p>
 <p>选择好解析器之后，我们就可以直接在 VS Code 里运行（快捷键 Ctrl + F5）或调试（快捷键 F5）Python 代码了。</p>
 <h3 id="3、查看、安装外部库"><a href="#3、查看、安装外部库" class="headerlink" title="3、查看、安装外部库"></a>3、查看、安装外部库</h3><p>Python 最强大的就是外部库了，在 PyCharm 中，可以在 Settings 中查看、搜索、安装。那么在 VS Code 中如何安装呢？</p>
 <p>上文中提到，可以在终端直接运行 .py 文件，其实，终端就相当于命令提示符（cmd），所以直接在终端输入相应命令就可以了。</p>
@@ -516,10 +517,10 @@
 <p>Visual Studio IntelliCode 是一套 AI 辅助功能，可通过上下文智能感知，代码样式的推理和执行等功能提高开发人员的工作效率。</p>
 <p>IntelliCode 通过使用经过数千个公共代码库培训的机器学习模型生成建议，而且会随着你编写代码的增长，从而变得更加准确。它会根据上下文给出编程建议，而不是简单根据字母排序推荐 API。</p>
 <p>最重要的 IntelliCode 已经支持 Python。安装以后，可以有智能提示了。</p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f765a3ed0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（5）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/5.png" alt="VS Code 配置 Python 环境（5）.png"></p>
 <h3 id="5、代码检查工具"><a href="#5、代码检查工具" class="headerlink" title="5、代码检查工具"></a>5、代码检查工具</h3><p>PyCharm 自带代码检查工具，而 VS Code 中是没有的。</p>
 <h4 id="5-1、pylint"><a href="#5-1、pylint" class="headerlink" title="5.1、pylint"></a>5.1、pylint</h4><p>当你新建 .py 文件，开始写代码的时候，右下角可能会跳出个这个（老版本会，新版本不会了）：</p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f76a74289?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（6）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/6.png" alt="VS Code 配置 Python 环境（6）.png"></p>
 <p>Pylint 是一个 Python 代码检查工具。需要通过 pip 安装。</p>
 <p>打开设置，添加如下设置：</p>
 <pre><code>&quot;python.linting.enabled&quot;: true,
@@ -545,9 +546,9 @@
 <p>如果装了 pylint 的话，要设置其 <code>Enabled = false</code>，否则不用。</p>
 </blockquote>
 <p>安装好之后，我们在代码文件中（.py）中右键，选择格式化文档，就可以自动的进行代码格式化了。</p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f94a0b0ed?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（7）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/7.png" alt="VS Code 配置 Python 环境（7）.png"></p>
 <p>代码检查工具虽好，但有些严格的检查并不符合我们的习惯，例如 flake8 默认一行的最大字符数是 79 个，超过就会显示波浪线提示你代码太长了。</p>
-<p><img src="https://user-gold-cdn.xitu.io/2019/9/6/16d0451f939bd13c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="VS Code 配置 Python 环境（8）.png"></p>
+<p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/python_vs%20code/8.png" alt="VS Code 配置 Python 环境（8）.png"></p>
 <p>79 个字符实在是太短了，我们可以把它改长一点，增加如下配置，把最大长度设为 128 个字符。</p>
 <pre><code>&quot;python.linting.flake8Args&quot;: [&quot;--max-line-length=128&quot;],</code></pre>]]></content>
       <categories>
