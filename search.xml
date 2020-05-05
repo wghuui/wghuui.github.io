@@ -414,6 +414,65 @@
       </tags>
   </entry>
   <entry>
+    <title>windows备份文件到Github</title>
+    <url>/2020/05/05/backup-blog/</url>
+    <content><![CDATA[<p>​    <font size=5>博客的源码通常保存在本地，为了防止意外情况发生，还是很有必要备份的。GitHub作为一个代码托管网站，Github 已经允许免费用户创建无限量的私有 repo，是一个很不错的选择。前几天折腾了一下，感觉还是很好玩的，下面给大家分享一下过程。</p>
+<p>ENV：Win10 </p>
+<h2 id="1-一点微小的事先准备"><a href="#1-一点微小的事先准备" class="headerlink" title="1. 一点微小的事先准备"></a>1. 一点微小的事先准备</h2><p>首先，你需要一个 Github 账户</p>
+<p>进入一个你喜欢的安全的目录，此处直接以<code>/root</code>为例，右键打开<code>git bash</code>，创建一个 RSA 密匙</p>
+<pre><code>ssh-keygen -t rsa</code></pre><p>然后根据提示输入生成密匙的文件名，此处举例输入<code>github</code>，其余的回车就行</p>
+<p>完成后会有类似这样的显示，并且你会在C:\Users\用户名\ <code>.ssh</code>得到github<code>和</code>github.pub`这两个文件</p>
+<p><a href="https://search.pstatic.net/common?type=origin&src=https://moe.best/usr/uploads/2018/03/1121566125.png" target="_blank" rel="noopener"><img src="https://search.pstatic.net/common?type=origin&src=https://moe.best/usr/uploads/2018/03/1121566125.png" alt="img"></a></p>
+<p>接着用<code>cat</code>命令查看<code>github.pub</code>文件的内容，并复制下来</p>
+<pre><code>cat github.pub</code></pre><p>回到你的 Github 页面，点右上角头像，Settings，</p>
+<p>左边“SSH and GPG keys”，右上角“New SSH key”</p>
+<p>然后将刚才复制的内容粘贴到“Key”输入框中，上方的“Tittle”自己随意输入，然后“Add SSH key”</p>
+<p><a href="https://search.pstatic.net/common?type=origin&src=https://moe.best/usr/uploads/2018/03/1922402762.png" target="_blank" rel="noopener"><img src="https://search.pstatic.net/common?type=origin&src=https://moe.best/usr/uploads/2018/03/1922402762.png" alt="img"></a></p>
+<p>这样事前准备就完成了，嗯，其实就是加一个 SSH 密匙到 Github，这样可以方便后续 Github 项目的同步</p>
+<h2 id="2-创建一个私密-Github-项目"><a href="#2-创建一个私密-Github-项目" class="headerlink" title="2. 创建一个私密 Github 项目"></a>2. 创建一个私密 Github 项目</h2><p>直接右上角新建项目</p>
+<p><a href="https://search.pstatic.net/common?type=origin&src=https://moe.best/usr/uploads/2018/03/137357443.png" target="_blank" rel="noopener"><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/backup-blog/new%20repository.jpg" alt="img"></a></p>
+<p>记得选成私密（Private）就行，不然你整个网站就被别人盗走了……</p>
+<h2 id="3-在你的站点目录下初始化你的-Github-项目"><a href="#3-在你的站点目录下初始化你的-Github-项目" class="headerlink" title="3. 在你的站点目录下初始化你的 Github 项目"></a>3. 在你的站点目录下初始化你的 Github 项目</h2><p>进入你的站点所在目录，并执行一系列 git 初始化命令，参考以下代码</p>
+<p>进入你的博客根目录，Github 项目为<code>wghuui/test</code></p>
+<pre><code>git init
+git remote add origin git@github.com:wghuui/test.git</code></pre><h3 id="为什么用-SSH-方式而不用-HTTPS-方式？"><a href="#为什么用-SSH-方式而不用-HTTPS-方式？" class="headerlink" title="为什么用 SSH 方式而不用 HTTPS 方式？"></a>为什么用 SSH 方式而不用 HTTPS 方式？</h3><p>HTTPS 方式是要你输入用户名密码的，虽然你可以直接将用户名密码输入到链接中，像这样<code>https://yourname:password@github.com/name/project.git</code>，但是在链接中明文输入用户名密码是极不安全的，容易被监听窃取</p>
+<p>另外还有一种办法是使用<code>git config --global credential.helper store</code>，这样会在<code>.git</code>中生成一个配置文件来储存你的用户名密码，但是你要意识到你现在所处的目录是一个网站，如果你忘了在网站配置中禁止对<code>.git</code>的访问，那么你的用户名密码也会很容易泄露</p>
+<p>所以，SSH 还是最为稳妥的一种方式</p>
+<h2 id="4-尝试同步当前站点到-Github-项目"><a href="#4-尝试同步当前站点到-Github-项目" class="headerlink" title="4. 尝试同步当前站点到 Github 项目"></a>4. 尝试同步当前站点到 Github 项目</h2><pre><code>cd d:blog
+git add -A
+git commit -m &quot;backup&quot;
+ssh-agent bash
+ssh-add /root/github
+git push -u origin master</code></pre><h3 id="命令解释"><a href="#命令解释" class="headerlink" title="命令解释"></a>命令解释</h3><ol>
+<li>进入网站目录</li>
+<li>把目录下所有文件变化（增、删、改）提交到暂存区<br>如果你想只增、改而不删，那么可以用<code>git add .</code>命令代替</li>
+<li>提交所有更改，这个<code>&quot;backup&quot;</code>可以随意填写，没有影响，其实就是你提交改动的时候的说明，但是 commit 的时候必须要有这个说明</li>
+<li>启动 SSH 密钥管理器</li>
+<li>将之前我们创建的<code>github</code>密匙文件添加到密匙管理器中</li>
+<li>推送所有更改到 Github 项目</li>
+</ol>
+<p>执行完后你应该能看到文件上传进度等回显，等待执行完毕，然后去自己的私密项目刷新一下</p>
+<p>你的网站是不是整个被上传上去了？</p>
+<p><a href="https://search.pstatic.net/common?type=origin&src=https://moe.best/usr/uploads/2018/03/963492736.png" target="_blank" rel="noopener"><img src="https://search.pstatic.net/common?type=origin&src=https://moe.best/usr/uploads/2018/03/963492736.png" alt="img"></a></p>
+<h2 id="5-一键备份脚本"><a href="#5-一键备份脚本" class="headerlink" title="5.一键备份脚本"></a>5.一键备份脚本</h2><p>shell命令后缀为<code>.sh</code>，例如建立一个<code>backup.sh</code>文件。在文件中输入：</p>
+<pre class=" language-shell"><code class="language-shell">cd d:/blog
+git add .
+git commit -m "备份"
+git remote add origin git@github.com:用户名/backup-blog.git
+git pull --rebase origin master
+git push -u origin master</code></pre>
+<p>在<code>git bash</code>中执行<code>sh backup.sh</code>即可</p>
+</font>
+
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>博客 备份</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python的一些学习资源</title>
     <url>/2020/05/03/pythonfuli/</url>
     <content><![CDATA[<h1 id="几个学习python的好资源"><a href="#几个学习python的好资源" class="headerlink" title="几个学习python的好资源."></a>几个学习python的好资源.</h1><p><img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/pythonfuli/wiki-python.jpg" alt=""></p>

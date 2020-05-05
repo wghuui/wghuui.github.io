@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://langlo.top/"/>
-  <updated>2020-05-03T07:52:45.000Z</updated>
+  <updated>2020-05-05T02:12:28.000Z</updated>
   <id>https://langlo.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>windows备份文件到Github</title>
+    <link href="https://langlo.top/2020/05/05/backup-blog/"/>
+    <id>https://langlo.top/2020/05/05/backup-blog/</id>
+    <published>2020-05-05T02:12:28.000Z</published>
+    <updated>2020-05-05T02:12:28.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​    &lt;font size=5&gt;博客的源码通常保存在本地，为了防止意外情况发生，还是很有必要备份的。GitHub作为一个代码托管网站，Github 已经允许免费用户创建无限量的私有
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://langlo.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="博客 备份" scheme="https://langlo.top/tags/%E5%8D%9A%E5%AE%A2-%E5%A4%87%E4%BB%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>python的一些学习资源</title>
