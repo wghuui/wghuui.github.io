@@ -416,8 +416,7 @@
   <entry>
     <title>windows备份文件到Github</title>
     <url>/2020/05/05/backup-blog/</url>
-    <content><![CDATA[<p>​    <font size=5>博客的源码通常保存在本地，为了防止意外情况发生，还是很有必要备份的。GitHub作为一个代码托管网站，Github 已经允许免费用户创建无限量的私有 repo，是一个很不错的选择。前几天折腾了一下，感觉还是很好玩的，下面给大家分享一下过程。</p>
-<p>ENV：Win10 </p>
+    <content><![CDATA[<p>博客的源码通常保存在本地，为了防止意外情况发生，还是很有必要备份的。GitHub作为一个代码托管网站，Github 已经允许免费用户创建无限量的私有 repo，是一个很不错的选择。前几天折腾了一下，感觉还是很好玩的，下面给大家分享一下过程。</p>
 <h2 id="1-一点微小的事先准备"><a href="#1-一点微小的事先准备" class="headerlink" title="1. 一点微小的事先准备"></a>1. 一点微小的事先准备</h2><p>首先，你需要一个 Github 账户</p>
 <p>进入一个你喜欢的安全的目录，此处直接以<code>/root</code>为例，右键打开<code>git bash</code>，创建一个 RSA 密匙</p>
 <pre><code>ssh-keygen -t rsa</code></pre><p>然后根据提示输入生成密匙的文件名，此处举例输入<code>github</code>，其余的回车就行</p>
@@ -462,8 +461,6 @@ git remote add origin git@github.com:用户名/backup-blog.git
 git pull --rebase origin master
 git push -u origin master</code></pre>
 <p>在<code>git bash</code>中执行<code>sh backup.sh</code>即可</p>
-</font>
-
 ]]></content>
       <categories>
         <category>教程</category>
