@@ -453,43 +453,22 @@
 </ol>
 <p>   ：需要在系统变量添加</p>
 <p>   java</p>
-   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">D:\Anaconda3\Library\bin</span><br><span class="line">D:\Anaconda3\Scripts\</span><br><span class="line">D:\Anaconda3\</span><br></pre></td></tr></table></figure>
-
+<pre class=" language-java"><code class="language-java">   D<span class="token operator">:</span>\Anaconda3\Library\bin
+   D<span class="token operator">:</span>\Anaconda3\Scripts\
+   D<span class="token operator">:</span>\Anaconda3\</code></pre>
 <p>   而</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python37</span><br></pre></td></tr></table></figure>
-
-<p>   和</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   都是</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
-
-<p>   环境，</p>
+<pre><code>   python37</code></pre><p>   和</p>
+<pre><code>   anaconda</code></pre><p>   都是</p>
+<pre><code>   python</code></pre><p>   环境，</p>
 <p>   在系统环境变量中找到对应之前安装<code>Python38</code>以及上面的<code>python38</code>的路径并删除</p>
 <p>   ，改为</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   的环境变量，然后再检查下</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   ，输入</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda --version</span><br></pre></td></tr></table></figure>
-
-<p>   ，并输入</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
-
-<p>   显现出了</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">anaconda</span><br></pre></td></tr></table></figure>
-
-<p>   自带的</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python</span><br></pre></td></tr></table></figure>
-
-<p>   解释器的版本</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3.7.0</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://imgkr.cn-bj.ufileos.com/31ab5fa9-de1c-4a62-af4d-4b519e50265e.png" alt="img"></p>
+<pre><code>   anaconda</code></pre><p>   的环境变量，然后再检查下</p>
+<pre><code>   anaconda</code></pre><p>   ，输入</p>
+<pre><code>   conda --version</code></pre><p>   ，并输入</p>
+<pre><code>   python</code></pre><p>   显现出了</p>
+<pre><code>   anaconda</code></pre><p>   自带的</p>
+<pre><code>   python</code></pre><p>   解释器的版本</p>
+<pre><code>   3.7.0</code></pre><p><img src="https://imgkr.cn-bj.ufileos.com/31ab5fa9-de1c-4a62-af4d-4b519e50265e.png" alt="img"></p>
 <p>这样可以确认其安装成功了，接下来将原来的<code>python3.8.2</code>加进<code>anaconda</code>中.</p>
 <blockquote>
 <p>注意：<code>anaconda</code>要在完成环境变量的配置后才能使用<code>conda命令</code></p>
@@ -502,8 +481,7 @@
 <p>这样我们可以看到<code>python3.7.0</code>解释器是在<code>base</code>环境中.</p>
 <p>3.<strong>利用<code>conda</code>配置虚拟环境</strong>：先创建环境</p>
 <p>java</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n test python=<span class="number">3.8</span></span><br></pre></td></tr></table></figure>
-
+<pre class=" language-java"><code class="language-java">conda create <span class="token operator">-</span>n test python<span class="token operator">=</span><span class="token number">3.8</span></code></pre>
 <p>其中<code>test</code>为环境名称，<code>3.8</code>为<code>python</code>版本，这个可以自己设置.</p>
 <p><img src="https://imgkr.cn-bj.ufileos.com/b8721f17-8f0d-4d03-8da5-a386e46bb60c.png" alt="img"></p>
 <p><img src="https://imgkr.cn-bj.ufileos.com/11c0bd65-d41a-47d5-8575-fed76869e4dc.png" alt="img"></p>
@@ -513,10 +491,7 @@
 <p><img src="https://imgkr.cn-bj.ufileos.com/314f38d6-3c19-4792-ba8d-6bcfac4976c9.png" alt="img"></p>
 <p>最后我们删除这个<code>test</code>环境，使用命令行</p>
 <p>java</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda remove -n test --all</span><br></pre></td></tr></table></figure>
-
-
-
+<pre class=" language-java"><code class="language-java">conda remove <span class="token operator">-</span>n test <span class="token operator">--</span>all</code></pre>
 <p><img src="https://imgkr.cn-bj.ufileos.com/4e27b8d9-84f3-4784-83d2-77e2a6a6bf95.png" alt="img"></p>
 <p>这些只是为了给我们自己的<code>python3.8.2</code>先在<code>anaconda</code>里搭好一个适合<code>python38</code>，然后将我们之前安装好的<code>python38</code>复制粘贴到<code>anaconda</code>的<code>envs</code>文件夹</p>
 <p><img src="https://imgkr.cn-bj.ufileos.com/a9dda805-d0e4-4d29-a934-9da8b33de5c7.png" alt="img"></p>
@@ -524,11 +499,7 @@
 <p><img src="https://imgkr.cn-bj.ufileos.com/eaa1ffd3-d73f-450e-8a5a-adf0a5d8b6f9.png" alt="img"></p>
 <hr>
 <p>要想将我们原来安装的<code>python3.7.0</code>装到<code>anaconda</code>中，先是创建一个环境，建立一个名称为<code>python37</code>的虚拟环境并指定<code>python</code>版本，然后激活该环境并查看<code>anaconda</code>里的环境.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda create -n python37 python&#x3D;3.7</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://imgkr.cn-bj.ufileos.com/95068dc1-8d45-481d-af5a-276f63bd68e8.png" alt="img"></p>
+<pre><code>conda create -n python37 python=3.7</code></pre><p><img src="https://imgkr.cn-bj.ufileos.com/95068dc1-8d45-481d-af5a-276f63bd68e8.png" alt="img"></p>
 <p><img src="https://imgkr.cn-bj.ufileos.com/1c647108-2ff0-497e-97a9-89daa65f9cae.png" alt="img"></p>
 <p><img src="https://imgkr.cn-bj.ufileos.com/746b0ecc-e05f-4bdf-89dd-4639b572696d.png" alt="img"></p>
 <blockquote>
@@ -1054,16 +1025,18 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             
             
             
-            <!-- <br> -->
             
-            <!-- <br> -->
+            
+            <br>
+            
+            <br> 
             
             <span id="icp"><img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/icp.png" style="vertical-align: text-bottom;" />
                 <a href="http://www.beian.miit.gov.cn/" target="_blank">豫ICP备14121561号</a>
             </span>
             
         </div>
-        <div class="col s12 m4 l4 social-link ">
+        <div class="col s12 m4 l4 social-link social-statis">
     <a href="https://github.com/wghuui" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
@@ -1154,8 +1127,8 @@ $(function () {
 </script>
 
     
-    <script src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/others/clicklove.js" async="async"></script>
     
+    <script async src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
     

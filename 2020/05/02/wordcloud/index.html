@@ -382,9 +382,10 @@
             <div id="articleContent">
                 <h1 id="安装python"><a href="#安装python" class="headerlink" title="安装python"></a><font size=4>安装python</h1><p>首先你需要安装python，或者是anaconda。<a id="more"></a></p>
 <p>anaconda有很多镜像，在国内下载速度较快，比如</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">清华：https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple</span><br><span class="line">阿里云：http:&#x2F;&#x2F;mirrors.aliyun.com&#x2F;pypi&#x2F;simple&#x2F;</span><br><span class="line">中国科技大学 https:&#x2F;&#x2F;pypi.mirrors.ustc.edu.cn&#x2F;simple&#x2F;</span><br><span class="line">豆瓣：http:&#x2F;&#x2F;pypi.douban.com&#x2F;simple&#x2F;</span><br></pre></td></tr></table></figure>
-
-<p>关于anaconda、conda、python的区别，</p>
+<pre><code>清华：https://pypi.tuna.tsinghua.edu.cn/simple
+阿里云：http://mirrors.aliyun.com/pypi/simple/
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+豆瓣：http://pypi.douban.com/simple/</code></pre><p>关于anaconda、conda、python的区别，</p>
 <ol>
 <li><p>conda是一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。举个例子：包管理与pip的使用类似，环境管理则允许用户方便地安装不同版本的python并可以快速切换。</p>
 </li>
@@ -415,9 +416,7 @@
 </ul>
 <p>安装anaconda的教程很多，比如这个 <a href="https://blog.csdn.net/u012318074/article/details/77075209" target="_blank" rel="noopener">https://blog.csdn.net/u012318074/article/details/77075209</a></p>
 <h2 id="安装Python第三方模块"><a href="#安装Python第三方模块" class="headerlink" title="安装Python第三方模块"></a>安装Python第三方模块</h2><p>打开命令行，输入下面这行命令，回车执行即可。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install numpy matplotlib pillow wordcloud imageio jieba snownlp itchat -i https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple</span><br></pre></td></tr></table></figure>
-
-<p>如果安装过程中报错，<br>如果报错：Microsoft Visual C++ 14.0 is required.</p>
+<pre><code>pip install numpy matplotlib pillow wordcloud imageio jieba snownlp itchat -i https://pypi.tuna.tsinghua.edu.cn/simple</code></pre><p>如果安装过程中报错，<br>如果报错：Microsoft Visual C++ 14.0 is required.</p>
 <p>解决方法：</p>
 <blockquote>
 <p>到 <a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud" target="_blank" rel="noopener">http://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud</a> 页面</p>
@@ -430,14 +429,73 @@
 <h1 id="实战"><a href="#实战" class="headerlink" title="实战"></a>实战</h1><h2 id="基础版"><a href="#基础版" class="headerlink" title="基础版"></a>基础版</h2><p>python程序的运行，可以使用命令行，可以使用IDE，也可以使用某些文本编辑器。</p>
 <p>在这里以windows命令行为例。在桌面新建<code>test.py</code>(python文件后缀名为py)</p>
 <p>打开，编辑<code>test.py</code>，输入下列命令。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> wordcloud <span class="comment">#导入词云</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数</span></span><br><span class="line">w = wordcloud.WordCloud(width=<span class="number">1000</span>,height=<span class="number">700</span>,background_color=<span class="string">'white'</span>,font_path=<span class="string">'msyh.ttc'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用词云对象的generate方法，将文本传入</span></span><br><span class="line">w.generate(<span class="string">'本报北京5月1日电 （记者王珂）记者从文化和旅游部获悉：“五一”假期首日全国旅游市场总体运行平稳，全国A级旅游景区开放8498家，约占总数的70%；全国接待国内游客总人数2319.7万人次，实现国内旅游收入约97.7亿元。各地景区严格落实游客流量不超过最大承载量30%的要求，未发现大规模人员聚集情况，基本做到限量、错峰、安全、有序开放'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 将生成的词云保存为output2.png图片文件，保存到当前文件夹中</span></span><br><span class="line">w.to_file(<span class="string">'output2.png'</span>)</span><br></pre></td></tr></table></figure>
+<pre class=" language-python"><code class="language-python">
+<span class="token keyword">import</span> wordcloud <span class="token comment" spellcheck="true">#导入词云</span>
 
+<span class="token comment" spellcheck="true"># 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数</span>
+w <span class="token operator">=</span> wordcloud<span class="token punctuation">.</span>WordCloud<span class="token punctuation">(</span>width<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">,</span>height<span class="token operator">=</span><span class="token number">700</span><span class="token punctuation">,</span>background_color<span class="token operator">=</span><span class="token string">'white'</span><span class="token punctuation">,</span>font_path<span class="token operator">=</span><span class="token string">'msyh.ttc'</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true"># 调用词云对象的generate方法，将文本传入</span>
+w<span class="token punctuation">.</span>generate<span class="token punctuation">(</span><span class="token string">'本报北京5月1日电 （记者王珂）记者从文化和旅游部获悉：“五一”假期首日全国旅游市场总体运行平稳，全国A级旅游景区开放8498家，约占总数的70%；全国接待国内游客总人数2319.7万人次，实现国内旅游收入约97.7亿元。各地景区严格落实游客流量不超过最大承载量30%的要求，未发现大规模人员聚集情况，基本做到限量、错峰、安全、有序开放'</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true"># 将生成的词云保存为output2.png图片文件，保存到当前文件夹中</span>
+w<span class="token punctuation">.</span>to_file<span class="token punctuation">(</span><span class="token string">'output2.png'</span><span class="token punctuation">)</span></code></pre>
 <p>在命令行中，当前文件夹下，执行<code>python test.py</code>，即可生成一个简单的词云。</p>
 <img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/output2.png" style="zoom:50%;" />
 
 <h2 id="进阶版（生成特定图形的词云）"><a href="#进阶版（生成特定图形的词云）" class="headerlink" title="进阶版（生成特定图形的词云）"></a>进阶版（生成特定图形的词云）</h2><p>在当前目录上，有一个<a href="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/test.png" target="_blank" rel="noopener">图形</a>，和一个<a href="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/test.txt" target="_blank" rel="noopener">文本</a>。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> wordcloud</span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">from</span> wordcloud <span class="keyword">import</span> WordCloud,ImageColorGenerator</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 导入imageio库中的imread函数，并用这个函数读取本地图片，作为词云形状图片</span></span><br><span class="line"><span class="keyword">import</span> imageio</span><br><span class="line">mk = imageio.imread(<span class="string">"test.png"</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#对外部文件文本进行中文分词 得到string</span></span><br><span class="line"><span class="comment"># string = open('hamlet.txt').read() 这样写一样的</span></span><br><span class="line">f = open(<span class="string">'test.txt'</span>, encoding = <span class="string">'utf-8'</span>)</span><br><span class="line">txt = f.read()</span><br><span class="line">txtlist = jieba.lcut(txt)</span><br><span class="line">string = <span class="string">" "</span>.join(txtlist)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数 contour 图形轮廓线</span></span><br><span class="line">w = wordcloud.WordCloud(width=<span class="number">500</span>,height=<span class="number">1000</span>,</span><br><span class="line">background_color=<span class="string">'white'</span>,font_path=<span class="string">'msyh.ttc'</span>,scale=<span class="number">15</span>,</span><br><span class="line">mask=mk,stopwords=&#123;<span class="string">'这个'</span>,<span class="string">'大家'</span>,<span class="string">'手机'</span>,<span class="string">'原图'</span>,<span class="string">'微博'</span>,<span class="string">'视频'</span>,<span class="string">'组图'</span>,<span class="string">'一个'</span>,<span class="string">'今天'</span>,<span class="string">'可以'</span>,<span class="string">'钟文泽'</span>,<span class="string">'还是'</span>&#125;,contour_width=<span class="number">0</span>,contour_color=<span class="string">'steelblue'</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用词云对象的generate方法，将文本传入</span></span><br><span class="line">w.generate(string)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用wordcloud库中的ImageColorGenerator()函数，提取模板图片各部分的颜色</span></span><br><span class="line">image_colors = ImageColorGenerator(mk)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">plt.rcParams[<span class="string">'figure.figsize'</span>] = (<span class="number">8.0</span>, <span class="number">4.0</span>) <span class="comment"># 设置figure_size尺寸</span></span><br><span class="line">plt.rcParams[<span class="string">'image.interpolation'</span>] = <span class="string">'nearest'</span> <span class="comment"># 设置 interpolation style</span></span><br><span class="line">plt.rcParams[<span class="string">'image.cmap'</span>] = <span class="string">'gray'</span> <span class="comment"># 设置 颜色 style</span></span><br><span class="line">plt.rcParams[<span class="string">'savefig.dpi'</span>] = <span class="number">300</span> <span class="comment">#图片像素</span></span><br><span class="line">plt.rcParams[<span class="string">'figure.dpi'</span>] = <span class="number">300</span> <span class="comment">#分辨率</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 默认的像素：[6.0,4.0]，分辨率为100，图片尺寸为 600&amp;400</span></span><br><span class="line"><span class="comment"># 指定dpi=200，图片尺寸为 1200*800</span></span><br><span class="line"><span class="comment"># 指定dpi=300，图片尺寸为 1800*1200</span></span><br><span class="line"><span class="comment"># 设置figsize可以在不改变分辨率情况下改变比例</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#plt.imshow(w)</span></span><br><span class="line"><span class="comment">#plt.axis("off")</span></span><br><span class="line"><span class="comment">#plt.show()</span></span><br><span class="line"><span class="comment">#生成图片，不保存，后自行设置参数。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 将生成的词云保存为output2-poem.png图片文件，保存到当前文件夹中</span></span><br><span class="line">w.to_file(<span class="string">'output.png'</span>)</span><br></pre></td></tr></table></figure>
+<pre class=" language-python"><code class="language-python">
+<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+<span class="token keyword">import</span> wordcloud
+<span class="token keyword">import</span> jieba
+<span class="token keyword">from</span> wordcloud <span class="token keyword">import</span> WordCloud<span class="token punctuation">,</span>ImageColorGenerator
 
+
+<span class="token comment" spellcheck="true"># 导入imageio库中的imread函数，并用这个函数读取本地图片，作为词云形状图片</span>
+<span class="token keyword">import</span> imageio
+mk <span class="token operator">=</span> imageio<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">"test.png"</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true">#对外部文件文本进行中文分词 得到string</span>
+<span class="token comment" spellcheck="true"># string = open('hamlet.txt').read() 这样写一样的</span>
+f <span class="token operator">=</span> open<span class="token punctuation">(</span><span class="token string">'test.txt'</span><span class="token punctuation">,</span> encoding <span class="token operator">=</span> <span class="token string">'utf-8'</span><span class="token punctuation">)</span>
+txt <span class="token operator">=</span> f<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+txtlist <span class="token operator">=</span> jieba<span class="token punctuation">.</span>lcut<span class="token punctuation">(</span>txt<span class="token punctuation">)</span>
+string <span class="token operator">=</span> <span class="token string">" "</span><span class="token punctuation">.</span>join<span class="token punctuation">(</span>txtlist<span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true"># 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数 contour 图形轮廓线</span>
+w <span class="token operator">=</span> wordcloud<span class="token punctuation">.</span>WordCloud<span class="token punctuation">(</span>width<span class="token operator">=</span><span class="token number">500</span><span class="token punctuation">,</span>height<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">,</span>
+background_color<span class="token operator">=</span><span class="token string">'white'</span><span class="token punctuation">,</span>font_path<span class="token operator">=</span><span class="token string">'msyh.ttc'</span><span class="token punctuation">,</span>scale<span class="token operator">=</span><span class="token number">15</span><span class="token punctuation">,</span>
+mask<span class="token operator">=</span>mk<span class="token punctuation">,</span>stopwords<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">'这个'</span><span class="token punctuation">,</span><span class="token string">'大家'</span><span class="token punctuation">,</span><span class="token string">'手机'</span><span class="token punctuation">,</span><span class="token string">'原图'</span><span class="token punctuation">,</span><span class="token string">'微博'</span><span class="token punctuation">,</span><span class="token string">'视频'</span><span class="token punctuation">,</span><span class="token string">'组图'</span><span class="token punctuation">,</span><span class="token string">'一个'</span><span class="token punctuation">,</span><span class="token string">'今天'</span><span class="token punctuation">,</span><span class="token string">'可以'</span><span class="token punctuation">,</span><span class="token string">'钟文泽'</span><span class="token punctuation">,</span><span class="token string">'还是'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>contour_width<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span>contour_color<span class="token operator">=</span><span class="token string">'steelblue'</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true"># 调用词云对象的generate方法，将文本传入</span>
+w<span class="token punctuation">.</span>generate<span class="token punctuation">(</span>string<span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true"># 调用wordcloud库中的ImageColorGenerator()函数，提取模板图片各部分的颜色</span>
+image_colors <span class="token operator">=</span> ImageColorGenerator<span class="token punctuation">(</span>mk<span class="token punctuation">)</span>
+
+
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'figure.figsize'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">8.0</span><span class="token punctuation">,</span> <span class="token number">4.0</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true"># 设置figure_size尺寸</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'image.interpolation'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'nearest'</span> <span class="token comment" spellcheck="true"># 设置 interpolation style</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'image.cmap'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'gray'</span> <span class="token comment" spellcheck="true"># 设置 颜色 style</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'savefig.dpi'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">300</span> <span class="token comment" spellcheck="true">#图片像素</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'figure.dpi'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">300</span> <span class="token comment" spellcheck="true">#分辨率</span>
+
+<span class="token comment" spellcheck="true"># 默认的像素：[6.0,4.0]，分辨率为100，图片尺寸为 600&amp;400</span>
+<span class="token comment" spellcheck="true"># 指定dpi=200，图片尺寸为 1200*800</span>
+<span class="token comment" spellcheck="true"># 指定dpi=300，图片尺寸为 1800*1200</span>
+<span class="token comment" spellcheck="true"># 设置figsize可以在不改变分辨率情况下改变比例</span>
+
+<span class="token comment" spellcheck="true">#plt.imshow(w)</span>
+<span class="token comment" spellcheck="true">#plt.axis("off")</span>
+<span class="token comment" spellcheck="true">#plt.show()</span>
+<span class="token comment" spellcheck="true">#生成图片，不保存，后自行设置参数。</span>
+
+<span class="token comment" spellcheck="true"># 将生成的词云保存为output2-poem.png图片文件，保存到当前文件夹中</span>
+w<span class="token punctuation">.</span>to_file<span class="token punctuation">(</span><span class="token string">'output.png'</span><span class="token punctuation">)</span>
+</code></pre>
 <p>同样的操作，输入上面的代码，同样执行<code>python test.py</code>。</p>
 <img src="http://wghuui.oss-cn-hangzhou.aliyuncs.com/%E4%BA%91%E6%96%87%E4%BB%B6/Figure_1.png" style="zoom:500%;" />
 
@@ -958,16 +1016,18 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             
             
             
-            <!-- <br> -->
             
-            <!-- <br> -->
+            
+            <br>
+            
+            <br> 
             
             <span id="icp"><img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/icp.png" style="vertical-align: text-bottom;" />
                 <a href="http://www.beian.miit.gov.cn/" target="_blank">豫ICP备14121561号</a>
             </span>
             
         </div>
-        <div class="col s12 m4 l4 social-link ">
+        <div class="col s12 m4 l4 social-link social-statis">
     <a href="https://github.com/wghuui" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
@@ -1058,8 +1118,8 @@ $(function () {
 </script>
 
     
-    <script src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/others/clicklove.js" async="async"></script>
     
+    <script async src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
