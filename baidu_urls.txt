@@ -2,8 +2,6 @@ https://wghuui.top/2020/05/05/backup-blog/
 https://wghuui.top/2020/05/03/pythonfuli/
 https://wghuui.top/2020/05/02/wenbenbianjiqi/
 https://wghuui.top/2020/05/02/wordcloud/
-https://wghuui.top/2020/05/02/mail/
-https://wghuui.top/2020/04/29/linshiyouxiang/
 https://wghuui.top/2020/04/29/picturebed/
 https://wghuui.top/2020/04/28/searchengine/
 https://wghuui.top/2020/04/28/python-install/
