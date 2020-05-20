@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="office-un, 让路的Blogs">
+    <meta name="keywords" content="office彻底卸载, 让路的Blogs">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>office-un | 让路的Blogs</title>
+    <title>office彻底卸载 | 让路的Blogs</title>
     <link rel="icon" type="image/jpeg" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/wghuui.jpg">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/awesome/css/all.css">
@@ -202,12 +202,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">office-un</h1>
+                    <h1 class="description center-align post-title">office彻底卸载</h1>
                 </div>
             </div>
         </div>
@@ -363,7 +363,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    662
+                    665
                 </div>
                 
 
@@ -381,8 +381,7 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p><font size=5>在某些异常情况下，Office 2016 或 Office 365 可能无法通过添加删除程序进行卸载，各位可以通过以下方法手动卸载。教程来源于微软，遇到类似问题的朋友不妨试试</font></p>
-<p>1.删除安装包</p>
-<ul>
+<h1 id="1-删除安装包"><a href="#1-删除安装包" class="headerlink" title="1.删除安装包"></a>1.删除安装包</h1><ul>
 <li><p>打开Office 365 安装文件夹</p>
 </li>
 <li><p>32位系统通常为 C:\Program Files\ ，64位系统通常为 C:\Program Files (x86)\</p>
@@ -390,7 +389,9 @@
 <li><p>删除安装文件夹，Microsoft Office 16 或 Microsoft Office</p>
 </li>
 </ul>
-<p>2.删除计划任务<br>以管理员权限打开命令提示符，该程序通常位于开始菜单&gt;附件</p>
+<bar>
+
+<h1 id="2-删除计划任务"><a href="#2-删除计划任务" class="headerlink" title="2.删除计划任务"></a>2.删除计划任务</h1><p>以管理员权限打开命令提示符，该程序通常位于开始菜单&gt;附件</p>
 <p>依次执行以下各行命令</p>
 <pre class=" language-shell"><code class="language-shell">schtasks.exe /delete /tn "\Microsoft\Office\Office Automatic Updates"
 
@@ -401,8 +402,9 @@ schtasks.exe /delete /tn "\Microsoft\Office\Office ClickToRun Service Monitor"
 schtasks.exe /delete /tn "\Microsoft\Office\OfficeTelemetryAgentLogOn2016"
 
 schtasks.exe /delete /tn "\Microsoft\Office\OfficeTelemetryAgentFallBack2016"</code></pre>
-<p>3.结束 Click To Run 进程</p>
-<p>右键点击任务栏空白处，选择任务管理器，切换至进程（或详细信息）选项卡</p>
+<bar>
+
+<h1 id="3-结束-Click-To-Run-进程"><a href="#3-结束-Click-To-Run-进程" class="headerlink" title="3.结束 Click To Run 进程"></a>3.结束 Click To Run 进程</h1><p>右键点击任务栏空白处，选择任务管理器，切换至进程（或详细信息）选项卡</p>
 <p>如找到以下进程，右键点击，选择结束进程</p>
 <pre><code>Officeclicktorun.exe
 
@@ -410,8 +412,12 @@ OfficeC2RClient.exe
 
 appvshnotify.exe
 
-setup*.exe</code></pre><p>4.删除 Office 服务<br>以管理员权限打开命令提示符，执行：</p>
-<pre><code>sc delete Clicktorunsvc</code></pre><p>5.删除 Office 相关文件<br>同时按下 Windows 以及 R，打开运行对话框</p>
+setup*.exe</code></pre><bar>
+
+<h1 id="4-删除-Office-服务"><a href="#4-删除-Office-服务" class="headerlink" title="4.删除 Office 服务"></a>4.删除 Office 服务</h1><p>以管理员权限打开命令提示符，执行：</p>
+<pre><code>sc delete Clicktorunsvc</code></pre><bar>
+
+<h1 id="5-删除-Office"><a href="#5-删除-Office" class="headerlink" title="5.删除 Office"></a>5.删除 Office</h1><p>相关文件<br>同时按下 Windows 以及 R，打开运行对话框</p>
 <pre><code>输入 %ProgramFiles% 并确定，删除 Microsoft Office 16 以及 Microsoft Office 文件夹；
 
 输入 %ProgramFiles(x86)% 并确定，删除 Microsoft Office 文件夹；
@@ -420,7 +426,9 @@ setup*.exe</code></pre><p>4.删除 Office 服务<br>以管理员权限打开命�
 
 输入 %ProgramData%\Microsoft 并确定，删除 ClickToRun 文件夹；
 
-输入 %ProgramData%\Microsoft\office 并确定，删除 ClickToRunPackagerLocker 文件夹。</code></pre><p>6.删除注册表<br>同时按下 Windows 以及 R，打开运行对话框，输入 regedit 并确定</p>
+输入 %ProgramData%\Microsoft\office 并确定，删除 ClickToRunPackagerLocker 文件夹。</code></pre><bar>
+
+<h1 id="6-删除注册表"><a href="#6-删除注册表" class="headerlink" title="6.删除注册表"></a>6.删除注册表</h1><p>同时按下 Windows 以及 R，打开运行对话框，输入 regedit 并确定</p>
 <p>定位以下注册表项并且删除：</p>
 <pre><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun
 
@@ -428,12 +436,15 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AppVISV
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Office *
 
-HKEY_CURRENT_USER\Software\Microsoft\Office</code></pre><p>7.删除开始菜单快捷方式</p>
-<ul>
+HKEY_CURRENT_USER\Software\Microsoft\Office</code></pre><bar>
+
+<h1 id="7-删除开始菜单快捷方式"><a href="#7-删除开始菜单快捷方式" class="headerlink" title="7.删除开始菜单快捷方式"></a>7.删除开始菜单快捷方式</h1><ul>
 <li>同时按下 Windows 以及 R，打开运行对话框，输入 %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs 并确定</li>
 <li>删除 Microsoft Office 16 文件夹以及相关快捷方式。</li>
 </ul>
-<p>8.卸载其他组件<br>以管理员权限打开命令提示符</p>
+<bar>
+
+<h1 id="8-卸载其他组件"><a href="#8-卸载其他组件" class="headerlink" title="8.卸载其他组件"></a>8.卸载其他组件</h1><p>以管理员权限打开命令提示符</p>
 <p>对于 x64 操作系统上运行 x86 版本的 Office 2016，运行：</p>
 <ul>
 <li><p>MsiExec.exe /X{90160000-008F-0000-1000-0000000FF1CE}</p>
@@ -461,8 +472,9 @@ HKEY_CURRENT_USER\Software\Microsoft\Office</code></pre><p>7.删除开始菜单�
 <li><p>MsiExec.exe /X{90160000-008C-0409-1000-0000000FF1CE}</p>
 </li>
 </ul>
-<p>9.其他</p>
-<p>当然，也可以使用微软提供的 Office 2016 卸载工具，<a href="http://go.microsoft.com/?linkid=9815935" target="_blank" rel="noopener">点击下载</a>。</p>
+<bar>
+
+<h1 id="9-其他"><a href="#9-其他" class="headerlink" title="9.其他"></a>9.其他</h1><p>当然，也可以使用微软提供的 Office 2016 卸载工具，<a href="http://go.microsoft.com/?linkid=9815935" target="_blank" rel="noopener">点击下载</a>。</p>
 
             </div>
             <hr/>
@@ -704,9 +716,9 @@ HKEY_CURRENT_USER\Software\Microsoft\Office</code></pre><p>7.删除开始菜单�
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/18.jpg" class="responsive-img" alt="office-un">
+                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/21.jpg" class="responsive-img" alt="office彻底卸载">
                         
-                        <span class="card-title">office-un</span>
+                        <span class="card-title">office彻底卸载</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -714,10 +726,9 @@ HKEY_CURRENT_USER\Software\Microsoft\Office</code></pre><p>7.删除开始菜单�
                         
                             在某些异常情况下，Office 2016 或 Office 365 可能无法通过添加删除程序进行卸载，各位可以通过以下方法手动卸载。教程来源于微软，遇到类似问题的朋友不妨试试
 1.删除安装包
-
 打开Office 365 安装文件夹
 
-32位
+32位系
                         
                     </div>
                     <div class="publish-info">
