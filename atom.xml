@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wghuui.top/"/>
-  <updated>2020-05-06T09:25:31.000Z</updated>
+  <updated>2020-05-20T01:45:00.000Z</updated>
   <id>https://wghuui.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>office-un</title>
+    <link href="https://wghuui.top/2020/05/20/office-uninstall/"/>
+    <id>https://wghuui.top/2020/05/20/office-uninstall/</id>
+    <published>2020-05-20T01:45:00.000Z</published>
+    <updated>2020-05-20T01:45:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;font size=5&gt;在某些异常情况下，Office 2016 或 Office 365
+        
+      
+    
+    </summary>
+    
+    
+      <category term="经验分享" scheme="https://wghuui.top/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="office" scheme="https://wghuui.top/tags/office/"/>
+    
+  </entry>
   
   <entry>
     <title>quicklook</title>
