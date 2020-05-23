@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Tex Live下载及安装说明, 让路的Blogs">
+    <meta name="keywords" content="clash的使用, 让路的Blogs">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Tex Live下载及安装说明 | 让路的Blogs</title>
+    <title>clash的使用 | 让路的Blogs</title>
     <link rel="icon" type="image/jpeg" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/wghuui.jpg">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/awesome/css/all.css">
@@ -202,12 +202,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Tex Live下载及安装说明</h1>
+                    <h1 class="description center-align post-title">clash的使用</h1>
                 </div>
             </div>
         </div>
@@ -324,8 +324,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/latex/">
-                                <span class="chip bg-color">latex</span>
+                            <a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">
+                                <span class="chip bg-color">科学上网</span>
                             </a>
                         
                     </div>
@@ -349,28 +349,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-27
+                    2020-04-26
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-27
+                    2020-04-26
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    821
+                    2.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    9 分
                 </div>
                 
 
@@ -380,48 +380,102 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><font size =4>关于Tex live的基本使用<a id="more"></a></p>
-<h2 id="关于-CTeX"><a href="#关于-CTeX" class="headerlink" title="关于 CTeX"></a>关于 CTeX</h2><h3 id="CTeX-套装"><a href="#CTeX-套装" class="headerlink" title="CTeX 套装"></a>CTeX 套装</h3><p>CTeX 套装是科学院吴凌云研究员的个人作品。在 CTeX 套装刚刚问世之时，因其解决了繁琐的中文字体安装工作，所以广受欢迎。但是，一方面 CTeX 套装已经很久不更新，内里的宏包、工具陈旧；另一方面，随着 XeLaTeX 的发展，以及 xeCJK 等技术的成熟，上述这些繁琐的工作已经没有必要而失去意义；因此，现在不推荐使用 CTeX 套装。</p>
-<blockquote>
-<p>不要安装和使用 CTeX 套装！</p>
+                <p><code>Clash</code>是一款用<code>Go</code>开发的支持<code>Linux</code>/<code>MacOS</code>/<code>Windows</code>等多平台的代理工具，支持<code>ss</code>/<code>v2ray</code>/<code>snell</code>（不支持<code>ssr</code>），支持规则分流（类似于 Surge 的配置）。<a id="more"></a></p>
+<p>项目地址：</p>
+<ul>
+<li>原项目：<a href="https://github.com/Dreamacro/clash" target="_blank" rel="noopener">Clash</a></li>
+<li>Clash for macOS：<a href="https://github.com/yichengchen/clashX/" target="_blank" rel="noopener">ClashX</a></li>
+<li>Clash for Windows：<a href="https://github.com/Fndroid/clash_for_windows_pkg/" target="_blank" rel="noopener">Clash for Windows</a>（以下内容基于正式版，测试版内容不作介绍）</li>
+</ul>
+<p>本文主要介绍<code>Clash for Windows</code>（下文中可能会简称为 CFW）的使用方法，之前 Windows 上的<code>Clash</code>只有命令行界面，感谢 <a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a> 开发的图形界面，让我们的使用变得更加简单有效率。</p>
+<p><strong>提示</strong>：若之前没有接触过策略分流的软件（如 Surge、圈），学习使用 CFW 之前也可以自己熟悉了解下策略组、规则等等（特别是没有托管需要自己编辑配置文件的用户），多看看规则文件（例如 <a href="https://github.com/ConnersHua/Profiles/blob/master/Clash/Pro.yaml" target="_blank" rel="noopener">神机规则</a> ），同时推荐看下 Fndroid 大佬的<a href="https://github.com/Fndroid/jsbox_script/wiki/关于策略组的理解" target="_blank" rel="noopener">关于策略组的理解</a>，掌握了策略分流的概念后，Clash、Quantumult、Surge、Surfboard 等工具的使用也能更清晰明白了。</p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
+<li>安装版：下载 <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases" target="_blank" rel="noopener">Clash.for.Windows.Setup.exe</a> (<a href="https://asset.10101.io/externalLinksController/chain/Clash.for.Windows.Setup.0.9.6.exe?ckey=Dxe26%2FsH0lZSo%2FTjpTsxKLGZ5FXojBmlrNXtO67FK1yRDH7JCbxviet2ckfK3wun" target="_blank" rel="noopener">备用地址</a>), 安装并打开。<br><strong>注意</strong>：首次开启后不用急着操作，CFW 会自己下载必要的文件，左下角显示<code>Connected to Clash</code>后即可进行接下来的操作。</li>
+<li>免安装版：下载<a href="https://github.com/Fndroid/clash_for_windows_pkg/releases" target="_blank" rel="noopener">Clash.for.Windows.7z</a>，解压后运行<code>Clash.for.Windows.exe</code>。<br><strong>注意</strong>：如果想要使用便携模式（如将<code>.7z</code>解压至移动硬盘、U盘等），需将<code>config.yml</code>和<a href="https://asset.10101.io/externalLinksController/chain/Country.mmdb?ckey=8hY08nReECvarf4iCbIHXFlx80mL43thUQmjf6KnKh512UdFMDeEn%2BH5I%2BkJOnl%2F" target="_blank" rel="noopener">Country.mmdb</a>放置在软件目录下<code>resources/static/files</code>文件夹中。</li>
+</ul>
+<h2 id="Clash-for-Windows-界面简介"><a href="#Clash-for-Windows-界面简介" class="headerlink" title="Clash for Windows 界面简介"></a>Clash for Windows 界面简介</h2><p><a href="https://10101.io/usr/uploads/2019/11/3984872114.png" target="_blank" rel="noopener"><img src="https://10101.io/usr/uploads/2019/11/3984872114.png" alt="clash-ui.png"></a></p>
+<p><a href="https://10101.io/usr/uploads/2019/11/3984872114.png" target="_blank" rel="noopener">clash-ui.png</a></p>
+<ul>
+<li><code>General（常规）</code>：<ul>
+<li><code>Port</code>、<code>Socks Port</code>；分别为 HTTP、SOCKS 代理端口，点击终端图案可以打开一个配置了代理的命令行窗口，点击端口数字可以复制该命令；</li>
+<li><code>Allow LAN</code>：启用局域网共享代理功能，此开关仅为短暂开启，如需启用请在修改配置文件中进行修改；‘</li>
+<li><code>Log Level</code>：日志等级；</li>
+<li><code>Home Directory</code>：点击下方路径直达<code>C:\Users\用户名\.config\clash</code>文件夹；</li>
+<li><code>GeoIP Database</code>：点击下方日期可更新 GeoIP 数据库；</li>
+<li><code>UWP Loopback</code> ：可以用来使 UWP 应用解除回环代理限制；</li>
+<li><code>Tap Device</code> ：安装 cfw-tap 网卡，可用于处理不遵循系统代理的软件（实际启动 tap 模式需要更改配置文件）；</li>
+<li><code>Text Mode Edit</code>：编辑<code>config.yml</code>文件，可用于配置部分 <strong>General</strong> 页面内容；</li>
+<li><code>Dark Theme</code>：控制暗色模式；</li>
+<li><code>System Proxy</code>：启用系统代理；</li>
+<li><code>Start with Windows</code>：设置开机自启；</li>
+</ul>
+</li>
+<li><code>Proxies（代理）</code>：选择代理方式（Global-全局、Rule-规则、Direct-直连）及策略组节点选择；</li>
+<li><code>Profiles（配置管理）</code>：<ul>
+<li>用来下载远端配置文件和创建本地副本，且可在多个配置文件间切换；</li>
+<li>对配置进行节点、策略组和规则的管理（添加节点、策略组和规则在各自编辑界面选择<code>Add</code>, 调整策略组顺序、节点顺序及策略组节点使用拖拽的方式）；</li>
+</ul>
+</li>
+<li><code>Logs（日志）</code>：显示当前请求命中规则类型和策略；</li>
+<li><code>Connections (连接)</code>: 显示当前的 TCP 连接，可对某个具体连接执行关闭操作；</li>
+<li><code>Feedback（反馈）</code>：显示软件、作者相关信息，内含捐赠码，欢迎打赏<a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a>大佬以感谢和支持开发。</li>
+</ul>
+<p><strong>注意</strong>：更多更详细介绍可以查看<a href="https://docs.cfw.lbyczf.com/" target="_blank" rel="noopener">官方文档</a>。</p>
+<h2 id="添加配置文件"><a href="#添加配置文件" class="headerlink" title="添加配置文件"></a>添加配置文件</h2><h3 id="有托管-订阅情况"><a href="#有托管-订阅情况" class="headerlink" title="有托管 / 订阅情况"></a>有托管 / 订阅情况</h3><ul>
+<li>如果机场直接提供 Clash 托管配置，复制好托管链接，直接看<a href="https://10101.io/2018/10/27/how-to-use-clash-for-windows#具体步骤" target="_blank" rel="noopener">具体步骤</a>；</li>
+<li>如果拥有 Surge 托管，可以使用 <a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a> 大佬提供的接口转换 Surge 配置为 Clash 可用配置。<br><strong>接口使用方法</strong>：<code>https://tgbot.lbyczf.com/surge2clash?url=Surge托管地址</code>；例：托管地址为<code>http://example.com</code>, 那么使用接口后的远端配置地址为<code>https://tgbot.lbyczf.com/surge2clash?url=http://example.com</code>。</li>
+<li>如果拥有 v2ray/ss 订阅链接或者 Surge 托管，均可以使用我利用 subconverter 搭建的接口，转换为 Clash 配置（策略组将替换为我设定的策略，规则使用神机规则）<br><strong>接口使用方法</strong>：<code>https://api.10101.io/sub?target=clash&amp;url=URLEncode后的托管或者订阅链接</code>；例如，v2ray 订阅链接为 <code>http://example.com</code>，那么使用接口后的 clash 配置地址为 <code>https://api.10101.io/sub?target=clash&amp;url=http%3a%2f%2fexample.com</code>。</li>
+</ul>
+<h4 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h4><ol>
+<li>打开<code>clash for windows</code>，选择<code>Profiles</code>；</li>
+<li>在<code>Download from a URL</code>中填写<code>Clash托管链接</code>或<code>使用接口后的Surge托管地址</code>，然后点击<code>Download</code>, 成功更新并启动后左下角应显示为<code>Connected to Clash core</code>，见下图①②③；<br><a href="https://10101.io/usr/uploads/2020/02/1572823557.png" target="_blank" rel="noopener"><img src="https://10101.io/usr/uploads/2020/02/1572823557.png" alt="remote_configuration">remote_configuration</a></li>
+<li>点击<code>Proxies</code>，选择<code>Rule</code>，为自己的策略组挑选节点；</li>
+<li>点击<code>General</code>, 勾选<code>System Proxy（系统代理）</code>。（可选，不懂建议勾选）</li>
+</ol>
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><p>初次启动时，CFW 自带了一个简单的配置文件，里面有一个名为<code>Shadowsocks</code>的<code>socks5</code>类型<code>1080</code>端口的本地代理，如果接口或者 Clash 托管链接被墙可以用别的软件开启代理作为 CFW 的前置代理，端口为<code>1080</code>。</p>
+<h3 id="无托管-订阅情况"><a href="#无托管-订阅情况" class="headerlink" title="无托管 / 订阅情况"></a>无托管 / 订阅情况</h3><p>如果没有 Clash/Surge 托管或者 V2Ray/ss 订阅链接的话，解决方法有以下三种（方法一推荐作为小幅度修改使用，编写大量配置时方法二更为方便）：</p>
+<h4 id="方法一：利用-UI-配置"><a href="#方法一：利用-UI-配置" class="headerlink" title="方法一：利用 UI 配置"></a>方法一：利用 UI 配置</h4><ol>
+<li>当<code>Profiles</code>中为空时，会自动生成一个<code>config.yml</code>文件的配置副本，可以直接对它进行编辑；</li>
+<li>点击对应图案分别进入节点（组）或者规则的编辑模式；<br><a href="https://10101.io/usr/uploads/2020/02/2056420523.png" target="_blank" rel="noopener"><img src="https://10101.io/usr/uploads/2020/02/2056420523.png" alt="local_configuration">local_configuration</a></li>
+<li>例如，点击”飞机”图案进入节点和策略组编辑界面（添加规则同理），完成后点击<code>Save</code>保存，如下图：<br><a href="https://i.loli.net/2018/12/12/5c10a59f3c5da.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2018/12/12/5c10a59f3c5da.png" alt="clash-add-proxy.png">clash-add-proxy.png</a></li>
+<li>在<code>Proxies</code>中为各个策略组选择节点使用；</li>
+<li>点击<code>General</code>, 勾选<code>System Proxy（系统代理）</code>。（可选，建议勾选）</li>
+</ol>
+<p><strong>注意</strong>：第4、5步为通用步骤，下面将不再说明。</p>
+<h4 id="方法二：直接修改配置文件"><a href="#方法二：直接修改配置文件" class="headerlink" title="方法二：直接修改配置文件"></a>方法二：直接修改配置文件</h4><p>有以下两种方式，推荐使用第二种方式，编辑器推荐使用 <a href="https://notepad-plus-plus.org/download/v7.5.9.html" target="_blank" rel="noopener">Notepad++</a> ，配置格式请参考 <a href="https://github.com/ConnersHua/Profiles/blob/master/Clash/Pro.yaml" target="_blank" rel="noopener">神机规则</a>（<del>编写策略组时注意<strong>被引用的策略组要放在引用它的策略组之前</strong></del>）：</p>
+<ol>
+<li>编辑<code>C:\Users\用户名\.config\clash</code>文件夹下的<code>config.yml</code>文件，然后删除<code>profiles</code>文件夹，重启 CFW，则会在<code>Profiles</code>中看到生成的<code>config.yml</code>副本；</li>
+<li>由于<code>Profiles</code>功能的加入，更推荐对<code>C:\Users\用户名\.config\clash\profiles</code>文件夹下的配置文件（若为 Local 文件直接在软件<code>Profiles</code>页面点击“铅笔状”图标即可打开）进行修改。</li>
+</ol>
+<p><strong>注意</strong>：</p>
+<ul>
+<li>General 部分信息由<code>config.yml</code>中对应部分决定，与<code>Profiles</code>中的配置文件无关；</li>
+<li>可以直接拖拽<code>yml</code>格式的配置文件到<code>Profiles</code>面板中快速导入，详见操作示例（来自 Fndroid 大佬的 <a href="https://github.com/Fndroid/clash_for_windows_pkg" target="_blank" rel="noopener">GitHub</a>）：<br><a href="https://pic3.superbed.cn/item/5cab58103a213b0417e3a652.gif" target="_blank" rel="noopener"><img src="https://pic3.superbed.cn/item/5cab58103a213b0417e3a652.gif" alt="img"></a></li>
+</ul>
+<h4 id="方法三：利用-JSBox-脚本"><a href="#方法三：利用-JSBox-脚本" class="headerlink" title="方法三：利用 JSBox 脚本"></a>方法三：利用 JSBox 脚本</h4><p>iOS 用户可以利用 <a href="https://github.com/Fndroid" target="_blank" rel="noopener">Fndroid</a> 大佬的 <a href="https://itunes.apple.com/us/app/jsbox-learn-to-code/id1312014438?mt=8" target="_blank" rel="noopener">JSBox</a> 脚本—— <a href="https://xteko.com/install?id=77&lang=zh-Hans" target="_blank" rel="noopener">lhie1 规则生成</a>——添加节点，然后将脚本目录下的<code>data.js</code>发送给托管机器人 <a href="https://telegram.me/rules_lhie1_bot" target="_blank" rel="noopener">rules_lhie1_bot</a> 即可获取 Surge 托管链接，再按照以上<a href="https://10101.io/2018/10/27/how-to-use-clash-for-windows#有托管+%2f+订阅情况" target="_blank" rel="noopener">有托管 / 订阅链接情况</a>操作。</p>
+<h2 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h2><blockquote>
+<p><code>v0.5.19</code>更新加入了开机自启支持：在<code>General</code>页面勾选<code>Start with Windows</code>。</p>
 </blockquote>
-<h3 id="CTeX-宏集"><a href="#CTeX-宏集" class="headerlink" title="CTeX 宏集"></a>CTeX 宏集</h3><p>虽然它的名字也是「CTeX」，但是 CTeX 宏集和 CTeX 套装是两个不同的东西。CTeX 宏集是集成了中文支持、操作系统判定、字体选择、版式预设为一体的一组宏包和文档类的合集。我们推荐在任何情况下，优先使用 CTeX 宏集处理中文。</p>
-<blockquote>
-<p>请在任何情况下优先使用 CTeX 宏集在 LaTeX 中处理中文！</p>
-</blockquote>
-<h2 id="关于-TeX-Live"><a href="#关于-TeX-Live" class="headerlink" title="关于 TeX Live"></a>关于 TeX Live</h2><p>TeX Live 是 TUG (TeX User Group) 维护和发布的 TeX 系统，可说是「官方」的 TeX 系统。我们推荐任何阶段的 TeX 用户，都尽可能使用 TeX Live，以保持在跨操作系统平台、跨用户的一致性。TeX Live 的官方站点是 <a href="https://tug.org/texlive/。" target="_blank" rel="noopener">https://tug.org/texlive/。</a></p>
-<h3 id="Mac-用户"><a href="#Mac-用户" class="headerlink" title="Mac 用户"></a>Mac 用户</h3><p>TeX Live 在 macOS/OS X 上的名字是 MacTeX，它的官方站点是 <a href="https://tug.org/mactex。你可以在这里下载" target="_blank" rel="noopener">https://tug.org/mactex。你可以在这里下载</a> MacTeX 的安装器，而后安装 MacTeX。</p>
-<ul>
-<li><a href="http://tug.org/cgi-bin/mactex-download/MacTeX.pkg" target="_blank" rel="noopener">http://tug.org/cgi-bin/mactex-download/MacTeX.pkg</a></li>
+<p><del>软件内没有开机自启选项</del>，如果需要开机自启，可以自己在系统启动中加上，以 win10 为例，具体步骤如下：</p>
+<ol>
+<li><code>win+R</code>打开运行框，然后输入<code>shell:startup</code>，点确定；或者自己打开以下文件夹<code>C:\Users\用户名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</code>;<br><a href="https://i.loli.net/2018/10/29/5bd6f16873b83.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2018/10/29/5bd6f16873b83.png" alt="shell-startup.png">shell-startup.png</a></li>
+<li>将<code>clash for windows</code>的快捷方式复制一份放在该文件夹下。<br><a href="https://i.loli.net/2018/10/29/5bd6f16811872.png" target="_blank" rel="noopener"><img src="https://i.loli.net/2018/10/29/5bd6f16811872.png" alt="启动.png">启动.png</a></li>
+</ol>
+<h2 id="其他小提示"><a href="#其他小提示" class="headerlink" title="其他小提示"></a>其他小提示</h2><ul>
+<li>可点击<code>General</code>页面的<code>Clash for Windows</code>字样重启客户端，点击旁边的版本号可以检查更新，点击小猫咪可以开启暗黑模式；</li>
+<li><code>General</code>页面的信息只能通过修改<code>C:\Users\用户名\.config\clash\config.yml</code>来更改，即<code>profiles</code>中的配置文件内包含的 General 信息不会生效；</li>
+<li>若不想启用系统代理的话，需要自己配置 http 或 socks5 代理，具体端口信息可以在<code>General</code>页面找到；</li>
+<li>当 Surge 托管链接的<code>URL参数</code>在两个及以上(由<code>&amp;</code>连接)的话，请先对托管连接进行 <a href="http://tool.chinaz.com/tools/urlencode.aspx" target="_blank" rel="noopener">URL 编码</a>；</li>
+<li>图标状态显示：蓝色——默认；红色——核心启动失败；黄色——系统代理开启；</li>
+<li><code>v0.4.5</code>版本后可以自定义系统代理需要绕过的域名或 IP ，用于解决部分应用检测代理后拒绝响应的问题（如 UWP 版网易云音乐）。具体编写方法见<a href="https://docs.cfw.lbyczf.com/rao-guo-xi-tong-dai-li" target="_blank" rel="noopener">官方文档——绕过系统代理</a>；（建议在<code>C:\Users\用户名\.config\clash\config.yml</code>中修改，这样可以在不同的配置文件中都起到作用）</li>
+<li>如果需要 UWP 应用走系统代理的话，可以点击打开<code>General</code>页面的<code>EnableLoopback.exe</code>，然后勾选需要代理的应用后保存；对于少数不遵守系统代理的 UWP 应用，可以使用 Tap 模式（详见 <a href="https://github.com/Fndroid/clash_for_windows_pkg/wiki/启动TAP" target="_blank" rel="noopener">启动 TAP</a>）。</li>
 </ul>
-<p>如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
+<h2 id="常见错误及解决办法"><a href="#常见错误及解决办法" class="headerlink" title="常见错误及解决办法"></a>常见错误及解决办法</h2><p>若一切弄好之后还是显示<code>Disconnected to Clash</code>，可打开<code>C:\Users\用户名\.config\clash\logs</code>文件夹（点击左下角核心状态显示可直达 log 文件夹），打开最新的日志文件查看错误。（实在无法解决可加入作者 telegram 群 <a href="https://t.me/fndroid_group" target="_blank" rel="noopener">Fndroid 脚本/API 讨论</a>寻求帮助）</p>
 <ul>
-<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
-<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/mac/mactex/MacTeX.pkg</a></li>
+<li><code>Can&#39;t load mmdb: error opening database: invalid MaxMind DB file</code>错误。<br><strong>解决办法</strong>：自行下载 <a href="https://asset.10101.io/externalLinksController/chain/Country.mmdb?ckey=8hY08nReECvarf4iCbIHXFlx80mL43thUQmjf6KnKh512UdFMDeEn%2BH5I%2BkJOnl%2F" target="_blank" rel="noopener">Country.mmdb</a> 文件覆盖。</li>
+<li>拨号连接用户IE代理正常，其他浏览器系统代理无法使用。<br><strong>解决办法</strong>：重命名拨号连接，将中文名更改为英文名字，然后重启。</li>
 </ul>
-<h3 id="Windows-和-nix-用户"><a href="#Windows-和-nix-用户" class="headerlink" title="Windows 和 *nix 用户"></a>Windows 和 *nix 用户</h3><p>TeX Live 的当前版本是 2020，你可以从官方站点下载它们的安装包。点击下列链接，将会「自动选择」距离你最近的镜像下载。</p>
-<ul>
-<li><a href="http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">http://mirror.ctan.org/systems/texlive/Images/texlive2020.iso</a></li>
-</ul>
-<p>——当然，这个自动选择可能不太靠谱。如果你身处中国大陆，发现下载速度很慢，可以尝试国内的镜像站。</p>
-<ul>
-<li>清华大学（北京）：<a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>北京交通大学（北京）：<a href="https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirror.bjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
-<li>上海交通大学（上海）：<a href="https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.sjtug.sjtu.edu.cn/ctan/systems/texlive/Images/texlive2020.iso</a></li>
-<li>中国科技大学（合肥）：<a href="https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>重庆大学（重庆）：<a href="https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cqu.edu.cn/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-<li>腾讯云：<a href="https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso" target="_blank" rel="noopener">https://mirrors.cloud.tencent.com/CTAN/systems/texlive/Images/texlive2020.iso</a></li>
-</ul>
-<p>你需要使用<a href="http://wincdemu.sysprogs.org/download/" target="_blank" rel="noopener">虚拟光驱软件</a>（对于 Windows 8 及更高版本的微软用户，可以直接加载），加载下载得到的光盘镜像。而后，执行安装脚本，将 TeX Live 安装在你的系统中。</p>
-<ul>
-<li>Windows 用户右键单击 <code>install-tl-advanced.bat</code>，以管理员权限执行；</li>
-<li>*nix 用户执行 <code>install-tl</code>。</li>
-</ul>
-</font>
+
             </div>
             <hr/>
 
@@ -446,7 +500,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://wghuui.top/2020/04/27/tex-live-install/">https://wghuui.top/2020/04/27/tex-live-install/</a>
+                    <a href="https://wghuui.top/2020/04/26/clash/">https://wghuui.top/2020/04/26/clash/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -484,8 +538,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/latex/">
-                                    <span class="chip bg-color">latex</span>
+                                <a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">
+                                    <span class="chip bg-color">科学上网</span>
                                 </a>
                             
                         </div>
@@ -657,24 +711,24 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/04/27/latex-shiyong/">
+                <a href="/2020/04/26/google/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="latex使用教程">
+                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/20.jpg" class="responsive-img" alt="Google使用教程">
                         
-                        <span class="card-title">latex使用教程</span>
+                        <span class="card-title">Google使用教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            优雅的 LaTeX学会latex,从此跟office say byebye!有很多 Geeks 或者 LaTeX’s Fanatical Fans 过分地强调了 LaTeX 的一些并非重点的特性，以至于很多初学者会觉得 LaTeX 很神秘很
+                               Google Chrome  是一款由Google公司开发的网页浏览器，该浏览器基于其他开源软件撰写，包括WebKit，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面。   Google搜索引擎做的很好，谷歌学术更是
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-27
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-26
                         </span>
                         <span class="publish-author">
                             
@@ -691,8 +745,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/latex/">
-                        <span class="chip bg-color">latex</span>
+                    <a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">
+                        <span class="chip bg-color">科学上网</span>
                     </a>
                     
                 </div>
@@ -706,21 +760,20 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/26/software/">
+                <a href="/2020/04/26/jibenzhishi/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/12.jpg" class="responsive-img" alt="软件分享">
+                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="科学上网基本知识">
                         
-                        <span class="card-title">软件分享</span>
+                        <span class="card-title">科学上网基本知识</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             
-
-博客中的文件都是绿色软件，不用担心软件安装问题。博主电脑为win10 64位操作系统，所以博文中软件都是基于这个环境中。所有软件均可使用，安装过程有任何问题都可以联系博主（rangluw@iCloud.com)。后期会更新部分软件的使用
+翻墙与科学上网已经成了我们生活中不可缺少的一部分，很多国外网站都能为我们提供很多帮助。平时用的最多的可能就是使用Google查资料，如果你是在国外生活或者从事外贸相关工作，当然也离不开Twitter、Facebook、Gmail等，这些网
                         
                     </div>
                     <div class="publish-info">
@@ -731,8 +784,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%88%86%E4%BA%AB/" class="post-category">
-                                    分享
+                            <a href="/categories/%E6%95%99%E7%A8%8B/" class="post-category">
+                                    教程
                                 </a>
                             
                             
@@ -742,8 +795,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD/">
-                        <span class="chip bg-color">软件下载</span>
+                    <a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">
+                        <span class="chip bg-color">科学上网</span>
                     </a>
                     
                 </div>
