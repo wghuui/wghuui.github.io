@@ -13,7 +13,6 @@ https://wghuui.top/2020/04/28/python-install/
 https://wghuui.top/2020/04/27/built-blog-based-hexo/
 https://wghuui.top/2020/04/27/latex-shiyong/
 https://wghuui.top/2020/04/27/tex-live-install/
-https://wghuui.top/2020/04/26/software/
 https://wghuui.top/2020/04/26/google/
 https://wghuui.top/2020/04/26/clash/
 https://wghuui.top/2020/04/26/jibenzhishi/
