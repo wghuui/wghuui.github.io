@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>vscode_zhao_budao_xiangdui_lujing</title>
+    <url>/2020/10/04/vscode-zhao-budao-xiangdui-lujing/</url>
+    <content><![CDATA[<p>最近运行py文件，发现结果保存在 C:\users\用户名\ 下  ，博主记得之前运行的结果都保存在源码所在目录，所以百度如何解决，搜了好久，也没有解决办法。</p>
+<p>首先在csdn中，有帖子这样说。</p>
+<blockquote>
+<p>VScode 是按照 工作区根目录 下的 .vscode 文件夹的路径作为绝对路径进行索引，如果工作区中里有许多文件夹，且文件夹内的py文件需要引用当前目录下的文件，按照平常的方法写入相对路径是找不到文件的，这时候需要在 .vscode 文件夹里的 launch.json 文件中，在使用的调试环境中加入 “cwd”: “$ {fileDirname}” 来指定调试从哪里去找文件， $ {fileDirname} 代表当前打开的文件所在的绝对路径，不包括文件名，这样设置后py文件中就可以使用正常的相对路径来引入文件。</p>
+</blockquote>
+<pre class=" language-json"><code class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"0.2.0"</span><span class="token punctuation">,</span>
+    <span class="token property">"configurations"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Python: 当前文件"</span><span class="token punctuation">,</span>
+            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"python"</span><span class="token punctuation">,</span>
+            <span class="token property">"request"</span><span class="token operator">:</span> <span class="token string">"launch"</span><span class="token punctuation">,</span>
+            <span class="token property">"program"</span><span class="token operator">:</span> <span class="token string">"${file}"</span><span class="token punctuation">,</span>
+            <span class="token property">"cwd"</span><span class="token operator">:</span><span class="token string">""</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span></code></pre>
+<p>试了试，还是不行。不知道是不是我的json找的不对，但是其他的都找了啊，都不行。</p>
+<p>在这里，默认目录 C:\users\用户名\ 下的.vscode 没找到launch.json 在vscode找了，不知道是不是</p>
+<p>就在设置里加了launch的参数</p>
+<p>后来，在查找的过程中，发现：这个帖子，跟之前的大同小异。</p>
+<h4 id="Vscode的相对路径读取问题及处理"><a href="#Vscode的相对路径读取问题及处理" class="headerlink" title="Vscode的相对路径读取问题及处理"></a>Vscode的相对路径读取问题及处理</h4><h5 id="差异"><a href="#差异" class="headerlink" title="差异"></a>差异</h5><p>首先说一下vscode相对路径与一般编辑器的不同</p>
+<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>vscode</th>
+<th>一般的</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>“./2.txt”</td>
+<td>相对于工作路径（.vscode文件夹所在的位置）</td>
+<td>相对于当前运行文件</td>
+</tr>
+<tr>
+<td>“2.txt”</td>
+<td>相对于工作路径</td>
+<td>相对于当前运行文件</td>
+</tr>
+<tr>
+<td>“/2.txt”</td>
+<td>相对于磁盘根目录</td>
+<td>相对于磁盘根目录</td>
+</tr>
+</tbody></table>
+<h4 id="在vscode使用相对路径的python应用报错找不到该文件的解决方法"><a href="#在vscode使用相对路径的python应用报错找不到该文件的解决方法" class="headerlink" title="在vscode使用相对路径的python应用报错找不到该文件的解决方法"></a>在vscode使用相对路径的python应用报错找不到该文件的解决方法</h4><h5 id="情景一：vscode直接用Run-Code插件运行报错"><a href="#情景一：vscode直接用Run-Code插件运行报错" class="headerlink" title="情景一：vscode直接用Run Code插件运行报错"></a>情景一：vscode直接用Run Code插件运行报错</h5><p><img src="https://img2020.cnblogs.com/blog/1777308/202005/1777308-20200524131133747-1119735849.png" alt="img"></p>
+<p>当用vscode打开一个文件夹，我们在这个文件夹的子文件夹中进行代码编写，读取同路径下的文件。</p>
+<p>提示报错，找不到文件。</p>
+<h5 id="问题解决方案"><a href="#问题解决方案" class="headerlink" title="问题解决方案"></a>问题解决方案</h5><p>方案一：使用vscode直接打开相应目录，，否则该文件调用相对路径的文件都会出现问题。</p>
+<p>方案二（<em>推荐</em>）：通过文件–&gt;首选项–&gt;设置–&gt;搜索Code-run，找到<code>File Directory As Cwd</code>并勾选上即可解决</p>
+<p>​                            这个方案不知道为什么，找不到这个地方。就是code-runner</p>
+<p><img src="https://img2020.cnblogs.com/blog/1777308/202005/1777308-20200524131800347-1190396678.jpg" alt="img"></p>
+<h5 id="情景二：在vscode终端中运行该-py文件。"><a href="#情景二：在vscode终端中运行该-py文件。" class="headerlink" title="情景二：在vscode终端中运行该.py文件。"></a>情景二：在vscode终端中运行该.py文件。</h5><p>在pycharm中可以运行,vscode中却出问题,是因为你使用了相对路径,而相对路径和终端的cwd有密切联系</p>
+<p>在vscode中，子文件夹内的文件的相对路径的基准不再是该文件所在路径，</p>
+<p>而是用vscode打开的根目录作为整个项目的相对路径的基准。项目中所有文件的相对路径都是指项目根目录。</p>
+<p><strong>VSC默认使用<em>项目文件夹根目录<em>作为工作目录(cwd),这会使得</em>子文件夹中的程序无法使用相对路径</em>.</strong></p>
+<h5 id="问题解决方案-1"><a href="#问题解决方案-1" class="headerlink" title="问题解决方案"></a>问题解决方案</h5><p>方案一：（但是不知道为啥不生效）</p>
+<p>在launch.json（可以通过vscodeCtrl+P全局搜索找到该文件）中配置cwd为运行的文件所在目录</p>
+<p><img src="https://i.loli.net/2019/07/20/5d33199cdebdb85781.png" alt="img"></p>
+<p>方案二：</p>
+<pre class=" language-python"><code class="language-python"><span class="token comment" spellcheck="true">#加上下面代码</span>
+<span class="token keyword">import</span> os<span class="token punctuation">,</span> sys
+
+os<span class="token punctuation">.</span>chdir<span class="token punctuation">(</span>sys<span class="token punctuation">.</span>path<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">#然后就可以愉快使用相对路径了</span></code></pre>
+<blockquote>
+<p>在命令行中运行 py 文件，工作目录取决于当前命令行所在的目录,由于通常我们会将命令行 cd 到 py文件 同目录下（这样没有执行的时候不需要敲一堆路径，python src/bala/bala/program.py 之类的），工作目录就与 py文件 同目录，生成的文件自然在这个目录下</p>
+</blockquote>
+<blockquote>
+<p>如果从 vscode 中启动，如果没有修改 launch.json 中的 cwd 的值，默认以 “${workspaceFolder}” 作为工作目录（项目根目录），所以相对路径的起点也要从这个目录开始。</p>
+</blockquote>
+<p>后来，我安装了code-runner 插件，好像就可以了，</p>
+<p>os.getcwd 显示当前工作目录，不再是默认用户目录。</p>
+]]></content>
+      <tags>
+        <tag>技术分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>魔法伤亡的使用方法</title>
     <url>/2020/05/22/shadowrocket-win/</url>
     <content><![CDATA[ </bar>

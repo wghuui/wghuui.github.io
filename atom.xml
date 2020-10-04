@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wghuui.top/"/>
-  <updated>2020-05-22T08:35:53.000Z</updated>
+  <updated>2020-10-04T03:58:52.000Z</updated>
   <id>https://wghuui.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vscode_zhao_budao_xiangdui_lujing</title>
+    <link href="https://wghuui.top/2020/10/04/vscode-zhao-budao-xiangdui-lujing/"/>
+    <id>https://wghuui.top/2020/10/04/vscode-zhao-budao-xiangdui-lujing/</id>
+    <published>2020-10-04T03:58:52.000Z</published>
+    <updated>2020-10-04T03:58:52.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近运行py文件，发现结果保存在 C:\users\用户名\ 下  ，博主记得之前运行的结果都保存在源码所在目录，所以百度如何解决，搜了好久，也没有解决办法。&lt;/p&gt;
+&lt;p&gt;首先在csdn中，有帖子这样说。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;VScode 是按照
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="技术分析" scheme="https://wghuui.top/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
   
   <entry>
     <title>魔法伤亡的使用方法</title>
