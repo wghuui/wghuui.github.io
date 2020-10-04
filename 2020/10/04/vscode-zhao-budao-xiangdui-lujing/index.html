@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="vscode_zhao_budao_xiangdui_lujing, 让路的Blogs">
+    <meta name="keywords" content="vscode找不到相对路径, 让路的Blogs">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -27,7 +27,7 @@
 </script>
 
 
-    <title>vscode_zhao_budao_xiangdui_lujing | 让路的Blogs</title>
+    <title>vscode找不到相对路径 | 让路的Blogs</title>
     <link rel="icon" type="image/jpeg" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/wghuui.jpg">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/libs/awesome/css/all.css">
@@ -213,12 +213,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">vscode_zhao_budao_xiangdui_lujing</h1>
+                    <h1 class="description center-align post-title">vscode找不到相对路径</h1>
                 </div>
             </div>
         </div>
@@ -372,7 +372,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 
@@ -428,13 +428,13 @@
 <td>相对于磁盘根目录</td>
 </tr>
 </tbody></table>
-<h4 id="在vscode使用相对路径的python应用报错找不到该文件的解决方法"><a href="#在vscode使用相对路径的python应用报错找不到该文件的解决方法" class="headerlink" title="在vscode使用相对路径的python应用报错找不到该文件的解决方法"></a>在vscode使用相对路径的python应用报错找不到该文件的解决方法</h4><h5 id="情景一：vscode直接用Run-Code插件运行报错"><a href="#情景一：vscode直接用Run-Code插件运行报错" class="headerlink" title="情景一：vscode直接用Run Code插件运行报错"></a>情景一：vscode直接用Run Code插件运行报错</h5><p><img src="https://img2020.cnblogs.com/blog/1777308/202005/1777308-20200524131133747-1119735849.png" alt="img"></p>
+<h4 id="在vscode使用相对路径的python应用报错找不到该文件的解决方法"><a href="#在vscode使用相对路径的python应用报错找不到该文件的解决方法" class="headerlink" title="在vscode使用相对路径的python应用报错找不到该文件的解决方法"></a>在vscode使用相对路径的python应用报错找不到该文件的解决方法</h4><h5 id="情景一：vscode直接用Run-Code插件运行报错"><a href="#情景一：vscode直接用Run-Code插件运行报错" class="headerlink" title="情景一：vscode直接用Run Code插件运行报错"></a>情景一：vscode直接用Run Code插件运行报错</h5><p><img src="https://img.maocdn.cn/img/2020/10/04/1.png" alt="img"></p>
 <p>当用vscode打开一个文件夹，我们在这个文件夹的子文件夹中进行代码编写，读取同路径下的文件。</p>
 <p>提示报错，找不到文件。</p>
 <h5 id="问题解决方案"><a href="#问题解决方案" class="headerlink" title="问题解决方案"></a>问题解决方案</h5><p>方案一：使用vscode直接打开相应目录，，否则该文件调用相对路径的文件都会出现问题。</p>
 <p>方案二（<em>推荐</em>）：通过文件–&gt;首选项–&gt;设置–&gt;搜索Code-run，找到<code>File Directory As Cwd</code>并勾选上即可解决</p>
 <p>​                            这个方案不知道为什么，找不到这个地方。就是code-runner</p>
-<p><img src="https://img2020.cnblogs.com/blog/1777308/202005/1777308-20200524131800347-1190396678.jpg" alt="img"></p>
+<p><img src="https://img.maocdn.cn/img/2020/10/04/2.jpg" alt="img"></p>
 <h5 id="情景二：在vscode终端中运行该-py文件。"><a href="#情景二：在vscode终端中运行该-py文件。" class="headerlink" title="情景二：在vscode终端中运行该.py文件。"></a>情景二：在vscode终端中运行该.py文件。</h5><p>在pycharm中可以运行,vscode中却出问题,是因为你使用了相对路径,而相对路径和终端的cwd有密切联系</p>
 <p>在vscode中，子文件夹内的文件的相对路径的基准不再是该文件所在路径，</p>
 <p>而是用vscode打开的根目录作为整个项目的相对路径的基准。项目中所有文件的相对路径都是指项目根目录。</p>
@@ -457,6 +457,9 @@ os<span class="token punctuation">.</span>chdir<span class="token punctuation">(
 </blockquote>
 <p>后来，我安装了code-runner 插件，好像就可以了，</p>
 <p>os.getcwd 显示当前工作目录，不再是默认用户目录。</p>
+<p>参考地址：</p>
+<p>在vscode使用相对路径的python应用报错找不到该文件的解决方法 - 大咸鱼一条 - 开发者的网上家园</p>
+<p><a href="https://www.cnblogs.com/xtgame/p/12950727.html" target="_blank" rel="noopener">https://www.cnblogs.com/xtgame/p/12950727.html</a></p>
 
             </div>
             <hr/>
@@ -698,9 +701,9 @@ os<span class="token punctuation">.</span>chdir<span class="token punctuation">(
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="vscode_zhao_budao_xiangdui_lujing">
+                        <img src="https://cdn.jsdelivr.net/gh/wghuui/wghuui.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="vscode找不到相对路径">
                         
-                        <span class="card-title">vscode_zhao_budao_xiangdui_lujing</span>
+                        <span class="card-title">vscode找不到相对路径</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
